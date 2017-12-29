@@ -1371,6 +1371,19 @@
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 29,
+      "form" : "{凡例}"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "",
+      "text" : "*は未創作、~は「（補充形を使っている、などの理由で）その言語に存在しないという事実が創作済み」を意味する。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
