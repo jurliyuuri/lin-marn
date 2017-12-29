@@ -1,0 +1,73 @@
+<head>
+<script>
+onload = function() {
+	for(var i=0; i<20; i++){
+		for(var j=0;j<=13; j++){
+		draw('c1',i,j, 0.2, i*60, j*60, true);	
+		}
+	}
+	draw('c2',Math.random()*20|0,Math.random()*14|0,1,0,0,false);
+
+};
+
+</script>
+<script src="main.js"></script>
+</head>
+<body>
+<canvas id="c1" width="1200" height="840" ></canvas>
+<canvas id="c2" width="240" height="240" style="border:1px solid black"></canvas>
+<hr>
+<h1>燐字表示機構開発ログ</h1>
+<h2>1. まずは表示から</h2>
+<p>いちいち切り分けるのとかめんどいので、巨大なファイルとして読み込んでおいて、それをcanvasで切り出す方針でやってみよう。少しでもサイズを節約するために余白を削って5000x3600にする。</p>
+<p>まず、1枚目の原稿用紙。表の4頂点に位置する4字の座標を取って、あとはこれを最小二乗法に突っ込んでアフィン変換とすれば良い。</p>
+<p>実験をすると</p>
+<pre>
+      y1,   y2      s1 s2
+我:  159,  245 --->  0, 0
+位: 4658,  254 ---> 19, 0
+硬: 4645, 3290 ---> 19, 9
+形:  150, 3281 --->  0, 9
+</pre>
+<p>である。うまいパラメータt<sub>10</sub>, t<sub>11</sub>, t<sub>12</sub>, t<sub>20</sub>, t<sub>21</sub>, t<sub>22</sub>を持ってきて、</p>
+<linzi1 src="matrix.png" width="780"/>
+<p>となるようにしてやれば良い。ただしs<sub>0</sub>たちは全部1である。</p>
+<p>Y ≒ TSで最小二乗法をやるのでYS<sup>T</sup>=TSS<sup>T</sup>を解けばよく、T=YS<sup>T</sup>(SS<sup>T</sup>)<sup>-1</sup>なのでTは</p>
+<pre>
+[[ 160.        ,  236.68421053,   -1.22222222],
+ [ 245.        ,    0.47368421,  337.33333333]]
+</pre>
+<p>なるほど。実際にやってみると上手くいったのでやったぜ。</p>
+<p>さて、二枚目の原稿用紙も同様にやっていこう。実験をすると</p>
+<pre>
+      y1,   y2      s1 s2
+牌:  158,  210 --->  0,10
+唯:  155, 1222 --->  0,13
+別: 4654, 1220 ---> 19,13
+綿: 4655,  208 ---> 19,10
+</pre>
+<p>なのでTは</p>
+<pre>
+[[  1.64166667e+02,   2.36736842e+02,  -6.66666667e-01],
+ [ -3.16333333e+03,  -1.05263158e-01,   3.37333333e+02]]
+</pre>
+<p>だそうだ。</p>
+<h2>2. 使い物になるように</h2>
+<p>ということで、1枚目と2枚目が表示できるようになったので、燐字の漢字転写を入れたら表示してくれるような物を作るかね</p>
+<p>あ、その前に、枠線付けるか選べるようにしておこう。</p>
+<p>選べるようにした。後は組むのみ。</p>
+<p>できた。</p>
+<input type="text" value="王冠之光満全族" id="inputs" style="font-size:100%"/>
+<input type="button" onclick="drawLinzis(document.getElementById('inputs').value, document.getElementById('prop').value/100, document.getElementById('fasdf').checked)" value="変換"><br>
+<label>拡大率:<input id="prop" type="number" name="number" required="required" value="20">%</label><br>
+<label><input type="checkbox" id="fasdf"/>枠線を付ける</label><br>
+<canvas id="c3" width="30" height="30" ></canvas>
+
+<h2>3. 分割して保存</h2>
+<p>せっかく線形代数の御加護も得たのだし、それぞれの画像に分割して保存していかねば。</p>
+<p>とはいえ、ローカルへの保存だけはJavaScriptでは書きづらいからなぁ。Pythonはよく扱い方を知らんし、とりあえず手で280枚ぐらいを保存していくしかないか。</p>
+<p>どうにかする方法もあったんだろうが、手で保存した。</p>
+
+<h2>4. 誤り</h2>
+<p>「文」の欄に「律」が入っていたので抹消。</p>
+</body>

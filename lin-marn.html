@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<title>燐字などについて考察する</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="menu.css">
+<script src="toRhyme.js"></script>
+</head>
+<body class="cool">
+<h1>燐字などについて考察する</h1>
+<p>以下は考察ログである。この記事は「<a href="jurliyuuri.com/praige-zerp/siar_prek.html">パイグ語・古パイグ・燐字などについて考察する</a>」という記事から分離独立したものなので、番号が飛び飛びになっている。</p>
+<h2>0. 旧あらすじ</h2>
+<p>「<a href="jurliyuuri.com/praige-zerp/siar_prek.html">パイグ語・古パイグ・燐字などについて考察する</a>」にも載っている、2017/11/09 23:00あたり以前の話を参考までに載せておく。</p>
+<h3>0-1. パイグ語辞書</h3>
+まず、きっかけとしては、悠里OSプロジェクトにおいての燐字の扱いを考えるにおいて、<a href="http://jurliyuuri.com/OS/opcode.html#i40">「字を選出しなきゃ、並べようがない」</a>との発言により、<a href="https://twitter.com/jclaws_pr/status/837354652198821889">悠里広報が前に出した115字</a>を基本とした暫定燐字一覧を作り始めることとなったということがある。
+<pre>
+2017-10-15 16:12:09: 悠里広報の115字を収集
+2017-10-15 16:36:45: 「神」やパイグ将棋系が欠けていることに気づく。
+この辺りから、「頻用字を選出する」というよりは、「とりあえず現世で作った燐字を全部集めなくては」という方面にモチベが移動する。
+2017-10-15 17:04:47: パイグ語文献をひたすら漁って字を集め始める。「<a href="https://sites.google.com/site/syxobo/paigu-yu/wen-fa-jie-shuo/pin-ci">類為貝刀声</a>」「<a href="https://sites.google.com/site/syxobo/paigu-yu/wen-fa-jie-shuo/yu-shun">家善友美</a>」「<a href="https://sites.google.com/site/syxobo/paigu-yu/wen-fa-jie-shuo/shi-xiang">受与力須</a>」「<a href="https://sites.google.com/site/syxobo/paigu-yu/wen-fa-jie-shuo/yue-ci">而即</a>」
+「<a href="https://www.youtube.com/watch?v=Hk3OP1cQoiE">御再乎於遠悪現(→真)噫</a>」「<a href="https://www.youtube.com/watch?v=Hk3OP1cQoiE">雪夏冬</a>」を発掘して17:25:11。
+2017-10-15 18:05:41: <a href="https://sites.google.com/site/panqateel/yougo">止広激付端律集</a>を発掘し、「せっかくならパイグ音との対応表を作れば便利では？」と思いはじめる
+2017-10-15 18:18:24: <a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=1185787444">パイグ語漢字転写早見表</a>が作成される
+2017-10-19 01:33:21: 既にあったパイグ語OTM-JSON（21語のみ）をスクリプトによる自動登録で142語に増やす
+2017-10-21 09:21:37: <a href="https://github.com/jurliyuuri/praige-zerp/tree/master/%E7%87%90%E5%AD%97%E5%85%A5%E5%8A%9B">パイグ語から燐字を入力できるように</a>する
+2017-10-21 16:41:40: 後に「<a href="https://togetter.com/li/1163369">パイグ語整理計画</a>」と呼ばれることになる、諸文献の照らし合わせによるパイグ音確定作業が開始される。
+なお、この作業には上記の入力システムが活躍した。この過程で旧綴り（「力」piuなど）も一掃される。
+2017-10-23 18:23:12: パイグ語OTM-JSONが<a href="zpdic.herokuapp.com/dictionary/21">ZpDIC-Online</a>で<a href="https://twitter.com/S_Y15/status/922392955872096256">公開される</a>。
+2017-10-24 19:36:56: パイグ語整理計画が一段落する。
+2017-10-24 20:37:28: と思いきやPDIC辞書があったので、そのcsvをもらう
+2017-10-25 06:09:xx: csvを<a href="https://docs.google.com/spreadsheets/d/1myEUwZ6uccVca4CTs6GZ9LbwJgQ36uaUmHBLs1MWVog/edit#gid=1299387240">Google Spreadsheet</a>に変換する
+2017-10-25 06:18:09: パイグ語漢字転写早見表と照らし合わせたところ、<a href="https://twitter.com/sosoBOTpi/status/922935267010363392">様々な案件が発生する</a>。
+2017-10-26 22:24:21: PDIC版との照らし合わせで74字追加される。
+2017-10-27 10:26:15: PDIC版に基づき、ZpDIC版に語義が大量に追加される。
+</pre>
+という感じで、パイグ語辞書が充実してきた。
+
+
+<h2>9. 燐字電子化計画</h2>
+<p>燐字を書いた原稿用紙が公開された（<a href="https://drive.google.com/file/d/13homB6E7G2q1YIQvxnjxuJXIswuUsypp/view?usp=sharing">その1</a>、
+<a href="https://drive.google.com/open?id=1uehNzqhcoEi5gdlNsdo1d4Zd_CQpJZyQ">その2</a>）ので、これをなるべく扱いやすい形にしていきたい。</p>
+<h3>9-1. 紆余曲折</h3>
+<p>原稿用紙と早見表の順序が異なっていたので、<a href="https://github.com/jurliyuuri/praige-zerp/commit/bcca97a8a9d7a69e18b5a4eec929ae5832bb5290">早見表を原稿用紙の順序に合わせた。</a>
+</a>こととか）があったものの、無事<a href="https://docs.google.com/document/d/1j6Y3pBShTtkQu32zsY64Hcm73D27u8clTFKPEjAbqUI/edit?usp=sharing">原稿用紙と漢字転写の対応表</a>ができた。
+<h3>9-2. 「果」</h3>
+<p>「果」が異なる字形で2回書かれているので、<img src="燐字画像/果.png" height="30" />を一般的な字、<img src="燐字画像/菓.png"  height="30" />を異体字とした。<img src="燐字画像/菓.png"  height="30" />の方が異体字であるのは、<img src="燐字画像/終.png"  height="30" />「終」と<a href="https://twitter.com/S_Y15/status/932234940988534789">紛らわしいからである</a>らしい。</p>
+<h3>9-3. 分割</h3>
+<p>線形代数の御加護もあって、無事画像を分割する処理を実装できた（そちらの開発ログは<a href="./燐字表示/index.html">こちら</a>を参照のこと）。さて、後は実際に分割するだけである。</p>
+
+<h3 id="i9_4">9-4. 「果」again</h3>
+<p>異体字とはいえ、漢字が振られていないのはプログラム上不便である。（「果1」「果2」とかやるのは色々めんどい）ということで、<img src="燐字画像/果.png" height="30" />は「果」、<img src="燐字画像/菓.png"  height="30" />は「菓」とすることにした。</p>
+
+<h3>9-5. できた</h3>
+<p><a href="https://github.com/jurliyuuri/praige-zerp/tree/master/%E7%87%90%E5%AD%97%E7%94%BB%E5%83%8F">分離できた</a>。</p>
+<p><a href="燐字表示/display.html">一覧</a>。</p>
+
+<h2>11. 異体字</h2>
+<p>「燐字電子化計画」に基づく字と、2017年3月の<a href="https://twitter.com/jclaws_pr/status/837354652198821889">悠里広報</a>に載っている字との間に差異のあるものが5文字（「金」「外」「衣」「機」「箱」）あった。また、<a href="https://sites.google.com/site/linzizihai/akaibu/guang">燐字海の「光」</a>の記事を見ると、<img src="燐字画像/光.png" height="30" />「光」の上に<img src="燐字画像/日.png" height="30" />「日」の載った字形が異体字として収録されている。さらに、kpht氏による燐字16x16フォント作成（近日中に公開予定）の最中に、<img src="燐字画像/積.png" height="30" />「積」の興味深い誤分析や<img src="燐字画像/石.png" height="30" />「石」の変種が発生した。</p>
+
+<p>ということで、これらを異体字とし、（<a href="#i9_4">9-4.</a>で言及したように）漢字転写が欲しいのでそれぞれ</p>
+<pre>
+金: 欽
+外: 夘
+衣: 布
+機: 械
+箱: 函
+光: 輝
+石: 岩
+</pre>
+<p>とした。</p>
+<p>以上をまとめた「<a href="https://docs.google.com/presentation/d/1rwdzJ-E6swadMd8tp-oBS1RLgW-9O7iMYoq5VB7pkyQ/edit?usp=sharing">燐字の異体字(2017年11月下旬)</a>」というGoogleスライドを作成した。</p>
+
+<h2>12. 構成要素表記</h2>
+<p>燐字を構成要素に分解し、<a href="https://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E8%A8%98%E8%BF%B0%E8%A8%80%E8%AA%9E#.E6.BC.A2.E5.AD.97.E6.A7.8B.E6.88.90.E8.A8.98.E8.BF.B0.E6.96.87.E5.AD.97.E5.88.97_.28IDS.29">漢字構成記述文字列</a>で記述してみた。以下が例である。</p>
+<pre>
+何	⿵心無
+全	⿴口物
+肉	⿱閉骨
+金	⿻再石
+脂	⿰火膠
+島	⿳閉五水
+友	⿲人糸人	⿴等糸
+美	⿱⿴口一上
+季	⿺星輪
+</pre>
+<p>一覧は<a href="https://github.com/jurliyuuri/praige-zerp/blob/master/composition.txt">こちら</a>。
+</p>
+
+<h2>13. 異体字again</h2>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/S_Y15?ref_src=twsrc%5Etfw">@S_Y15</a> 「御」、「大きくて重いので『御』」と通話で言っていた気がするが、原稿用紙の字形って「錘」ではなく「力」のような</p>&mdash; .sozysozbot.@hsjoihs@jekto.vatimeliju (@sosoBOTpi) <a href="https://twitter.com/sosoBOTpi/status/932756790109904896?ref_src=twsrc%5Etfw">2017年11月20日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">ああ、大きい力か。なるほど</p>&mdash; S.Y@タカン系パイグ系日本人 (@S_Y15) <a href="https://twitter.com/S_Y15/status/932920048368345088?ref_src=twsrc%5Etfw">2017年11月21日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">異体字として「⿰大錘」立ててみるか？</p>&mdash; .sozysozbot.@hsjoihs@jekto.vatimeliju (@sosoBOTpi) <a href="https://twitter.com/sosoBOTpi/status/932920828164837376?ref_src=twsrc%5Etfw">2017年11月21日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">まあ、字形的にも混同しそうよね</p>&mdash; S.Y@タカン系パイグ系日本人 (@S_Y15) <a href="https://twitter.com/S_Y15/status/932921020515696640?ref_src=twsrc%5Etfw">2017年11月21日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">漢字転写は「禦」でいいか、第一水準だし</p>&mdash; .sozysozbot.@hsjoihs@jekto.vatimeliju (@sosoBOTpi) <a href="https://twitter.com/sosoBOTpi/status/932921346643836928?ref_src=twsrc%5Etfw">2017年11月21日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">あー、ええやん。</p>&mdash; S.Y@タカン系パイグ系日本人 (@S_Y15) <a href="https://twitter.com/S_Y15/status/932921924807569408?ref_src=twsrc%5Etfw">2017年11月21日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>ということで、「御」の異体字「禦：⿰大錘」を立てることにした。「<a href="https://docs.google.com/presentation/d/1rwdzJ-E6swadMd8tp-oBS1RLgW-9O7iMYoq5VB7pkyQ/edit?usp=sharing">燐字の異体字(2017年11月下旬)</a>」にも追記。</p>
+
+
+<h2>15. 「燐字海」のデータ化と「燐声集」（清声集）の発案</h2>
+<p>「燐字海」に載っている字音データを<a href="https://docs.google.com/spreadsheets/d/1ldVlDJCOow6r2dxV6NuFO_Ak4_Ln4QdZzcIJze6QIn8/edit#gid=0">単独ファイルにまとめた</a>。</p>
+<p>で、字音だけを集めた「燐声集」なるものを作りたいと思った。</p>
+<table>
+<tr><td>現世名</td><td>燐声集</td></tr>
+<tr><td>ラネーメ名</td><td>清声集</td></tr>
+<tr><td>パイグ名</td><td>lin cuop² dat²</td></tr>
+</table>
+<p>ということで、とりあえず作ったCSVをOTM-JSONに変換した。</p>
+
+<h2>17. 燐字フォント(現状での)完成</h2>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">燐　字　フ　ォ　ン　ト　完　成</p>&mdash; 🚩かぱはた🚩 (@yuugokku_2) <a href="https://twitter.com/yuugokku_2/status/934006773492588544?ref_src=twsrc%5Etfw">2017年11月24日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>「燐字電子化計画」および「悠里世界OSプロジェクト」の一部である、16x16燐字フォント作成byかぱはた が完了した。</p>
+<p>正確にいうと、第一回書き取りの分しか(当然ながら)終わっていないので、今後増えるが。</p>
+<img src="Linzi_dot.png" />
+<p>さて、次にすべきは、とりあえずこれをバラバラの画像にすることだろう。</p>
+<p>ファイル保存したいので、Pythonを使うことにしよう</p>
+<p>書けた。さて例文。</p>
+<script>
+var gefak="王冠之光満全族受光而我等心行全物光闇而神在皇力此上下終無噫";
+for(var i=0;i<gefak.length;i++){
+	document.write('<img src="燐字画像2/'+gefak[i]+'.png" height="30" />')
+}
+</script>
+<p>枠線なしのバージョンももらった。</p>
+<script>
+var gefak="王冠之光満全族受光而我等心行全物光闇而神在皇力此上下終無噫";
+for(var i=0;i<gefak.length;i++){
+	document.write('<img src="燐字画像3/'+gefak[i]+'.png" height="30" />')
+}
+</script>
+<p>さて、文字コード決めなきゃなぁ</p>
+
+
+<div id="menu">読み込み中…</div>
+<div id="menuButton" onclick="openClose()">≡</div>
+<script src="./header.js" async></script>
+</body>
+</html>
