@@ -247,7 +247,7 @@
   }, {
     "entry" : {
       "id" : 6,
-      "form" : "六"
+      "form" : "六(1)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -296,13 +296,13 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 7,
-        "form" : "六"
+        "form" : "六(2)"
       }
     } ]
   }, {
     "entry" : {
       "id" : 7,
-      "form" : "六"
+      "form" : "六(2)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -351,13 +351,13 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 6,
-        "form" : "六"
+        "form" : "六(1)"
       }
     } ]
   }, {
     "entry" : {
       "id" : 8,
-      "form" : "七"
+      "form" : "七(1)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -406,13 +406,13 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 9,
-        "form" : "七"
+        "form" : "七(2)"
       }
     } ]
   }, {
     "entry" : {
       "id" : 9,
-      "form" : "七"
+      "form" : "七(2)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -461,13 +461,13 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 8,
-        "form" : "七"
+        "form" : "七(1)"
       }
     } ]
   }, {
     "entry" : {
       "id" : 10,
-      "form" : "八"
+      "form" : "八(1)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -516,13 +516,13 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 11,
-        "form" : "八"
+        "form" : "八(2)"
       }
     } ]
   }, {
     "entry" : {
       "id" : 11,
-      "form" : "八"
+      "form" : "八(2)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -571,13 +571,13 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 10,
-        "form" : "八"
+        "form" : "八(1)"
       }
     } ]
   }, {
     "entry" : {
       "id" : 12,
-      "form" : "九"
+      "form" : "九(1)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -626,13 +626,13 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 13,
-        "form" : "九"
+        "form" : "九(2)"
       }
     } ]
   }, {
     "entry" : {
       "id" : 13,
-      "form" : "九"
+      "form" : "九(2)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -681,7 +681,7 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 12,
-        "form" : "九"
+        "form" : "九(1)"
       }
     } ]
   }, {
@@ -1324,7 +1324,7 @@
   }, {
     "entry" : {
       "id" : 27,
-      "form" : "無"
+      "form" : "無(1)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -1373,13 +1373,13 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 28,
-        "form" : "無"
+        "form" : "無(2)"
       }
     } ]
   }, {
     "entry" : {
       "id" : 28,
-      "form" : "無"
+      "form" : "無(2)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -1428,7 +1428,7 @@
       "title" : "同字異語",
       "entry" : {
         "id" : 27,
-        "form" : "無"
+        "form" : "無(1)"
       }
     } ]
   }, {
