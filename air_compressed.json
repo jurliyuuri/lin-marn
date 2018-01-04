@@ -1,0 +1,3857 @@
+{
+  "words" : [ {
+    "entry" : {
+      "id" : 1,
+      "form" : "-KI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "男.①,おとこ.①,"
+    }, {
+      "title" : "用例",
+      "text" : "UKIの略体,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2,
+      "form" : "-KU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "者.①,物.①,"
+    }, {
+      "title" : "用例",
+      "text" : "UKUの略体,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3,
+      "form" : "-MA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "大,"
+    }, {
+      "title" : "用例",
+      "text" : "AMAMAの略体,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 4,
+      "form" : "-NI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "小,"
+    }, {
+      "title" : "用例",
+      "text" : "ININIの略体,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5,
+      "form" : "-SA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "女.①,おんな.①,"
+    }, {
+      "title" : "用例",
+      "text" : "USAの略体,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7,
+      "form" : "A"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "あ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 8,
+      "form" : "a"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "～の　～と　～かつ　と　かつ\n\n語源なし"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34,
+      "form" : "acii"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "道をたどる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 171,
+      "form" : "aihei"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "王冠"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 184,
+      "form" : "AIKA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "光,ひかり,光線,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 210,
+      "form" : "AIMA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ある,有る,在る,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 219,
+      "form" : "AIMU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "の様な,のような,の様に,のように,の如く,のごとく,の如き,のごとき,の如し,のごとし,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 244,
+      "form" : "aipa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［自］落ちる,落下する;倒れる,転ぶ;降る;《転》滅びる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 404,
+      "form" : "AKAI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ち,血"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 421,
+      "form" : "AKATA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "書物,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 434,
+      "form" : "AKIA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "太陽,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 496,
+      "form" : "AMAMA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "おおきい,大きい"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 508,
+      "form" : "AMI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "偉大な,スゴい,すごい,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 524,
+      "form" : "AMUA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "あなた,貴方,貴女,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 525,
+      "form" : "AMUI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "さかな,サカナ,魚"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 528,
+      "form" : "AMUNU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "何も無い,なにも無い,存在しない,居ない,いない,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 534,
+      "form" : "anaa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【植】コエンドロ（属）;コリアンダー,小声で,そっと,静かに"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 544,
+      "form" : "ANAU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "全部,全て,すべて,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 652,
+      "form" : "ASI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "壱,一,1,"
+    }, {
+      "title" : "用例",
+      "text" : "一"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 662,
+      "form" : "ASIU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "いわ,岩,岩石"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 668,
+      "form" : "ASUKA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "人間,にんげん,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 681,
+      "form" : "ATA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "め,目,眼,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 692,
+      "form" : "ATAMU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "皇帝"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 701,
+      "form" : "ateai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］玉座にすわっている;君臨する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 797,
+      "form" : "AUMI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "坂,さか"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 886,
+      "form" : "ayua"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "は"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 932,
+      "form" : "bachau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "しろい (白い) [2014:単語と同じ:ALCIS:::],【史】（フランス革命当時の）穏和主義"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 961,
+      "form" : "baeai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "綿糸"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1005,
+      "form" : "baibae"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｏ}【植】キイチゴ（木苺）（属）（木）,>>frambujo;《般》ブラックベリー,>>frambo,不変の,変わりのない"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1009,
+      "form" : "baibia"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}人民;国民;民衆,庶民"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1073,
+      "form" : "baihaiu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "遅刻した"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1273,
+      "form" : "baiza"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【化】魚膠（ぎょこう）,=figluo,【宗】奉献,奉納;【キ】聖別;【カ】 (パンとぶどう酒の) 聖変化"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1908,
+      "form" : "bet'aa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【理】圧縮"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3096,
+      "form" : "blubla"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "まがった,ゆがんだ,>>kurba;傾いた;遠回しの,回り道の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3563,
+      "form" : "bowa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］（潮が）満ちる,差す"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3709,
+      "form" : "buka"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "これ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3751,
+      "form" : "bunae"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］ぶつかり合う,押し合う"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3772,
+      "form" : "buou"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}箱,ケース,容器"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3878,
+      "form" : "buwo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "（巻末の）用語解説;難語辞典,［他］包む,包装する,荷造りする;【情】（ファイルを）圧縮する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 4152,
+      "form" : "bwaulu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［自］誤る,間違う;道に迷う"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5307,
+      "form" : "canai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "=kono（認識）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5329,
+      "form" : "capaiu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｏ}【鉱】オパール,タンパク石"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5614,
+      "form" : "cee"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］渦巻く,旋回する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5746,
+      "form" : "ceixei"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}（空間的・時間的に）近い,近接した"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5879,
+      "form" : "ceta"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "つくえ 机"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5934,
+      "form" : "ceyuu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【数】周囲の;《般》周辺の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5941,
+      "form" : "chaba"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "かれ 彼 [2014:単語と同じ:ALCIS:::],水平に,横に"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5961,
+      "form" : "chade"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "こわい (怖い, 恐い) [2014:単語と同じ:ALCIS:::],【地名】ピンドス山脈（ギリシア）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6173,
+      "form" : "chauchu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "する (為る) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6444,
+      "form" : "chepo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "言語 [2014:単語と同じ:ALCIS:::],{Ｏ}幾何学"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6458,
+      "form" : "chesi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "それ [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6504,
+      "form" : "chigo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "一定の方法に従った,系統的な,組織的な,整然とした"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6560,
+      "form" : "chisha"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "性質"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6581,
+      "form" : "chixu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}時計;柱時計,大時計,可変の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6916,
+      "form" : "chuwo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "かけら"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7017,
+      "form" : "cikau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "=sidii（座る）,=foto（写真）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7101,
+      "form" : "cira"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "青銅器,ふるい (古い)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7183,
+      "form" : "ciwi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}いす,腰掛け,座席;席,議席"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7573,
+      "form" : "couyau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ひと続きの壁"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7745,
+      "form" : "cunya"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［接］しかし,だが,けれども,>>tamen,>>kontrae,>>male,>>kvankam,聾唖者（ろうあしゃ）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 8002,
+      "form" : "cwairo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}形,形状;形態,様相;形式,外形;作法"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 8307,
+      "form" : "cweio"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［形］ある,どれかの\n{Ｂ}［代］ある人,どれか"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 8700,
+      "form" : "cwouphi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【理】音"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 8882,
+      "form" : "dacha"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "たのしい (楽しい, 愉しい) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 8901,
+      "form" : "dado"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "あつまる (集まる) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 9470,
+      "form" : "daunou"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}【動】トラ（虎）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 9506,
+      "form" : "daute"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ふかい (深い) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 9981,
+      "form" : "dibee"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}鎖,チェーン;《転》連鎖;【通】ネット局"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 10136,
+      "form" : "dipai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "わたし わたくし 私 [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 10224,
+      "form" : "ditoo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【動】貝（かい）,>>molusko"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 10452,
+      "form" : "dop'iai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}島;《転》離れ島"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12363,
+      "form" : "epao"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "違った,異なる,別の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12402,
+      "form" : "es^eu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "先祖,祖先,道ばた"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12464,
+      "form" : "ewai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［他］命じる,命令する,指図する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12487,
+      "form" : "eyoi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "春の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12531,
+      "form" : "fafi1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "さだめる (定める)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12542,
+      "form" : "fah^ua"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［他］（ひきうすなどで）挽く,粉にする,細かく砕く;押しつぶす"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12724,
+      "form" : "falaa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}相互の,お互いの;互恵的な"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 13293,
+      "form" : "foje2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "たつ 竜 龍 (りゅう)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 13303,
+      "form" : "foku1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "あに おとうと あね いもうと 兄弟 姉妹 兄妹 姉弟 兄 弟 姉 妹 兄弟姉妹"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 14147,
+      "form" : "gatu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｏ}【宗】祭式,典礼;儀式"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 14510,
+      "form" : "gelao"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "門,大戸"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 15504,
+      "form" : "guko"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［他］受け取る,もらう,得る;受ける,受け入れる;こうむる,経験する;【通】受信する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 15674,
+      "form" : "guyao"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［他］重ねる,重ね合せる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 16069,
+      "form" : "h^ecuai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［他］ポケットから出す,懐から出す"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 16333,
+      "form" : "h^ikoo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［他］（公に）認める,認可する,認知する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 16779,
+      "form" : "h^ut^ee"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］始まる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 16895,
+      "form" : "hagi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "きた 北 [2014:単語と同じ:ALCIS:::],前後 (ぜんご) [2014:単語と同じ:ALCIS:::],［自］灰になる,燃え尽きる,座っている,着席している;【植】無柄の,=sesila"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 16909,
+      "form" : "hahau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "叫び声をあげる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 17274,
+      "form" : "hanu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "～で　～にて　～において"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 17753,
+      "form" : "hema"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "うつくしい (美しい) [2014:単語と同じ:ALCIS:::],{Ｂ}【数】根（ね）（こん）;根元（ねもと）;《転》根本;【Ｇ】語根"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 17802,
+      "form" : "hep'iai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "山岳地方"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18030,
+      "form" : "hiki1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ひがし 東"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18205,
+      "form" : "hiya2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "こころ 心"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18369,
+      "form" : "hona"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "綿羽のような,綿羽でできた,うぶ毛の生えた,綿毛に覆われた"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18587,
+      "form" : "hovi2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ほね 骨"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18612,
+      "form" : "hoyi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "書棚"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18654,
+      "form" : "hubwa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［副］すなわち,つまり,=nome"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18800,
+      "form" : "hupo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "き 木"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18811,
+      "form" : "huroe"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "少数の,少量の,少しの,わずかの"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18813,
+      "form" : "huroo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "墨（固形物）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18923,
+      "form" : "ia1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "に"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18930,
+      "form" : "IAMA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "くち,クチ,口"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19053,
+      "form" : "IKI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "八,8,"
+    }, {
+      "title" : "用例",
+      "text" : "卅,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19070,
+      "form" : "IKU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "弐,二,2"
+    }, {
+      "title" : "用例",
+      "text" : "二"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19114,
+      "form" : "IMISA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "かるい,軽い"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19159,
+      "form" : "ININI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ちいさい,小さい"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19175,
+      "form" : "INUSI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "川,かわ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19183,
+      "form" : "iou"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "総理大臣,首相"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19210,
+      "form" : "iqiu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}ひも,テープ,帯"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19322,
+      "form" : "ITUA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "くだもの,クダモノ,果物"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19361,
+      "form" : "iwa2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "そして"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19842,
+      "form" : "jani"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］生じる,生まれ出る,{Ｏ}（判断の）規準,自己批判"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19942,
+      "form" : "jatu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "冬の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 20652,
+      "form" : "jinei"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［他］閉める,閉じる,閉ざす;《転》終える"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 21228,
+      "form" : "juce"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}輪,環;指輪;《転》環状のもの"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 21795,
+      "form" : "KAIKA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "戦う,たたかう,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 21981,
+      "form" : "kaisa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "よい (良い, 善い) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 22207,
+      "form" : "KAKUSA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "書く,描く,かく,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 22264,
+      "form" : "KANAKA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "跳ねる,撥ねる,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 22267,
+      "form" : "KANATA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "はしる,走る,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 22293,
+      "form" : "KANI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "火,"
+    }, {
+      "title" : "用例",
+      "text" : "Μ,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 22407,
+      "form" : "KASI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "秋,あき"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 22511,
+      "form" : "KATU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "こども,子供,子,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 23176,
+      "form" : "ket'eo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［副］いつも,常に"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24179,
+      "form" : "KI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "へ,に,を,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24333,
+      "form" : "KIKI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "機械,マシン,メカ,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24462,
+      "form" : "KINIA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "みぎ,右"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24483,
+      "form" : "KINUKA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "金属,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24599,
+      "form" : "KISI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "あれ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24619,
+      "form" : "KISU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ほお,ほほ,頬,ほっぺ,ホホ,ホッペ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24674,
+      "form" : "KITU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "とても,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24996,
+      "form" : "koli"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "つかれる (疲れる) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 25195,
+      "form" : "kotu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "くさ 草 [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 25199,
+      "form" : "kouai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［他］ゆるしを請う,わびる,謝罪する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 25370,
+      "form" : "k'uaa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "筆づかい,タッチ,［他］後に残す"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 25374,
+      "form" : "kuaka"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ちち 父"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 25664,
+      "form" : "kunge"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "入れ墨,つける（付ける）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 26297,
+      "form" : "laitai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "丸一日,全日"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 26415,
+      "form" : "lanau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "（ガソリンスタンドの）給油ポンプ,ガソリンポンプ,{Ｂ}［他］追う,追いたてる;追いかける;（状態に）駆り立てる,追いやる;【機】駆動する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 26693,
+      "form" : "leaa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【楽】弦楽器"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 26699,
+      "form" : "lebi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "この [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 26900,
+      "form" : "leka"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "え 絵 絵画 (かいが) [2014:単語と同じ:ALCIS:::],万華鏡のような,千変万化する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27222,
+      "form" : "lingei"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "よごれのない,しみのない"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27291,
+      "form" : "lisua"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "保管所,倉庫"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27332,
+      "form" : "liwo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［自］～しなければならない;～にちがいない;～はずである"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27449,
+      "form" : "lohu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "けむい (煙い) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27459,
+      "form" : "loka"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］凍えている,凍っている"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27556,
+      "form" : "lorua"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "みみ 耳"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27580,
+      "form" : "losu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "たつ (立つ) [2014:単語と同じ:ALCIS:::],{Ｏ}【法】法典;（電信などの）【情】符号,暗号,コード"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27780,
+      "form" : "lubu1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "とり 鳥"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28021,
+      "form" : "lutwu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}生き生きした,若々しい;新鮮な,生の;真新しい,最新の,かみつくような,辛らつな;【化】腐食性の,永遠に,未来永劫（えいごう）に,>>por iam,生産性,【地名】シャンシー省（陝西省,中国）,{Ｂ}（階段の）段,（乗り物の）ステップ;《転》段階"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28232,
+      "form" : "maikau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "これ [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28423,
+      "form" : "MAKA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "数"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28443,
+      "form" : "MAKASU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ながい,長い, 永い"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28498,
+      "form" : "mamau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "はは 母 [2014:単語と同じ:ALCIS:::],記者会見,防水性の,不浸透性の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28530,
+      "form" : "MANANA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "はは,母"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28547,
+      "form" : "MANI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "文字,もじ,字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28616,
+      "form" : "maqui"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［自］抵抗する,反抗する;耐える;【理】抵抗を示す,耐性を示す"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28670,
+      "form" : "MASU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "の為に,のために,の為の,のための,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28797,
+      "form" : "mauna"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "うま 馬 [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 29579,
+      "form" : "MISA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "七,7"
+    }, {
+      "title" : "用例",
+      "text" : "廾"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 29792,
+      "form" : "modo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "こわれる (壊れる) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 29837,
+      "form" : "moho"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "いく (行く) [2014:単語と同じ:ALCIS:::],［他］協力する,【解】親指,=dikfingro"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 30132,
+      "form" : "mova2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "こめ 米"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 30344,
+      "form" : "MUKUTU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "鉛,なまり,こうげき,攻撃"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 30447,
+      "form" : "muo1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "とめる（止める）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 30539,
+      "form" : "MUTA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ハウス,ホーム,家,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 30940,
+      "form" : "naiwou"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "（一般的に）酒,アルコール"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 31014,
+      "form" : "NAKU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "九,9"
+    }, {
+      "title" : "用例",
+      "text" : "廾廾"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 31049,
+      "form" : "name"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "量の,［他］打ち開く,切り開く"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 31051,
+      "form" : "NAMI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "四,4,"
+    }, {
+      "title" : "用例",
+      "text" : "二二"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 31104,
+      "form" : "NANU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "何,ナニ,なに,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 31656,
+      "form" : "nelua2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ねこ 猫"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 32258,
+      "form" : "ngakha"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｏ}強烈な,激しい,強度の;=intensiva,［他］印をつける"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 32706,
+      "form" : "ngeipu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｏ}［他］連合させる;連邦にする,助力,手伝い,助け,介助;援助"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 33352,
+      "form" : "ngongau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}刀,《転》剣（武力・暴力・権威の象徴）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 33704,
+      "form" : "ngui2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "きず 傷"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 33888,
+      "form" : "nguwa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［他］弓で射る"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34061,
+      "form" : "NIKU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "六,6,"
+    }, {
+      "title" : "用例",
+      "text" : "ナ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34108,
+      "form" : "NIMUTU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "民族"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34143,
+      "form" : "NINU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "かみ,紙"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34223,
+      "form" : "NISIU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "つよい,強い,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34500,
+      "form" : "nonu1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "にくい (憎い, 悪い)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34732,
+      "form" : "noyaii"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}科学,学問;～学;自然科学,理科"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34749,
+      "form" : "NUA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "みず,水,"
+    }, {
+      "title" : "用例",
+      "text" : "Ｗ,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34922,
+      "form" : "NUMA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ところ,所,まもる,守る"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34940,
+      "form" : "NUMIU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ピンク"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 35622,
+      "form" : "nyeka"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "連続した,一連の;【電】直列の;【情】シリアルの,>>paralela,学生証"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 36096,
+      "form" : "o"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "分離詞\n"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 36121,
+      "form" : "ocou"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］花が散る,派手な色,真四角な紙片"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 36131,
+      "form" : "odui"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}油,石油,>>petrolo"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 36168,
+      "form" : "ohi1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "したしい (親しい)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 36465,
+      "form" : "owu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "板,【地質】プレート"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 36635,
+      "form" : "p'aibaia"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}興味,関心;おもしろさ,興趣;利害関係,利益"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 37813,
+      "form" : "peki"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "つよい (強い) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 37946,
+      "form" : "perao"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "道,行路"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 38019,
+      "form" : "pet^ii"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}星;星印"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 38479,
+      "form" : "phedu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "闇夜"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 38699,
+      "form" : "phidi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］振れる,揺れる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 38776,
+      "form" : "phobo1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "て 手"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 39531,
+      "form" : "piu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "卓越した能力,［他］照らす,照らし出す,照射する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 39691,
+      "form" : "pogo1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "いろ 色"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 40016,
+      "form" : "pouje"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［前］（～を）通って"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 40160,
+      "form" : "puatu2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "おこる (起こる, 興る)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 40435,
+      "form" : "pura2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "かぜ 風"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 40519,
+      "form" : "puto"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "本当に"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 41274,
+      "form" : "pwojei"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}位,身分,等級,序列,（軍隊の）階級;地位,順位,重要度"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 41659,
+      "form" : "qaijie"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "まん中に;中間に;中程度に,ほどほどに"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 42101,
+      "form" : "qexua"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "絵画,絵;《転》心像,イメージ,>>bildo,>>imagao"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 42307,
+      "form" : "qoda"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "まめ 豆"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 43342,
+      "form" : "reae"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}【植】茎;（ピストンなどの）棒,軸;（グラスの）あし"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 43700,
+      "form" : "reto"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ゆき 雪"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 43980,
+      "form" : "rita2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "いれる（入れる）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 46180,
+      "form" : "saingoai"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "不意に,突然に"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 46185,
+      "form" : "sainiu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}【服】ベスト,チョッキ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 46468,
+      "form" : "SAKIKA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "くる,来る"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 46520,
+      "form" : "sami"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "いそぐ（急ぐ） [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 46768,
+      "form" : "SATI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "素,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 46803,
+      "form" : "SAU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "上,うえ,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 46883,
+      "form" : "saupu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "けもの 獣 [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 47899,
+      "form" : "sheau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "意味,意義,語義;価値,重要性"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 48276,
+      "form" : "shomu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［他］積み上げる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 48378,
+      "form" : "shousa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}温和な,優しい,穏やかな,もの柔らかな,【地名】パタゴニア（アルゼンチン南部の高原地方）"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 48841,
+      "form" : "SINISA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "名前"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 48893,
+      "form" : "sip'ui"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}国,国土;地方,地域;祖国,郷土"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49048,
+      "form" : "SITIKA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "はちみつ,ハチミツ,蜂蜜"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49079,
+      "form" : "situu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}手段,方法,方策;（救済・回復のための）対策,措置"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49086,
+      "form" : "SIUSA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "天,天空"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49403,
+      "form" : "sono"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "まえ 前 [2014:単語と同じ:ALCIS:::],（勝者に与える）月桂樹の葉（枝）;《転》栄光,栄誉"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49746,
+      "form" : "SU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "かね,カネ,金.①,マネー,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49899,
+      "form" : "sui"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "つかう (使う)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 50041,
+      "form" : "SUNA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "五,5"
+    }, {
+      "title" : "用例",
+      "text" : "丿"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 51943,
+      "form" : "t'aitaiu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［間］（強い悲しみ）なんとまあ！"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52093,
+      "form" : "TAKU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "服,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52169,
+      "form" : "tana"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "みなみ 南 [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52356,
+      "form" : "TATA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "だけ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52367,
+      "form" : "TATAMI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "身体,からだ,体,未来,みらい"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52434,
+      "form" : "tauhi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}文,文章;美辞麗句;【楽】楽句,フレーズ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52489,
+      "form" : "taupwo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}縁（ふち）,へり,端;周辺,境,はずれ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52961,
+      "form" : "tenye"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｏ}［他］かきまわす,かき混ぜる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54495,
+      "form" : "TISI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "それ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54497,
+      "form" : "TISIA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "御茶,お茶,茶,ちゃ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54591,
+      "form" : "TITU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ただしい,正しい"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54605,
+      "form" : "TIU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "再,再び,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54607,
+      "form" : "TIUA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "従う,したがう,従事,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54613,
+      "form" : "TIUNA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ひだり,左"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54665,
+      "form" : "tixuo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}花,草花;精華,最良の部分"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54714,
+      "form" : "tobwu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "容器"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54980,
+      "form" : "topo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ある [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55296,
+      "form" : "tubi1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "うつ (打つ)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55414,
+      "form" : "TUI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "してあげる,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55550,
+      "form" : "tumi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "あまい (甘い) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55614,
+      "form" : "TUNU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "神"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55786,
+      "form" : "tut^oe"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "それぞれに,めいめいに"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 56079,
+      "form" : "twaji"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "（空間的・時間的に）遠い,はるかな"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 56501,
+      "form" : "twikei"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}味;味覚;趣味,好み"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57036,
+      "form" : "UKI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "おとこ,男"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57051,
+      "form" : "UKU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "物,者"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57101,
+      "form" : "UMI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "三,3"
+    }, {
+      "title" : "用例",
+      "text" : "三,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57114,
+      "form" : "UMU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "千,1000"
+    }, {
+      "title" : "用例",
+      "text" : "山"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57222,
+      "form" : "USA"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "おんな,女,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57300,
+      "form" : "UTU"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "下,した.①,"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57306,
+      "form" : "UTUI"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "あそぶ,遊ぶ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57953,
+      "form" : "vezoe"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}山,山岳;《転》（山ほどの）多数,多量"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 59529,
+      "form" : "wesi1"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "万 (まん)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 60314,
+      "form" : "wuaxu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "ない (無い, 亡い)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 60470,
+      "form" : "wuo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "反啓蒙主義,{Ｂ}現実の,実在の;本当の,本物の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61085,
+      "form" : "xauau"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "歌,歌曲;（歌うための）詩;（鳥の）さえずり,機知,ウィット"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61267,
+      "form" : "xefoo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［他］問いただす;調べあげる,【地名】ヘルシンキ（フィンランドの首都）,{Ｂ}神秘,不思議,謎,秘密;【キ】玄義;【宗】秘儀,奥義"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61280,
+      "form" : "xeh^eu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "夏の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61443,
+      "form" : "xemo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "つき 月"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61649,
+      "form" : "xidi"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｏ}動機,理由,根拠;【芸】モチーフ,主題"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61796,
+      "form" : "xisa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "あし 足 脚"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61865,
+      "form" : "xiyu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}［他］裁判する,裁く;判断する,判定する;審判する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 62084,
+      "form" : "xota"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "季節の,季節的な"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 62127,
+      "form" : "xoudo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}重い;重さがある;《転》重苦しい;重々しい"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 62313,
+      "form" : "xufoa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］金持ちになる;豊かになる,［自］夕食をとる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 63681,
+      "form" : "yikho"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}西,西方;西部,><oriento"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 64293,
+      "form" : "yubui"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "{Ｂ}背,背中;背部;裏,後ろ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 64342,
+      "form" : "yuh^aa"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［他］（こすって）磨く"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 64362,
+      "form" : "yujo2"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "または (又は)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 64418,
+      "form" : "yunyu"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "政府;（県や市の）自治体当局"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 65693,
+      "form" : "zieo"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "［自］伸びる,広がる"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66461,
+      "form" : "zunaii"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "論証,論理,推論,推理,理屈"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66606,
+      "form" : "kaga"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "時間 (じかん) [2014:単語と同じ:ALCIS:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  } ],
+  "zpdic" : {
+    "alphabetOrder" : "",
+    "alphabetOrderType" : "UNICODE",
+    "punctuations" : [ ",", "、" ],
+    "pronunciationTitle" : null,
+    "plainInformationTitles" : [ ],
+    "informationTitleOrder" : null,
+    "defaultWord" : {
+      "entry" : {
+        "id" : -1,
+        "form" : ""
+      },
+      "translations" : [ ],
+      "tags" : [ ],
+      "contents" : [ ],
+      "variations" : [ ],
+      "relations" : [ ]
+    }
+  },
+  "snoj" : null
+}
