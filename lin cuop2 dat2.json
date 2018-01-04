@@ -94,6 +94,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "acii" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "accúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -662,6 +665,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "AKATA" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "aghauṭa", "ákúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3064,6 +3070,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "kya1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ákíjam" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3894,6 +3903,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ma1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "amáma" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "qmamq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4190,6 +4205,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "mui1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "amila" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "qmuile'" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5671,6 +5692,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ta2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "adha" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
