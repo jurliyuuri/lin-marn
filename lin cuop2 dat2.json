@@ -9344,6 +9344,28 @@
     }, {
       "title" : "バート語",
       "forms" : [ "bhán" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "pouje" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 338,
+      "form" : "強"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "nisiu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NISIU" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "tiu2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
