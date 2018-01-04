@@ -329,7 +329,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 336,
+        "form" : "夘"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 43,
@@ -700,7 +706,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 331,
+        "form" : "禦"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 60,
@@ -1043,7 +1055,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 333,
+        "form" : "函"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 73,
@@ -3127,7 +3145,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 328,
+        "form" : "械"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 159,
@@ -3155,7 +3179,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 332,
+        "form" : "欽"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 160,
@@ -5621,7 +5651,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 329,
+        "form" : "岩"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 262,
@@ -5733,7 +5769,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 334,
+        "form" : "布"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 267,
@@ -6076,7 +6118,13 @@
       "text" : "旧転写：実"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 327,
+        "form" : "菓"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 280,
@@ -6681,7 +6729,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 335,
+        "form" : "累"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 306,
@@ -8094,7 +8148,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 330,
+        "form" : "輝"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 15,
@@ -9063,6 +9123,196 @@
       "entry" : {
         "id" : 192,
         "form" : "母(1)"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 327,
+      "form" : "菓"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「果」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 279,
+        "form" : "果"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 328,
+      "form" : "械"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「機」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 158,
+        "form" : "機"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 329,
+      "form" : "岩"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「石」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 261,
+        "form" : "石"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 330,
+      "form" : "輝"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「光」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 14,
+        "form" : "光"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 331,
+      "form" : "禦"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「御」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 58,
+        "form" : "御"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 332,
+      "form" : "欽"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「金」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 159,
+        "form" : "金"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 333,
+      "form" : "函"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「箱」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 72,
+        "form" : "箱"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 334,
+      "form" : "布"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「衣」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 265,
+        "form" : "衣"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 335,
+      "form" : "累"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「積」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 305,
+        "form" : "積"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 336,
+      "form" : "夘"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「外」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 42,
+        "form" : "外"
       }
     } ]
   } ],
