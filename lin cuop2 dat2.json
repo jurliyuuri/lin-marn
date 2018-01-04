@@ -97,12 +97,15 @@
     }, {
       "title" : "バート語",
       "forms" : [ "accúḷ" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "aci-lu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "あし-る" ]
     } ],
     "tags" : [ ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "タカン・アイル・バートで確認"
-    } ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -406,12 +409,21 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "koli" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "koli-lu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "こり-る" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "koli" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "koli" ]
     } ],
     "tags" : [ ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "タカンで確認"
-    } ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -514,10 +526,7 @@
       "forms" : [ "mu1" ]
     } ],
     "tags" : [ ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "アイツォで確認"
-    } ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -540,12 +549,18 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "cikau" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ṣíkahúḷ" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "cik-u" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "し-く" ]
     } ],
     "tags" : [ ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "タカン・アイル・バートで確認"
-    } ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
