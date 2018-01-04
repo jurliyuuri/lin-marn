@@ -3976,7 +3976,7 @@
   }, {
     "entry" : {
       "id" : 192,
-      "form" : "母"
+      "form" : "母(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -3993,11 +3993,20 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "mamau" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "manmanq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 326,
+        "form" : "母(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 194,
@@ -9031,6 +9040,31 @@
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 326,
+      "form" : "母(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "manana" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "manmanq" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "manáman", "banáman" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 192,
+        "form" : "母(1)"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
