@@ -146,7 +146,46 @@ for(var i=0;i<gefak.length;i++){
 <p>とりあえず、パイグ語漢字転写早見表に載っている情報をなるべく多く「清声集」にも載せていきたい。</p>
 <h3>21-1. データ構造の変換</h3>
 <p>まず、「内容」だとちょっと見づらいので、「訳語」欄に掲載してみる。あと凡例も。</p>
+<h3>21-2. パイグ語側のデータを移行</h3>
+<p>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」を編集して「<a href="https://docs.google.com/spreadsheets/d/1OWmZk4Q7RDSQPsfdIBP15Yl4Z7Hoa6-FMT-TsBNIh1A/edit#gid=27234530">【改造版】燐字早見表（牌AZZ藍）</a>」というのを作れたので、「清声集」に変換していこう。</p>
+<p>とりあえず<a href="作業中/【改造版】燐字早見表（牌AZZ藍） - メインの表.tsv">tsv</a>にして、<a href="作業中/cuop_dat_convert.py">軽いスクリプト</a>を書いて変換。</p>
+<p><a href="作業中/cuop_dat_new.json">変換したもの</a>を前のとくっつけ、同一単語を合流させた。</p>
+<p>これだと同一情報の重複が出るはずだが、手動で削除するのはミスの原因なのでスクリプトで処理したいところである。</p>
+<h3>21-3. バート載せてみるか</h3>
+<p>とりあえず、手元にバート語あるし載せてみるか。</p>
+<h3>21-4. 異体字</h3>
+<pre>
+菓	「果」の異体字
+械	「機」の異体字
+岩	「石」の異体字
+輝	「光」の異体字
+禦	「御」の異体字
+欽	「金」の異体字
+函	「箱」の異体字
+布	「衣」の異体字
+累	「積」の異体字
+夘	「外」の異体字
+</pre>
+<p>を収録した。</p>
 
+<h2>22. composition</h2>
+<p>「禦」のcompositionが載っていなかったので載せた。また、「疲」の構成を知ったので載せた。</p>
+
+<h2>23. 「旦」「通」</h2>
+<h3>23-1. 「旦」</h3>
+<p>アイルlaitai「丸一日」が<a href="https://sites.google.com/site/3tvalineparine/home/taiyaku/isnh#TOC--1">「いせにほ」小ネタ</a>で登場した。話したところ、アイル語ではAKIAがsunとday、laitaiがdayのみを指す、ということになり、漢字転写は「旦」にした。</p>
+<p>ちなみに、「旦」という<b>漢字</b>の<b>現世</b>での用法としては、</p>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="ja"><p lang="ja" dir="ltr">{旦} は確かに「朝」という意味をもちますが，より厳密（というより狭義？）に言えば動詞【（夜が）明ける】またその名詞形【（夜）明け】ということです。<br>引伸義としては名詞【（一日の時間帯としての）朝】，名詞【month の明け始めの日】，形容詞【明るい】などがあります。</p>&mdash; Mag462@みぉ⁵⁵く³³ぼ²¹ま⁵⁵ゆ²¹ (@Magnezone462) <a href="https://twitter.com/Magnezone462/status/948193619445399555?ref_src=twsrc%5Etfw">2018年1月2日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>というのがあって、この他にも、「漢辞海」を見ると「一日。不特定のある日。『一旦』」というのがあったりするので、「丸一日」の意味のlaitaiを表す燐字の漢字転写に「旦」を使うのは何ら問題がなかったりする。まあ、そもそも「金属」の意味を表す燐字「金」の異体字の漢字転写を「欽」にしている時点で、現世の用法を過度に気にする必要は全くないのだが。</p>
+<h3>23-2. 「通」</h3>
+<p>アイルpouje、バートbhán、祖語phaenに「通」を造字。</p>
+<h3>23-3. 「強」</h3>
+<p>アイルNISIU、アイツォtiu2に「強」を造字。</p>
+
+<h2>24. 「清声集」にもっと手を入れる</h2>
+<p><a href="作業中/remove_duplicate.py">重複除去</a>のスクリプトを書いた。</p>
+<p>自明な競合は修正したが…「筆」のアイル語にk'uaaとkakusaが共存してしまっているなぁ。</p>
 
 <div id="menu">読み込み中…</div>
 <div id="menuButton" onclick="openClose()">≡</div>

@@ -94,18 +94,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "acii" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "accúḷ" ]
-    }, {
-      "title" : "タカン語皇音(リパーシェ表記)",
-      "forms" : [ "aci-lu" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "あし-る" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "タカン・アイル・バートで確認"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -332,13 +326,7 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 336,
-        "form" : "夘"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 43,
@@ -409,21 +397,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "koli" ]
-    }, {
-      "title" : "タカン語皇音(リパーシェ表記)",
-      "forms" : [ "koli-lu" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "こり-る" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "koli" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "koli" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "タカンで確認"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -526,7 +505,10 @@
       "forms" : [ "mu1" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "アイツォで確認"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -549,18 +531,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "cikau" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "ṣíkahúḷ" ]
-    }, {
-      "title" : "タカン語皇音(リパーシェ表記)",
-      "forms" : [ "cik-u" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "し-く" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "タカン・アイル・バートで確認"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -643,6 +619,62 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 54,
+      "form" : "光"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "aik2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "ngaek" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "冠戦素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "aika" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "AIKA" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "aik2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55,
+      "form" : "在"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "aim2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "ngaem" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "冠在素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "aima" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "AIMA" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "aim2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 56,
       "form" : "倒"
     },
@@ -686,9 +718,6 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "AKATA" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "aghauṭa", "ákúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -721,13 +750,35 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 331,
-        "form" : "禦"
-      }
-    } ]
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 59,
+      "form" : "四"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "ap1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "ahp" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "王四素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "nami" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NAMI" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "ap1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 60,
@@ -1070,13 +1121,7 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 333,
-        "form" : "函"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 73,
@@ -1360,6 +1405,34 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 84,
+      "form" : "人"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "cuk2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "sruk" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "席人素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "asuka" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "ASUKA" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "cuk2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 85,
       "form" : "声"
     },
@@ -1581,6 +1654,34 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "AIMU" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 94,
+      "form" : "一"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "et2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "ngvt" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "冠机素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "asi" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "ASI" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "et2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2156,6 +2257,31 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 117,
+      "form" : "手"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "hop1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "fohp" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "処手素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "phobo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "phobo1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 118,
       "form" : "挽"
     },
@@ -2339,6 +2465,34 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "huep2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 125,
+      "form" : "闇"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "huet" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "fvt" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "処机素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "phedu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "phedu" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "huet" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2739,6 +2893,34 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 141,
+      "form" : "二"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "ik2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "ngik" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "冠蜜素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "iku" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "IKU" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "ik2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 142,
       "form" : "閉"
     },
@@ -2929,6 +3111,34 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 149,
+      "form" : "火"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kan1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "kahn" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "火出素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "kani" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KANI" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "kan1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 150,
       "form" : "子"
     },
@@ -3103,9 +3313,6 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "kya1" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "ákíjam" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3160,13 +3367,7 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 328,
-        "form" : "械"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 159,
@@ -3194,13 +3395,7 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 332,
-        "form" : "欽"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 160,
@@ -3333,6 +3528,34 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ku" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 165,
+      "form" : "筆"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kua2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "krua" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "筆噫後" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "kakusa" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KAKUSA" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "kua2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3948,12 +4171,6 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ma1" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "amáma" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "qmamq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4021,7 +4238,7 @@
   }, {
     "entry" : {
       "id" : 192,
-      "form" : "母(1)"
+      "form" : "母"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -4038,20 +4255,39 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "mamau" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "manmanq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 326,
-        "form" : "母(2)"
-      }
-    } ]
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 193,
+      "form" : "字"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "man1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "mahn" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "大出素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "mani" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "MANI" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "man1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 194,
@@ -4259,12 +4495,34 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "mui1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 202,
+      "form" : "無(1)"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "mun1" ]
     }, {
-      "title" : "バート語",
-      "forms" : [ "amila" ]
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "muhn" ]
     }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "qmuile'" ]
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "大無素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "amunu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "AMUNU" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "mun1" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4428,6 +4686,34 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 209,
+      "form" : "九(1)"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "nap1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "suna-nami" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "SUNA-NAMI" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "nap1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 210,
       "form" : "勿"
     },
@@ -4481,6 +4767,34 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 212,
+      "form" : "六(1)"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "net2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "suna-asi" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "SUNA-ASI" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "net2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 213,
       "form" : "小"
     },
@@ -4527,6 +4841,34 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "nyeka" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 215,
+      "form" : "七(1)"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "nik2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "suna-iku" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "SUNA-IKU" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "nik2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4615,6 +4957,34 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 219,
+      "form" : "八(1)"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "nom2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "suna-umi" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "SUNA-UMI" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "nom2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 220,
       "form" : "悪"
     },
@@ -4633,6 +5003,34 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "nonu1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 221,
+      "form" : "水"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "nua2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "nrua" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "水噫後" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "nua" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NUA" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "nua2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4811,6 +5209,34 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "owu" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 229,
+      "form" : "三"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "om2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "ngom" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "冠三素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "umi" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "UMI" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "om2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5666,13 +6092,7 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 329,
-        "form" : "岩"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 262,
@@ -5752,9 +6172,6 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ta2" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "adha" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5784,13 +6201,35 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 334,
-        "form" : "布"
-      }
-    } ]
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 266,
+      "form" : "皇"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "tam2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "tram" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "茶皇素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "atamu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "ATAMU" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "tam1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 267,
@@ -6133,13 +6572,7 @@
       "text" : "旧転写：実"
     } ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 327,
-        "form" : "菓"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 280,
@@ -6266,6 +6699,34 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "tum1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 285,
+      "form" : "神"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "tun2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "trun" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "茶神素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "tunu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "TUNU" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "tun2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6447,6 +6908,34 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "wesi1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 293,
+      "form" : "五"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "un1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "uhn" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "王無素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "suna" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "SUNA" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "un1" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6638,6 +7127,31 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 301,
+      "form" : "足"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "xi1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "shih" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "花男素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "xisa" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "xisa" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 302,
       "form" : "故"
     },
@@ -6744,13 +7258,7 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 335,
-        "form" : "累"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 306,
@@ -7096,6 +7604,34 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 319,
+      "form" : "言"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "zep1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "tsvhp" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "広言素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "chepo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "chepo" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "zep2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 320,
       "form" : "広"
     },
@@ -7245,1920 +7781,6 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "chuwo" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 1,
-      "form" : "一"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "ngvt" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "et2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "ret" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "las" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "asi" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "あじ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "エ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "エツ" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "あし" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "あじ" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "カツ", "ラツ", "カッ", "ラッ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "エツ", "ウツ", "エッ", "ウッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "lási" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "冠机素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "ASI" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "et2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 2,
-      "form" : "二"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "ngik" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "ik2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "rik" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "rik" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "iku" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "いく" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "イ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "イク" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "いく" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "いく" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "リク", "リッ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "イク", "イッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "ríka" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "冠蜜素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "IKU" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "ik2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 3,
-      "form" : "三"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "ngom" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "om2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "rom" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "lumi" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "umi" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "うむ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "オ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "オン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "うみ" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "うむ" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "オン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "エン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "冠三素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "UMI" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "om2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 4,
-      "form" : "四"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "ahp" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "ap1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "aap" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "ngam" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "nami" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "かむ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ア" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "アン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "なみ" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "かん" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "アープ", "アーッ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "アプ", "アッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "王四素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "NAMI" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "ap1" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 5,
-      "form" : "五"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "un1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "uun" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "slqna" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "suna" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "すな" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ウ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ウン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "すな" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "すな" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ウーン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ウン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "王無素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "SUNA" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "un1" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 6,
-      "form" : "六(1)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn ngvt" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "net2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "uun-ret" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "slqna-las" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "suna-asi" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "なじ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ネ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ネツ" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "なし" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ウーンレ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ネツ", "ネッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "SUNA-ASI" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "net2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 7,
-        "form" : "六(2)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 7,
-      "form" : "六(2)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "niku" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "にく" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 6,
-        "form" : "六(1)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 8,
-      "form" : "七(1)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn ngik" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "nik2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "uun-rik" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "slqna-rik" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "suna-iku" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "ねく" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ニ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ニク" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "ねく" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ウーンリク", "ウーンリッ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ニク", "ニッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "SUNA-IKU" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "nik2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 9,
-        "form" : "七(2)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 9,
-      "form" : "七(2)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "misa" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "みさ" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 8,
-        "form" : "七(1)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 10,
-      "form" : "八(1)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn ngom" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "nom2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "uun-rom" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "slqna-lumi" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "suna-umi" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "のむ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ネ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ネン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "のん" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ウーノン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ネン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "SUNA-UMI" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "nom2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 11,
-        "form" : "八(2)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 11,
-      "form" : "八(2)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "iki" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "いき" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 10,
-        "form" : "八(1)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 12,
-      "form" : "九(1)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn ahp" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "nap1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "uun-aap" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "slqna-ngam" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "suna-nami" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ナ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ナン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ウーナープ", "ウーナーッ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ナプ", "ナッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "SUNA-NAMI" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "nap1" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 13,
-        "form" : "九(2)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 13,
-      "form" : "九(2)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "naku" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "のう" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "なく" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "のう" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 12,
-        "form" : "九(1)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 14,
-      "form" : "光"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "ngaek" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "aik2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "raik" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "raikqt" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "aika" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "えか", "えか-る", "あいか" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "アイ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "エク" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "あいか" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "えか" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ライク", "ライッ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "アイク", "アイッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "kád", "kádúḷ" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "冠戦素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "AIKA" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "aik2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 330,
-        "form" : "輝"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 15,
-      "form" : "闇"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "fvt" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "huet" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "huet" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "phed" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "phedu" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "めづ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ケ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ケツ" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "ぺつ" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "めす" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ヘツ", "ヘッ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ヘツ", "ヘッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "bhát" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "処机素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "phedu" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "huet" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 16,
-      "form" : "水"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "nrua" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "nua2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "nrua" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "nu'a'" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "nua" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "な", "な-る" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ナ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ナ" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "な" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "な" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ナ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ナ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "nutta" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "水噫後" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "NUA" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "nua2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 17,
-      "form" : "火"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "kahn" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "kan1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "kaan" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "kani" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "kani" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "かに", "か-ぬ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "カ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "カン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "かに" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "かに", "か" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "カーン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "カン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "gháni", "ghánúḷ" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "火出素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "KANI" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "kan1" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 18,
-      "form" : "皇"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "tram" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "tam2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "tram" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "tqram" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "atamu" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "たかん", "たかむ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "タ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "タン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "たらん" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "たかん", "たはん" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ツラン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "タン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "aṭam" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "茶皇素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "ATAMU" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "tam1" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 19,
-      "form" : "神"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "trun" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "tun2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "trun" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "tunq" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "tunu" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "つぬ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ツ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ツン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "つぬ" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "つぬ" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ツルン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ツン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "茶神素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "TUNU" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "tun2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 20,
-      "form" : "人"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "sruk" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "cuk2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "cruk" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "sluk" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "asuka" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "あす" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ス" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "スク" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "あすか" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "あす" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "スルク" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "スク", "スッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "席人素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "ASUKA" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "cuk2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 21,
-      "form" : "足"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "shih" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "xi1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "xii" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "xiis" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "xisa" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "しざ" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "シ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "シ" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "花男素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "xisa" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 22,
-      "form" : "手"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "fohp" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "hop1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "hoop" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "phoobo" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "phobo" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "もも", "も-む" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "コ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "コン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "ほぼ" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "もも" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ホープ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ホプ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "bhoma", "bhomúl" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "処手素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "phobo1" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 23,
-      "form" : "筆"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "krua" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "kua2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "krua" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "kuran" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "k'uaa", "$$$$$$", "kakusa" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "か", "か-る" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "カ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "カ" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "筆噫後" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "KAKUSA" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "kua2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 24,
-      "form" : "字"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "mahn" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "man1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "maan" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "many" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "mani" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "まに" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "マ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "マン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "まに" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "まに" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "マン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "マン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "báni" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "大出素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "MANI" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "man1" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 25,
-      "form" : "言"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "tsvhp" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "zep1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "zeep" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "zeepq" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "chepo" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "せま", "せま-る" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "セ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "セン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "てぽ" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "せま" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "テープ" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "テプ", "テッ" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "zepha", "cepatepa" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "広言素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "chepo" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "zep2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 26,
-      "form" : "在"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "ngaem" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "aim2" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "raim" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "aimq" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "aima" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "え", "え-む" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "アイ" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "エン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "あいま" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "え", "えむ" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ラン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "アン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "hemúl", "hem" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "冠在素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "AIMA" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "aim2" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 27,
-      "form" : "無(1)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "muhn" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "mun1" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "muun" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "’munq" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "amunu" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "ム" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "ムン" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "ムーン" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "ムン" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "ám" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "大無素" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "AMUNU" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "mun1" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 28,
-        "form" : "無(2)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 28,
-      "form" : "無(2)"
-    },
-    "translations" : [ {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "標準パイグ語",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "パイグ語古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "waxu" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "wuaxu(方言語)" ]
-    }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "わ", "わ-す" ]
-    }, {
-      "title" : "タカン語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "タカン語牌音新音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語光音",
-      "forms" : [ "うわす" ]
-    }, {
-      "title" : "エッツィア語皇音",
-      "forms" : [ "わ" ]
-    }, {
-      "title" : "エッツィア語牌音古音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "エッツィア語牌音現音",
-      "forms" : [ "~" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "*" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 27,
-        "form" : "無(1)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 29,
-      "form" : "{凡例}"
-    },
-    "translations" : [ {
-      "title" : "",
-      "forms" : [ "" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ {
-      "title" : "記号",
-      "text" : "*は未創作、~は「（補充形を使っている、などの理由で）その言語に存在しないという事実が創作済み」を意味する。"
-    }, {
-      "title" : "関連語",
-      "text" : "「同字異語」は、同一の字で書かれているが語源が異なっているようなものの相互リンク。\n「異体字」は異体字の相互リンク。"
-    } ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 326,
-      "form" : "母(2)"
-    },
-    "translations" : [ {
-      "title" : "アイル語",
-      "forms" : [ "manana" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "manmanq" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "manáman", "banáman" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "同字異語",
-      "entry" : {
-        "id" : 192,
-        "form" : "母(1)"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 327,
-      "form" : "菓"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「果」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 279,
-        "form" : "果"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 328,
-      "form" : "械"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「機」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 158,
-        "form" : "機"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 329,
-      "form" : "岩"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「石」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 261,
-        "form" : "石"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 330,
-      "form" : "輝"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「光」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 14,
-        "form" : "光"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 331,
-      "form" : "禦"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「御」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 58,
-        "form" : "御"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 332,
-      "form" : "欽"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「金」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 159,
-        "form" : "金"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 333,
-      "form" : "函"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「箱」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 72,
-        "form" : "箱"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 334,
-      "form" : "布"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「衣」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 265,
-        "form" : "衣"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 335,
-      "form" : "累"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「積」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 305,
-        "form" : "積"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 336,
-      "form" : "夘"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「外」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 42,
-        "form" : "外"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 337,
-      "form" : "通"
-    },
-    "translations" : [ {
-      "title" : "アイル語",
-      "forms" : [ "pouje" ]
-    }, {
-      "title" : "ラネーメ祖語",
-      "forms" : [ "phaen" ]
-    }, {
-      "title" : "バート語",
-      "forms" : [ "bhán" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "pouje" ]
-    } ],
-    "tags" : [ ],
-    "contents" : [ ],
-    "variations" : [ ],
-    "relations" : [ ]
-  }, {
-    "entry" : {
-      "id" : 338,
-      "form" : "強"
-    },
-    "translations" : [ {
-      "title" : "アイル語",
-      "forms" : [ "nisiu" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "NISIU" ]
-    }, {
-      "title" : "アイツォ音",
-      "forms" : [ "tiu2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
