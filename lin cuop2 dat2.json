@@ -274,10 +274,13 @@
       "forms" : [ "*" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "yanio" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "yanio" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "やの" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3068,10 +3071,10 @@
       "forms" : [ "火男素" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "uki, air:-ki" ]
+      "forms" : [ "uki", "-ki" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "UKI, air:-KI" ]
+      "forms" : [ "UKI", "-KI" ]
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ki1" ]
@@ -3326,10 +3329,10 @@
       "forms" : [ "火物素" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "uku, air:-ku" ]
+      "forms" : [ "uku", "-ku" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "UKU, air:-KU" ]
+      "forms" : [ "UKU", "-KU" ]
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ku" ]
@@ -5200,10 +5203,10 @@
       "forms" : [ "祖此素" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "usa, air:-sa" ]
+      "forms" : [ "usa", "-sa" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "USA, air:-SA" ]
+      "forms" : [ "USA", "-SA" ]
     }, {
       "title" : "アイツォ音",
       "forms" : [ "sa1" ]
