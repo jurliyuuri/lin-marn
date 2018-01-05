@@ -7547,7 +7547,7 @@
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn ngvt", "$$$$$$", "~" ]
+      "forms" : [ "uhn ngvt" ]
     }, {
       "title" : "標準パイグ語",
       "forms" : [ "net2" ]
@@ -7559,7 +7559,7 @@
       "forms" : [ "slqna-las" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "~", "$$$$$$", "suna-asi" ]
+      "forms" : [ "suna-asi" ]
     }, {
       "title" : "タカン語皇音",
       "forms" : [ "なじ" ]
@@ -7666,7 +7666,7 @@
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn ngik", "$$$$$$", "~" ]
+      "forms" : [ "uhn ngik" ]
     }, {
       "title" : "標準パイグ語",
       "forms" : [ "nik2" ]
@@ -7678,7 +7678,7 @@
       "forms" : [ "slqna-rik" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "~", "$$$$$$", "suna-iku" ]
+      "forms" : [ "suna-iku" ]
     }, {
       "title" : "タカン語皇音",
       "forms" : [ "ねく" ]
@@ -7785,7 +7785,7 @@
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn ngom", "$$$$$$", "~" ]
+      "forms" : [ "uhn ngom" ]
     }, {
       "title" : "標準パイグ語",
       "forms" : [ "nom2" ]
@@ -7797,7 +7797,7 @@
       "forms" : [ "slqna-lumi" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "~", "$$$$$$", "suna-umi" ]
+      "forms" : [ "suna-umi" ]
     }, {
       "title" : "タカン語皇音",
       "forms" : [ "のむ" ]
@@ -7904,7 +7904,7 @@
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn ahp", "$$$$$$", "~" ]
+      "forms" : [ "uhn ahp" ]
     }, {
       "title" : "標準パイグ語",
       "forms" : [ "nap1" ]
@@ -7916,7 +7916,7 @@
       "forms" : [ "slqna-ngam" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "~", "$$$$$$", "suna-nami" ]
+      "forms" : [ "suna-nami" ]
     }, {
       "title" : "タカン語皇音",
       "forms" : [ "~" ]
