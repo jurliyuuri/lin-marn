@@ -103,6 +103,9 @@
     }, {
       "title" : "タカン語皇音",
       "forms" : [ "あし-る" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "acii" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -561,6 +564,9 @@
     }, {
       "title" : "タカン語皇音",
       "forms" : [ "し-く" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "slikau" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -614,6 +620,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "A" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "raa" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "há", "á" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -888,6 +900,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "bap" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bhápúḷ" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "baep" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -941,6 +959,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "*" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bhá" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1203,6 +1224,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "can2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "cánajúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1224,10 +1248,13 @@
       "forms" : [ "席春素" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "ceixei" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "ceixei" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "cajúḷ", "cai" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -1434,6 +1461,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "dat2" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "dradq" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "dhárad" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1534,6 +1567,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "dop'iai" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "dkoop" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "dhoḷop" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1584,6 +1623,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "AIMU" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "aaim" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ema" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1999,6 +2044,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "hia1" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "riya" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "heyáúḷ", "híja", "ha" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2208,6 +2259,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "huai2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "úrajúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2342,6 +2396,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "huep2" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "fuepq" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "epa" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2395,6 +2455,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "huo2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "horúḷ", "horabát", "úro" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2420,6 +2483,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "foku1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "woghit" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "fokjut" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2498,6 +2567,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "hut2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "huṭeúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2657,6 +2729,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "yan1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "janúḷ", "janáúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2710,6 +2785,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ye" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "hína" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "i'q" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2816,6 +2897,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ka1" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "kaa" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ko" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2925,6 +3012,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "kak" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "ka^nga" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "káṇa" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2950,6 +3043,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "KATU" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "kaatuu" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ghátu" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3227,6 +3326,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "kit" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "kit" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3308,6 +3410,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "kot" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "koṭ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3336,6 +3441,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ku" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "k" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3411,6 +3519,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "kuaka" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "khaka" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "khak" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3745,6 +3859,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "rita2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ídúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4156,6 +4273,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "mok1" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "morq" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bohúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4424,6 +4547,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "nan2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "nána" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "naanu" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4558,6 +4687,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "nim2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "nímaṣ" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "nimslu" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5076,6 +5211,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "pura2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bhára", "bháro", "bhárúḷ" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "*pqra" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5210,6 +5351,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "sa1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "sá" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "sa" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5238,6 +5385,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "sak2" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "srakkq" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "cákíkúḷ", "cákíkaúḷ", "sáka", "sakká", "rakkúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5450,6 +5603,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "sip1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "síbha", "ṣibhai" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5556,6 +5712,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "su1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "su", "suúḷ" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "suu" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5608,6 +5770,12 @@
       "forms" : [ "sui" ]
     }, {
       "title" : "アイル語(辞書表記)",
+      "forms" : [ "sui" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "sujúḷ" ]
+    }, {
+      "title" : "ラネーメ祖語",
       "forms" : [ "sui" ]
     } ],
     "tags" : [ ],
@@ -5870,6 +6038,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "tao2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "daupha" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6026,6 +6197,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "tin1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "dína" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6319,6 +6493,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "TIU" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "zu" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6375,6 +6552,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ua" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "ya" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ja" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6506,6 +6689,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ut2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "rúṣ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6799,6 +6985,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "tixuo" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "díṣlo" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6852,6 +7041,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "yuo" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "yujo" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "jo" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -7063,6 +7258,12 @@
       "forms" : [ "chauchu" ]
     }, {
       "title" : "アイツォ音",
+      "forms" : [ "zau" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "zúḷ" ]
+    }, {
+      "title" : "ラネーメ祖語",
       "forms" : [ "zau" ]
     } ],
     "tags" : [ ],
@@ -8062,7 +8263,7 @@
       "forms" : [ "アイク", "アイッ" ]
     }, {
       "title" : "バート語",
-      "forms" : [ "kád", "kádúḷ" ]
+      "forms" : [ "kád", "kádúḷ", "ek" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
       "forms" : [ "冠戦素" ]
@@ -8126,7 +8327,7 @@
       "forms" : [ "ヘツ", "ヘッ" ]
     }, {
       "title" : "バート語",
-      "forms" : [ "bhát" ]
+      "forms" : [ "bhát", "bhátúḷ" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
       "forms" : [ "処机素" ]
