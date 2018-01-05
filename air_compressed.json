@@ -3731,6 +3731,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 62989,
+      "form" : "yanio"
+    },
+    "translations" : [ ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "横の,横断の"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 63681,
       "form" : "yikho"
     },
