@@ -3709,6 +3709,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "leka" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "lerq" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "legha", "leghúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6929,6 +6935,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "shomu" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "sljoomq" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ṣomúl", "ṣoma", "ṣomaúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
