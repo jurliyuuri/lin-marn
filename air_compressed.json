@@ -3413,6 +3413,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 50183,
+      "form" : "susi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "どれ" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUSI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 51943,
       "form" : "t'aitaiu"
     },
