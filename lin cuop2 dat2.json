@@ -1435,7 +1435,10 @@
       "forms" : [ "ciwi" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "タカン語では「座」の異体字扱い"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -3692,7 +3695,7 @@
   }, {
     "entry" : {
       "id" : 175,
-      "form" : "絵"
+      "form" : "絵(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -3719,7 +3722,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 339,
+        "form" : "絵(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 176,
@@ -5358,6 +5367,9 @@
       "title" : "アイツォ音",
       "forms" : [ "sa1" ]
     }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "さ" ]
+    }, {
       "title" : "バート語",
       "forms" : [ "sá" ]
     }, {
@@ -5397,6 +5409,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "cákíkúḷ", "cákíkaúḷ", "sáka", "sakká", "rakkúḷ" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "cuk-u" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6938,6 +6953,9 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "sljoomq" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "com-u" ]
     }, {
       "title" : "バート語",
       "forms" : [ "ṣomúl", "ṣoma", "ṣomaúḷ" ]
@@ -9380,6 +9398,43 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 339,
+      "form" : "絵(2)"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "けさ" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "qexua" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "qexua" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "~" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 175,
+        "form" : "絵(1)"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
