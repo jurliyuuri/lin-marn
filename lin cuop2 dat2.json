@@ -3835,7 +3835,7 @@
   }, {
     "entry" : {
       "id" : 180,
-      "form" : "白"
+      "form" : "白(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -3856,7 +3856,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 340,
+        "form" : "白(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 181,
@@ -9436,6 +9442,31 @@
       "entry" : {
         "id" : 175,
         "form" : "絵(1)"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 340,
+      "form" : "白(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "bachau" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "bachau" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bházahúḷ" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 180,
+        "form" : "白(1)"
       }
     } ]
   } ],
