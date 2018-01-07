@@ -7315,7 +7315,7 @@
   }, {
     "entry" : {
       "id" : 318,
-      "form" : "其"
+      "form" : "其(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -7339,7 +7339,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 341,
+        "form" : "其(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 320,
@@ -9470,6 +9476,31 @@
       "entry" : {
         "id" : 180,
         "form" : "白(1)"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 341,
+      "form" : "其(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "tisi" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "TISI" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "dí" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 318,
+        "form" : "其(1)"
       }
     } ]
   } ],
