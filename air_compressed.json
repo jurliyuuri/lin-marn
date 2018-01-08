@@ -244,6 +244,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 433,
+      "form" : "aki"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "させる,せる," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "AKI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 434,
       "form" : "akia"
     },
