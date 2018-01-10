@@ -595,6 +595,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "a" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "anl" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -704,6 +707,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "aghauṭa", "ákúḷ" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "akq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1255,6 +1261,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "cajúḷ", "cai" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "crqi" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -1283,6 +1292,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "ceyuu" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "crqi" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1408,6 +1420,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "cwouphi" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "crophi" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1707,6 +1722,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "ngongau" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "graugrau" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2461,6 +2479,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "horúḷ", "horabát", "úro" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "furoo" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2850,6 +2871,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "jinei" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "iinq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2877,6 +2901,12 @@
       "forms" : [ "iou" ]
     }, {
       "title" : "アイツォ音",
+      "forms" : [ "iou" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "ラネーメ祖語",
       "forms" : [ "iou" ]
     } ],
     "tags" : [ ],
@@ -3217,6 +3247,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "ákíjam" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "'kiqa" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3830,6 +3863,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "lingei" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "li^ngq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4067,6 +4103,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "liu" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "lyo" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4272,6 +4311,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "mova2" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "momfq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4748,6 +4790,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "nin1" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "ninq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4951,6 +4996,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "nut2" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "inuzi" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5243,7 +5291,7 @@
       "forms" : [ "bhára", "bháro", "bhárúḷ" ]
     }, {
       "title" : "ラネーメ祖語",
-      "forms" : [ "*pqra" ]
+      "forms" : [ "pqra" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5502,6 +5550,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "sau2" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "srau" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5639,6 +5690,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "síbha", "ṣibhai" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "sipql" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5959,6 +6013,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "adha" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "qtaa" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6074,6 +6131,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "daupha" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "taupho" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6286,6 +6346,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "tobwu" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "tob" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6828,6 +6891,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "xemo" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "xqmo" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
