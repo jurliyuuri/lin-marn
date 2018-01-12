@@ -123,18 +123,16 @@
 <p>ファイル保存したいので、Pythonを使うことにしよう</p>
 <p>書けた。さて例文。</p>
 <script>
-var gefak="王冠之光満全族受光而我等心行全物光闇而神在皇力此上下終無噫";
-for(var i=0;i<gefak.length;i++){
-	document.write('<img src="燐字画像2/'+gefak[i]+'.png" height="30" />')
+function printSample(num){
+	var gefak="王冠之光満全族受光而我等心行全物光闇而神在皇力此上下終無噫";
+	for(var i=0;i<gefak.length;i++){
+		document.write('<img src="燐字画像'+num+'/'+gefak[i]+'.png" height="30" />')
+	}
 }
+printSample(2);
 </script>
 <p>枠線なしのバージョンももらった。</p>
-<script>
-var gefak="王冠之光満全族受光而我等心行全物光闇而神在皇力此上下終無噫";
-for(var i=0;i<gefak.length;i++){
-	document.write('<img src="燐字画像3/'+gefak[i]+'.png" height="30" />')
-}
-</script>
+<script>printSample(3);</script>
 <p>さて、文字コード決めなきゃなぁ</p>
 
 <hr>
@@ -208,6 +206,21 @@ for(var i=0;i<gefak.length;i++){
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>「疲」の構成を「疲：⿵心無」と習っていたが、なんと「何：⿵心無」だったりするのである。</p>
+
+<h2>26. 「第二回燐字書き取り」</h2>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「第二回燐字書き取り」をやってみた <a href="https://t.co/Q1JJZhAc4t">pic.twitter.com/Q1JJZhAc4t</a></p>&mdash; .sozysozbot.@hsjoihs@jekto.vatimeliju (@sosoBOTpi) <a href="https://twitter.com/sosoBOTpi/status/951601242114899970?ref_src=twsrc%5Etfw">2018年1月11日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>前回の書き取りはSYがやったが、今回はjekto.vatimelijuが第二回燐字書き取りを行った。</p>
+<p>分割もできた（作業の様子は<a href="./燐字表示2/index.html">こちら</a>）ので例文。</p>
+<script>printSample(4);</script>
+<p>過去のと比較しても</p>
+<script>printSample("");</script><br>
+<script>printSample(2);</script><br>
+<script>printSample(3);</script><br>
+<p>（j.vの字のバランスが突出して悪いことを除けば）問題ない。</p>
+
+
 <div id="menu">読み込み中…</div>
 <div id="menuButton" onclick="openClose()">≡</div>
 <script src="./header.js" async></script>
