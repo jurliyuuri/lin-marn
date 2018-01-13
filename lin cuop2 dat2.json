@@ -2423,6 +2423,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "epa" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "mema" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2479,6 +2482,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "horúḷ", "horabát", "úro" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "uo" ]
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "furoo" ]
@@ -3250,6 +3256,9 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "'kiqa" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "kija" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
