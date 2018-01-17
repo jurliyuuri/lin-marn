@@ -1760,6 +1760,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 22189,
+      "form" : "kakita"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "割る,わる,分割," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "KAKITA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 22207,
       "form" : "kakusa"
     },
