@@ -3090,6 +3090,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 41469,
+      "form" : "pwugo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "獣性,愚かさ" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 41659,
       "form" : "qaijie"
     },
