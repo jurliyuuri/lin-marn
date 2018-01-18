@@ -692,6 +692,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 4598,
+      "form" : "bwogo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "駄獣,荷物運搬用家畜" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 5307,
       "form" : "canai"
     },
