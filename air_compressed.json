@@ -705,6 +705,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 4774,
+      "form" : "bwoxou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［自］立ち上がる,起きる" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 5307,
       "form" : "canai"
     },
@@ -3600,6 +3613,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 54105,
+      "form" : "tibaie"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［接］～ということ" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 54495,
       "form" : "tisi"
     },
@@ -3959,6 +3985,19 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "{Ｂ}山,山岳;《転》（山ほどの）多数,多量" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 59351,
+      "form" : "weikhou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］通りぬける,横切る" ]
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
