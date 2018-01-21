@@ -130,7 +130,7 @@ langlist = [
 	('proto', 'ラネーメ祖語'),
 	('pek', '標準パイグ語'),
 	('old_pek', 'パイグ語古音'),
-	('aikzo', 'アイツォ語'),
+	('aikzo', 'アイツォ音'),
 	('takan_takan', 'タカン語皇音'),
 	('takan_pek_old', 'タカン語牌音古音'),
 	('takan_pek_new', 'タカン語牌音新音'),
