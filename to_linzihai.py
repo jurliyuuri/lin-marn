@@ -146,8 +146,13 @@ def main():
 	a = open("lin cuop2 dat2.json" , "r") 
 	b = json.load(a)
 	for i in b["words"]:
+		print(i["entry"]["form"])
+	print("Which linzi?")
+	l = input()
+
+	for i in b["words"]:
 		linzi = i["entry"]["form"]
-		if len(linzi) > 1:
+		if l != linzi: 
 			continue
 		f = lambda x: look_up(i["translations"],x)
 
