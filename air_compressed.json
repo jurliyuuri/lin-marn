@@ -3452,6 +3452,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 49758,
+      "form" : "suama"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "商い,商売," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUAMA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 49899,
       "form" : "sui"
     },
