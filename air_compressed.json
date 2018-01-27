@@ -3642,6 +3642,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 53534,
+      "form" : "theicho"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "（新しい）発見" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 54105,
       "form" : "tibaie"
     },
