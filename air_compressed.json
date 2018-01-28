@@ -1273,6 +1273,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 14860,
+      "form" : "gio"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "岩塩坑" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 15504,
       "form" : "guko"
     },
@@ -1557,6 +1570,19 @@
       "title" : "旧辞書表記",
       "text" : "IAMA"
     } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18984,
+      "form" : "idua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］【料】塩を加える;塩漬けにする" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -3174,6 +3200,19 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "まめ 豆" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 42625,
+      "form" : "quvoo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］【料】塩漬けにする" ]
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
