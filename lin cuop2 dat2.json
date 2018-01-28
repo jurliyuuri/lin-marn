@@ -9599,6 +9599,31 @@
         "form" : "其(1)"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 342,
+      "form" : "塩"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kuo1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "kuoh" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "火山後" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "quvoo", "gio" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ghíyo" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
