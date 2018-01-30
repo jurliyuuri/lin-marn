@@ -9624,6 +9624,31 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 343,
+      "form" : "耒"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "oṣa" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "oca" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "おさ" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "wosle" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "パイグ語では「来」の異体字扱い"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
