@@ -4697,7 +4697,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 344,
+        "form" : "貓"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 213,
@@ -9652,6 +9658,25 @@
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 344,
+      "form" : "貓"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「猫」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 211,
+        "form" : "猫"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
