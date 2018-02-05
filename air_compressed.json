@@ -1677,6 +1677,38 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 19062,
+      "form" : "ikisa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "積み木,つみき" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "IKISA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19065,
+      "form" : "ikiti"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "横,よこ," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "IKITI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 19070,
       "form" : "iku"
     },
@@ -1707,6 +1739,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "IMISA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19119,
+      "form" : "imitu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "普通,通常,常軌," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "IMITU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -2070,6 +2118,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "KIKITA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24416,
+      "form" : "kimiku"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "枕,マクラ,まくら," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "KIMIKU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -2476,6 +2540,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28515,
+      "form" : "mamu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "なる,成る" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MAMU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28530,
       "form" : "manana"
     },
@@ -2537,6 +2617,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28629,
+      "form" : "masa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "超える," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MASA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28670,
       "form" : "masu"
     },
@@ -2593,6 +2689,22 @@
     }, {
       "title" : "旧辞書表記",
       "text" : "MISA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 29614,
+      "form" : "misu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "病気,びょうき,病,やまい," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MISU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -2688,6 +2800,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 30906,
+      "form" : "naita"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "縦,たて," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NAITA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 30940,
       "form" : "naiwou"
     },
@@ -2697,6 +2825,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 31002,
+      "form" : "naki"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "移動,移る," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NAKI"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -2779,6 +2923,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "NANU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 31264,
+      "form" : "nau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "わたし,わたくし,私,あたし,あたくし,我,吾," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NAU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -2948,6 +3108,38 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 34228,
+      "form" : "nisu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "粒子," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NISU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34306,
+      "form" : "niuni"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "あし,足,安全" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NIUNI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 34500,
       "form" : "nonu"
     },
@@ -2991,6 +3183,22 @@
     }, {
       "title" : "旧辞書表記",
       "text" : "NUA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34851,
+      "form" : "nuisu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "軍" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NUISU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3468,6 +3676,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 46475,
+      "form" : "sakitu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "やかん,ヤカン,薬缶," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SAKITU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 46520,
       "form" : "sami"
     },
@@ -3477,6 +3701,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 46522,
+      "form" : "samiki"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "あたらしい,新しい," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SAMIKI"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -3610,6 +3850,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 48846,
+      "form" : "sinu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "生理" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SINU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 48893,
       "form" : "sip'ui"
     },
@@ -3634,6 +3890,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "SISATA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49008,
+      "form" : "sita-na"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "触覚," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SITA-NA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3758,6 +4030,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 49901,
+      "form" : "sui-samia"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "中性," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUI-SAMIA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 49961,
       "form" : "suki"
     },
@@ -3769,6 +4057,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "SUKI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49973,
+      "form" : "sukisu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "神経," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUKISU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3820,6 +4124,38 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "SUSI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 50255,
+      "form" : "sutiki"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "哺乳類," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUTIKI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 51566,
+      "form" : "tai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "エネルギー,エナジー,力.," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TAI"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3899,6 +4235,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 52389,
+      "form" : "tatiu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "遺跡" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TATIU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 52434,
       "form" : "tauhi"
     },
@@ -3960,6 +4312,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54364,
+      "form" : "tinanu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "伝令,飛脚," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TINANU"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -4285,6 +4653,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 57121,
+      "form" : "umumu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "市場," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "UMUMU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 57222,
       "form" : "usa"
     },
@@ -4296,6 +4680,38 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "USA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57275,
+      "form" : "utata"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "はなす,話す" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "UTATA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 57285,
+      "form" : "uti-ku"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "自分," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "UTI-KU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
