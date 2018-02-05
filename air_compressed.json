@@ -309,6 +309,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 426,
+      "form" : "ake"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【地質】火山弾" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 433,
       "form" : "aki"
     },
@@ -1026,6 +1039,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 4496,
+      "form" : "bwikha"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}肉,肉体;【植】果肉" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 4598,
       "form" : "bwogo"
     },
@@ -1047,6 +1073,32 @@
       "forms" : [ "［自］立ち上がる,起きる" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 4896,
+      "form" : "bwuzei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "暗い気分" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5306,
+      "form" : "camou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "料理人,調理師,コック" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -1286,6 +1338,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 6475,
+      "form" : "chexu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［自］足踏みする" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 6504,
       "form" : "chigo"
     },
@@ -1320,6 +1385,19 @@
       "forms" : [ "{Ｂ}時計;柱時計,大時計,可変の" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6618,
+      "form" : "chogau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "料理,調理" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -1372,6 +1450,19 @@
       "forms" : [ "青銅器,ふるい (古い)" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7165,
+      "form" : "citua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］脅す,脅かす,脅迫する;（危険が）迫る,～する恐れがある,危うく～しそうである" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -1438,6 +1529,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7611,
+      "form" : "cuadu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "てのひら 掌 (手の平)" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "cuadu2"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -1767,6 +1874,45 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 11486,
+      "form" : "dzerua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ポニーテール（髪型）,=harvosto" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 11654,
+      "form" : "dzipaiu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【理】【数】凹（おう）の,>>konveksa" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 11663,
+      "form" : "dzipuai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "落雷,電撃" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 11709,
       "form" : "dzivaiu"
     },
@@ -1799,6 +1945,19 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "{Ｏ}【植】雑穀（アワ,キビ,ヒエ,モロコシなど）,>>setario,>>panico,>>ekinoklo,>>sorgo;=>mileo（キビ）,{Ｏ}【動】ラバ（騾馬）,時間 (じかん)" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12267,
+      "form" : "eipwi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【料】マリネード（酢・ワイン・油に香辛料を加えた漬け汁）;マリネ（漬け汁に漬けた肉や魚）" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
@@ -2374,6 +2533,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 17532,
+      "form" : "hea"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "連れだって,組になって" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 17753,
       "form" : "hema"
     },
@@ -2495,6 +2667,19 @@
       "forms" : [ "書棚" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18630,
+      "form" : "huangi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "こむぎ 小麦" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -2680,6 +2865,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 19102,
+      "form" : "ime"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "くき 茎" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "ime2"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 19114,
       "form" : "imisa"
     },
@@ -2798,6 +2999,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 19293,
+      "form" : "itasi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "うま,ウマ,馬" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "ITASI"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -2959,6 +3176,19 @@
       "forms" : [ "{Ｂ}輪,環;指輪;《転》環状のもの" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 21375,
+      "form" : "jup'ui"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "海の" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3163,6 +3393,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 22435,
+      "form" : "kasumu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "御飯,ご飯,ゴハン,ごはん" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "KASUMU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 22450,
       "form" : "kat^oe"
     },
@@ -3221,6 +3467,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 22734,
+      "form" : "k'ebaie"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］【料】燻製にする" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 23137,
       "form" : "k'es'ia"
     },
@@ -3242,6 +3501,19 @@
       "forms" : [ "{Ｂ}［副］いつも,常に" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24156,
+      "form" : "khuthe"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【環】生物化学的酸素要求量（BOD）,チェックマーク,照合印（ｖ）,{Ｂ}弾丸,たま,小銃弾" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3748,6 +4020,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28145,
+      "form" : "maiblo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【楽】ファルセット,裏声（うらごえ）,【動】爬虫類（はちゅうるい）,=reptilioj" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28232,
       "form" : "maikau"
     },
@@ -3756,6 +4041,19 @@
       "forms" : [ "これ [2014:単語と同じ:ALCIS:::]" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28392,
+      "form" : "maixaai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【動】モグラ" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3886,6 +4184,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28610,
+      "form" : "mapwu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "製粉" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28616,
       "form" : "maqui"
     },
@@ -3970,6 +4281,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28965,
+      "form" : "mefoai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【Ｇ】同音異義語" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 29266,
       "form" : "mexi"
     },
@@ -3978,6 +4302,19 @@
       "forms" : [ "{Ｂ}［副］全部,すっかり" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 29576,
+      "form" : "mis^eo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "自治;自制" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -4018,6 +4355,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 29710,
+      "form" : "miwou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "苦労,骨折り,努力" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 29792,
       "form" : "modo"
     },
@@ -4039,6 +4389,19 @@
       "forms" : [ "いく (行く) [2014:単語と同じ:ALCIS:::],［他］協力する,【解】親指,=dikfingro" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 29877,
+      "form" : "moloa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}甘い;心地好い;やさしい" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -4172,6 +4535,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 31036,
+      "form" : "nalua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【鳥】カモメ科,=mevoj" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 31049,
       "form" : "name"
     },
@@ -4236,6 +4612,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 31164,
+      "form" : "nas^aiai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］【医】処方する,=preskribi" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 31264,
       "form" : "nau"
     },
@@ -4252,6 +4641,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 31389,
+      "form" : "navou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【鳥】スズメ（雀）（種）（日本の普通種）" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 31656,
       "form" : "nelua"
     },
@@ -4264,6 +4666,19 @@
       "title" : "旧辞書表記",
       "text" : "nelua2"
     } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 31699,
+      "form" : "nepha"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］ペコペコと仕える,{Ｏ}【果】ピスタチオ（果実・種子）" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -4362,6 +4777,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 33970,
+      "form" : "nicuu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "エリート,選良,精鋭,選り抜きの人々" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 34061,
       "form" : "niku"
     },
@@ -4408,6 +4836,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "NINU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34220,
+      "form" : "nisisa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ふぐ,フグ,河豚" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NISISA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -4489,6 +4933,19 @@
       "title" : "旧辞書表記",
       "text" : "noqo1"
     } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34725,
+      "form" : "noxai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【化】酸" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -4589,12 +5046,64 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 35004,
+      "form" : "nup'iu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}【果】ヤシの実,ココナッツ;【植】=kokosarbo" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 35095,
       "form" : "nutha"
     },
     "translations" : [ {
       "title" : "",
       "forms" : [ "遊び,たわむれ;遊戯,ゲーム;演奏;演技;上演,【解】頭頂骨,=parietalo,大ホール,大集会室" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 35319,
+      "form" : "nyalu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}繊維;【医】線維" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 35428,
+      "form" : "nyauphi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "あばた（痘痕）,【医】病原性の" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 35456,
+      "form" : "nyautu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}【Ｇ】語;単語;言葉" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
@@ -4610,6 +5119,19 @@
       "forms" : [ "連続した,一連の;【電】直列の;【情】シリアルの,>>paralela,学生証" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 35919,
+      "form" : "nyouhai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "問題のある,解決の難しい,疑わしい,不確かな" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -4683,6 +5205,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 36578,
+      "form" : "p'afaiu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【地理】みさき（岬）,=promontoro" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 36635,
       "form" : "p'aibaia"
     },
@@ -4696,6 +5231,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 37578,
+      "form" : "pechu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "チーズ [2014:単語と同じ:ALCIS:::]" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 37813,
       "form" : "peki"
     },
@@ -4704,6 +5252,19 @@
       "forms" : [ "つよい (強い) [2014:単語と同じ:ALCIS:::]" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 37829,
+      "form" : "pelu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "文字 (もじ) [2014:単語と同じ:ALCIS:::]" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -4769,6 +5330,19 @@
       "forms" : [ "闇夜" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 38546,
+      "form" : "pheini"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}泉,水源;源;《転》源泉,根源,反対,反駁（はんばく）,反論" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -4845,6 +5419,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 39432,
+      "form" : "pirai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］結ぶ,縛る,つなぐ;結び合わせる;《転》束縛する;関係づける;団結させる" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 39531,
       "form" : "piu"
     },
@@ -4853,6 +5440,19 @@
       "forms" : [ "卓越した能力,［他］照らす,照らし出す,照射する" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 39690,
+      "form" : "pogie"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【軍】旅団;（軍隊式に編成された）団,隊,組" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -4958,6 +5558,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 41416,
+      "form" : "pwoutwi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "海の" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 41469,
       "form" : "pwugo"
     },
@@ -5010,6 +5623,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 42601,
+      "form" : "qusiai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【化】樹脂" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 42625,
       "form" : "quvoo"
     },
@@ -5029,6 +5655,19 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "【鉱】貴かんらん石,クリソライト（宝石に使われる）,>>olivino" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 42942,
+      "form" : "raishe"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［自］格闘する;【運】レスリングをする;《転》闘う" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
@@ -5078,12 +5717,51 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 43996,
+      "form" : "rit'io"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【動】コウモリ（蝙蝠）" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 44014,
       "form" : "riwei"
     },
     "translations" : [ {
       "title" : "",
       "forms" : [ "［他］節制する,緩和する,抑える" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 44060,
+      "form" : "roblai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［自］くしゃみをする" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 45211,
+      "form" : "s^esoa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【天】衛星;人工衛星;《転》衛星国,衛星都市;《転》（追従する）手下,取り巻き" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
@@ -5104,6 +5782,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 45461,
+      "form" : "s^odzou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "偶然の;一か八かの,運まかせの" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 45628,
       "form" : "s^udea"
     },
@@ -5112,6 +5803,19 @@
       "forms" : [ "金網" ]
     } ],
     "tags" : [ "リパライン語ソース", "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 45778,
+      "form" : "s^ut'uu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "傾いた塔,間違い,ミス" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -5317,6 +6021,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 47861,
+      "form" : "shaute"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "第一の,最初の" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 47899,
       "form" : "sheau"
     },
@@ -5325,6 +6042,19 @@
       "forms" : [ "意味,意義,語義;価値,重要性" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 48259,
+      "form" : "shoke"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "背の,裏の" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -5465,6 +6195,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 49077,
+      "form" : "situsu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ねんど,ねん土,粘土" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SITUSU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 49079,
       "form" : "situu"
     },
@@ -5502,6 +6248,19 @@
       "forms" : [ "まえ 前 [2014:単語と同じ:ALCIS:::],（勝者に与える）月桂樹の葉（枝）;《転》栄光,栄誉" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 49442,
+      "form" : "soqoai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "不完全な,欠陥のある,未完成の" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -5696,6 +6455,45 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 50706,
+      "form" : "t^ebaia"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "苦役,骨折仕事" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 50830,
+      "form" : "t^es'aiai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【病】咽頭炎,［自］爆竹を鳴らす" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 51504,
+      "form" : "tadui"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【虫】カメムシ（亀虫）（科の総称）" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 51566,
       "form" : "tai"
     },
@@ -5708,6 +6506,32 @@
       "title" : "旧辞書表記",
       "text" : "TAI"
     } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 51738,
+      "form" : "taik'eo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【服】ブラジャー" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 51912,
+      "form" : "taishei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}奴隷" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -5749,6 +6573,32 @@
       "forms" : [ "みなみ 南 [2014:単語と同じ:ALCIS:::]" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52235,
+      "form" : "taoe"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "下部構造;インフラストラクチャー,社会基盤" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52313,
+      "form" : "taseai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［自］暴風が吹く,荒れる" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -5828,6 +6678,45 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 52678,
+      "form" : "tedzii"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "長い間,長らく" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52683,
+      "form" : "t'edzou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［自］赤くなる,赤面する" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52824,
+      "form" : "teire"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【聖】贖罪（しょくざい）のヤギ,身代わりのヤギ;《転》他人の罪を負わされる人,スケープゴート,日焼けした" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 52961,
       "form" : "tenye"
     },
@@ -5836,6 +6725,19 @@
       "forms" : [ "{Ｏ}［他］かきまわす,かき混ぜる" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 53331,
+      "form" : "thana"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "鋸（のこぎり）" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -5854,6 +6756,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 53682,
+      "form" : "thiblei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【化】炭化水素" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 54105,
       "form" : "tibaie"
     },
@@ -5863,6 +6778,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54347,
+      "form" : "timiu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "田舎,いなか" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TIMIU"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -5878,6 +6809,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "TINANU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54389,
+      "form" : "tiniki"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "つる,ツル,鶴," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TINIKI"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -6134,6 +7081,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 56847,
+      "form" : "twuphu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【果】マンゴー（の実）" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 57036,
       "form" : "uki"
     },
@@ -6313,6 +7273,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 57775,
+      "form" : "vedii"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}テレパシー,精神感応" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 57953,
       "form" : "vezoe"
     },
@@ -6368,6 +7341,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 59846,
+      "form" : "witeai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "無作法な,失礼な" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 60314,
       "form" : "wuaxu"
     },
@@ -6407,12 +7393,64 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 60645,
+      "form" : "xadoo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "手品,奇術" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 60743,
       "form" : "xaigue"
     },
     "translations" : [ {
       "title" : "",
       "forms" : [ "{Ｂ}絵,図,挿絵;【理】像,光景;映像,影;心象;似姿;比喩（ひゆ）;【情】画像" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 60801,
+      "form" : "xaingau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "原油,>>nafto" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 60967,
+      "form" : "xangei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "上履き,=>marksisto（マルクス主義者）,後輩,後進;後継者,後任者" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61078,
+      "form" : "xatwa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "先輩,先人" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
@@ -6480,6 +7518,19 @@
       "forms" : [ "つき 月" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 61471,
+      "form" : "xepee"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "大きさ,偉大さ" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -6696,12 +7747,38 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 64734,
+      "form" : "zaiha"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "陳列,展示;【写】露光,露出" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 65052,
       "form" : "zaseo"
     },
     "translations" : [ {
       "title" : "",
       "forms" : [ "小さい;少量の,>>malgranda" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 65490,
+      "form" : "zenge"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【化】アンモニア（気体）,アンモニア水,【電】接続" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
@@ -6780,6 +7857,45 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "職,職業" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース", "新造" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66609,
+      "form" : "minu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "頭痛" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース", "新造" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66610,
+      "form" : "ena"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "言う" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース", "新造" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66611,
+      "form" : "mono"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "鰹" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース", "新造" ],
     "contents" : [ ],
