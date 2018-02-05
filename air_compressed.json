@@ -276,6 +276,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 467,
+      "form" : "akunu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "きさま,キサマ,貴様,テメエ,テメェ,てめえ,てめぇ," ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "AKUNU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 496,
       "form" : "amama"
     },
@@ -610,6 +626,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3324,
+      "form" : "bokua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "わたし わたくし 私" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "bokua1"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -991,6 +1023,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 8191,
+      "form" : "cwauyi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【機】ブレーキ片,ブレーキシュー,［他］【商】計上する,繰り入れる;（過失など）責任を負わせる,せいにする" ]
+    } ],
+    "tags" : [ "いせにほソース", "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 8307,
       "form" : "cweio"
     },
@@ -1210,6 +1255,19 @@
       "forms" : [ "{Ｂ}相互の,お互いの;互恵的な" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 12744,
+      "form" : "faniu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［自］仲良くしている" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -1542,6 +1600,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 18916,
+      "form" : "i"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "前置否定　～ではない　～ない" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 18923,
       "form" : "ia"
     },
@@ -1819,7 +1890,7 @@
       "title" : "",
       "forms" : [ "割る,わる,分割," ]
     } ],
-    "tags" : [ "真理設定" ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "KAKITA"
@@ -1967,6 +2038,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "KIKI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 24347,
+      "form" : "kikita"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "兄,あに," ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "KIKITA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -2137,7 +2224,7 @@
       "title" : "",
       "forms" : [ "丸一日,全日" ]
     } ],
-    "tags" : [ "真理設定" ],
+    "tags" : [ "真理設定", "いせにほソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -2661,6 +2748,19 @@
       "title" : "旧辞書表記",
       "text" : "nelua2"
     } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 32208,
+      "form" : "ngaitwa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［略］=fralino,～さん（未婚女性への敬称）,{Ｏ}樹脂材" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -3357,6 +3457,19 @@
       "forms" : [ "けもの 獣 [2014:単語と同じ:ALCIS:::]" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 47011,
+      "form" : "seai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "複雑な問題,厄介事（やっかいごと）,もめ事;【病】合併症" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
