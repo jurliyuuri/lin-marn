@@ -19,7 +19,7 @@ def foo(q):
 def main():
 	a = open("air.json" , "r") 
 	b = json.load(a)
-	b["words"] = list(filter(lambda a: len(a["tags"])==1, b["words"]))
+	b["words"] = list(filter(lambda a: len(a["tags"])>=1, b["words"]))
 	b["words"] = [foo(q) for q in b["words"]]
 	c = open("air_compressed.json", "w") 
 	json.dump(b, c)
