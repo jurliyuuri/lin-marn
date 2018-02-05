@@ -1998,6 +1998,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 22625,
+      "form" : "kausu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "分" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "KAUSU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 23176,
       "form" : "ket'eo"
     },
@@ -2492,6 +2508,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28556,
+      "form" : "maniku"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "言語," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MANIKU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28616,
       "form" : "maqui"
     },
@@ -2720,6 +2752,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 31102,
+      "form" : "nanisu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ズボン" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NANISU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 31104,
       "form" : "nanu"
     },
@@ -2943,6 +2991,22 @@
     }, {
       "title" : "旧辞書表記",
       "text" : "NUA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 34891,
+      "form" : "nukina"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "制度" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NUKINA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3514,6 +3578,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 48712,
+      "form" : "sikina"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "除ける,避ける,よける,さける," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SIKINA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 48841,
       "form" : "sinisa"
     },
@@ -3539,6 +3619,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 48953,
+      "form" : "sisata"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "失くなる,無くなる,なくなる," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SISATA"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -3617,6 +3713,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 49755,
+      "form" : "suaki"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "そして" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUAKI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 49758,
       "form" : "suama"
     },
@@ -3646,6 +3758,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 49961,
+      "form" : "suki"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "共通,共有," ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUKI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 50041,
       "form" : "suna"
     },
@@ -3660,6 +3788,22 @@
     }, {
       "title" : "旧辞書表記",
       "text" : "SUNA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 50042,
+      "form" : "sunama"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "横隔膜" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUNAMA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3863,6 +4007,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "TITU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54602,
+      "form" : "titusu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "殺す,殺害" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TITUSU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -4486,6 +4646,32 @@
       "forms" : [ "時間 (じかん) [2014:単語と同じ:ALCIS:::]" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66607,
+      "form" : "iaki"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ルビー" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース", "新造" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66608,
+      "form" : "tumiti"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "職,職業" ]
+    } ],
+    "tags" : [ "真理設定", "リパライン語ソース", "新造" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
