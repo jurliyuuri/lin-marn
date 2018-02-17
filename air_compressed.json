@@ -6455,6 +6455,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 50300,
+      "form" : "suvoo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［副］あまりに～すぎる" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 50706,
       "form" : "t^ebaia"
     },
