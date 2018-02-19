@@ -31,19 +31,19 @@
     },
     "translations" : [ {
       "title" : "標準パイグ語",
-      "forms" : [ "*" ]
+      "forms" : [ "det" ]
     }, {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "*" ]
+      "forms" : [ "dvt" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "*" ]
+      "forms" : [ "島机素" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "dexu" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "dexu" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1198,10 +1198,10 @@
       "forms" : [ "cai1" ]
     }, {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "*" ]
+      "forms" : [ "saeh" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "*" ]
+      "forms" : [ "嗅将素" ]
     }, {
       "title" : "アイル語",
       "forms" : [ "*" ]
