@@ -9705,6 +9705,31 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 346,
+      "form" : "咍"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "tai" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "taiq" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "t'aitaiu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "t'aitaiu" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "deja" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
