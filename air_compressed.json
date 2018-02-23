@@ -125,6 +125,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 29,
+      "form" : "acau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］～する能力がある,～することができる" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 34,
       "form" : "acii"
     },
