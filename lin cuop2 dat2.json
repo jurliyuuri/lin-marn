@@ -9680,6 +9680,31 @@
         "form" : "猫"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 345,
+      "form" : "能"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "acau" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "acau" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "ac-u" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "あ-す" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ácahúḷ" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
