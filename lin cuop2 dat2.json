@@ -2131,7 +2131,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 347,
+        "form" : "柔"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 113,
@@ -9730,6 +9736,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 347,
+      "form" : "柔"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「軟」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 112,
+        "form" : "軟"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
