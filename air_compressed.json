@@ -6756,6 +6756,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 53296,
+      "form" : "thaise"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］聞く;聞こえる" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 53331,
       "form" : "thana"
     },
