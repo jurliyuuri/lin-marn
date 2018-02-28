@@ -2076,7 +2076,7 @@
       "forms" : [ "riya" ]
     }, {
       "title" : "バート語",
-      "forms" : [ "heyáúḷ", "híja", "ha" ]
+      "forms" : [ "heyáúḷ", "híja", "ha", "rijúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4192,6 +4192,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "mak1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bákúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5996,6 +5999,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "siut2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ṣúsa" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6799,6 +6805,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "uo1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ho" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -7775,7 +7784,7 @@
       "forms" : [ "エン" ]
     }, {
       "title" : "バート語",
-      "forms" : [ "*" ]
+      "forms" : [ "lom" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
       "forms" : [ "冠三素" ]
