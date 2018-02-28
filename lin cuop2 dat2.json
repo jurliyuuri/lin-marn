@@ -786,7 +786,7 @@
   }, {
     "entry" : {
       "id" : 61,
-      "form" : "長"
+      "form" : "長(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -798,19 +798,19 @@
       "title" : "早見表「古パイグ」伝統表記",
       "forms" : [ "冠長素" ]
     }, {
-      "title" : "アイル語",
-      "forms" : [ "makasu" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "MAKASU" ]
-    }, {
       "title" : "アイツォ音",
       "forms" : [ "auk2" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 348,
+        "form" : "長(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 62,
@@ -9753,6 +9753,28 @@
       "entry" : {
         "id" : 112,
         "form" : "軟"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 348,
+      "form" : "長(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "makasu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "MAKASU" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 61,
+        "form" : "長(1)"
       }
     } ]
   } ],
