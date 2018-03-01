@@ -8916,7 +8916,7 @@
   }, {
     "entry" : {
       "id" : 23,
-      "form" : "筆"
+      "form" : "筆(1)"
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
@@ -8932,7 +8932,7 @@
       "forms" : [ "kuran" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "k'uaa", "$$$$$$", "kakusa" ]
+      "forms" : [ "k'uaa" ]
     }, {
       "title" : "タカン語皇音",
       "forms" : [ "か", "か-る" ]
@@ -8962,7 +8962,7 @@
       "forms" : [ "筆噫後" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "KAKUSA" ]
+      "forms" : [ "k'uaa" ]
     }, {
       "title" : "アイツォ音",
       "forms" : [ "kua2" ]
@@ -8970,7 +8970,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 349,
+        "form" : "筆(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 24,
@@ -9784,6 +9790,28 @@
       "entry" : {
         "id" : 61,
         "form" : "長(1)"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 349,
+      "form" : "筆(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "kakusa" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KAKUSA" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 23,
+        "form" : "筆(1)"
       }
     } ]
   } ],
