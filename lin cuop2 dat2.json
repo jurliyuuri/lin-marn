@@ -3284,12 +3284,6 @@
     "translations" : [ {
       "title" : "標準パイグ語",
       "forms" : [ "kiak1" ]
-    }, {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "kiahk" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "火書前" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9841,6 +9835,53 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "hiki1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "hik" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "心蜜素" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 353,
+      "form" : "獣(2)"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "mug-u" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "む-ぐ" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bháṇúḷ" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "pwugo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "pwugo" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 354,
+      "form" : "獣(3)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "bwogo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "bwogo" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
