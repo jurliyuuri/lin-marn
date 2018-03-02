@@ -1169,6 +1169,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 5546,
+      "form" : "caxou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［副］永遠に,永久に,いつまでも" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 5614,
       "form" : "cee"
     },

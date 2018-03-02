@@ -3269,7 +3269,7 @@
       "title" : "ラネーメ祖語",
       "forms" : [ "'kiqa" ]
     }, {
-      "title" : "タカン語皇音",
+      "title" : "タカン語皇音(リパーシェ表記)",
       "forms" : [ "kija" ]
     } ],
     "tags" : [ ],
@@ -9814,6 +9814,28 @@
         "form" : "筆(1)"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 351,
+      "form" : "恒"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "cac-u" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "さ-す" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "caxou" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "caxou" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
