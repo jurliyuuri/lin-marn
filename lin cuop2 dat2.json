@@ -3279,7 +3279,7 @@
   }, {
     "entry" : {
       "id" : 157,
-      "form" : "東"
+      "form" : "東(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -3290,12 +3290,6 @@
     }, {
       "title" : "早見表「古パイグ」伝統表記",
       "forms" : [ "火書前" ]
-    }, {
-      "title" : "アイル語",
-      "forms" : [ "hiki" ]
-    }, {
-      "title" : "アイル語(辞書表記)",
-      "forms" : [ "hiki1" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9831,6 +9825,22 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "caxou" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 352,
+      "form" : "東(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "hiki" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "hiki1" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
