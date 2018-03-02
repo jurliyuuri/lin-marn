@@ -5257,6 +5257,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 37510,
+      "form" : "paxo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "善,ため,いぬ 犬" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 37578,
       "form" : "pechu"
     },
@@ -5343,6 +5356,19 @@
       "forms" : [ "{Ｏ}【料】酢" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 38439,
+      "form" : "phaxo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}【動】イヌ（犬）" ]
+    } ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]

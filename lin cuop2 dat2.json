@@ -9890,6 +9890,31 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 355,
+      "form" : "犬"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "pa2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "pra" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "風噫素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "paxo", "phaxo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "paxo", "phaxo" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
