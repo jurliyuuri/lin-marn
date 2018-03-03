@@ -2763,6 +2763,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 18915,
+      "form" : "i"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "複数形,ら,達," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "I"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 18916,
       "form" : "i"
     },
