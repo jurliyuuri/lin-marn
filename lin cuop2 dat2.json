@@ -598,6 +598,12 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "anl" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "a" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "あ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -629,6 +635,12 @@
     }, {
       "title" : "バート語",
       "forms" : [ "há", "á" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "a" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "あ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -654,6 +666,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "aihei" ]
+    }, {
+      "title" : "タカン語牌音新音",
+      "forms" : [ "あい" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -778,6 +793,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "at" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "ata" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "あた" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1077,6 +1098,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "bowa" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "mo-lu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "も-る" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1653,6 +1680,12 @@
     }, {
       "title" : "バート語",
       "forms" : [ "ema" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "emu-lu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "えむ-る" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1739,7 +1772,7 @@
   }, {
     "entry" : {
       "id" : 98,
-      "form" : "等"
+      "form" : "等(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -1763,7 +1796,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 356,
+        "form" : "等(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 99,
@@ -2086,6 +2125,12 @@
     }, {
       "title" : "バート語",
       "forms" : [ "heyáúḷ", "híja", "ha", "rijúḷ" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "i-lu", "ija-lu", "ija" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "い-る", "いや-る", "いや" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2362,7 +2407,7 @@
   }, {
     "entry" : {
       "id" : 122,
-      "form" : "処"
+      "form" : "処(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -2386,7 +2431,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 357,
+        "form" : "処(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 123,
@@ -2449,9 +2500,18 @@
       "forms" : [ "mema" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "祖語fuepqがパイグ語ではhuep2「地」となり、タカン語ではmema「地」となるが、パイグ語huep2がタカン語に借用されてできたkanは「処」で書かれる。一方、パイグ語で「処」と書くのはhueという語である。故に、どちらの言語の視点に立っても「地」と「処」は異体字であるとは見なされない。このようなややこしい状況を表すために「同語異字」を用いる。"
+    } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同語異字",
+      "entry" : {
+        "id" : 357,
+        "form" : "処(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 126,
@@ -4127,6 +4187,9 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "lyo" ]
+    }, {
+      "title" : "タカン語牌音新音",
+      "forms" : [ "り-ゆ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5071,7 +5134,7 @@
   }, {
     "entry" : {
       "id" : 230,
-      "form" : "我"
+      "form" : "我(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -5095,7 +5158,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 359,
+        "form" : "我(2)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 231,
@@ -5334,6 +5403,12 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "pura" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "muka" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "むか" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6033,6 +6108,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ta" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "ta" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "た" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6067,6 +6148,12 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "qtaa" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "ata", "ata-lu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "あた", "あた-る" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6266,6 +6353,12 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "tqtq" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "tetu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "てつ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6960,6 +7053,12 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "xqmo" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "cemo" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "せも" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -7221,6 +7320,18 @@
     }, {
       "title" : "バート語",
       "forms" : [ "jo" ]
+    }, {
+      "title" : "タカン語牌音新音",
+      "forms" : [ "ゆ" ]
+    }, {
+      "title" : "タカン語牌音古音",
+      "forms" : [ "ゆ" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "o" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "お" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -7439,6 +7550,12 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "zau" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "c-u" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "す" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -7467,6 +7584,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "ze2" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "tiq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8718,7 +8838,7 @@
       "forms" : [ "tunu" ]
     }, {
       "title" : "タカン語皇音",
-      "forms" : [ "つぬ" ]
+      "forms" : [ "つぬ", "つな" ]
     }, {
       "title" : "タカン語牌音古音",
       "forms" : [ "ツ" ]
@@ -8749,6 +8869,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "tun2" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "tunu", "tuna" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9121,7 +9244,7 @@
       "forms" : [ "aima" ]
     }, {
       "title" : "タカン語皇音",
-      "forms" : [ "え", "え-む" ]
+      "forms" : [ "え", "え-む", "えま-る" ]
     }, {
       "title" : "タカン語牌音古音",
       "forms" : [ "アイ" ]
@@ -9152,6 +9275,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "aim2" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "e", "em-u", "ema-lu" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9291,7 +9417,7 @@
       "text" : "*は未創作、~は「（補充形を使っている、などの理由で）その言語に存在しないという事実が創作済み」を意味する。"
     }, {
       "title" : "関連語",
-      "text" : "「同字異語」は、同一の字で書かれているが語源が異なっているようなものの相互リンク。\n「異体字」は異体字の相互リンク。"
+      "text" : "「同字異語」は、同一の字で書かれているが語源が異なっているようなものの相互リンク。\n「異体字」は異体字の相互リンク。\n「同語異字」は、異なった字で書かれるが語源が同一であり、かつ異体字の関係に無いものを指す。例としては「地」と「処(2)」がある。祖語fuepqがパイグ語ではhuep2「地」となり、タカン語ではmema「地」となるが、パイグ語huep2がタカン語に借用されてできたkanは「処」で書かれる。一方、パイグ語で「処」と書くのはhueという語である。故に、どちらの言語の視点に立っても「地」と「処」は異体字であるとは見なされない。このようなややこしい状況を表すために「同語異字」を用いる。"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -9527,6 +9653,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "pouje" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "men" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "めん" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9627,6 +9759,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "dí" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "tiq" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9825,6 +9960,28 @@
     } ]
   }, {
     "entry" : {
+      "id" : 350,
+      "form" : "＄"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "cosa-lu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "そざ-る" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "shousa" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "shousa" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 351,
       "form" : "恒"
     },
@@ -9933,6 +10090,118 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 356,
+      "form" : "等(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "i" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "I" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "i" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "い" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 98,
+        "form" : "等(1)"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 357,
+      "form" : "処(2)"
+    },
+    "translations" : [ {
+      "title" : "タカン語牌音慣用音",
+      "forms" : [ "かん" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "fuepq" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "祖語fuepqがパイグ語ではhuep2「地」となり、タカン語ではmema「地」となるが、パイグ語huep2がタカン語に借用されてできたkanは「処」で書かれる。一方、パイグ語で「処」と書くのはhueという語である。故に、どちらの言語の視点に立っても「地」と「処」は異体字であるとは見なされない。このようなややこしい状況を表すために「同語異字」を用いる。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同語異字",
+      "entry" : {
+        "id" : 124,
+        "form" : "地"
+      }
+    }, {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 122,
+        "form" : "処(1)"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 358,
+      "form" : "＃"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "kicu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "きす" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "kisl" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "kisu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KISU" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 359,
+      "form" : "我(2)"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "no" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "の" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "nau" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NAU" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 230,
+        "form" : "我(1)"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
