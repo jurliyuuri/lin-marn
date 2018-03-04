@@ -2043,6 +2043,15 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "ohi1" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "oki" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "おき" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ohi" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2495,11 +2504,11 @@
       "title" : "バート語",
       "forms" : [ "horúḷ", "horabát", "úro" ]
     }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "uo" ]
-    }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "furoo" ]
+    }, {
+      "title" : "タカン語牌音慣用音",
+      "forms" : [ "うお" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5023,6 +5032,12 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "inuzi" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "inuci" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "いぬし" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8922,11 +8937,8 @@
       "title" : "アイル語",
       "forms" : [ "k'uaa" ]
     }, {
-      "title" : "タカン語皇音",
-      "forms" : [ "か", "か-る" ]
-    }, {
       "title" : "タカン語牌音古音",
-      "forms" : [ "カ" ]
+      "forms" : [ "か", "か-る" ]
     }, {
       "title" : "タカン語牌音新音",
       "forms" : [ "カ" ]
