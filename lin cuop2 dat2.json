@@ -758,7 +758,7 @@
   }, {
     "entry" : {
       "id" : 60,
-      "form" : "加"
+      "form" : "加(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -9950,6 +9950,19 @@
     }, {
       "title" : "バート語",
       "forms" : [ "rauki" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 357,
+      "form" : "加(2)"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "cájau" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
