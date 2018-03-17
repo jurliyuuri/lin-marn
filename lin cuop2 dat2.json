@@ -1799,7 +1799,7 @@
     "relations" : [ {
       "title" : "同字異語",
       "entry" : {
-        "id" : 356,
+        "id" : 361,
         "form" : "等(2)"
       }
     } ]
@@ -2434,7 +2434,7 @@
     "relations" : [ {
       "title" : "同字異語",
       "entry" : {
-        "id" : 357,
+        "id" : 362,
         "form" : "処(2)"
       }
     } ]
@@ -2508,7 +2508,7 @@
     "relations" : [ {
       "title" : "同語異字",
       "entry" : {
-        "id" : 357,
+        "id" : 362,
         "form" : "処(2)"
       }
     } ]
@@ -5161,7 +5161,7 @@
     "relations" : [ {
       "title" : "同字異語",
       "entry" : {
-        "id" : 359,
+        "id" : 364,
         "form" : "我(2)"
       }
     } ]
@@ -10092,7 +10092,7 @@
     "relations" : [ ]
   }, {
     "entry" : {
-      "id" : 356,
+      "id" : 361,
       "form" : "等(2)"
     },
     "translations" : [ {
@@ -10120,7 +10120,7 @@
     } ]
   }, {
     "entry" : {
-      "id" : 357,
+      "id" : 362,
       "form" : "処(2)"
     },
     "translations" : [ {
@@ -10151,7 +10151,7 @@
     } ]
   }, {
     "entry" : {
-      "id" : 358,
+      "id" : 363,
       "form" : "＃"
     },
     "translations" : [ {
@@ -10176,7 +10176,7 @@
     "relations" : [ ]
   }, {
     "entry" : {
-      "id" : 359,
+      "id" : 364,
       "form" : "我(2)"
     },
     "translations" : [ {
