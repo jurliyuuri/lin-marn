@@ -1156,6 +1156,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 5340,
+      "form" : "capi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【生】生殖,発生" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 5372,
       "form" : "casa"
     },
@@ -5161,6 +5174,19 @@
       "forms" : [ "連続した,一連の;【電】直列の;【情】シリアルの,>>paralela,学生証" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 35781,
+      "form" : "nyitwei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "土地台帳,=katastro,新人,新前,新参者,>>novico,{Ｏ}【動】モグラ" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]

@@ -773,7 +773,7 @@
   }, {
     "entry" : {
       "id" : 60,
-      "form" : "加"
+      "form" : "加(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -10090,6 +10090,60 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 356,
+      "form" : "胸"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "hauk1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "hauhk" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "心文素" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "rauki" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 357,
+      "form" : "加(2)"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "cájau" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 360,
+      "form" : "聯"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "taku" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同語異字",
+      "entry" : {
+        "id" : 265,
+        "form" : "衣"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
