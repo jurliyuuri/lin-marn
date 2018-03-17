@@ -9968,6 +9968,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 360,
+      "form" : "聯"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "taku" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同語異字",
+      "entry" : {
+        "id" : 265,
+        "form" : "衣"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
