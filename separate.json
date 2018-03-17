@@ -1,0 +1,113 @@
+[ {
+    "entry" : {
+      "id" : 361,
+      "form" : "等(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "i" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "I" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "i" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "い" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 98,
+        "form" : "等(1)"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 362,
+      "form" : "処(2)"
+    },
+    "translations" : [ {
+      "title" : "タカン語牌音慣用音",
+      "forms" : [ "かん" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "fuepq" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "祖語fuepqがパイグ語ではhuep2「地」となり、タカン語ではmema「地」となるが、パイグ語huep2がタカン語に借用されてできたkanは「処」で書かれる。一方、パイグ語で「処」と書くのはhueという語である。故に、どちらの言語の視点に立っても「地」と「処」は異体字であるとは見なされない。このようなややこしい状況を表すために「同語異字」を用いる。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同語異字",
+      "entry" : {
+        "id" : 124,
+        "form" : "地"
+      }
+    }, {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 122,
+        "form" : "処(1)"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 363,
+      "form" : "＃"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "kicu" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "きす" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "kisl" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "kisu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KISU" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 364,
+      "form" : "我(2)"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "no" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "の" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "nau" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NAU" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 230,
+        "form" : "我(1)"
+      }
+    } ]
+  }]
