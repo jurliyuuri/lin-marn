@@ -802,6 +802,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 2042,
+      "form" : "bihuo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［前］～のそばに,無料で,無償で" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 2275,
       "form" : "bladai"
     },
@@ -1429,6 +1442,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 6597,
+      "form" : "chobu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "本 (ほん) [2014:単語と同じ:ALCIS:::],乗用馬" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 6618,
       "form" : "chogau"
     },
@@ -1700,6 +1726,19 @@
       "forms" : [ "あつまる (集まる) [2014:単語と同じ:ALCIS:::]" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 9044,
+      "form" : "dailaa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "一度,一回" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -2338,6 +2377,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 14544,
+      "form" : "genu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "よむ (読む)" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 14575,
       "form" : "geqa"
     },
@@ -2669,6 +2721,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 18296,
+      "form" : "hogue"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "会話,会談,=konversacio" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 18369,
       "form" : "hona"
     },
@@ -2832,6 +2897,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "IAMA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18935,
+      "form" : "iasi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "兄姉," ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "IASI"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3262,6 +3343,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 21526,
+      "form" : "kabu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "二度,二回" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 21539,
       "form" : "kacei"
     },
@@ -3283,6 +3377,19 @@
       "forms" : [ "復讐,仇討ち,報復" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 21737,
+      "form" : "kaiga"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "すわる (座る) [2014:単語と同じ:ALCIS:::]" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3432,6 +3539,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 22301,
+      "form" : "kaniti"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "もつ,持つ" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "KANITI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 22407,
       "form" : "kasi"
     },
@@ -3556,6 +3679,19 @@
       "forms" : [ "{Ｂ}［副］いつも,常に" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 23563,
+      "form" : "khazu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}場所,所;部分,個所;地方,土地;《転》地位,立場" ]
+    } ],
+    "tags" : [ "PMCFショーケースソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -7533,7 +7669,7 @@
       "title" : "",
       "forms" : [ "{Ｂ}絵,図,挿絵;【理】像,光景;映像,影;心象;似姿;比喩（ひゆ）;【情】画像" ]
     } ],
-    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "tags" : [ "真理設定", "リパライン語ソース", "PMCFショーケースソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
