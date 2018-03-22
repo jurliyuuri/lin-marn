@@ -3278,6 +3278,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 20956,
+      "form" : "jooi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］まっすぐにする,直立させる" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 21008,
       "form" : "josu"
     },

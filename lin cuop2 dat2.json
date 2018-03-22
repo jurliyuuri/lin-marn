@@ -10256,6 +10256,35 @@
         "form" : "我(1)"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 365,
+      "form" : "短"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 366,
+      "form" : "直"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "io1" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "jooi" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "jooi" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
