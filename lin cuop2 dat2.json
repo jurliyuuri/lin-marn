@@ -2294,7 +2294,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 367,
+        "form" : "棉"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 118,
@@ -3920,7 +3926,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 368,
+        "form" : "箏"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 179,
@@ -10291,6 +10303,44 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 367,
+      "form" : "棉"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「綿」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 116,
+        "form" : "綿"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 368,
+      "form" : "箏"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「琴」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 178,
+        "form" : "琴"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
