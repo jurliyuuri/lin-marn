@@ -10273,7 +10273,22 @@
       "id" : 365,
       "form" : "短"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "lodu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "lodu" ]
+    }, {
+      "title" : "標準パイグ語",
+      "forms" : [ "lot2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "lrot" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "新草素" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],

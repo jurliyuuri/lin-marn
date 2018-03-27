@@ -1000,6 +1000,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 3692,
+      "form" : "buia"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}数字" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 3709,
       "form" : "buka"
     },
@@ -4110,6 +4123,19 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "{Ｂ}［自］～しなければならない;～にちがいない;～はずである" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 27411,
+      "form" : "lodu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "みじかい (短い) [2014:単語と同じ:ALCIS:::]" ]
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
