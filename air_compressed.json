@@ -987,6 +987,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 3468,
+      "form" : "botwu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "無意味な,くだらない" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 3563,
       "form" : "bowa"
     },
@@ -2372,6 +2385,19 @@
       "forms" : [ "{Ｂ}気候;風土" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 14337,
+      "form" : "gecwou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "終わり,終止;最後,結末;末端" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -7152,6 +7178,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "TISIA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 54559,
+      "form" : "titati"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "しぬ,死ぬ" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TITATI"
     } ],
     "variations" : [ ],
     "relations" : [ ]
