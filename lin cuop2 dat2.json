@@ -10359,6 +10359,22 @@
         "form" : "琴"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 369,
+      "form" : "孰"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "cu" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "susi" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
