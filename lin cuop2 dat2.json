@@ -10406,6 +10406,31 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 371,
+      "form" : "那"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "kí" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "kisi" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "ki" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "き" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KISI" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
