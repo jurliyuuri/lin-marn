@@ -1351,6 +1351,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 6060,
+      "form" : "chaitau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "かえる 蛙 おたまじゃくし [2014:単語と同じ:ALCIS:::],茶碗 [2014:単語と同じ:ALCIS:::],休みのない" ]
+    } ],
+    "tags" : [ "真理設定", "ヴェフィス語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 6135,
       "form" : "chasu"
     },
@@ -4897,6 +4910,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 31269,
+      "form" : "naublau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "中央政府,【理】流線" ]
+    } ],
+    "tags" : [ "真理設定", "ヴェフィス語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 31389,
       "form" : "navou"
     },
@@ -6955,6 +6981,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "TATIU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52402,
+      "form" : "tatusa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "王国" ]
+    } ],
+    "tags" : [ "真理設定", "ヴェフィス語ソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TATUSA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
