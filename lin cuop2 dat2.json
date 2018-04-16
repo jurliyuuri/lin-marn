@@ -10431,6 +10431,47 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 372,
+      "form" : "茲(1)"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "me" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "め" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "mqi" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "maikau" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "maikau" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 373,
+      "form" : "茲(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "buka" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "buka" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
