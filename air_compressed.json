@@ -164,6 +164,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 88,
+      "form" : "ahaiai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "予約済みの,とってある" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 151,
       "form" : "aifeu"
     },
@@ -626,6 +639,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 707,
+      "form" : "ati"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "だが," ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "ATI"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -1104,6 +1133,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 4503,
+      "form" : "bwila"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］（すき・そり・馬車などに）つなぐ;《転》縛りつける,【生】球菌,ミクロコッカス（属）" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 4598,
       "form" : "bwogo"
     },
@@ -1229,6 +1271,19 @@
       "forms" : [ "［副］永遠に,永久に,いつまでも" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5552,
+      "form" : "cayo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "羊の毛皮" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -1611,6 +1666,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 7219,
+      "form" : "cobla"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【哲】実存主義,部屋を予約する" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 7493,
       "form" : "coucu"
     },
@@ -1619,6 +1687,19 @@
       "forms" : [ "【料】もち（餅）,>>rizkuko" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7569,
+      "form" : "couxi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "警察署" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -1809,6 +1890,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 9202,
+      "form" : "daiwoo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［自］（～）である;いる,存在する" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 9470,
       "form" : "daunou"
     },
@@ -1908,6 +2002,19 @@
       "forms" : [ "{Ｂ}島;《転》離れ島" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 10490,
+      "form" : "dosaie"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "裏,裏面,>>dorso" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3932,6 +4039,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 24729,
+      "form" : "k'iwea"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［接］だから,すると,それでは,そこで,>>sekve,>>tiam;［副］（疑問文を強めて）いったい全体;（命令文を強めて）さあ,ほら\n{Ｏ}［文字名］ドー（文字D,dの名称）" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 24996,
       "form" : "koli"
     },
@@ -4999,6 +5119,19 @@
       "forms" : [ "{Ｏ}強烈な,激しい,強度の;=intensiva,［他］印をつける" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 32346,
+      "form" : "ngas'aa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］理解する,わかる;了解する,納得する;精通している" ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -7416,6 +7549,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "TUNU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55744,
+      "form" : "tusia"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "こちら,こっち," ]
+    } ],
+    "tags" : [ "悠里諸語クソ例文bot" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TUSIA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
