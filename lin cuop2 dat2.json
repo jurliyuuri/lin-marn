@@ -10472,6 +10472,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 374,
+      "form" : "詞"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "nautu" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "nyautu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "nyautu" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
