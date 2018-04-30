@@ -1764,6 +1764,9 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "graugrau" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ghau" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -1848,6 +1851,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "nguwa" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ghá" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -4298,6 +4304,9 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "mak2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bágha" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -4503,6 +4512,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "mua2" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "áma" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "ma" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6514,6 +6529,9 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "tob" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "ton" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -7710,10 +7728,10 @@
       "forms" : [ "広男後" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "zunaii" ]
+      "forms" : [ "zunaii", "zuhio" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "zunaii" ]
+      "forms" : [ "zunaii", "zuhio" ]
     }, {
       "title" : "アイツォ音",
       "forms" : [ "zui1" ]
@@ -8938,7 +8956,7 @@
       "forms" : [ "スク", "スッ" ]
     }, {
       "title" : "バート語",
-      "forms" : [ "*" ]
+      "forms" : [ "ásúka" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
       "forms" : [ "席人素" ]
