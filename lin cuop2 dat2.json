@@ -10509,6 +10509,38 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 375,
+      "form" : "店(1)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "doche" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "doche" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ḍáz" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 376,
+      "form" : "店(2)"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "su1 hue" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

@@ -1994,6 +1994,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 10305,
+      "form" : "doche"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}店,小売店" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 10452,
       "form" : "dop'iai"
     },
