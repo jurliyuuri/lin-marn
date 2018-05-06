@@ -7058,6 +7058,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 52218,
+      "form" : "tanu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "しても良い,してもいい,してもよい,ても良い,てもいい,てもよい," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TANU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 52235,
       "form" : "taoe"
     },
