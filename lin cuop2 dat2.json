@@ -10577,6 +10577,22 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 377,
+      "form" : "巻"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "zeúḷ", "zekáta" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "cee" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
