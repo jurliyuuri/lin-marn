@@ -4532,12 +4532,6 @@
       "title" : "標準パイグ語",
       "forms" : [ "muak1" ]
     }, {
-      "title" : "早見表「古パイグ」",
-      "forms" : [ "muahk" ]
-    }, {
-      "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "大書後" ]
-    }, {
       "title" : "アイル語",
       "forms" : [ "~" ]
     }, {
@@ -9952,7 +9946,7 @@
       "form" : "柔"
     },
     "translations" : [ ],
-    "tags" : [ ],
+    "tags" : [ "異体字" ],
     "contents" : [ {
       "title" : "備考",
       "text" : "「軟」の異体字"
@@ -10195,6 +10189,9 @@
     "translations" : [ {
       "title" : "バート語",
       "forms" : [ "cájau" ]
+    }, {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "ca'yau" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10390,7 +10387,7 @@
       "form" : "棉"
     },
     "translations" : [ ],
-    "tags" : [ ],
+    "tags" : [ "異体字" ],
     "contents" : [ {
       "title" : "備考",
       "text" : "「綿」の異体字"
