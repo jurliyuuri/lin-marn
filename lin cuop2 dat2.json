@@ -5735,7 +5735,19 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 353,
+        "form" : "獣(2)"
+      }
+    }, {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 354,
+        "form" : "獣(3)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 250,
@@ -10087,7 +10099,19 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 354,
+        "form" : "獣(3)"
+      }
+    }, {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 249,
+        "form" : "獣(1)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 354,
@@ -10103,7 +10127,19 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 353,
+        "form" : "獣(2)"
+      }
+    }, {
+      "title" : "同字異語",
+      "entry" : {
+        "id" : 249,
+        "form" : "獣(1)"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 355,
