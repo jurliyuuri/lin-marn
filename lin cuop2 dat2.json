@@ -10634,6 +10634,34 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 380,
+      "form" : "壁"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "co1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "sroh" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "席山素" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ṣoya" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "couyau" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "couyau" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
