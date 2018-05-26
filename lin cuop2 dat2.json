@@ -10662,6 +10662,22 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 381,
+      "form" : "㕮"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "khak" ]
+    }, {
+      "title" : "標準パイグ語",
+      "forms" : [ "kuak1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
