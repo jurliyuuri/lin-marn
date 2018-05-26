@@ -645,7 +645,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 382,
+        "form" : "吁"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 53,
@@ -10678,6 +10684,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 382,
+      "form" : "吁"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「噫」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 52,
+        "form" : "噫"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
