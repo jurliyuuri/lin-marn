@@ -10703,6 +10703,22 @@
         "form" : "噫"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 383,
+      "form" : "遅"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "bháheúḷ" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "baihaiu" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
