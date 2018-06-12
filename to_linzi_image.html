@@ -3,6 +3,9 @@
 	var folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像4","燐字画像5","燐字画像2","燐字画像3"];
 
 	function getImage(character){
+		if(!IMAGE_EXISTENCE_TABLE[character]){
+			return `（「${character}」未定義）`
+		}
 		for(var j=0; j<folder_names_descending_precedence.length;j++){
 			if(IMAGE_EXISTENCE_TABLE[character][folder_names_descending_precedence[j]] == true){
 				return `<img src='${folder_names_descending_precedence[j]}/${character}.png' width='100' height='100' />`
@@ -47,7 +50,7 @@
 <label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像3","燐字画像2","燐字画像","燐字画像6","燐字画像4","燐字画像5",];draw();'>枠なしビットマップ</label><br>
 <label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像2","燐字画像3","燐字画像","燐字画像6","燐字画像4","燐字画像5",];draw();'>枠つきビットマップ</label><br>
 </div>
-<input type="text" value="王冠之光満全族 心善受助 互雪父" id="inputs" style="font-size:100%" size="30" />
+<input type="text" value="王冠之光満全族 心善受助 互雪父㍂" id="inputs" style="font-size:100%" size="30" />
 
 <input type="button" onclick="draw()" value="変換">
 <div style="visibility: hidden"><label>拡大率:<input id="prop" type="number" name="number" required="required" value="20">%</label></div>
