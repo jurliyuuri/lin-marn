@@ -10719,6 +10719,31 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 384,
+      "form" : "牛"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "io2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "ngio" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "冠墨前" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "juo", "juro" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "juo", "juro" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
