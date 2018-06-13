@@ -3502,6 +3502,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 21349,
+      "form" : "juo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}ウシ（牛）,［他］インクを塗る,［他］金をかぶせる,金箔（きんぱく）を張る,金メッキする" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 21375,
       "form" : "jup'ui"
     },
@@ -3510,6 +3523,19 @@
       "forms" : [ "海の" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 21396,
+      "form" : "juro"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "乳牛" ]
+    } ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
