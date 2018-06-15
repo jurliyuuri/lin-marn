@@ -7989,13 +7989,13 @@
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "ahp" ]
+      "forms" : [ "ngahp" ]
     }, {
       "title" : "標準パイグ語",
       "forms" : [ "ap1" ]
     }, {
       "title" : "パイグ語古音",
-      "forms" : [ "aap" ]
+      "forms" : [ "raap" ]
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "ngam" ]
@@ -8004,7 +8004,7 @@
       "forms" : [ "nami" ]
     }, {
       "title" : "タカン語皇音",
-      "forms" : [ "かむ" ]
+      "forms" : [ "けなむ" ]
     }, {
       "title" : "タカン語牌音古音",
       "forms" : [ "ア" ]
@@ -8028,7 +8028,7 @@
       "forms" : [ "*" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "王四素" ]
+      "forms" : [ "冠四素" ]
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "NAMI" ]
@@ -8047,13 +8047,13 @@
     },
     "translations" : [ {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "uhn" ]
+      "forms" : [ "nguhn" ]
     }, {
       "title" : "標準パイグ語",
       "forms" : [ "un1" ]
     }, {
       "title" : "パイグ語古音",
-      "forms" : [ "uun" ]
+      "forms" : [ "ruun" ]
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "slqna" ]
@@ -8086,7 +8086,7 @@
       "forms" : [ "*" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "王無素" ]
+      "forms" : [ "冠無素" ]
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "SUNA" ]
