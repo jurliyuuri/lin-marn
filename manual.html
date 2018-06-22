@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>燐字追加時のマニュアル</title>
+</head>
+<body>
+	<h1>燐字追加時などのマニュアル</h1>
+	<h2>0. 概要</h2>
+	<p>最近、色々とやっているせいで、燐字を追加するときの作業の数が多すぎて私jekto.vatimeliju以外が把握していないということに気づいた。ということで、燐字を追加する際に何をするかの一覧をここに書いておき、万が一引き継ぎが必要になった際の備えとするとともに、jekto.vatimelijuが更新作業を行うときの漏れの防止も図る。引き継ぎが必要になるような不測の事態が起きないのが一番であるのは自明だが、まあ世の中何があるか分からんので。</p>
+	<h2>1. 燐字の漢字転写を定めた時</h2>
+	<p>現状、燐字を指し示すには漢字転写が不可欠である。以下の諸作業は、燐字の漢字転写が定まっていることを前提としている。</p>
+	<ol>
+		<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」に一行追加し、列「漢字転写」に漢字を入れ、「燐字」に1を入れる。字形が定まっていない際は、「燐字未制定」に1を入れ、「漢字転写」での背景色をオレンジ色に変えておく。</li>
+		<li>「<a href="https://docs.google.com/spreadsheets/d/1OAmxQYl8h4REyKcK6pffINI83la3tKGeS1pDBfYrKAc/edit#gid=0">燐字数の成長記録(パイグ語漢字転写早見表より)</a>」を編集し、燐字数の変遷を記録する。横のシートの統計を見たり、パラメータに自由度のあるシートに関しては最もp値が高くなるようパラメーターをいじったりして遊んでもいいが、これは本質ではないので必要ではない。</li>
+		<li>このgitリポジトリで、以下の変更を行いコミットする。
+			<ul>
+				<li>清声集(lin cuop dat2.json)を編集し、対象の字を登録する。諸ラネーメ言語での読みが決まっている場合はそれも同時に登録するとよいだろうが、それの詳細は後述する。</li>
+				<li>lin-marn.htmlに軽く説明を書く（必須ではないが推奨）</li>
+				<li>image_table/generate_linzi_image_table_html.jsのconst linzi_listを更新</li>
+				<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）を<strong>image_table/image_existence_table.jsonとimage_table/image_existence_table.jsの両方に反映</strong>（これさっき忘れてた）</li>
+			</ul>
+		</li>
+		<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」の「メインの表」をパイグ語リポジトリにミラー（「古パイグの属性」の1個左の列までを選択し、パイグ語漢字転写早見表_mirror.tsvに貼り付け）しコミット</li>
+		<li>諸ラネーメ言語での読みが決まっている場合（語が先にあって転写を後で決めたとか、転写と語が同時にできたとか）は、「諸ラネーメ言語での読みを定めた時」を実行。</li>
+	</ol>
+	<h2>2. 諸ラネーメ言語での読みを定めた時</h2>
+	<ol>
+		<li>清声集(lin cuop dat2.json)に登録する。</li>
+		<li>lin-marn.htmlに軽く説明を書く（必須ではないが推奨）。</li>
+		<li>燐字の画像も用意できている場合、燐字海への登録作業を行う。
+			<ol>
+				<li><code>python3 to_linzihai.py</code>をすると清声集の記述を元にしてHTMLファイルが生まれる。</li>
+				<li>「燐字海」でページを新規作成し、記事名は漢字転写にする。この際、漢字の後に「ら」とか入れておくと「漢字の拼音+ra」がURL欄に出てくるので、それで出てきた拼音をURLにセット。テンプレートは「テンプレートnew」を選択。</li>
+				<li>pythonで生成されたHTMLを下の方に貼り付けるとうまくいくはず</li>
+			</ol>
+		</li>
+		<li>決めたのがパイグ語の読み・古パイグでの読みである場合、加えて以下の作業を行う。
+			<ol>
+				<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」の「メインの表」にパイグ語や古パイグでの読みを記載する。</li>
+				<li>古パイグを載せた場合、「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」の「韻図情報」にも載せる。</li>
+				<li>パイグ語リポジトリのprai ge zerp.jsonを編集する。</li>
+				<li>パイグ語リポジトリの燐字入力のファイルも適切に編集する（←これサボりがち）。</li>
+				<li>「<a href="https://docs.google.com/spreadsheets/d/1l61DlFablkrthZUovjMCCAtz6v047WzKXJH8c9K6F6E/edit#gid=0">現代標準パイグ語辞書順?配列</a>」「<a href="https://docs.google.com/spreadsheets/d/1BObsHDWqWHSY-LZMB1uANUQYNzWm-GZgMBW5UD0zDX0/edit#gid=228316309">古牌データ</a>」を適宜更新（←これもサボりがち）</li>
+			</ol>
+		</li>
+	</ol>
+	<h2>3. 燐字の字形を定めた時</h2>
+	<ol>
+		<li>このリポジトリのcomposition.txtに字形の説明を載せる。</li>
+		<li>「<a href="https://docs.google.com/spreadsheets/d/1ptDugL_CjcISkKoyKwo_vRB5Woq6Rw37ug5jXvslu7U/edit#gid=1559420277">composition（最新）</a>」の「メイン」シートに載せて、貢献度とかの欄も適宜更新。「シート11」とか「新統計」とかは面倒だし別に触らなくても良い。</li>
+		<li>もちろんコミット。</li>
+	</ol>
+	<h2>4. 定めた燐字の字形を画像にして収録したとき</h2>
+	<ol>
+		<li>1枚1枚を整ったサイズに分割。前例（<a href="./燐字表示/index.html">1</a>, <a href="./燐字表示2/index.html">2</a>, <a href="./燐字表示3/index.html">3</a>, <a href="./燐字表示4/index.html">4</a>）に従って頑張ろう。</li>
+		<li>分割した画像はフォルダに入れる。フォルダ名は「燐字画像6」とかの前例に従う。</li>
+		<li>誰が書いた文字なのか、に応じてto_linzi_image.htmlのfolder_names_descending_precedenceを適切に編集する。5箇所あるので注意。</li>
+		<li>image_table/generate_linzi_image_table_html.jsのconst folder_namesを更新する。</li>
+		<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）を<strong>image_table/image_existence_table.jsonとimage_table/image_existence_table.jsの両方に反映</strong>。</li>
+		<li>もちろんコミット忘れずに。</li>
+	</ol>
+	<h2>5. アイル語の単語を真理設定としたりしたとき</h2>
+	<ol>
+		<li>air.jsonを保存する</li>
+		<li>このディレクトリで<code>make</code>を実行し、air_compressed.jsonを生成する</li>
+		<li>air_compressed.jsonをZpDICで開き、保存する（インデントなどを自動挿入するため）</li>
+		<li>このgitリポジトリでコミットする</li>
+	</ol>
+
+</body>
+</html>
