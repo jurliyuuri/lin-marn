@@ -352,7 +352,7 @@
     },
     "translations" : [ {
       "title" : "標準パイグ語",
-      "forms" : [ "*" ]
+      "forms" : [ "gek" ]
     }, {
       "title" : "早見表「古パイグ」",
       "forms" : [ "*" ]
@@ -361,10 +361,10 @@
       "forms" : [ "*" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "geqa" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "geqa" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
