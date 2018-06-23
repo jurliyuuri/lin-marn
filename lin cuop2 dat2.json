@@ -10776,6 +10776,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 387,
+      "form" : "多"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "taun1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "tauhn" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "終馬素" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
