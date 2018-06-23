@@ -10744,6 +10744,38 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 385,
+      "form" : "鎖(1)"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "dhíp" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "dibee" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "dibee" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 386,
+      "form" : "鎖(2)"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kin2 niek1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
