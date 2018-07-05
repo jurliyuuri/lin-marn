@@ -10814,6 +10814,31 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 389,
+      "form" : "球"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "cuet" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "suvt" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "嗅机後" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "cwelo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "cwelo" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

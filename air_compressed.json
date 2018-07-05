@@ -1799,6 +1799,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 8362,
+      "form" : "cwelo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}玉,団子,使い尽くせない,無尽蔵の;食べられない" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 8700,
       "form" : "cwouphi"
     },
