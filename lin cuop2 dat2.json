@@ -10795,6 +10795,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 388,
+      "form" : "卵"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "uet" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "uvt" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "王机後" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
