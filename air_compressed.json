@@ -7593,6 +7593,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 55444,
+      "form" : "tukaie"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【料】金網,焼き網,グリル" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 55550,
       "form" : "tumi"
     },

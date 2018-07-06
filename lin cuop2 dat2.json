@@ -10839,6 +10839,31 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 390,
+      "form" : "網"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "tuk2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "truk" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "茶人素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "tukaie" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "tukaie" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
