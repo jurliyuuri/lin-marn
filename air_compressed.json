@@ -5980,6 +5980,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 39779,
+      "form" : "pola"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ひつじ 羊 [2014:単語と同じ:ALCIS:::],{Ｏ}【鳥】ウソ（鷽）\n【植】イチヤクソウ（一薬草）（属）" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 40016,
       "form" : "pouje"
     },

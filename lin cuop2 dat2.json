@@ -10864,6 +10864,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 391,
+      "form" : "羊"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "po1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "poh" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "力山素" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
