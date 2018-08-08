@@ -1170,7 +1170,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 393,
+        "form" : "皷"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 74,
@@ -10906,6 +10912,25 @@
       "entry" : {
         "id" : 291,
         "form" : "助"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 393,
+      "form" : "皷"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「鼓」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 73,
+        "form" : "鼓"
       }
     } ]
   } ],
