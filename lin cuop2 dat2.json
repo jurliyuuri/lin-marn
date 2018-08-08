@@ -6439,7 +6439,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 394,
+        "form" : "从"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 274,
@@ -10931,6 +10937,25 @@
       "entry" : {
         "id" : 73,
         "form" : "鼓"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 394,
+      "form" : "从"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「従」の異体字。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 273,
+        "form" : "従"
       }
     } ]
   } ],
