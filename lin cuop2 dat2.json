@@ -6906,7 +6906,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 392,
+        "form" : "救"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 292,
@@ -10883,6 +10889,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 392,
+      "form" : "救"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「助」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 291,
+        "form" : "助"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
