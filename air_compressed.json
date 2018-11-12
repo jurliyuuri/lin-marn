@@ -1419,6 +1419,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 6098,
+      "form" : "chame"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "たのもしい (頼もしい) [2014:単語と同じ:ALCIS:::],ゆるい (緩い) [2014:単語と同じ:ALCIS:::],［他］製鋼する" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 6135,
       "form" : "chasu"
     },
@@ -8526,7 +8539,7 @@
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
-    "alphabetOrderType" : "UNICODE",
+    "wordOrderType" : "UNICODE",
     "punctuations" : [ ",", "、" ],
     "pronunciationTitle" : null,
     "plainInformationTitles" : [ ],
