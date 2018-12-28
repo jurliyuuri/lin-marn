@@ -3895,6 +3895,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 22870,
+      "form" : "keicwou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "例えば" ]
+    } ],
+    "tags" : [ "真理設定", "東島通商語に採用" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 23137,
       "form" : "k'es'ia"
     },
