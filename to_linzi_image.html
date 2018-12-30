@@ -1,6 +1,6 @@
 <script src="image_table/image_existence_table.js"></script>
 <script>
-	var folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像4","燐字画像5","燐字画像2","燐字画像3"];
+	var folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像2","燐字画像3"];
 
 	function getImage(character){
 		if(!IMAGE_EXISTENCE_TABLE[character]){
@@ -33,24 +33,24 @@
 	}
 </script>
 <p><a href="lin-marn.html">トップに戻る</a></p>
-備考：<a href="linzi_image_table.html">元データ</a>からも分かるように、2018年6月12日現在、
+備考：<a href="linzi_image_table.html">元データ</a>からも分かるように、2018年12月30日現在、
 <table border="1">
 	<tr><td>字</td><td>bitmap</td><td>SY</td><td>j.v</td></tr>
 	<tr><td>王</td><td>✔</td><td>✔</td><td>✔</td></tr>
-	<tr><td>互</td><td>✗</td><td>✔</td><td>✔</td></tr>
-	<tr><td>雪</td><td>✗</td><td>✔</td><td>✗</td></tr>
-	<tr><td>父</td><td>✗</td><td>✗</td><td>✔</td></tr>
-	<tr><td>助</td><td>✗</td><td>✗</td><td>✗</td></tr>
+	<tr><td>互父</td><td>✗</td><td>✔</td><td>✔</td></tr>
+	<tr><td>雪助</td><td>✗</td><td>✔</td><td>✗</td></tr>
+	<tr><td>輝</td><td>✗</td><td>✗</td><td>✔</td></tr>
+	<tr><td>麗</td><td>✗</td><td>✗</td><td>✗</td></tr>
 </table>
 <p>である。bitmapがあるものについては必ずSYもj.vもある。</p>
 <div>
 優先する書体：	<br>
-<label><input type="radio" name="precedence" checked onclick='folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像4","燐字画像5","燐字画像3","燐字画像2"];draw();'>SYの書いた字</label><br>
-<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像4","燐字画像5","燐字画像","燐字画像6","燐字画像3","燐字画像2"];draw();'>j.vの書いた字</label><br>
-<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像3","燐字画像2","燐字画像","燐字画像6","燐字画像4","燐字画像5",];draw();'>枠なしビットマップ</label><br>
-<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像2","燐字画像3","燐字画像","燐字画像6","燐字画像4","燐字画像5",];draw();'>枠つきビットマップ</label><br>
+<label><input type="radio" name="precedence" checked onclick='folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像3","燐字画像2"];draw();'>SYの書いた字</label><br>
+<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像4","燐字画像5","燐字画像","燐字画像6","燐字画像7","燐字画像3","燐字画像2"];draw();'>j.vの書いた字</label><br>
+<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像3","燐字画像2","燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5",];draw();'>枠なしビットマップ</label><br>
+<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像2","燐字画像3","燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5",];draw();'>枠つきビットマップ</label><br>
 </div>
-<input type="text" value="王冠之光満全族 心善受助 互雪父㍂" id="inputs" style="font-size:100%" size="30" />
+<input type="text" value="王冠之光満全族 心善受助 互雪父輝麗㍂" id="inputs" style="font-size:100%" size="40" />
 
 <input type="button" onclick="draw()" value="変換">
 <div style="visibility: hidden"><label>拡大率:<input id="prop" type="number" name="number" required="required" value="20">%</label></div>
