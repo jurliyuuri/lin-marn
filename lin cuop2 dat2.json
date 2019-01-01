@@ -7511,7 +7511,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 395,
+        "form" : "后"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 314,
@@ -10958,10 +10964,29 @@
         "form" : "従"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 395,
+      "form" : "后"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「後」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 313,
+        "form" : "後"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
-    "alphabetOrderType" : "UNICODE",
+    "wordOrderType" : "UNICODE",
     "punctuations" : [ ",", "、" ],
     "pronunciationTitle" : null,
     "plainInformationTitles" : [ ],
