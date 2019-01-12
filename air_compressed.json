@@ -8356,6 +8356,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 64581,
+      "form" : "zabee"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "全部" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 64585,
       "form" : "zablei"
     },
