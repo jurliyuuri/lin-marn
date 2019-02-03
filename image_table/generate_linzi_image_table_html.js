@@ -15,7 +15,20 @@ function generate_table_html(preloading){
 
 	for(var i = 0; i < linzi_list.length; i++){
 		ans += "<tr>";
-		ans += `<td>${linzi_list[i]}</td>`
+		if (preloading){ /* linzi_image_table_local */
+			ans += `<td>${linzi_list[i]}</td>`
+		} else { /* linzi_image_table */
+			let flag = false;
+
+			/* check if at least 1 image exists */
+			for(var j=0; j<folder_names.length;j++){
+				if(IMAGE_EXISTENCE_TABLE[linzi_list[i]][folder_names[j]] == true){
+					flag = true;
+				}
+			}
+
+			ans += flag ? `<td>${linzi_list[i]}</td>` : `<td style="background-color: yellow">*${linzi_list[i]}</td>`;
+		}
 		for(var j=0; j<folder_names.length;j++){
 			ans += `<td>`;
 			if(preloading || IMAGE_EXISTENCE_TABLE[linzi_list[i]][folder_names[j]] == true){
