@@ -10986,6 +10986,44 @@
         "form" : "後"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 396,
+      "form" : "穴"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "uep" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "webwei", "wupwei" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "webwei", "wupwei" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 397,
+      "form" : "凹"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "bot1" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "bot'oo" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "bot'oo" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

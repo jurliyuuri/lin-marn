@@ -1016,6 +1016,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 3465,
+      "form" : "bot'oo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}穴,空洞,くぼみ,へこみ;【解】腔（こう）,窩（か）;【理】（波の）谷,>>kresto" ]
+    } ],
+    "tags" : [ "真理設定", "ラネーメにも採用" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 3468,
       "form" : "botwu"
     },
@@ -7947,6 +7960,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 59239,
+      "form" : "webwei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ひも穴" ]
+    } ],
+    "tags" : [ "真理設定", "ラネーメにも採用" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 59250,
       "form" : "wechu"
     },
@@ -8023,6 +8049,19 @@
       "forms" : [ "反啓蒙主義,{Ｂ}現実の,実在の;本当の,本物の" ]
     } ],
     "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 60491,
+      "form" : "wupwei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］穴をあける,せん孔する" ]
+    } ],
+    "tags" : [ "真理設定", "ラネーメにも採用" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -8468,6 +8507,19 @@
       "forms" : [ "［自］（je）～を無くす,～を失う" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66416,
+      "form" : "zuhio"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "動機付け,理由付け" ]
+    } ],
+    "tags" : [ "真理設定", "ラネーメにも採用" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
