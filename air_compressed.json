@@ -1023,7 +1023,7 @@
       "title" : "",
       "forms" : [ "{Ｂ}穴,空洞,くぼみ,へこみ;【解】腔（こう）,窩（か）;【理】（波の）谷,>>kresto" ]
     } ],
-    "tags" : [ "真理設定", "ラネーメにも採用" ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -6314,6 +6314,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 44159,
+      "form" : "roku"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "呼子,笛" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 45211,
       "form" : "s^esoa"
     },
@@ -7967,7 +7980,7 @@
       "title" : "",
       "forms" : [ "ひも穴" ]
     } ],
-    "tags" : [ "真理設定", "ラネーメにも採用" ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -8061,7 +8074,7 @@
       "title" : "",
       "forms" : [ "{Ｂ}［他］穴をあける,せん孔する" ]
     } ],
-    "tags" : [ "真理設定", "ラネーメにも採用" ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -8519,7 +8532,7 @@
       "title" : "",
       "forms" : [ "動機付け,理由付け" ]
     } ],
-    "tags" : [ "真理設定", "ラネーメにも採用" ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]

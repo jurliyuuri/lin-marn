@@ -11024,6 +11024,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 398,
+      "form" : "笛"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "lok1" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "roku" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "roku" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
