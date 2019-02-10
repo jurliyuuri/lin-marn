@@ -1,6 +1,15 @@
+<script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script>
-	var folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8","燐字画像2","燐字画像3"];
+	function get_descending_precedence(t){
+		var ans = [];
+		for (var i = 0; i < t.length; i++) {
+			ans = ans.concat(folder_names.filter(a => folder_type[a] === t[i]));
+		}
+		return ans;
+	}
+
+	var folder_names_descending_precedence = get_descending_precedence(["SY", "jv", "noborder", "border"]);
 
 	function getImage(character, prec){
 		if(!IMAGE_EXISTENCE_TABLE[character]){
@@ -29,23 +38,27 @@
 	}
 
 	function sy() {
-		folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8","燐字画像3","燐字画像2"];
+		folder_names_descending_precedence = 
+			get_descending_precedence(["SY", "jv", "noborder", "border"]);
+
 		draw(folder_names_descending_precedence);
 	}
 
 	function jv() {
-		folder_names_descending_precedence = ["燐字画像4","燐字画像5","燐字画像8","燐字画像","燐字画像6","燐字画像7","燐字画像3","燐字画像2"];
+		folder_names_descending_precedence = 
+			get_descending_precedence(["jv", "SY", "noborder", "border"]);
+
 		draw(folder_names_descending_precedence);
 	}
 
 	function noborder() {
-		folder_names_descending_precedence = ["燐字画像3","燐字画像2","燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8"];
+		folder_names_descending_precedence = get_descending_precedence(["noborder", "border", "SY", "jv"]);
 		draw(folder_names_descending_precedence);
 	}
 
 
 	function border() {
-		folder_names_descending_precedence = ["燐字画像2","燐字画像3","燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8"];
+		folder_names_descending_precedence = get_descending_precedence(["border", "noborder", "SY", "jv"]);
 		draw(folder_names_descending_precedence);
 	}
 </script>
