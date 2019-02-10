@@ -17,8 +17,8 @@
 			<ul>
 				<li>清声集(lin cuop dat2.json)を編集し、対象の字を登録する。諸ラネーメ言語での読みが決まっている場合はそれも同時に登録するとよいだろうが、それの詳細は後述する。</li>
 				<li>lin-marn.htmlに軽く説明を書く（必須ではないが推奨）</li>
-				<li>image_table/generate_linzi_image_table_html.jsのconst linzi_listを更新</li>
-				<li>画像が用意できていない場合、image_table/generate_linzi_image_table_html.jsのconst defined_but_no_image_preparedを更新</li>
+				<li>image_table/char_and_folder_info.jsのconst linzi_listを更新</li>
+				<li>画像が用意できていない場合、image_table/char_and_folder_info.jsのconst defined_but_no_image_preparedを更新</li>
 				<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）を<strong>image_table/image_existence_table.jsonとimage_table/image_existence_table.jsの両方に反映</strong>（これさっき忘れてた）</li>
 			</ul>
 		</li>
@@ -59,8 +59,8 @@
 		<li>1枚1枚を整ったサイズに分割。前例（<a href="./燐字表示/index.html">1</a>, <a href="./燐字表示2/index.html">2</a>, <a href="./燐字表示3/index.html">3</a>, <a href="./燐字表示4/index.html">4</a>）に従って頑張ろう。</li>
 		<li>分割した画像はフォルダに入れる。フォルダ名は「燐字画像6」とかの前例に従う。</li>
 		<li>誰が書いた文字なのか、に応じてto_linzi_image.htmlのfolder_names_descending_precedenceを適切に編集する。5箇所あるので注意。</li>
-		<li>image_table/generate_linzi_image_table_html.jsのconst folder_namesを更新する。</li>
-		<li>image_table/generate_linzi_image_table_html.jsのconst defined_but_no_image_preparedの中から収録できた字を削除</li>
+		<li>image_table/char_and_folder_info.jsのconst folder_namesを更新する。</li>
+		<li>image_table/char_and_folder_info.jsのconst defined_but_no_image_preparedの中から収録できた字を削除</li>
 		<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）を<strong>image_table/image_existence_table.jsonとimage_table/image_existence_table.jsの両方に反映</strong>。</li>
 		<li>もちろんコミット忘れずに。</li>
 	</ol>
