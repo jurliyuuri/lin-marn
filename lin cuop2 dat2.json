@@ -2079,7 +2079,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 399,
+        "form" : "麗"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 109,
@@ -11088,6 +11094,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 399,
+      "form" : "麗"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「美」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 108,
+        "form" : "美"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
