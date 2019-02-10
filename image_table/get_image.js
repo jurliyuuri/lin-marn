@@ -1,6 +1,7 @@
 /* char_and_folder_info.js and image_existence_table.js required */
 
-function getImage(character, type_prec, size){
+function getImage(character, type_prec, size, path){
+		path = path || ".";
 		var prec = [];
 		
 		for (var i = 0; i < type_prec.length; i++) {
@@ -12,7 +13,7 @@ function getImage(character, type_prec, size){
 		}
 		for(var j=0; j<prec.length;j++){
 			if(IMAGE_EXISTENCE_TABLE[character][prec[j]]){
-				return `<img src='${prec[j]}/${character}.png' width='${size}' height='${size}' />`
+				return `<img src='${path}/${prec[j]}/${character}.png' width='${size}' height='${size}' />`
 			}
 		}
 
