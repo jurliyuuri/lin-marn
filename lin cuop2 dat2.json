@@ -8233,6 +8233,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NIKU" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8352,6 +8355,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "MISA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8471,6 +8477,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "IKI" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8590,6 +8599,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NAKU" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9522,6 +9534,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "manáman", "banáman" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "MANANA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9883,6 +9898,9 @@
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "kyoo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "quvoo", "gio" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10478,6 +10496,9 @@
     }, {
       "title" : "アイル語",
       "forms" : [ "susi" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "SUSI" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10636,6 +10657,9 @@
     }, {
       "title" : "アイル語",
       "forms" : [ "cee" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "cee" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10655,6 +10679,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "kánaghúḷ" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KANAKA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10674,6 +10701,9 @@
     }, {
       "title" : "バート語",
       "forms" : [ "kánatúḷ" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KANATA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10752,6 +10782,9 @@
       "forms" : [ "bháheúḷ" ]
     }, {
       "title" : "アイル語",
+      "forms" : [ "baihaiu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
       "forms" : [ "baihaiu" ]
     } ],
     "tags" : [ ],
@@ -11029,7 +11062,7 @@
       "title" : "アイル語",
       "forms" : [ "bot'oo" ]
     }, {
-      "title" : "アイル語",
+      "title" : "アイル語(辞書表記)",
       "forms" : [ "bot'oo" ]
     } ],
     "tags" : [ ],
