@@ -1,6 +1,7 @@
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script>
+	var precedence = ["SY", "jv", "noborder", "border"];
 	function get_descending_precedence(t){
 		var ans = [];
 		for (var i = 0; i < t.length; i++) {
@@ -9,9 +10,8 @@
 		return ans;
 	}
 
-	var folder_names_descending_precedence = get_descending_precedence(["SY", "jv", "noborder", "border"]);
-
-	function getImage(character, prec){
+	function getImage(character, type_prec){
+		var prec = get_descending_precedence(type_prec);
 		if(!IMAGE_EXISTENCE_TABLE[character]){
 			return `（「${character}」未定義）`
 		}
@@ -38,28 +38,24 @@
 	}
 
 	function sy() {
-		folder_names_descending_precedence = 
-			get_descending_precedence(["SY", "jv", "noborder", "border"]);
-
-		draw(folder_names_descending_precedence);
+		precedence = ["SY", "jv", "noborder", "border"];
+		draw(precedence);
 	}
 
 	function jv() {
-		folder_names_descending_precedence = 
-			get_descending_precedence(["jv", "SY", "noborder", "border"]);
-
-		draw(folder_names_descending_precedence);
+		precedence = ["jv", "SY", "noborder", "border"];
+		draw(precedence);
 	}
 
 	function noborder() {
-		folder_names_descending_precedence = get_descending_precedence(["noborder", "border", "SY", "jv"]);
-		draw(folder_names_descending_precedence);
+		precedence = ["noborder", "border", "SY", "jv"];
+		draw(precedence);
 	}
 
 
 	function border() {
-		folder_names_descending_precedence = get_descending_precedence(["border", "noborder", "SY", "jv"]);
-		draw(folder_names_descending_precedence);
+		precedence = ["border", "noborder", "SY", "jv"];
+		draw(precedence);
 	}
 </script>
 <p><a href="lin-marn.html">トップに戻る</a></p>
@@ -82,6 +78,6 @@
 </div>
 <input type="text" value="王冠之光満全族 心善受助 互雪父輝麗㍂" id="inputs" style="font-size:100%" size="40" />
 
-<input type="button" onclick="draw(folder_names_descending_precedence)" value="変換">
+<input type="button" onclick="draw(precedence)" value="変換">
 <div style="visibility: hidden"><label>拡大率:<input id="prop" type="number" name="number" required="required" value="20">%</label></div>
 <div id="res"></div>
