@@ -2,34 +2,51 @@
 <script>
 	var folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8","燐字画像2","燐字画像3"];
 
-	function getImage(character){
+	function getImage(character, prec){
 		if(!IMAGE_EXISTENCE_TABLE[character]){
 			return `（「${character}」未定義）`
 		}
-		for(var j=0; j<folder_names_descending_precedence.length;j++){
-			if(IMAGE_EXISTENCE_TABLE[character][folder_names_descending_precedence[j]] == true){
-				return `<img src='${folder_names_descending_precedence[j]}/${character}.png' width='100' height='100' />`
+		for(var j=0; j<prec.length;j++){
+			if(IMAGE_EXISTENCE_TABLE[character][prec[j]]){
+				return `<img src='${prec[j]}/${character}.png' width='100' height='100' />`
 			}
 		}
 		return `（「${character}」未造字or画像なし）`
 	}
 
-	function drawLinzis2(txt, prop){
-		var ans = "";
-		for(var i=0; i<txt.length;i++){
-
-			ans += getImage(txt[i]);
-		}
-		return ans;
+	function draw(prec){
+		document.getElementById("res").innerHTML = 
+			document.getElementById('inputs').value.split(" ")
+			.map(function(txt){
+					var ans = "";
+					for(var i=0; i<txt.length;i++){
+						ans += getImage(txt[i], prec);
+					}
+					return ans;
+				})
+			.join("<br><br>");
+		
 	}
 
-	function drawLinzis(txt, prop){
-		document.getElementById("res").innerHTML = txt.split(" ")
-			.map(txt => drawLinzis2(txt,prop)).join("<br><br>");
+	function sy() {
+		folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8","燐字画像3","燐字画像2"];
+		draw(folder_names_descending_precedence);
 	}
 
-	function draw(){
-		drawLinzis(document.getElementById('inputs').value, document.getElementById('prop').value/100);
+	function jv() {
+		folder_names_descending_precedence = ["燐字画像4","燐字画像5","燐字画像8","燐字画像","燐字画像6","燐字画像7","燐字画像3","燐字画像2"];
+		draw(folder_names_descending_precedence);
+	}
+
+	function noborder() {
+		folder_names_descending_precedence = ["燐字画像3","燐字画像2","燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8"];
+		draw(folder_names_descending_precedence);
+	}
+
+
+	function border() {
+		folder_names_descending_precedence = ["燐字画像2","燐字画像3","燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8"];
+		draw(folder_names_descending_precedence);
 	}
 </script>
 <p><a href="lin-marn.html">トップに戻る</a></p>
@@ -45,13 +62,13 @@
 <p>である。bitmapがあるものについては必ずSYもj.vもある。</p>
 <div>
 優先する書体：	<br>
-<label><input type="radio" name="precedence" checked onclick='folder_names_descending_precedence = ["燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8","燐字画像3","燐字画像2"];draw();'>SYの書いた字</label><br>
-<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像4","燐字画像5","燐字画像8","燐字画像","燐字画像6","燐字画像7","燐字画像3","燐字画像2"];draw();'>j.vの書いた字</label><br>
-<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像3","燐字画像2","燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8"];draw();'>枠なしビットマップ</label><br>
-<label><input type="radio" name="precedence" onclick='folder_names_descending_precedence = ["燐字画像2","燐字画像3","燐字画像","燐字画像6","燐字画像7","燐字画像4","燐字画像5","燐字画像8"];draw();'>枠つきビットマップ</label><br>
+<label><input type="radio" name="precedence" checked onclick='sy();'>SYの書いた字</label><br>
+<label><input type="radio" name="precedence" onclick='jv();'>j.vの書いた字</label><br>
+<label><input type="radio" name="precedence" onclick='noborder();'>枠なしビットマップ</label><br>
+<label><input type="radio" name="precedence" onclick='border();'>枠つきビットマップ</label><br>
 </div>
 <input type="text" value="王冠之光満全族 心善受助 互雪父輝麗㍂" id="inputs" style="font-size:100%" size="40" />
 
-<input type="button" onclick="draw()" value="変換">
+<input type="button" onclick="draw(folder_names_descending_precedence)" value="変換">
 <div style="visibility: hidden"><label>拡大率:<input id="prop" type="number" name="number" required="required" value="20">%</label></div>
 <div id="res"></div>
