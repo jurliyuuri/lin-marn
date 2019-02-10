@@ -1276,6 +1276,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 5513,
+      "form" : "cauyau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［前］～と共に,～と一緒に;～と,～に対して;～を連れて,～を持って;～と同時に,～しながら,メスティーソ（インディオと白人の混血）,>>mulato" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 5546,
       "form" : "caxou"
     },
