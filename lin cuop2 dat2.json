@@ -11113,6 +11113,25 @@
         "form" : "美"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 400,
+      "form" : "筒"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "bon2" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "boungau" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "boungau" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
