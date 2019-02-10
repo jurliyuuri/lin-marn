@@ -1,31 +1,8 @@
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
+<script src="image_table/get_image.js"></script>
 <script>
 	var precedence = ["SY", "jv", "noborder", "border"];
-
-	function getImage(character, type_prec){
-		var prec = [];
-		
-		for (var i = 0; i < type_prec.length; i++) {
-			prec = prec.concat(folder_names.filter(a => folder_type[a] === type_prec[i]));
-		}
-
-		if(!IMAGE_EXISTENCE_TABLE[character]){
-			return `（「${character}」未定義）`
-		}
-		for(var j=0; j<prec.length;j++){
-			if(IMAGE_EXISTENCE_TABLE[character][prec[j]]){
-				return `<img src='${prec[j]}/${character}.png' width='100' height='100' />`
-			}
-		}
-
-		if (defined_but_no_image_prepared.includes(character)) {
-			return `（「${character}」画像なし）`
-		} else {
-			return `（「${character}」未造字）`
-		}
-		
-	}
 
 	function draw(prec){
 		document.getElementById("res").innerHTML = 
@@ -33,7 +10,7 @@
 			.map(function(txt){
 					var ans = "";
 					for(var i=0; i<txt.length;i++){
-						ans += getImage(txt[i], prec);
+						ans += getImage(txt[i], prec, 100);
 					}
 					return ans;
 				})
