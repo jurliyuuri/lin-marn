@@ -2,16 +2,14 @@
 <script src="image_table/image_existence_table.js"></script>
 <script>
 	var precedence = ["SY", "jv", "noborder", "border"];
-	function get_descending_precedence(t){
-		var ans = [];
-		for (var i = 0; i < t.length; i++) {
-			ans = ans.concat(folder_names.filter(a => folder_type[a] === t[i]));
-		}
-		return ans;
-	}
 
 	function getImage(character, type_prec){
-		var prec = get_descending_precedence(type_prec);
+		var prec = [];
+		
+		for (var i = 0; i < type_prec.length; i++) {
+			prec = prec.concat(folder_names.filter(a => folder_type[a] === type_prec[i]));
+		}
+
 		if(!IMAGE_EXISTENCE_TABLE[character]){
 			return `（「${character}」未定義）`
 		}
@@ -20,7 +18,13 @@
 				return `<img src='${prec[j]}/${character}.png' width='100' height='100' />`
 			}
 		}
-		return `（「${character}」未造字or画像なし）`
+
+		if (defined_but_no_image_prepared.includes(character)) {
+			return `（「${character}」画像なし）`
+		} else {
+			return `（「${character}」未造字）`
+		}
+		
 	}
 
 	function draw(prec){
@@ -66,7 +70,7 @@
 	<tr><td>互父</td><td>✗</td><td>✔</td><td>✔</td></tr>
 	<tr><td>雪助</td><td>✗</td><td>✔</td><td>✗</td></tr>
 	<tr><td>輝麗</td><td>✗</td><td>✗</td><td>✔</td></tr>
-	<tr><td></td><td>✗</td><td>✗</td><td>✗</td></tr>
+	<tr><td>倒</td><td>✗</td><td>✗</td><td>✗</td></tr>
 </table>
 <p>である。bitmapがあるものについては必ずSYもj.vもある。</p>
 <div>
@@ -76,7 +80,7 @@
 <label><input type="radio" name="precedence" onclick='noborder();'>枠なしビットマップ</label><br>
 <label><input type="radio" name="precedence" onclick='border();'>枠つきビットマップ</label><br>
 </div>
-<input type="text" value="王冠之光満全族 心善受助 互雪父輝麗㍂" id="inputs" style="font-size:100%" size="40" />
+<input type="text" value="王冠之光満全族 心善受助 互雪父輝麗倒須㍂" id="inputs" style="font-size:100%" size="40" />
 
 <input type="button" onclick="draw(precedence)" value="変換">
 <div style="visibility: hidden"><label>拡大率:<input id="prop" type="number" name="number" required="required" value="20">%</label></div>
