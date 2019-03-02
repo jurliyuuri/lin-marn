@@ -11253,14 +11253,26 @@
         "form" : "類"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 408,
+      "form" : "針"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
     "wordOrderType" : "UNICODE",
     "punctuations" : [ ",", "、" ],
+    "ignoredTranslationRegex" : "",
     "pronunciationTitle" : null,
     "plainInformationTitles" : [ ],
     "informationTitleOrder" : null,
+    "formFontFamily" : null,
     "defaultWord" : {
       "entry" : {
         "id" : -1,
