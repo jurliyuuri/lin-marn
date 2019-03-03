@@ -11268,7 +11268,16 @@
       "id" : 409,
       "form" : "翰"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kuai1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "kruaeh" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "筆将後" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
