@@ -6,7 +6,7 @@ const mysterious_encoding = [
   "裁",
   "??",
   "馬",
-  "??",
+  "翰",
   "論",
   "耒",
   "北",

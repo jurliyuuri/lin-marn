@@ -11182,7 +11182,7 @@
       "title" : "標準パイグ語",
       "forms" : [ "uep1" ]
     } ],
-    "tags" : [ ],
+    "tags" : [ "人名用字・地名用字" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -11230,7 +11230,7 @@
       "title" : "標準パイグ語",
       "forms" : [ "lip" ]
     } ],
-    "tags" : [ ],
+    "tags" : [ "人名用字・地名用字" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -11257,6 +11257,16 @@
     "entry" : {
       "id" : 408,
       "form" : "針"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 409,
+      "form" : "翰"
     },
     "translations" : [ ],
     "tags" : [ ],
