@@ -11307,6 +11307,31 @@
         "form" : "寝"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 411,
+      "form" : "享"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "sep" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "zvp" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "祖地素" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "sephu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "sephu" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
