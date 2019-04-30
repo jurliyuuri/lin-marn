@@ -1003,6 +1003,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 3280,
+      "form" : "bohai"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "入れ替え,交換;【数】置換;=permutao" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 3324,
       "form" : "bokua"
     },
@@ -3058,6 +3071,19 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "綿羽のような,綿羽でできた,うぶ毛の生えた,綿毛に覆われた" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 18466,
+      "form" : "hotei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "代用,取換え;【化】置換;【数】代入" ]
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
