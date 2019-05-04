@@ -1,44 +1,7 @@
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script src="image_table/get_image.js"></script>
-<script>
-	var precedence = ["SY", "jv", "noborder", "border"];
-
-	function draw(prec){
-		document.getElementById("res").innerHTML = 
-			document.getElementById('inputs').value.split(" ")
-			.map(function(txt){
-					var ans = "";
-					for(var i=0; i<txt.length;i++){
-						ans += getImage(txt[i], prec, 100);
-					}
-					return ans;
-				})
-			.join("<br><br>");
-		
-	}
-
-	function sy() {
-		precedence = ["SY", "jv", "noborder", "border"];
-		draw(precedence);
-	}
-
-	function jv() {
-		precedence = ["jv", "SY", "noborder", "border"];
-		draw(precedence);
-	}
-
-	function noborder() {
-		precedence = ["noborder", "border", "SY", "jv"];
-		draw(precedence);
-	}
-
-
-	function border() {
-		precedence = ["border", "noborder", "SY", "jv"];
-		draw(precedence);
-	}
-</script>
+<script src="image_table/html_to_linzi_image.js"></script>
 <p><a href="lin-marn.html">トップに戻る</a></p>
 備考：<a href="linzi_image_table.html">元データ</a>からも分かるように、2019年3月3日現在、
 <table border="1">
@@ -52,13 +15,13 @@
 <p>である。bitmapがあるものについては必ずSYもj.vもある。</p>
 <div>
 優先する書体：	<br>
-<label><input type="radio" name="precedence" checked onclick='sy();'>SYの書いた字</label><br>
-<label><input type="radio" name="precedence" onclick='jv();'>j.vの書いた字</label><br>
-<label><input type="radio" name="precedence" onclick='noborder();'>枠なしビットマップ</label><br>
-<label><input type="radio" name="precedence" onclick='border();'>枠つきビットマップ</label><br>
+<label><input type="radio" name="precedence" checked onclick='Global.sy();'>SYの書いた字</label><br>
+<label><input type="radio" name="precedence" onclick='Global.jv();'>j.vの書いた字</label><br>
+<label><input type="radio" name="precedence" onclick='Global.noborder();'>枠なしビットマップ</label><br>
+<label><input type="radio" name="precedence" onclick='Global.border();'>枠つきビットマップ</label><br>
 </div>
 <input type="text" value="王冠之光満全族 心善受助 互雪父輝麗倒翰須㍂" id="inputs" style="font-size:100%" size="40" />
 
-<input type="button" onclick="draw(precedence)" value="変換">
+<input type="button" onclick="Global.draw(Global.precedence)" value="変換">
 <div style="visibility: hidden"><label>拡大率:<input id="prop" type="number" name="number" required="required" value="20">%</label></div>
 <div id="res"></div>
