@@ -4,6 +4,7 @@
         "noImplicitThis": true,
         "strictNullChecks": true,
         "noImplicitAny": true,
+        "noImplicitReturns": true,
         "target": "es2016"
     },
     "include": [
