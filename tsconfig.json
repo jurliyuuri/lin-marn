@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "./image_table",
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "target": "es2016"
+    },
+    "include": [
+        "./image_table_ts/**/*"
+    ]
+}
