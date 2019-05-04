@@ -19,7 +19,7 @@
 				<li>lin-marn.htmlに軽く説明を書く（必須ではないが推奨）</li>
 				<li>image_table/char_and_folder_info.jsのconst linzi_listを更新</li>
 				<li>字形が定まっており、しかし画像が用意できていない場合、image_table/char_and_folder_info.jsのconst defined_but_no_image_preparedを更新</li>
-				<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）を<strong>image_table/image_existence_table.jsonとimage_table/image_existence_table.jsの両方に反映</strong>（これさっき忘れてた）</li>
+				<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）をimage_table/image_existence_table.jsに反映</li>
 			</ul>
 		</li>
 		<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」の「メインの表」をパイグ語リポジトリにミラー（「古パイグの属性」の1個左の列までを選択し、パイグ語漢字転写早見表_mirror.tsvに貼り付け）しコミット</li>
@@ -67,7 +67,7 @@
 		<li>誰が書いた文字なのか、に応じて<s>to_linzi_image.htmlのfolder_names_descending_precedenceを適切に編集する。5箇所あるので注意。</s>やらなくてよくなった。</li>
 		<li>image_table/char_and_folder_info.jsのconst folder_namesを更新する。</li>
 		<li>image_table/char_and_folder_info.jsのconst defined_but_no_image_preparedの中から収録できた字を削除</li>
-		<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）を<strong>image_table/image_existence_table.jsonとimage_table/image_existence_table.jsの両方に反映</strong>。</li>
+		<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）をimage_table/image_existence_table.jsに反映。</li>
 		<li>もちろんコミット忘れずに。</li>
 		<li>必要に応じて、「1. 燐字の漢字転写を定めた時」に貼ってある燐字書き取りのリンクを書き換えること</li>
 	</ol>
