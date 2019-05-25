@@ -21,13 +21,14 @@
 				<li>lin-marn.htmlに軽く説明を書く（必須ではないが推奨）</li>
 				<li>image_table_ts/char_and_folder_info.tsのconst linzi_listを更新</li>
 				<li>字形が定まっており、しかし画像が用意できていない場合、image_table_ts/char_and_folder_info.tsのconst defined_but_no_image_preparedを更新</li>
+				<li>tscを実行</li>
 				<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）をimage_table_ts/image_existence_table.tsに反映</li>
 				<li>tscを実行</li>
 			</ul>
 		</li>
 		<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」の「メインの表」をパイグ語リポジトリにミラー（「古パイグの属性」の1個左の列までを選択し、パイグ語漢字転写早見表_mirror.tsvに貼り付け）しコミット</li>
 		<li>『<a href="https://docs.google.com/spreadsheets/d/1C8GTepk3d6DkfZuZi-mdW1X1MswmSCA2SPzeB9BLJt4/edit#gid=0">「第k(≧7)回燐字書き取り」燐字と原稿用紙</a>』に字を追加。</li>
-		<li>image_table_ts/mysterious_encoding.tsに字を足す<ul>
+		<li>image_table_ts/mysterious_encoding.tsに字を足す。tscを実行。<ul>
 			<li>??のある行を乱択し、それを追加された字で置き換える</li>
 		</ul></li>
 		<li>mysterious_encoding_consistency.htmlを開いて、「consistent.」と表示されていることを確認する</li>

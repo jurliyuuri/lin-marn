@@ -11332,6 +11332,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 412,
+      "form" : "失"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "zip1" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "ziphei" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "ziphei" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
