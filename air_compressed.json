@@ -3361,6 +3361,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 19106,
+      "form" : "imika"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "おもう,思う" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "IMIKA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 19114,
       "form" : "imisa"
     },

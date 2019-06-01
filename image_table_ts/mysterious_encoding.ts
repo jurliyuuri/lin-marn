@@ -355,7 +355,7 @@ const mysterious_encoding: string[] = [
   "??",
   "麗",
   "律",
-  "??",
+  "思",
   "貧",
   "??",
   "??",
