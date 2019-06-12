@@ -126,7 +126,7 @@ const mysterious_encoding: string[] = [
   "??",
   "貝",
   "六",
-  "??",
+  "橋",
   "??",
   "紙",
   "竺",

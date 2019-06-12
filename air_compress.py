@@ -17,11 +17,11 @@ def foo(q):
 	return q
 
 def main():
-	a = open("air.json" , "r") 
+	a = open("air.json" , "r", encoding='utf-8') 
 	b = json.load(a)
 	b["words"] = list(filter(lambda a: len(a["tags"])>=1, b["words"]))
 	b["words"] = [foo(q) for q in b["words"]]
-	c = open("air_compressed.json", "w") 
+	c = open("air_compressed.json", "w", encoding='utf-8') 
 	json.dump(b, c)
 
 
