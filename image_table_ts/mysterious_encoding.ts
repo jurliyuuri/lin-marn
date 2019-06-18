@@ -157,7 +157,7 @@ const mysterious_encoding: string[] = [
   "毛",
   "始",
   "兵",
-  "??",
+  "帝",
   "金",
   "而",
   "嗅",
