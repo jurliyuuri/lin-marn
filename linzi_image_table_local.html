@@ -1,5 +1,6 @@
 <!-- あ -->
 <script src="image_table/char_and_folder_info.js"></script>
+<script src="image_table/image_existence_table.js"></script>
 <script src="image_table/generate_linzi_image_table_html.js"></script>
 <script>
 function checkImageExists(imageUrl, linzi, name, callBack) {
@@ -13,15 +14,19 @@ function checkImageExists(imageUrl, linzi, name, callBack) {
 	imageData.src = imageUrl;
 }
 
-var IMAGE_EXISTENCE_TABLE = {};
+var IMAGE_EXISTENCE_TABLE_DUMMY = {};
 for(var i = 0; i < linzi_list.length; i++){
-	IMAGE_EXISTENCE_TABLE[linzi_list[i]] = {};
+	IMAGE_EXISTENCE_TABLE_DUMMY[linzi_list[i]] = {};
 	for(var j=0; j<folder_names.length;j++){
 		var imagePath = `${folder_names[j]}/${linzi_list[i]}.png`;
 		var linzi = linzi_list[i];
 		var name = folder_names[j];
 		checkImageExists(imagePath, linzi, name, function(linzi, name, flag){
-			IMAGE_EXISTENCE_TABLE[linzi][name] = flag;
+			if (flag !== IMAGE_EXISTENCE_TABLE[linzi][name]) {
+				let message = "INCONSISTENCY!!! INCONSISTENCY!!! at " + linzi + ", " + name;
+				alert(message);
+				throw new Error(message);
+			}
 		})
 	}
 }
