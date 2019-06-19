@@ -27,7 +27,7 @@
 			</ul>
 		</li>
 		<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」の「メインの表」をパイグ語リポジトリにミラー（「古パイグの属性」の1個左の列までを選択し、パイグ語漢字転写早見表_mirror.tsvに貼り付け）しコミット</li>
-		<li>『<a href="https://docs.google.com/spreadsheets/d/1C8GTepk3d6DkfZuZi-mdW1X1MswmSCA2SPzeB9BLJt4/edit#gid=0">「第k(≧7)回燐字書き取り」燐字と原稿用紙</a>』に字を追加。</li>
+		<li>『<a href="https://docs.google.com/spreadsheets/d/1C8GTepk3d6DkfZuZi-mdW1X1MswmSCA2SPzeB9BLJt4/edit#gid=0">「第k(≧7)回燐字書き取り」燐字と原稿用紙</a>』に字を追加。未造字ならオレンジ、そうでなければ白。</li>
 		<li>image_table_ts/mysterious_encoding.tsに字を足す。tscを実行。<ul>
 			<li>??のある行を乱択し、それを追加された字で置き換える</li>
 		</ul></li>
@@ -41,7 +41,7 @@
 		<li>燐字の画像も用意できている場合、燐字海への登録作業を行う。
 			<ol>
 				<li><code>python3 to_linzihai.py</code>をすると清声集の記述を元にしてHTMLファイルが生まれる。</li>
-				<li>「燐字海」でページを新規作成し、記事名は漢字転写にする。この際、漢字の後に「ら」とか入れておくと「漢字の拼音+ra」がURL欄に出てくるので、それで出てきた拼音をURLにセット。テンプレートは「テンプレートnew」を選択。</li>
+				<li>「燐字海」でページを新規作成し、記事名は漢字転写にする。この際、漢字の後に「ら」とか入れておくと「漢字の漢語拼音+ra」がURL欄に出てくるので、それで出てきた拼音をURLにセット。テンプレートは「テンプレートnew」を選択。</li>
 				<li>pythonで生成されたHTMLを下の方に貼り付けるとうまくいくはず</li>
 			</ol>
 		</li>
@@ -69,7 +69,6 @@
 	<ol>
 		<li>1枚1枚を整ったサイズに分割。前例（<a href="./燐字表示/index.html">1</a>, <a href="./燐字表示2/index.html">2</a>, <a href="./燐字表示3/index.html">3</a>, <a href="./燐字表示4/index.html">4</a>）に従って頑張ろう。</li>
 		<li>分割した画像はフォルダに入れる。フォルダ名は「燐字画像6」とかの前例に従う。</li>
-		<li>誰が書いた文字なのか、に応じて<s>to_linzi_image.htmlのfolder_names_descending_precedenceを適切に編集する。5箇所あるので注意。</s>やらなくてよくなった。</li>
 		<li>image_table_ts/char_and_folder_info.tsのconst folder_namesを更新する。</li>
 		<li>image_table_ts/char_and_folder_info.tsのconst defined_but_no_image_preparedの中から収録できた字を削除</li>
 		<li>linzi_image_table_local.htmlを実行し、それで作られたIMAGE_EXISTENCE_TABLE（Google Chromeの場合、開発者ツールを開いて<code>JSON.stringify(IMAGE_EXISTENCE_TABLE)</code>とするとJSONが手に入る）をimage_table_ts/image_existence_table.tsに反映。</li>
