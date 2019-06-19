@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <script src="image_table/char_and_folder_info.js"></script>
     <script src="image_table/image_existence_table.js"></script>
-    <title>現状の燐字の統計</title>
+    <title>燐字の字形が定まっているかどうか</title>
   </head>
   <body>
-<h1>現状の燐字の統計</h1>
+<h1>燐字の字形が定まっているかどうか</h1>
 
 <table>
 <tr><td>燐字数</td><td id="num"></td></tr>
 <tr><td>制定済み燐字数</td><td id="defined"></td></tr>
 <tr><td>燐字制定率</td><td id="percentage"></td></tr>
 </table>
+
+<hr>
+
+<div id="def_nondef"></div>
 
 <hr>
 
@@ -33,8 +37,25 @@ function linzis_with_shape(){
   Array.prototype.push.apply(arr, defined_but_no_image_prepared);
   return arr;
 }
-document.getElementById("defined").innerHTML = linzis_with_shape().length;
-document.getElementById("percentage").innerHTML = (linzis_with_shape().length / linzi_list.length * 100).toPrecision(4) + "%";
+
+{
+  const shaped = linzis_with_shape();
+  document.getElementById("defined").innerHTML = shaped.length;
+  document.getElementById("percentage").innerHTML = (shaped.length / linzi_list.length * 100).toPrecision(4) + "%";
+
+  let str = "";
+  
+  for (let i = 0; i < linzi_list.length; i++) {
+    str += shaped.includes(linzi_list[i]) 
+      ? linzi_list[i]
+      : "<span style='background-color:  #ffd966'>" + linzi_list[i] + "</span>" 
+    ;
+  }
+  document.getElementById("def_nondef").innerHTML = str;
+}
+
+//
+
 </script>
 </body>
 </html>
