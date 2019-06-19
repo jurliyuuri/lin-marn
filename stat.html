@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <script src="image_table/char_and_folder_info.js"></script>
+    <script src="image_table/image_existence_table.js"></script>
+    <title>現状の燐字の統計</title>
+  </head>
+  <body>
+<h1>現状の燐字の統計</h1>
+
+<table>
+<tr><td>燐字数</td><td id="num"></td></tr>
+<tr><td>制定済み燐字数</td><td id="defined"></td></tr>
+<tr><td>燐字制定率</td><td id="percentage"></td></tr>
+</table>
+
+<hr>
+
+<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>
+
+<script> 
+document.getElementById("num").innerHTML = linzi_list.length;
+function linzis_with_shape(){
+  let arr = []; 
+  outer: for(let k in IMAGE_EXISTENCE_TABLE) { 
+    for (let l in IMAGE_EXISTENCE_TABLE[k]) { 
+      if (IMAGE_EXISTENCE_TABLE[k][l]) { 
+        arr.push(k); continue outer;
+      } 
+    }
+  }
+  Array.prototype.push.apply(arr, defined_but_no_image_prepared);
+  return arr;
+}
+document.getElementById("defined").innerHTML = linzis_with_shape().length;
+document.getElementById("percentage").innerHTML = (linzis_with_shape().length / linzi_list.length * 100).toPrecision(4) + "%";
+</script>
+</body>
+</html>
