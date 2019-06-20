@@ -5,11 +5,11 @@ function getImage(character, type_prec, size, path) {
     for (var i = 0; i < type_prec.length; i++) {
         prec = prec.concat(folder_names.filter(a => folder_type[a] === type_prec[i]));
     }
-    if (!IMAGE_EXISTENCE_TABLE[character]) {
+    if (!linzi_list.includes(character)) {
         return `（「${character}」未定義）`;
     }
     for (var j = 0; j < prec.length; j++) {
-        if (IMAGE_EXISTENCE_TABLE[character][prec[j]]) {
+        if (NEW_IMAGE_EXISTENCE_TABLE[prec[j]].includes(character)) {
             return `<img src='${path}/${prec[j]}/${character}.png' width='${size}' height='${size}' />`;
         }
     }

@@ -34,7 +34,7 @@ function generate_table_html(preloading : boolean) : string {
 
 			/* check if at least 1 image exists */
 			for(var j: number = 0; j < folder_names.length; j++){
-				if(IMAGE_EXISTENCE_TABLE[linzi_list[i]][folder_names[j]] == true){
+				if(NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi_list[i])){
 					flag = true;
 				}
 			}
@@ -52,7 +52,7 @@ function generate_table_html(preloading : boolean) : string {
 		}
 		for(var j=0; j<folder_names.length;j++){
 			ans += `<td>`;
-			if(preloading || IMAGE_EXISTENCE_TABLE[linzi_list[i]][folder_names[j]] == true){
+			if(preloading || NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi_list[i])){
 				ans += `<img src='${folder_names[j]}/${linzi_list[i]}.png' width='100' height='100' />`
 			}
 			ans += `</td>`;
