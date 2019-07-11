@@ -162,7 +162,7 @@ const mysterious_encoding: string[] = [
   "而",
   "嗅",
   "五",
-  "??",
+  "半",
   "横",
   "卵",
   "??",
