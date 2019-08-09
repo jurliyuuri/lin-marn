@@ -94,28 +94,31 @@ function addRowFromId(id: id) {
     </tr>`;
 }
 
+function getTopIdList_Sorted() {
+    let idList: id[] = [];
+    for (let id in composition2) {
+        if (!isPopular(id)) {
+            continue;
+        }
+        idList.push(id);
+    }
+
+    idList.sort((idA, idB) => calculateContributionOf(idB) - calculateContributionOf(idA));
+    return idList;
+}
+
 const POPULARNESS_THRESHOLD = 5;
 
 function generate_comp_table_html() {
-    let [ans, topCount] = (() => {
-        let firstTable = "<table cellpadding=3 cellspacing=0 border=1>";
+    let topIdList = getTopIdList_Sorted();
 
-        let count = 0;
-        for (let row = 0; row <= 364; row++) {
-            const id = "D" + row;
-            if (!(id in composition2) || !isPopular(id)) {
-                continue;
-            }
-            count++;
-            firstTable += addRowFromId(id);
-        }
+    let ans = `Top${topIdList.length}字素` + "<table cellpadding=3 cellspacing=0 border=1>";
+    for (let i = 0; i < topIdList.length; i++) {
+        ans += addRowFromId(topIdList[i]);
+    }
+    ans += "</table>"
 
-        firstTable += "</table>"
-        firstTable = `Top${count}字素` + firstTable;
-        return [firstTable,count];
-    })();
-
-    ans += `<br>Top${topCount}字素からなる文字`;
+    ans += `<br>Top${topIdList.length}字素からなる文字`;
     {
         ans += "<table cellpadding=3 cellspacing=0 border=1>";
 
