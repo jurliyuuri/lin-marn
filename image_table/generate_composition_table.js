@@ -1,26 +1,16 @@
-function lookupFromId(id) {
-    const obj = composition2[id];
-    return {
-        id: id,
-        isDecomposable: obj.isDecomposable,
-        strokeCount: obj.strokeCount,
-        hanzi: obj.hanzi,
-        composition: obj.composition
-    };
-}
 function toStrokeCount(a) {
     if (typeof a === "number") {
         return a;
     }
     else {
-        return sum(a.map(id => toStrokeCount(lookupFromId(id).strokeCount)));
+        return sum(a.map(id => toStrokeCount(composition2[id].strokeCount)));
     }
 }
 function containsHowManyOf(container, contains) {
     if (container === contains) {
         return 1;
     }
-    const foo = lookupFromId(container).strokeCount;
+    const foo = composition2[container].strokeCount;
     if (typeof foo === "number") {
         return 0;
     }
@@ -47,18 +37,18 @@ function getColorOfStrokeCount(a) {
     }
     let pieces = a;
     while (true) {
-        const notContributingMuch = pieces.filter(id => lookupFromId(id).hanzi === "??" /* counted to be never popular */ || calculateContributionOf(id) < POPULARNESS_THRESHOLD);
+        const notContributingMuch = pieces.filter(id => composition2[id].hanzi === "??" /* counted to be never popular */ || calculateContributionOf(id) < POPULARNESS_THRESHOLD);
         // if made up fully of popular ones, then orange
         if (notContributingMuch.length === 0) {
             return orange;
         }
         // else, if an unpopular piece can be detected, then bluish
-        if (notContributingMuch.filter(id => typeof lookupFromId(id).strokeCount === "number").length !== 0) {
+        if (notContributingMuch.filter(id => typeof composition2[id].strokeCount === "number").length !== 0) {
             return bluish;
         }
         // now everything is decomposable. All I need is to check whether the decomposed pieces are popular enough
         pieces = [].concat(...notContributingMuch.map(function (id) {
-            const strCnt = lookupFromId(id).strokeCount;
+            const strCnt = composition2[id].strokeCount;
             if (typeof strCnt === "number") {
                 throw new Error("should not happen");
             }
