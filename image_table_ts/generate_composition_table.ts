@@ -33,6 +33,17 @@ function calculateContributionOf(id: id) {
     return ans;
 }
 
+function isPopular(id: id) {
+    return (
+        composition2[id].hanzi !== "??" /* counted to be never popular */
+        && calculateContributionOf(id) >= POPULARNESS_THRESHOLD
+    );
+}
+
+function getStrokeCountColorFromId(id: id): StrokeCountColor {
+    return getColorOfStrokeCount(composition2[id].strokeCount);
+}
+
 type StrokeCountColor = "rgb(255, 255, 255)" | "rgb(252, 229, 205)" | "rgb(208, 224, 227)";
 // white if consisting solely of itself; orange if made up fully of popular ones; bluish color if neither
 function getColorOfStrokeCount(a: number | id[]): StrokeCountColor {
@@ -44,8 +55,7 @@ function getColorOfStrokeCount(a: number | id[]): StrokeCountColor {
 
     let pieces = a;
     while (true) {
-        const notContributingMuch: id[] = pieces.filter(id =>
-            composition2[id].hanzi === "??" /* counted to be never popular */ || calculateContributionOf(id) < POPULARNESS_THRESHOLD);
+        const notContributingMuch: id[] = pieces.filter(id => !isPopular(id));
 
         // if made up fully of popular ones, then orange
         if (notContributingMuch.length === 0) {
@@ -76,7 +86,7 @@ function addRowFromId(id: id) {
     return `<tr>
         <td${composition2[id].isDecomposable ? ">TRUE" : " style='background-color: rgb(183, 225, 205)'>FALSE"}</td>
         <td style='background-color: ${
-        getColorOfStrokeCount(composition2[id].strokeCount)}'>${toStrokeCount(composition2[id].strokeCount)
+        getStrokeCountColorFromId(id)}'>${toStrokeCount(composition2[id].strokeCount)
         }</td>
         <td>${calculateContributionOf(id)}</td>
         <td>${composition2[id].hanzi}</td>
@@ -87,20 +97,53 @@ function addRowFromId(id: id) {
 const POPULARNESS_THRESHOLD = 5;
 
 function generate_comp_table_html() {
-    let index = 0;
-    let ans = "<table cellpadding=3 cellspacing=0 border=1>";
+    let [ans, topCount] = (() => {
+        let firstTable = "<table cellpadding=3 cellspacing=0 border=1>";
 
-    for (let row = 0; row <= 364; row++) {
-        const id = "D" + row;
-        if (!(id in composition2)) {
-            ans += "<tr><td>&nbsp;</td></tr>";
-            continue;
+        let count = 0;
+        for (let row = 0; row <= 364; row++) {
+            const id = "D" + row;
+            if (!(id in composition2) || !isPopular(id)) {
+                continue;
+            }
+            count++;
+            firstTable += addRowFromId(id);
         }
 
-        ans += addRowFromId(id);
-        index++;
-    }
+        firstTable += "</table>"
+        firstTable = `Top${count}字素` + firstTable;
+        return [firstTable,count];
+    })();
 
-    ans += "</table>"
+    ans += `<br>Top${topCount}字素からなる文字`;
+    {
+        ans += "<table cellpadding=3 cellspacing=0 border=1>";
+
+        for (let row = 0; row <= 364; row++) {
+            const id = "D" + row;
+            if (!(id in composition2) || isPopular(id) || getStrokeCountColorFromId(id) !== "rgb(252, 229, 205)") {
+                continue;
+            }
+
+            ans += addRowFromId(id);
+        }
+
+        ans += "</table>"
+    }
+    {
+        ans += "<table cellpadding=3 cellspacing=0 border=1>";
+
+        for (let row = 0; row <= 364; row++) {
+            const id = "D" + row;
+            if (!(id in composition2) || isPopular(id) || getStrokeCountColorFromId(id) === "rgb(252, 229, 205)") {
+                ans += "<tr><td>&nbsp;</td></tr>";
+                continue;
+            }
+
+            ans += addRowFromId(id);
+        }
+
+        ans += "</table>"
+    }
     return ans;
 }
