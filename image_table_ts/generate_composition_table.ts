@@ -1,24 +1,25 @@
-function lookupFromId(id: id) {
-    const arr = composition.filter(({ id: ID }) => ID === id);
-    if (arr.length === 0) {
-        alert(`error: undefined ID ${id} was found`);
-        throw new Error(`error: undefined ID ${id} was found`);
-    } else if (arr.length > 1) {
-        alert(`error: duplicate ID ${id} was found`);
-        throw new Error(`error: duplicate ID ${id} was found`);
-    } else {
-        return arr[0];
-    }
+function lookupFromId(id: id): {
+    id: id,
+    isDecomposable: boolean,
+    strokeCount: number | id[],
+    hanzi: string,
+    composition: string[]
+} {
+    const obj = composition2[id];
+    return {
+        id: id,
+        isDecomposable: obj.isDecomposable,
+        strokeCount: obj.strokeCount,
+        hanzi: obj.hanzi,
+        composition: obj.composition
+    };
 }
 
 function toStrokeCount(a: number | string[]): number {
     if (typeof a === "number") {
         return a;
     } else {
-        return a.map(id => toStrokeCount(lookupFromId(id).strokeCount)
-        ).reduce(function (prev, current) {
-            return prev + current;
-        });
+        return sum(a.map(id => toStrokeCount(lookupFromId(id).strokeCount)));
     }
 }
 
@@ -41,9 +42,12 @@ function sum(arr: number[]): number {
 }
 
 function calculateContributionOf(id: id) {
-    return sum(composition.map(function (elem) {
-        return containsHowManyOf(elem.id, id);
-    }))
+    let ans = 0;
+    for (let key in composition2) {
+        ans += containsHowManyOf(key, id);
+    }
+
+    return ans;
 }
 
 type StrokeCountColor = "rgb(255, 255, 255)" | "rgb(252, 229, 205)" | "rgb(208, 224, 227)";
@@ -57,7 +61,7 @@ function getColorOfStrokeCount(a: number | id[]): StrokeCountColor {
 
     let pieces = a;
     while (true) {
-        const notContributingMuch: id[] = pieces.filter(id => 
+        const notContributingMuch: id[] = pieces.filter(id =>
             lookupFromId(id).hanzi === "??" /* counted to be never popular */ || calculateContributionOf(id) < POPULARNESS_THRESHOLD);
 
         // if made up fully of popular ones, then orange
@@ -85,27 +89,35 @@ function getColorOfStrokeCount(a: number | id[]): StrokeCountColor {
 
 }
 
+function addRowFromId(id: id) {
+    return `<tr>
+        <td${composition2[id].isDecomposable ? ">TRUE" : " style='background-color: rgb(183, 225, 205)'>FALSE"}</td>
+        <td style='background-color: ${
+        getColorOfStrokeCount(composition2[id].strokeCount)}'>${toStrokeCount(composition2[id].strokeCount)
+        }</td>
+        <td>${calculateContributionOf(id)}</td>
+        <td>${composition2[id].hanzi}</td>
+        <td>${composition2[id].composition.join("</td><td>")}</td>
+    </tr>`;
+}
+
 const POPULARNESS_THRESHOLD = 5;
 
 function generate_comp_table_html() {
     let index = 0;
-    let ans = "<table cellpadding=3 cellspacing=0 border=1>"
+    let ans = "<table cellpadding=3 cellspacing=0 border=1>";
+
     for (let row = 0; row <= 364; row++) {
-        if (composition[index].id !== "D" + row) {
+        const id = "D" + row;
+        if (!(id in composition2)) {
             ans += "<tr><td>&nbsp;</td></tr>";
             continue;
         }
 
-        ans += `<tr>
-            <td${composition[index].isDecomposable ? ">TRUE" : " style='background-color: rgb(183, 225, 205)'>FALSE"}</td>
-            <td style='background-color: ${
-            getColorOfStrokeCount(composition[index].strokeCount)}'>${toStrokeCount(composition[index].strokeCount)
-            }</td>
-            <td>${calculateContributionOf(composition[index].id)}</td>
-            <td>${composition[index].hanzi}</td>
-            <td>${composition[index].composition.join("</td><td>")}</td>
-        </tr>`;
+        ans += addRowFromId(id);
         index++;
     }
+
+    ans += "</table>"
     return ans;
 }
