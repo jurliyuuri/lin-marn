@@ -30,7 +30,10 @@ function containsHowManyOf(container, contains) {
     if (typeof foo === "number") {
         return 0;
     }
-    return foo.map(id => containsHowManyOf(id, contains)).reduce(function (prev, current) {
+    return sum(foo.map(id => containsHowManyOf(id, contains)));
+}
+function sum(arr) {
+    return arr.reduce(function (prev, current) {
         return prev + current;
     });
 }
@@ -42,19 +45,13 @@ function generate_comp_table_html() {
             ans += "<tr><td>&nbsp;</td></tr>";
             continue;
         }
-        const contribution = composition.map(function (elem) {
+        const contribution = sum(composition.map(function (elem) {
             return containsHowManyOf(elem.id, "D" + row);
-        }).reduce(function (prev, current) {
-            return prev + current;
-        });
-        if (contribution.toString() !== composition[index].contribution) {
-            console.log(`contribution mismatch in ${composition[index].hanzi}: 
-            ${contribution.toString()} and ${composition[index].contribution}`);
-        }
+        }));
         ans += `<tr>
             <td${composition[index].isDecomposable ? ">TRUE" : " style='background-color: rgb(183, 225, 205)'>FALSE"}</td>
             <td>${toStrokeCount(composition[index].strokeCount)}</td>
-            <td>${composition[index].contribution}</td>
+            <td>${contribution}</td>
             <td>${composition[index].hanzi}</td>
             <td>${composition[index].composition.join("</td><td>")}</td>
         </tr>`;
