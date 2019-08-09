@@ -86,14 +86,14 @@ function getTopIdList_Sorted() {
 const POPULARNESS_THRESHOLD = 5;
 function generate_comp_table_html() {
     let topIdList = getTopIdList_Sorted();
-    let ans = `Top${topIdList.length}字素` + "<table cellpadding=3 cellspacing=0 border=1>";
+    let ans = `Top${topIdList.length}字素` + "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
     for (let i = 0; i < topIdList.length; i++) {
         ans += addRowFromId(topIdList[i]);
     }
     ans += "</table>";
     ans += `<br>Top${topIdList.length}字素からなる文字`;
     {
-        ans += "<table cellpadding=3 cellspacing=0 border=1>";
+        ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
         for (let row = 0; row <= 364; row++) {
             const id = "D" + row;
             if (!(id in composition2) || isPopular(id) || getStrokeCountColorFromId(id) !== "rgb(252, 229, 205)") {
@@ -104,7 +104,7 @@ function generate_comp_table_html() {
         ans += "</table>";
     }
     {
-        ans += "<table cellpadding=3 cellspacing=0 border=1>";
+        ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
         for (let row = 0; row <= 364; row++) {
             const id = "D" + row;
             if (!(id in composition2) || isPopular(id) || getStrokeCountColorFromId(id) === "rgb(252, 229, 205)") {
