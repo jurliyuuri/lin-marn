@@ -1,7 +1,8 @@
+type id = string;
 const composition: Array<{
-    id: string,
+    id: id,
     isDecomposable: boolean,
-    strokeCount: number | string[],
+    strokeCount: number | id[],
     hanzi: string,
     composition: string[]
 }> = [{ "id": "D3", "isDecomposable": false, "strokeCount": 1, "hanzi": "五", "composition": ["＊一"] },
