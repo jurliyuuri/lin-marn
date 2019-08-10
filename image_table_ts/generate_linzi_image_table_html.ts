@@ -1,4 +1,4 @@
-function generate_table_html(preloading : boolean) : string {
+function generate_table_html(preloading: boolean): string {
 	var ans: string = "";
 	if (!preloading) {
 		ans += `
@@ -17,24 +17,24 @@ function generate_table_html(preloading : boolean) : string {
 		</div>`;
 	}
 	ans += "<table>";
-	
+
 	ans += "<tr>";
 	ans += "<td>字</td>"
-	for(var j: number = 0; j < folder_names.length; j++){
-		ans += "<td>"+folder_names[j]+"</td>";
+	for (var j: number = 0; j < folder_names.length; j++) {
+		ans += "<td>" + folder_names[j] + "</td>";
 	}
 	ans += "</tr>";
 
-	for(var i: number = 0; i < linzi_list.length; i++){
+	for (var i: number = 0; i < linzi_list.length; i++) {
 		ans += "<tr>";
-		if (preloading){ /* linzi_image_table_local */
+		if (preloading) { /* linzi_image_table_local */
 			ans += `<td>${linzi_list[i]}</td>`
 		} else { /* linzi_image_table */
 			let flag: boolean = false;
 
 			/* check if at least 1 image exists */
-			for(var j: number = 0; j < folder_names.length; j++){
-				if(NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi_list[i])){
+			for (var j: number = 0; j < folder_names.length; j++) {
+				if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi_list[i])) {
 					flag = true;
 				}
 			}
@@ -50,9 +50,9 @@ function generate_table_html(preloading : boolean) : string {
 				ans += `<td style="background-color: yellow">*${linzi_list[i]}</td>`;
 			}
 		}
-		for(var j=0; j<folder_names.length;j++){
+		for (var j = 0; j < folder_names.length; j++) {
 			ans += `<td>`;
-			if(preloading || NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi_list[i])){
+			if (preloading || NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi_list[i])) {
 				ans += `<img src='${folder_names[j]}/${linzi_list[i]}.png' width='100' height='100' />`
 			}
 			ans += `</td>`;

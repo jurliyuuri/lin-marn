@@ -1,4 +1,4 @@
-function check_constistency(): void{
+function check_constistency(): void {
 	var encoded_linzi: string[] = mysterious_encoding.filter(a => a !== "??").sort();
 	var sorted_linzi_list: string[] = linzi_list.sort();
 
@@ -9,8 +9,8 @@ function check_constistency(): void{
 		return;
 	}
 
-	var zip_match: boolean[] = encoded_linzi.map(function(e: string, i: number) {
-	  return e === sorted_linzi_list[i];
+	var zip_match: boolean[] = encoded_linzi.map(function (e: string, i: number) {
+		return e === sorted_linzi_list[i];
 	});
 
 	if (!zip_match.every(q => q)) { // not everything matches
