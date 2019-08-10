@@ -77,7 +77,7 @@ function addRowFromId(id) {
 }
 const sortByPopularity = (arr) => arr.sort((idA, idB) => calculateContributionOf(idB) - calculateContributionOf(idA));
 const sortById = (arr) => arr.sort((idA, idB) => parseInt(idA.slice(1)) - parseInt(idB.slice(1)));
-function getIdList_Sorted() {
+function getIdList_Sorted(withDuplicate) {
     let topIdList = [];
     let orangeList = [];
     let notSoPopularWhite = [];
@@ -106,6 +106,9 @@ function getIdList_Sorted() {
     sortById(orangeList);
     sortByPopularity(notSoPopularWhite);
     let obj = {};
+    for (let j = notSoPopularWhite.length - 1; j >= 0; j--) {
+        obj[notSoPopularWhite[j]] = [];
+    }
     for (let i = 0; i < bluish.length; i++) {
         const strcnt = composition2[bluish[i]].strokeCount;
         if (typeof strcnt === "number") {
@@ -117,11 +120,9 @@ function getIdList_Sorted() {
         }
         for (let j = notSoPopularWhite.length - 1; j >= 0; j--) {
             if (unpopularComponents.includes(notSoPopularWhite[j])) {
-                if (obj[notSoPopularWhite[j]] == null) {
-                    obj[notSoPopularWhite[j]] = [bluish[i]];
-                }
-                else {
-                    obj[notSoPopularWhite[j]].push(bluish[i]);
+                obj[notSoPopularWhite[j]].push(bluish[i]);
+                if (!withDuplicate) {
+                    break;
                 }
             }
         }
@@ -129,8 +130,8 @@ function getIdList_Sorted() {
     return { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish, bluishObj: obj };
 }
 const POPULARNESS_THRESHOLD = 5;
-function generate_comp_table_html() {
-    let { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish, bluishObj } = getIdList_Sorted();
+function generate_comp_table_html(withDuplicate) {
+    let { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish, bluishObj } = getIdList_Sorted(withDuplicate);
     let ans = `<h3>Top${topIdList.length}字素</h3>` + "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
     for (let i = 0; i < topIdList.length; i++) {
         ans += addRowFromId(topIdList[i]);
@@ -165,17 +166,5 @@ function generate_comp_table_html() {
         ans += addRowFromId(lonelyWhite[i]);
     }
     ans += "</table>";
-    {
-        ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
-        for (let row = 0; row <= 364; row++) {
-            const id = "D" + row;
-            if (!(id in composition2) || isPopular(id) || getStrokeCountColorFromId(id) === "rgb(252, 229, 205)") {
-                ans += "<tr><td>&nbsp;</td></tr>";
-                continue;
-            }
-            ans += addRowFromId(id);
-        }
-        ans += "</table>";
-    }
     return ans;
 }
