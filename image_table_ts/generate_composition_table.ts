@@ -40,20 +40,8 @@ function isPopular(id: id) {
     );
 }
 
-function getStrokeCountColorFromId(id: id): StrokeCountColor {
-    return getColorOfStrokeCount2(composition2[id].strokeCount);
-}
-
-type StrokeCountColor = "rgb(255, 255, 255)" | "rgb(252, 229, 205)" | "rgb(208, 224, 227)";
-// white if consisting solely of itself; orange if made up fully of popular ones; bluish color if neither
-function getColorOfStrokeCount2(a: number | id[]): StrokeCountColor {
-    const orange = "rgb(252, 229, 205)";
-    const bluish = "rgb(208, 224, 227)";
-    if (typeof a === "number") {
-        return "rgb(255, 255, 255)";
-    }
-
-    let pieces = a;
+function recursivelyDecompose(a: id[]) {
+    let pieces: id[] = a;
     while (true) {
         let hasSomethingToDecompose = false;
         pieces = ([] as id[]).concat(...pieces.map(id => {
@@ -68,9 +56,20 @@ function getColorOfStrokeCount2(a: number | id[]): StrokeCountColor {
 
         if (!hasSomethingToDecompose) break;
     }
+    return pieces;
+}
 
+type StrokeCountColor = "rgb(255, 255, 255)" | "rgb(252, 229, 205)" | "rgb(208, 224, 227)";
+// white if consisting solely of itself; orange if made up fully of popular ones; bluish color if neither
+function getStrokeCountColorFromId(id: id): StrokeCountColor {
+    const a: number | id[] = composition2[id].strokeCount
+    const orange = "rgb(252, 229, 205)";
+    const bluish = "rgb(208, 224, 227)";
+    if (typeof a === "number") {
+        return "rgb(255, 255, 255)";
+    }
 
-    const notContributingMuch: id[] = pieces.filter(id => !isPopular(id));
+    const notContributingMuch: id[] = recursivelyDecompose(a).filter(id => !isPopular(id));
 
     // if made up fully of popular ones, then orange
     if (notContributingMuch.length === 0) {
@@ -122,21 +121,49 @@ function getIdList_Sorted() {
     sortById(orangeList);
     sortByPopularity(notSoPopularWhite);
 
-    return { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish };
+    let obj: {
+        [key: string]: id[]
+    } = {};
+
+    for (let i = 0; i < bluish.length; i++) {
+        const strcnt = composition2[bluish[i]].strokeCount;
+        if (typeof strcnt === "number") {
+            throw new Error("should not happen");
+        }
+
+        const unpopularComponents: id[] = recursivelyDecompose(strcnt).filter(a => !(isPopular(a)));
+
+        if (unpopularComponents.length === 0) {
+            throw new Error("should not happen");
+        }
+
+        for (let j = notSoPopularWhite.length - 1; j >= 0; j--) {
+            if (unpopularComponents.includes(notSoPopularWhite[j])) {
+                if (obj[notSoPopularWhite[j]] == null) {
+                    obj[notSoPopularWhite[j]] = [bluish[i]];
+                } else {
+                    obj[notSoPopularWhite[j]].push(bluish[i]);
+                }
+            }
+        }
+
+    }
+
+    return { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish, bluishObj: obj };
 }
 
 const POPULARNESS_THRESHOLD = 5;
 
 function generate_comp_table_html() {
-    let { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish } = getIdList_Sorted();
+    let { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish, bluishObj } = getIdList_Sorted();
 
-    let ans = `Top${topIdList.length}字素` + "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
+    let ans = `<h3>Top${topIdList.length}字素</h3>` + "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
     for (let i = 0; i < topIdList.length; i++) {
         ans += addRowFromId(topIdList[i]);
     }
     ans += "</table>"
 
-    ans += `<br>Top${topIdList.length}字素からなる文字`;
+    ans += `<br><h3>Top${topIdList.length}字素からなる文字</h3>`;
     ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
     for (let i = 0; i < orangeList.length; i++) {
         ans += addRowFromId(orangeList[i]);
@@ -145,12 +172,25 @@ function generate_comp_table_html() {
 
     for (let i = 0; i < notSoPopularWhite.length; i++) {
         ans += "<br><br>"
+
+        if (composition2[notSoPopularWhite[i]].hanzi === "??") {
+            ans += "<h3>↓これって果たして字なんですかね</h3>";
+        }
+        if (i !== 0
+            && calculateContributionOf(notSoPopularWhite[i]) < calculateContributionOf(notSoPopularWhite[i - 1])
+        ) {
+            ans += `<h3>貢献度${calculateContributionOf(notSoPopularWhite[i])}とその子孫</h3>`;
+        }
         ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
         ans += addRowFromId(notSoPopularWhite[i]);
+        const descendants = bluishObj[notSoPopularWhite[i]];
+        for (let j = 0; j < descendants.length; j++) {
+            ans += addRowFromId(descendants[j]);
+        }
         ans += "</table>"
     }
 
-    ans += "<br>貢献度1の単一要素文字"
+    ans += "<br><h3>貢献度1の単一要素文字</h3>"
 
     ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
     for (let i = 0; i < lonelyWhite.length; i++) {
