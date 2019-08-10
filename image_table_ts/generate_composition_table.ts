@@ -41,12 +41,12 @@ function isPopular(id: id) {
 }
 
 function getStrokeCountColorFromId(id: id): StrokeCountColor {
-    return getColorOfStrokeCount(composition2[id].strokeCount);
+    return getColorOfStrokeCount2(composition2[id].strokeCount);
 }
 
 type StrokeCountColor = "rgb(255, 255, 255)" | "rgb(252, 229, 205)" | "rgb(208, 224, 227)";
 // white if consisting solely of itself; orange if made up fully of popular ones; bluish color if neither
-function getColorOfStrokeCount(a: number | id[]): StrokeCountColor {
+function getColorOfStrokeCount2(a: number | id[]): StrokeCountColor {
     const orange = "rgb(252, 229, 205)";
     const bluish = "rgb(208, 224, 227)";
     if (typeof a === "number") {
@@ -55,30 +55,28 @@ function getColorOfStrokeCount(a: number | id[]): StrokeCountColor {
 
     let pieces = a;
     while (true) {
-        const notContributingMuch: id[] = pieces.filter(id => !isPopular(id));
-
-        // if made up fully of popular ones, then orange
-        if (notContributingMuch.length === 0) {
-            return orange;
-        }
-
-        // else, if an unpopular piece can be detected, then bluish
-        if (notContributingMuch.filter(id => typeof composition2[id].strokeCount === "number").length !== 0) {
-            return bluish;
-        }
-
-        // now everything is decomposable. All I need is to check whether the decomposed pieces are popular enough
-        pieces = ([] as id[]).concat(...
-            notContributingMuch.map(function (id) {
-                const strCnt = composition2[id].strokeCount;
-                if (typeof strCnt === "number") {
-                    throw new Error("should not happen");
-                }
+        let hasSomethingToDecompose = false;
+        pieces = ([] as id[]).concat(...pieces.map(id => {
+            const strCnt = composition2[id].strokeCount;
+            if (typeof strCnt === "number") {
+                return [id];
+            } else {
+                hasSomethingToDecompose = true;
                 return strCnt;
-            })
-        );
+            }
+        }));
 
+        if (!hasSomethingToDecompose) break;
     }
+
+
+    const notContributingMuch: id[] = pieces.filter(id => !isPopular(id));
+
+    // if made up fully of popular ones, then orange
+    if (notContributingMuch.length === 0) {
+        return orange;
+    }
+    return bluish;
 
 }
 
@@ -94,23 +92,43 @@ function addRowFromId(id: id) {
     </tr>`;
 }
 
-function getTopIdList_Sorted() {
-    let idList: id[] = [];
+const sortByPopularity = (arr: id[]) => arr.sort((idA, idB) => calculateContributionOf(idB) - calculateContributionOf(idA));
+const sortById = (arr: id[]) => arr.sort((idA, idB) => parseInt(idA.slice(1)) - parseInt(idB.slice(1)));
+
+function getIdList_Sorted() {
+    let topIdList: id[] = [];
+    let orangeList: id[] = [];
+    let notSoPopularWhite: id[] = [];
+    let lonelyWhite: id[] = [];
+    let bluish: id[] = [];
     for (let id in composition2) {
-        if (!isPopular(id)) {
-            continue;
+        if (isPopular(id)) {
+            topIdList.push(id);
+        } else if (getStrokeCountColorFromId(id) === "rgb(252, 229, 205)") {
+            orangeList.push(id);
+        } else if (getStrokeCountColorFromId(id) === "rgb(255, 255, 255)") {
+            if (calculateContributionOf(id) > 1) {
+                notSoPopularWhite.push(id);
+            } else {
+                lonelyWhite.push(id);
+            }
+        } else {
+
+            bluish.push(id);
         }
-        idList.push(id);
     }
 
-    idList.sort((idA, idB) => calculateContributionOf(idB) - calculateContributionOf(idA));
-    return idList;
+    sortByPopularity(topIdList);
+    sortById(orangeList);
+    sortByPopularity(notSoPopularWhite);
+
+    return { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish };
 }
 
 const POPULARNESS_THRESHOLD = 5;
 
 function generate_comp_table_html() {
-    let topIdList = getTopIdList_Sorted();
+    let { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish } = getIdList_Sorted();
 
     let ans = `Top${topIdList.length}字素` + "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
     for (let i = 0; i < topIdList.length; i++) {
@@ -119,20 +137,27 @@ function generate_comp_table_html() {
     ans += "</table>"
 
     ans += `<br>Top${topIdList.length}字素からなる文字`;
-    {
+    ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
+    for (let i = 0; i < orangeList.length; i++) {
+        ans += addRowFromId(orangeList[i]);
+    }
+    ans += "</table>"
+
+    for (let i = 0; i < notSoPopularWhite.length; i++) {
+        ans += "<br><br>"
         ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
-
-        for (let row = 0; row <= 364; row++) {
-            const id = "D" + row;
-            if (!(id in composition2) || isPopular(id) || getStrokeCountColorFromId(id) !== "rgb(252, 229, 205)") {
-                continue;
-            }
-
-            ans += addRowFromId(id);
-        }
-
+        ans += addRowFromId(notSoPopularWhite[i]);
         ans += "</table>"
     }
+
+    ans += "<br>貢献度1の単一要素文字"
+
+    ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
+    for (let i = 0; i < lonelyWhite.length; i++) {
+        ans += addRowFromId(lonelyWhite[i]);
+    }
+    ans += "</table>";
+
     {
         ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
 
