@@ -1,0 +1,57 @@
+<head>
+<script>
+var t1 = [[323.25   ,    448.5    ,      1.39285714],
+ [498.75   ,     -0.64285714 ,330.53571429]];
+
+onload = function() {
+	for(var i=7; i<8; i++){
+		for(var j=0;j<13; j++){
+		draw(t1, linzi1,'c1',i,j, 0.2, i*90, j*90, true);	
+		}
+	}
+	/*var flag = false;
+	draw(flag?t1:t2,flag?linzi1:linzi2,'c2',Math.random()*8|0,Math.random()*15|0,0.4,0,0,false);*/
+	
+};
+
+
+</script>
+<script src="main.js"></script>
+</head>
+<body>
+<div style="background-color: yellow">
+<canvas id="c1" width="1200" height="1640" ></canvas>
+<hr>
+<canvas id="c2" width="240" height="240" style="border:1px solid black"></canvas>
+</div>
+<hr>
+<h1>「第9回燐字書き取り」分割</h1>
+<p>なんか知らんけど第9回だそうな。</p>
+<h2>1. さて</h2>
+<p>原稿用紙の表の4頂点に位置する4字の（マスの左上の）座標をGIMPで取ると、</p>
+<pre>
+      y1,   y2       s1 s2
+左上:  324,  498 --->  0, 0
+右上: 3462,  495 --->  7, 0
+左下:  342, 5127 --->  0,14
+右下: 3483, 5121 --->  7,14
+</pre>
+<p>である。うまいパラメータt<sub>10</sub>, t<sub>11</sub>, t<sub>12</sub>, t<sub>20</sub>, t<sub>21</sub>, t<sub>22</sub>を持ってきて、</p>
+<img src="matrix.png" width="780"/>
+<p>となるようにしてやれば良い。ただしs<sub>0</sub>たちは全部1である。</p>
+<p>Y ≒ TSで最小二乗法をやるのでYS<sup>T</sup>=TSS<sup>T</sup>を解けばよく、T=YS<sup>T</sup>(SS<sup>T</sup>)<sup>-1</sup>なのでTは</p>
+<pre>
+[[323.25       448.5          1.39285714]
+ [498.75        -0.64285714 330.53571429]]
+</pre>
+<p>なるほど。</p>
+<p>スキャナとかインポート時の設定とかを変えたので今回は333px。</p>
+<p>実際にやってみると上手くいったのでやったぜ。</p>
+
+
+<h2>3. 分割して保存</h2>
+<p>それぞれの画像に分割して保存していかねば。</p>
+<p>今回もPythonを使う。</p>
+
+
+</body>

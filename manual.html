@@ -69,9 +69,10 @@
 	<ol>
 		<li>1枚1枚を整ったサイズに分割。前例（<a href="./燐字表示/index.html">1</a>, <a href="./燐字表示2/index.html">2</a>, <a href="./燐字表示3/index.html">3</a>, <a href="./燐字表示4/index.html">4</a>）に従って頑張ろう。</li>
 		<li>分割した画像はフォルダに入れる。フォルダ名は「燐字画像6」とかの前例に従う。</li>
-		<li>image_table_ts/char_and_folder_info.tsのconst folder_namesを更新する。</li>
+		<li>image_table_ts/char_and_folder_info.tsのconst folder_names, folder_type, FolderTypeにフォルダ名を足す。</li>
 		<li>image_table_ts/char_and_folder_info.tsのconst defined_but_no_image_preparedの中から収録できた字を削除</li>
-		<li>フォルダ名をTypeScript側に教え、NEW_IMAGE_EXISTENCE_TABLEに字を足す</li>
+		<li>image_table_ts/image_existence_table.ts の
+		NewImageExistenceTable NEW_IMAGE_EXISTENCE_TABLEに字を足す</li>
 		<li>tscを実行</li>
 		<li>もちろんコミット忘れずに。</li>
 		<li>必要に応じて、「1. 燐字の漢字転写を定めた時」に貼ってある燐字書き取りのリンクを書き換えること</li>
