@@ -11447,6 +11447,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 419,
+      "form" : "加(3)"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "náhúl" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "naho" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "naho" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
