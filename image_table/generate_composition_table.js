@@ -137,7 +137,7 @@ function generate_comp_table_html(withDuplicate) {
         ans += addRowFromId(topIdList[i]);
     }
     ans += "</table>";
-    ans += `<br><h3>Top${topIdList.length}字素からなる文字</h3>`;
+    ans += `<br><h3>Top${topIdList.length}字素からなる文字（${orangeList.length}個）</h3>`;
     ans += "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
     for (let i = 0; i < orangeList.length; i++) {
         ans += addRowFromId(orangeList[i]);
