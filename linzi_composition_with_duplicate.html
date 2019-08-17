@@ -1,12 +1,26 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
 </head>
 
 <script src="image_table/composition.js"></script>
 <script src="image_table/generate_composition_table.js"></script>
-<h2>composition（重複アリ）</h2>
-<a href="linzi_composition_with_duplicate.html">重複ナシのバージョンはこちら</a>
+<h2>composition（一般用）</h2>
+<a href="linzi_composition.html">業務用はこちら</a>
+
 <script>
-document.write(generate_comp_table_html(true));
+function redraw() {
+    document.getElementById('a').innerHTML = generate_comp_table_html(document.getElementById("b").checked, parseInt(document.getElementById("c").value))
+}
 </script>
+
+<hr>
+<input id="b" type="checkbox" checked onchange="redraw()">：ひとつの字を複数回表示（例えば、「横」⿰左右 を「左」と「右」の両方に出すかどうか）<br>
+<input type="number" id="c" value="5" onchange="redraw()">：Topにランクインするために必要な貢献度数（1000とかにすると字素索引みたいになる）
+<hr>
+<div id="a">
+    <script>
+        document.write(generate_comp_table_html(true));
+    </script>
+</div>
