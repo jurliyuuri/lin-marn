@@ -167,7 +167,7 @@ const composition2 = {
     D175: { "isDecomposable": false, "strokeCount": 3, "hanzi": "石", "composition": ["⿱五己"] },
     D176: { "isDecomposable": false, "strokeCount": 3, "hanzi": "如", "composition": ["⿸無＊力"] },
     D177: { "isDecomposable": true, "strokeCount": ["D175", "D7"], "hanzi": "使", "composition": ["⿱石手"] },
-    D178: { "isDecomposable": true, "strokeCount": ["D21", "D175"], "hanzi": "真", "composition": ["⿳言石"] },
+    D178: { "isDecomposable": true, "strokeCount": ["D21", "D175"], "hanzi": "真", "composition": ["⿱言石"] },
     D179: { "isDecomposable": true, "strokeCount": ["D175", "D176"], "hanzi": "硬", "composition": ["⿰石如"] },
     D180: { "isDecomposable": true, "strokeCount": ["D129", "D176"], "hanzi": "軟", "composition": ["⿰棉如"] },
     D181: { "isDecomposable": true, "strokeCount": ["D17", "D176"], "hanzi": "柔", "composition": ["⿰糸如"] },
