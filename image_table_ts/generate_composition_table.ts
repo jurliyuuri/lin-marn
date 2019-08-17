@@ -80,13 +80,15 @@ function getStrokeCountColorFromId(id: id, POPULARNESS_THRESHOLD: number): Strok
 }
 
 function addRowFromId(id: id, POPULARNESS_THRESHOLD: number) {
+    const image = getImage_(composition2[id].hanzi, ["SY", "jv"], 20);
+
     return `<tr>
         <td${composition2[id].isDecomposable ? ">TRUE" : " style='background-color: rgb(183, 225, 205)'>FALSE"}</td>
         <td style='background-color: ${
         getStrokeCountColorFromId(id, POPULARNESS_THRESHOLD)}'>${toStrokeCount(composition2[id].strokeCount)
         }</td>
         <td>${calculateContributionOf(id)}</td>
-        <td>${composition2[id].hanzi}</td>
+        <td>${composition2[id].hanzi}${typeof image === "string" ? image : ""}</td>
         <td>${composition2[id].composition.join("</td><td>")}</td>
     </tr>`;
 }

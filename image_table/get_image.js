@@ -1,12 +1,12 @@
 /* char_and_folder_info.js and image_existence_table.js required */
-function getImage(character, type_prec, size, path) {
+function getImage_(character, type_prec, size, path) {
     path = path || ".";
     var prec = [];
     for (var i = 0; i < type_prec.length; i++) {
         prec = prec.concat(folder_names.filter(a => folder_type[a] === type_prec[i]));
     }
     if (!linzi_list.includes(character)) {
-        return `（「${character}」未定義）`;
+        return { errorDueTo: `（「${character}」未定義）` };
     }
     for (var j = 0; j < prec.length; j++) {
         if (NEW_IMAGE_EXISTENCE_TABLE[prec[j]].includes(character)) {
@@ -14,9 +14,18 @@ function getImage(character, type_prec, size, path) {
         }
     }
     if (defined_but_no_image_prepared.includes(character)) {
-        return `（「${character}」画像なし）`;
+        return { errorDueTo: `（「${character}」画像なし）` };
     }
     else {
-        return `（「${character}」未造字）`;
+        return { errorDueTo: `（「${character}」未造字）` };
+    }
+}
+function getImage(character, type_prec, size, path) {
+    let ans = getImage_(character, type_prec, size, path);
+    if (typeof ans === "string") {
+        return ans;
+    }
+    else {
+        return ans.errorDueTo;
     }
 }
