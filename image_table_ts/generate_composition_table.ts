@@ -155,7 +155,8 @@ function getIdList_Sorted(withDuplicate: boolean, POPULARNESS_THRESHOLD: number)
     return { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish, bluishObj: obj };
 }
 
-function generate_comp_table_html(withDuplicate: boolean, POPULARNESS_THRESHOLD = 5) {
+function generate_comp_table_html(q: { withDuplicate: boolean, POPULARNESS_THRESHOLD: number }) {
+    const { withDuplicate, POPULARNESS_THRESHOLD } = q;
     let { topIdList, orangeList, notSoPopularWhite, lonelyWhite, bluish, bluishObj } = getIdList_Sorted(withDuplicate, POPULARNESS_THRESHOLD);
 
     let ans = `<h3>Top${topIdList.length}字素</h3>` + "<table cellpadding=3 cellspacing=0 border=1><tr><td>分解可能？</td><td>画数</td><td>貢献度</td></tr>";
