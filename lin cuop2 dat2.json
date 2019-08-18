@@ -3240,7 +3240,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 423,
+        "form" : "穐"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 152,
@@ -11293,7 +11299,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 422,
+        "form" : "纂"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 410,
@@ -11507,6 +11519,44 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 422,
+      "form" : "纂"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「翰」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 409,
+        "form" : "翰"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 423,
+      "form" : "穐"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「秋」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 151,
+        "form" : "秋"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
