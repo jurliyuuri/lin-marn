@@ -11557,6 +11557,32 @@
         "form" : "秋"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 424,
+      "form" : "啌"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "hen", "he" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 425,
+      "form" : "哇"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "ua" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
