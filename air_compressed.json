@@ -1240,6 +1240,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 4972,
+      "form" : "cah^iu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［自］二つに分かれる" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 4979,
       "form" : "cahu"
     },
@@ -6623,6 +6636,32 @@
       "forms" : [ "傾いた塔,間違い,ミス" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 45936,
+      "form" : "sahu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【Ｇ】=dualo（双数）,愚かな言動,へま" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 45937,
+      "form" : "sahua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【数】二項式,=dutermo" ]
+    } ],
+    "tags" : [ "真理設定", "真理設定の可能性がある" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
