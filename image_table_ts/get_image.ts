@@ -17,9 +17,9 @@ function getImage_(character: string, type_prec: ImageAuthor[], size: number, pa
 	}
 
 	if (defined_but_no_image_prepared.includes(character)) {
-		return { errorDueTo:`（「${character}」画像なし）`}
+		return { errorDueTo: `（「${character}」画像なし）` }
 	} else {
-		return { errorDueTo:`（「${character}」未造字）`}
+		return { errorDueTo: `（「${character}」未造字）` }
 	}
 
 }
