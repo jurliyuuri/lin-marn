@@ -39,30 +39,6 @@ const NEW_IMAGE_EXISTENCE_TABLE = {
         "静", "頭", "類", "風", "馬", "骨", "高", "魚", "鳥", "麗", "黒",
         "鼓", "龍"]
 };
-function convert_old_to_new(old) {
-    let ans = {
-        "燐字画像": [],
-        "燐字画像2": [],
-        "燐字画像3": [],
-        "燐字画像4": [],
-        "燐字画像5": [],
-        "燐字画像6": [],
-        "燐字画像7": [],
-        "燐字画像8": [],
-        "燐字画像9": [],
-        "燐字画像10": [],
-        "燐字画像11": [],
-    };
-    for (let character in old) {
-        for (let filepath in old[character]) {
-            let foldername = filepath;
-            if (old[character][foldername]) {
-                ans[foldername].push(character);
-            }
-        }
-    }
-    return ans;
-}
 function convert_new_to_old(newer) {
     let ans = {};
     for (let i = 0; i < linzi_list.length; i++) {
