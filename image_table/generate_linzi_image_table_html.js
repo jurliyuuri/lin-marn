@@ -79,37 +79,35 @@ function firstCell(linzi) {
 }
 function generate_table_narrow_html() {
     var ans = "";
+    const iterateOverAuthor = (f) => {
+        let a = "";
+        for (var k = 0; k < imageAuthors.length; k++) {
+            a += "<td style='text-align: center'>"
+                + f(folder_names.filter(fname => folder_type[fname] === imageAuthors[k]));
+            +"</td>";
+        }
+        return a;
+    };
     ans += "<table>";
     ans += "<tr>";
     ans += "<td>字</td>";
-    for (var k = 0; k < imageAuthors.length; k++) {
-        ans += "<td style='text-align: center'>"
-            + folder_names.filter(fname => folder_type[fname] === imageAuthors[k]).join("<br>");
-        +"</td>";
-    }
+    ans += iterateOverAuthor((a) => a.join("<br>"));
     ans += "</tr>";
     let count_asterisk = 0;
     let count_percent = 0;
-    for (var i = 0; i < linzi_list.length; i++) {
-        ans += "<tr>";
-        const { res, hasAsterisk, hasPercent } = firstCell(linzi_list[i]);
-        ans += res;
+    linzi_list.map((linzi) => {
+        const { res, hasAsterisk, hasPercent } = firstCell(linzi);
         if (hasAsterisk) {
             count_asterisk++;
         }
         if (hasPercent) {
             count_percent++;
         }
-        for (var k = 0; k < imageAuthors.length; k++) {
-            ans += `<td style="text-align: center">`;
-            const names = folder_names.filter(fname => folder_type[fname] === imageAuthors[k]);
-            for (var j = 0; j < names.length; j++) {
-                ans += getCell(names[j], linzi_list[i]);
-            }
-            ans += `</td>`;
-        }
+        ans += "<tr>";
+        ans += res;
+        ans += iterateOverAuthor((a) => a.map(name => getCell(name, linzi)).join(""));
         ans += "</tr>";
-    }
+    });
     ans += "</table>";
     ans = `
 		<div style="border: 1px solid blue; padding: 5px; margin: 5px">
