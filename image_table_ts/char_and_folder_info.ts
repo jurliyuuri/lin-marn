@@ -1,4 +1,15 @@
 type ImageAuthor = "SY" | "border" | "noborder" | "jv" | "SY pua2 man1";
+
+type ElementOf<A extends any[]> = A extends (infer Elm)[] ? Elm : unknown;
+type IsNever<T> = T[] extends never[] ? true : false;
+
+function allElements<V>(): <Arr extends V[]>(arr: Arr) =>
+	IsNever<Exclude<V, ElementOf<Arr>>> extends true ? V[] : unknown {
+	return arr => arr as any;
+}
+
+const imageAuthors: ImageAuthor[] = allElements<ImageAuthor>()(["SY", "border", "noborder", "jv", "SY pua2 man1"]);
+
 type FolderName = keyof FolderType;
 interface FolderType {
 	"燐字画像": ImageAuthor,
