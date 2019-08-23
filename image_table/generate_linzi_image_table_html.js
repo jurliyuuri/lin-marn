@@ -15,25 +15,12 @@ function generate_table_html(preloading) {
             ans += `<td>${linzi_list[i]}</td>`;
         }
         else { /* linzi_image_table */
-            let flag = false;
-            /* check if at least 1 image exists */
-            for (var j = 0; j < folder_names.length; j++) {
-                if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi_list[i])) {
-                    flag = true;
-                }
-            }
-            if (flag) {
-                ans += `<td>${linzi_list[i]}</td>`;
-                if (defined_but_no_image_prepared.includes(linzi_list[i])) {
-                    alert(`業務連絡: 「${linzi_list[i]}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
-                }
-            }
-            else if (defined_but_no_image_prepared.includes(linzi_list[i])) {
-                ans += `<td style="background-color: cyan">%${linzi_list[i]}</td>`;
+            const { res, hasPercent, hasAsterisk } = firstCell(linzi_list[i]);
+            ans += res;
+            if (hasPercent) {
                 count_percent++;
             }
-            else {
-                ans += `<td style="background-color: yellow">*${linzi_list[i]}</td>`;
+            if (hasAsterisk) {
                 count_asterisk++;
             }
         }
@@ -65,6 +52,31 @@ function generate_table_html(preloading) {
     }
     return ans;
 }
+function firstCell(linzi) {
+    let imageExists = false;
+    /* check if at least 1 image exists */
+    for (var j = 0; j < folder_names.length; j++) {
+        if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi)) {
+            imageExists = true;
+        }
+    }
+    let ans = "";
+    if (imageExists) {
+        ans += `<td>${linzi}</td>`;
+        if (defined_but_no_image_prepared.includes(linzi)) {
+            alert(`業務連絡: 「${linzi}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
+        }
+        return { res: ans };
+    }
+    else if (defined_but_no_image_prepared.includes(linzi)) {
+        ans += `<td style="background-color: cyan">%${linzi}</td>`;
+        return { res: ans, hasPercent: true };
+    }
+    else {
+        ans += `<td style="background-color: yellow">*${linzi}</td>`;
+        return { res: ans, hasAsterisk: true };
+    }
+}
 function generate_table_narrow_html() {
     var ans = "";
     ans += "<table>";
@@ -80,26 +92,13 @@ function generate_table_narrow_html() {
     let count_percent = 0;
     for (var i = 0; i < linzi_list.length; i++) {
         ans += "<tr>";
-        let flag = false;
-        /* check if at least 1 image exists */
-        for (var j = 0; j < folder_names.length; j++) {
-            if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi_list[i])) {
-                flag = true;
-            }
-        }
-        if (flag) {
-            ans += `<td>${linzi_list[i]}</td>`;
-            if (defined_but_no_image_prepared.includes(linzi_list[i])) {
-                alert(`業務連絡: 「${linzi_list[i]}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
-            }
-        }
-        else if (defined_but_no_image_prepared.includes(linzi_list[i])) {
-            ans += `<td style="background-color: cyan">%${linzi_list[i]}</td>`;
-            count_percent++;
-        }
-        else {
-            ans += `<td style="background-color: yellow">*${linzi_list[i]}</td>`;
+        const { res, hasAsterisk, hasPercent } = firstCell(linzi_list[i]);
+        ans += res;
+        if (hasAsterisk) {
             count_asterisk++;
+        }
+        if (hasPercent) {
+            count_percent++;
         }
         for (var k = 0; k < imageAuthors.length; k++) {
             ans += `<td style="text-align: center">`;
