@@ -5,33 +5,6 @@ function generate_table_html(preloading: false): string {
 	);
 }
 
-function firstCell(linzi: string):
-	({ res: string, hasPercent?: true, hasAsterisk?: true }) {
-	let imageExists: boolean = false;
-
-	/* check if at least 1 image exists */
-	for (var j: number = 0; j < folder_names.length; j++) {
-		if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi)) {
-			imageExists = true;
-		}
-	}
-
-	let ans: string = "";
-	if (imageExists) {
-		ans += `<td>${linzi}</td>`
-		if (defined_but_no_image_prepared.includes(linzi)) {
-			alert(`業務連絡: 「${linzi}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
-		}
-		return { res: ans };
-	} else if (defined_but_no_image_prepared.includes(linzi)) {
-		ans += `<td style="background-color: cyan">%${linzi}</td>`;
-		return { res: ans, hasPercent: true };
-	} else {
-		ans += `<td style="background-color: yellow">*${linzi}</td>`;
-		return { res: ans, hasAsterisk: true };
-	}
-}
-
 function gen_table(header_row: string, main_row: (linzi: string) => string): string {
 	var ans: string = "";
 	ans += "<table>";
@@ -45,16 +18,33 @@ function gen_table(header_row: string, main_row: (linzi: string) => string): str
 	let count_percent = 0;
 
 	linzi_list.map((linzi) => {
-		const { res, hasAsterisk, hasPercent } = firstCell(linzi);
-		if (hasAsterisk) {
-			count_asterisk++;
-		}
-		if (hasPercent) {
-			count_percent++;
+		let imageExists: boolean = false;
+
+		/* check if at least 1 image exists */
+		for (var j: number = 0; j < folder_names.length; j++) {
+			if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi)) {
+				imageExists = true;
+			}
 		}
 
 		ans += "<tr>";
-		ans += res;
+
+		const first_cell: string = (() => {			
+			if (imageExists) {
+				if (defined_but_no_image_prepared.includes(linzi)) {
+					alert(`業務連絡: 「${linzi}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
+				}
+				return `<td>${linzi}</td>`;
+			} else if (defined_but_no_image_prepared.includes(linzi)) {
+				count_percent++;
+				return `<td style="background-color: cyan">%${linzi}</td>`;
+			} else {
+				count_asterisk++;
+				return `<td style="background-color: yellow">*${linzi}</td>`;
+			}
+		})();
+
+		ans += first_cell;
 		ans += main_row(linzi);
 
 		ans += "</tr>";
@@ -142,7 +132,7 @@ function linzi_image_table_local() {
 
 		ans += "<tr>";
 		ans += "<td>字</td>"
-		ans += folder_names.map(name => "<td>" + name + "</td>" ).join("");
+		ans += folder_names.map(name => "<td>" + name + "</td>").join("");
 		ans += "</tr>";
 
 		for (var i: number = 0; i < linzi_list.length; i++) {
