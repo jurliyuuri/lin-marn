@@ -31,7 +31,7 @@ const mysterious_encoding: string[] = [
   "型",
   "止",
   "助",
-  "??",
+  "浬",
   "汝",
   "??",
   "八",
