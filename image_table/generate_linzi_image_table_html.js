@@ -78,11 +78,9 @@ function generate_table_narrow_html() {
     return gen_table(iterateOverAuthor((a) => a.join("<br>")), linzi => iterateOverAuthor((a) => a.map(name => getCell(name, linzi)).join("")));
 }
 function getCell(folder_name, linzi) {
-    let ans = "";
-    if (NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)) {
-        ans += `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
-    }
-    return ans;
+    return NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)
+        ? `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`
+        : "";
 }
 function checkImageExists(imageUrl, linzi, name, callBack) {
     var imageData = new Image();
@@ -116,9 +114,7 @@ function linzi_image_table_local() {
         ans += "<table>";
         ans += "<tr>";
         ans += "<td>字</td>";
-        for (var j = 0; j < folder_names.length; j++) {
-            ans += "<td>" + folder_names[j] + "</td>";
-        }
+        ans += folder_names.map(name => "<td>" + name + "</td>").join("");
         ans += "</tr>";
         for (var i = 0; i < linzi_list.length; i++) {
             ans += "<tr>";

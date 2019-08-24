@@ -81,7 +81,7 @@ function gen_table(header_row: string, main_row: (linzi: string) => string): str
 }
 
 
-function generate_table_narrow_html(): string {	
+function generate_table_narrow_html(): string {
 	const iterateOverAuthor = (f: (a: FolderName[]) => string) => {
 		let a = "";
 		for (var k = 0; k < imageAuthors.length; k++) {
@@ -99,11 +99,9 @@ function generate_table_narrow_html(): string {
 }
 
 function getCell(folder_name: FolderName, linzi: string): string {
-	let ans = "";
-	if (NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)) {
-		ans += `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`
-	}
-	return ans;
+	return NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)
+		? `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`
+		: "";
 }
 
 function checkImageExists(imageUrl: string, linzi: string, name: FolderName,
@@ -144,9 +142,7 @@ function linzi_image_table_local() {
 
 		ans += "<tr>";
 		ans += "<td>字</td>"
-		for (var j: number = 0; j < folder_names.length; j++) {
-			ans += "<td>" + folder_names[j] + "</td>";
-		}
+		ans += folder_names.map(name => "<td>" + name + "</td>" ).join("");
 		ans += "</tr>";
 
 		for (var i: number = 0; i < linzi_list.length; i++) {
