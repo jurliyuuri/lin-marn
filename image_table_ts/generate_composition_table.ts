@@ -93,7 +93,20 @@ function addRowFromId(id: id, POPULARNESS_THRESHOLD: number) {
     </tr>`;
 }
 
-const sortByPopularity = (arr: id[]) => arr.sort((idA, idB) => calculateContributionOf(idB) - calculateContributionOf(idA));
+const sortByPopularity = (arr: id[]) => arr.sort((idA, idB) => {
+    const diff = calculateContributionOf(idB) - calculateContributionOf(idA);
+    if (diff !== 0)
+        return diff;
+    
+    // push non-linzi to the back
+    if (composition2[idA].hanzi !== "??" && composition2[idB].hanzi === "??" ) {
+        return -1;
+    } else if (composition2[idA].hanzi === "??" && composition2[idB].hanzi !== "??" ) {
+        return 1;
+    } else {
+        return 0;
+    }
+});
 const sortById = (arr: id[]) => arr.sort((idA, idB) => parseInt(idA.slice(1)) - parseInt(idB.slice(1)));
 
 function getIdList_Sorted(withDuplicate: boolean, POPULARNESS_THRESHOLD: number) {
