@@ -2,38 +2,9 @@
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script src="image_table/generate_linzi_image_table_html.js"></script>
-<script>
-function checkImageExists(imageUrl, linzi, name, callBack) {
-	var imageData = new Image();
-	imageData.onload = function() {
-		callBack(linzi, name, true);
-	};
-	imageData.onerror = function() {
-		callBack(linzi, name, false);
-	};
-	imageData.src = imageUrl;
-}
-
-var IMAGE_EXISTENCE_TABLE_DUMMY = {};
-for(var i = 0; i < linzi_list.length; i++){
-	IMAGE_EXISTENCE_TABLE_DUMMY[linzi_list[i]] = {};
-	for(var j=0; j<folder_names.length;j++){
-		var imagePath = `${folder_names[j]}/${linzi_list[i]}.png`;
-		var linzi = linzi_list[i];
-		var name = folder_names[j];
-		checkImageExists(imagePath, linzi, name, function(linzi, name, flag){
-			if (flag !== IMAGE_EXISTENCE_TABLE[linzi][name]) {
-				let message = "INCONSISTENCY!!! INCONSISTENCY!!! at " + linzi + ", " + name;
-				alert(message);
-				throw new Error(message);
-			}
-		})
-	}
-}
-</script>
 <p>ローカルで走らせないと重いので注意。軽量版は<a href="linzi_image_table.html">こちら</a></p>
 <script>
-document.write(generate_table_html(true));
+	linzi_image_table_local();
 
 function after_loaded(){
 	document.getElementsByTagName("body")[0].innerHTML = generate_table_html(false);
