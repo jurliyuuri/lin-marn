@@ -1,5 +1,5 @@
 function generate_table_html(preloading) {
-    return gen_table(folder_names.map(n => "<td>" + n + "</td>").join(""), linzi => folder_names.map(name => "<td>" + getCell(name, linzi) + "</td>").join(""));
+    return gen_table(folder_names.map(n => "<td>" + n + "</td>").join(""), linzi => folder_names.map(name => "<td>" + getImageFromLinziAndFolderIfExists(name, linzi) + "</td>").join(""));
 }
 function gen_table(header_row, main_row) {
     var ans = "";
@@ -66,11 +66,14 @@ function generate_table_narrow_html() {
         }
         return a;
     };
-    return gen_table(iterateOverAuthor((a) => a.join("<br>")), linzi => iterateOverAuthor((a) => a.map(name => getCell(name, linzi)).join("")));
+    return gen_table(iterateOverAuthor((a) => a.join("<br>")), linzi => iterateOverAuthor((a) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")));
 }
-function getCell(folder_name, linzi) {
+function getImageFromLinziAndFolder(folder_name, linzi) {
+    return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
+}
+function getImageFromLinziAndFolderIfExists(folder_name, linzi) {
     return NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)
-        ? `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`
+        ? getImageFromLinziAndFolder(folder_name, linzi)
         : "";
 }
 function checkImageExists(imageUrl, linzi, name, callBack) {
@@ -112,7 +115,7 @@ function linzi_image_table_local() {
             ans += `<td>${linzi_list[i]}</td>`;
             for (var j = 0; j < folder_names.length; j++) {
                 ans += `<td>`;
-                ans += `<img src='${folder_names[j]}/${linzi_list[i]}.png' width='100' height='100' />`;
+                ans += getImageFromLinziAndFolder(folder_names[j], linzi_list[i]);
                 ans += `</td>`;
             }
             ans += "</tr>";

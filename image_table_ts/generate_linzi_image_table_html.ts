@@ -1,7 +1,7 @@
 function generate_table_html(preloading: false): string {
 	return gen_table(
 		folder_names.map(n => "<td>" + n + "</td>").join(""),
-		linzi => folder_names.map(name => "<td>" + getCell(name, linzi) + "</td>").join("")
+		linzi => folder_names.map(name => "<td>" + getImageFromLinziAndFolderIfExists(name, linzi) + "</td>").join("")
 	);
 }
 
@@ -29,7 +29,7 @@ function gen_table(header_row: string, main_row: (linzi: string) => string): str
 
 		ans += "<tr>";
 
-		const first_cell: string = (() => {			
+		const first_cell: string = (() => {
 			if (imageExists) {
 				if (defined_but_no_image_prepared.includes(linzi)) {
 					alert(`業務連絡: 「${linzi}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
@@ -84,13 +84,17 @@ function generate_table_narrow_html(): string {
 
 	return gen_table(
 		iterateOverAuthor((a: FolderName[]) => a.join("<br>")),
-		linzi => iterateOverAuthor((a: FolderName[]) => a.map(name => getCell(name, linzi)).join(""))
+		linzi => iterateOverAuthor((a: FolderName[]) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join(""))
 	);
 }
 
-function getCell(folder_name: FolderName, linzi: string): string {
+function getImageFromLinziAndFolder(folder_name: FolderName, linzi: string): string {
+	return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
+}
+
+function getImageFromLinziAndFolderIfExists(folder_name: FolderName, linzi: string): string {
 	return NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)
-		? `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`
+		? getImageFromLinziAndFolder(folder_name, linzi)
 		: "";
 }
 
@@ -141,7 +145,7 @@ function linzi_image_table_local() {
 
 			for (var j = 0; j < folder_names.length; j++) {
 				ans += `<td>`;
-				ans += `<img src='${folder_names[j]}/${linzi_list[i]}.png' width='100' height='100' />`
+				ans += getImageFromLinziAndFolder(folder_names[j], linzi_list[i]);
 				ans += `</td>`;
 			}
 			ans += "</tr>";
