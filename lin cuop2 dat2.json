@@ -11596,6 +11596,22 @@
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 427,
+      "form" : "埴"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "situsu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "SITUSU" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

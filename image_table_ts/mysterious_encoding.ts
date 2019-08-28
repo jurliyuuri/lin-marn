@@ -324,7 +324,7 @@ const mysterious_encoding: string[] = [
   "積",
   "??",
   "纂",
-  "??",
+  "埴",
   "内",
   "肉",
   "??",
