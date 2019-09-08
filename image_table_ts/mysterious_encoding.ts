@@ -25,7 +25,7 @@ const mysterious_encoding: string[] = [
   "琴",
   "??",
   "箱",
-  "??",
+  "刻",
   "族",
   "??",
   "型",

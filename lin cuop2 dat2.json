@@ -7864,7 +7864,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 428,
+        "form" : "刻"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 1,
@@ -11612,6 +11618,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 428,
+      "form" : "刻"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「片」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 325,
+        "form" : "片"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
