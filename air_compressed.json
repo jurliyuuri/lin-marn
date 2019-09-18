@@ -4012,6 +4012,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 22433,
+      "form" : "kasui"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "硫黄" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "KASUI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 22435,
       "form" : "kasumu"
     },
@@ -4131,6 +4147,19 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "{Ｂ}［副］いつも,常に" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 23317,
+      "form" : "khaicwi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］いきなり投げる,砂色の（灰色がかった黄色）" ]
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
