@@ -4807,6 +4807,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28477,
+      "form" : "makutu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "いさましい,勇ましい" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MAKUTU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28498,
       "form" : "mamau"
     },
