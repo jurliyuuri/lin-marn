@@ -123,7 +123,7 @@ const mysterious_encoding: string[] = [
   "覆",
   "奮",
   "??",
-  "??",
+  "羅",
   "貝",
   "六",
   "橋",
