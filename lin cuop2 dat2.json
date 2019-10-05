@@ -11637,6 +11637,51 @@
         "form" : "片"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 429,
+      "form" : "俐"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「硫俐」の構成要素"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 430,
+      "form" : "硫"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「硫俐」の構成要素"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 431,
+      "form" : "硫俐"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "khaicwi", "kasui" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "kúcujúl", "kujacú", "kúcú" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "khaicwi", "KASUI" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
