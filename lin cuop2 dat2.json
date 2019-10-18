@@ -330,10 +330,13 @@
       "forms" : [ "*" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "matutu" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "MATUTU" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bátat" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],

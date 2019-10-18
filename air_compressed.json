@@ -951,6 +951,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 3028,
+      "form" : "bloulu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "想像できる,【理】熱サイホン" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 3034,
       "form" : "bloungu"
     },
@@ -4807,6 +4820,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28444,
+      "form" : "makati"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "天神" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MAKATI"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28477,
       "form" : "makutu"
     },
@@ -4965,7 +4994,7 @@
       "title" : "",
       "forms" : [ "そと,外,外側,外部,以外," ]
     } ],
-    "tags" : [ "真理設定", "いせにほソース" ],
+    "tags" : [ "真理設定", "いせにほソース", "ラネーメにも採用" ],
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "MATUTU"
