@@ -6122,7 +6122,7 @@
   }, {
     "entry" : {
       "id" : 261,
-      "form" : "石"
+      "form" : "石(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -7139,6 +7139,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "xauau" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ṣahúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9653,7 +9656,7 @@
       "title" : "異体字",
       "entry" : {
         "id" : 261,
-        "form" : "石"
+        "form" : "石(1)"
       }
     } ]
   }, {
@@ -11807,6 +11810,25 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "joveo" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 436,
+      "form" : "石(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "hewe" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "hewe" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "eghi" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
