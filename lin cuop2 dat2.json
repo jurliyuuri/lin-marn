@@ -11757,7 +11757,7 @@
     "relations" : [ ]
   }, {
     "entry" : {
-      "id" : 436,
+      "id" : 439,
       "form" : "吏"
     },
     "translations" : [ {
@@ -11792,7 +11792,7 @@
     "relations" : [ {
       "title" : "異体字",
       "entry" : {
-        "id" : 436,
+        "id" : 439,
         "form" : "吏"
       }
     } ]
