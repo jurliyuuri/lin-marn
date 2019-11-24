@@ -1708,6 +1708,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 6946,
+      "form" : "cica"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "地方公務員" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 7017,
       "form" : "cikau"
     },
@@ -3714,6 +3727,19 @@
       "forms" : [ "大作,傑作,三文文士" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 21154,
+      "form" : "joveo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "国家公務員" ]
+    } ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]

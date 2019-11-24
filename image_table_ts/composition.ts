@@ -213,7 +213,7 @@ const composition2: Composition = {
     D219: { "isDecomposable": true, "strokeCount": ["D216", "D156"], "hanzi": "属", "composition": ["⿰同多"] },
     D221: { "isDecomposable": false, "strokeCount": 3, "hanzi": "軸", "composition": ["⿻処一", "＊キ"] },
     D222: { "isDecomposable": true, "strokeCount": ["D123", "D221"], "hanzi": "北", "composition": ["⿺星軸"] },
-    D223: { "isDecomposable": true, "strokeCount": ["D222", "D23"], "hanzi": "翰", "composition": ["⿰軸筆"] },
+    D223: { "isDecomposable": true, "strokeCount": ["D221", "D23"], "hanzi": "翰", "composition": ["⿰軸筆"] },
     D226: { "isDecomposable": false, "strokeCount": 2, "hanzi": "??", "composition": ["＊冖"] },
     D227: { "isDecomposable": true, "strokeCount": ["D226", "D32"], "hanzi": "車", "composition": ["⿱＊冖輪"] },
     D228: { "isDecomposable": true, "strokeCount": ["D226", "D27", "D221"], "hanzi": "冠", "composition": ["⿱＊冖⿰大軸"] },
@@ -333,4 +333,7 @@ const composition2: Composition = {
     D375: { "isDecomposable": true, "hanzi": "聚", "composition": ["⿱口⿰口口"], "strokeCount": ["D16", "D16", "D16"]},
     D376: { "isDecomposable": false, "hanzi": "叛", "composition": ["＊オ"], "strokeCount": 3},
     D377: { "isDecomposable": true, "hanzi": "科", "composition": ["⿰心内"], "strokeCount": ["D14", "D97"]},
+    D378: { "isDecomposable": true, "hanzi": "吏", "composition": ["⿰人官"], "strokeCount": ["D4", "D100"]},
+    D379: { "isDecomposable": true, "hanzi": "宦", "composition": ["⿱官人"], "strokeCount": ["D100", "D4"]},
+    D380: { "isDecomposable": true, "hanzi": "僚", "composition": ["⿱官翰"], "strokeCount": ["D100", "D223"]}
 }

@@ -11755,6 +11755,63 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 436,
+      "form" : "吏"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "cica" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "cica" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 437,
+        "form" : "宦"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 437,
+      "form" : "宦"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「吏」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 436,
+        "form" : "吏"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 438,
+      "form" : "僚"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "joveo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "joveo" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
