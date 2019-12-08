@@ -3726,7 +3726,20 @@
       "title" : "",
       "forms" : [ "大作,傑作,三文文士" ]
     } ],
-    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "tags" : [ "真理設定", "リパライン語ソース", "ラネーメにも採用" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 21009,
+      "form" : "josua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}決定的な,最終的な" ]
+    } ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]

@@ -11834,6 +11834,22 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 440,
+      "form" : "健"
+    },
+    "translations" : [ {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "iosl" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「君子」の意味。同根語はアイル語josu「傑作、大作」、アイル語josua「決定的な、最終的な」に残る。漢字転写は同形の字が東島通商語latapanka「健康である」（ラネーメ形態素でないのでここには収録しない）の表記に用いられることから。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

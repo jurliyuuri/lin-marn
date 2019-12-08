@@ -410,7 +410,7 @@ const mysterious_encoding: string[] = [
   "刀",
   "??",
   "将",
-  "??",
+  "健",
   "静",
   "祖",
   "??",
