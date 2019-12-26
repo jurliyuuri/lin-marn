@@ -3784,6 +3784,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 21301,
+      "form" : "jukha"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］老衰している,がたがたになっている,電話網" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 21349,
       "form" : "juo"
     },
