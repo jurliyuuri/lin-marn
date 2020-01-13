@@ -1,7 +1,13 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>to_linzi_image.html</title>
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script src="image_table/get_image.js"></script>
 <script src="image_table/html_to_linzi_image.js"></script>
+</head>
+<body>
 <p><a href="lin-marn.html">トップに戻る</a></p>
 備考：<a href="linzi_image_table_narrow.html">元データ</a>からも分かるように、2020年1月12日現在、
 <table border="1">
@@ -20,14 +26,15 @@
 <p>である。bitmapがあるものについては必ずSYもj.vもある。</p>
 <div>
 優先する書体：	<br>
-<label><input type="radio" name="precedence" checked onclick='Global.sy();'>SYの書いた楷書</label><br>
-<label><input type="radio" name="precedence" onclick='Global.jv();'>j.vの書いた楷書</label><br>
-<label><input type="radio" name="precedence" onclick='Global.noborder();'>枠なしビットマップ</label><br>
-<label><input type="radio" name="precedence" onclick='Global.border();'>枠つきビットマップ</label><br>
-<label><input type="radio" name="precedence" onclick='Global.sy_pua2man1();'>SYの書いた俗用書体</label><br>
+<label><input type="radio" name="precedence" checked onclick="Global.sy();">SYの書いた楷書</label><br>
+<label><input type="radio" name="precedence" onclick="Global.jv();">j.vの書いた楷書</label><br>
+<label><input type="radio" name="precedence" onclick="Global.noborder();">枠なしビットマップ</label><br>
+<label><input type="radio" name="precedence" onclick="Global.border();">枠つきビットマップ</label><br>
+<label><input type="radio" name="precedence" onclick="Global.sy_pua2man1();">SYの書いた俗用書体</label><br>
 </div>
 <input type="text" value="王冠之光満全族 心善受助 互雪父輝麗倒翰 氏閥須㍂" id="inputs" style="font-size:100%" size="40" />
 
 <input type="button" onclick="Global.draw(Global.precedence)" value="変換">
 <div style="visibility: hidden"><label>拡大率:<input id="prop" type="number" name="number" required="required" value="20">%</label></div>
 <div id="res"></div>
+</body>
