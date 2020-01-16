@@ -337,5 +337,6 @@ const composition2: Composition = {
     D379: { "isDecomposable": true, "hanzi": "宦", "composition": ["⿱官人"], "strokeCount": ["D100", "D4"]},
     D380: { "isDecomposable": true, "hanzi": "僚", "composition": ["⿱官翰"], "strokeCount": ["D100", "D223"]},
     D381: { "isDecomposable": true, "hanzi": "健", "composition": ["⿰人善"], "strokeCount": ["D4", "D67"]},
-    D382: { "isDecomposable": true, "hanzi": "兄", "composition": ["⿰⿱腹上輩"], "strokeCount": ["D323", "D6", "D217"]}
+    D382: { "isDecomposable": true, "hanzi": "兄", "composition": ["⿰⿱腹上輩"], "strokeCount": ["D323", "D6", "D217"]},
+    D383: { "isDecomposable": true, "hanzi": "赤", "composition": ["⿱火色"], "strokeCount": ["D26", "D276"]},
 }
