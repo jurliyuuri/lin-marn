@@ -1,7 +1,35 @@
 <!-- あ -->
+<meta charset="utf-8">
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script src="image_table/generate_linzi_image_table_html.js"></script>
 <script>
-document.write(generate_table_narrow_html());
+document.write(generate_table_narrow_html("table_narrow"));
+window.addEventListener('DOMContentLoaded', (event) => {
+    const cells = document.getElementById("table_narrow").children[0].children[0].cells;
+    Array.from(cells).map((cell, ind) => {
+        cell.innerHTML += `<br><input type='radio' name='sort' ${ind == 0 ? "checked" : ""} onclick='sort_narrow_table_by(${ind})'>`
+    })
+});
+
+function sort_narrow_table_by(ind) {
+    const rows = Array.from(document.getElementById("table_narrow").children[0].children);
+    const firstRow = rows[0];
+    const rest = rows.slice(1);
+    rest.sort((a,b) => {
+        const len_a = Array.from(a.cells)[ind].children.length;
+        const len_b = Array.from(b.cells)[ind].children.length;
+        if (len_a === len_b) {
+            const a_linzi = Array.from(a.cells)[0].innerHTML.slice(-1);
+            const b_linzi = Array.from(b.cells)[0].innerHTML.slice(-1);
+            return linzi_list.indexOf(a_linzi) - linzi_list.indexOf(b_linzi);
+        } else {
+            return len_b - len_a;
+        }
+    })
+    document.getElementById("table_narrow").children[0].appendChild(firstRow);
+    for (let i = 0; i < rest.length; i++) {
+        document.getElementById("table_narrow").children[0].appendChild(rest[i]);
+    }
+}
 </script>

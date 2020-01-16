@@ -1,9 +1,14 @@
 function generate_table_html(preloading) {
     return gen_table(folder_names.map(n => "<td>" + n + "</td>").join(""), linzi => folder_names.map(name => "<td>" + getImageFromLinziAndFolderIfExists(name, linzi) + "</td>").join(""));
 }
-function gen_table(header_row, main_row) {
+function gen_table(header_row, main_row, id) {
     var ans = "";
-    ans += "<table>";
+    if (id) {
+        ans += `<table id=${id}>`;
+    }
+    else {
+        ans += "<table>";
+    }
     ans += "<tr>";
     ans += "<td>字</td>";
     ans += header_row;
@@ -56,7 +61,7 @@ function gen_table(header_row, main_row) {
 		</div>` + ans;
     return ans;
 }
-function generate_table_narrow_html() {
+function generate_table_narrow_html(id) {
     const iterateOverAuthor = (f) => {
         let a = "";
         for (var k = 0; k < imageAuthors.length; k++) {
@@ -66,7 +71,7 @@ function generate_table_narrow_html() {
         }
         return a;
     };
-    return gen_table(iterateOverAuthor((a) => a.join("<br>")), linzi => iterateOverAuthor((a) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")));
+    return gen_table(iterateOverAuthor((a) => a.join("<br>")), linzi => iterateOverAuthor((a) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")), id);
 }
 function getImageFromLinziAndFolder(folder_name, linzi) {
     return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
