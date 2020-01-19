@@ -442,7 +442,7 @@
     },
     "translations" : [ {
       "title" : "標準パイグ語",
-      "forms" : [ "*" ]
+      "forms" : [ "kit1" ]
     }, {
       "title" : "早見表「古パイグ」",
       "forms" : [ "*" ]
@@ -451,15 +451,21 @@
       "forms" : [ "*" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "kita" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "KITA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 442,
+        "form" : "佰"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 47,
@@ -11860,6 +11866,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 442,
+      "form" : "佰"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「百」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 46,
+        "form" : "百"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

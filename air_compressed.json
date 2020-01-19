@@ -4399,6 +4399,25 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 24637,
+      "form" : "kita"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "百,100," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "用例",
+      "text" : "土"
+    }, {
+      "title" : "旧辞書表記",
+      "text" : "KITA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 24674,
       "form" : "kitu"
     },

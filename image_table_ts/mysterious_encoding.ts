@@ -96,7 +96,7 @@ const mysterious_encoding: string[] = [
   "??",
   "遠",
   "棚",
-  "??",
+  "佰",
   "絵",
   "??",
   "傾",
