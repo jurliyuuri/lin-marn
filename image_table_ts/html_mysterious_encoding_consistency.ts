@@ -1,6 +1,6 @@
 function check_constistency(): void {
 	var encoded_linzi: string[] = mysterious_encoding.filter(a => a !== "??").sort();
-	var sorted_linzi_list: string[] = linzi_list.sort();
+	var sorted_linzi_list: string[] = [...linzi_list].sort();
 
 	if (encoded_linzi.length !== sorted_linzi_list.length) {
 		alert("inconsistent: length mismatch");

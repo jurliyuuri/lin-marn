@@ -1,3 +1,7 @@
+function isLinzi(character) {
+    const linzi_list2 = [...linzi_list];
+    return linzi_list2.includes(character);
+}
 /* char_and_folder_info.js and image_existence_table.js required */
 function getImage_(character, type_prec, size, path) {
     path = path || ".";
@@ -5,7 +9,7 @@ function getImage_(character, type_prec, size, path) {
     for (var i = 0; i < type_prec.length; i++) {
         prec = prec.concat(folder_names.filter(a => folder_type[a] === type_prec[i]));
     }
-    if (!linzi_list.includes(character)) {
+    if (!isLinzi(character)) {
         return { errorDueTo: `（「${character}」未定義）` };
     }
     for (var j = 0; j < prec.length; j++) {
