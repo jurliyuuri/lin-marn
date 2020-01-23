@@ -1,4 +1,4 @@
-const mysterious_encoding: string[] = [
+const mysterious_encoding: ReadonlyArray<Linzi | "??"> = allElements<Linzi | "??">()([
   "天",
   "人",
   "或",
@@ -511,4 +511,4 @@ const mysterious_encoding: string[] = [
   "救",
   "??",
   "??"
-];
+]);
