@@ -14,7 +14,7 @@ def main():
 	A = imread('Linzi_dot_part2.png')
 	C = imread('Linzi_dot_part2_nonborder.png')
 	for i in range(len(linziList)):
-		save(A,C,int(i/20),i%20,linziList[i]);
+		save(A,C,int(i/20),i%20,linziList[i])
 
 
 # ith row, jth column
