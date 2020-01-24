@@ -688,7 +688,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 445,
+        "form" : "帽"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 56,
@@ -5404,7 +5410,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 443,
+        "form" : "顫"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 237,
@@ -11883,6 +11895,69 @@
       "entry" : {
         "id" : 46,
         "form" : "百"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 443,
+      "form" : "顫"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「震」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 236,
+        "form" : "震"
+      }
+    }, {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 444,
+        "form" : "振"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 444,
+      "form" : "振"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「顫」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 443,
+        "form" : "顫"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 445,
+      "form" : "帽"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「冠」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 53,
+        "form" : "冠"
       }
     } ]
   } ],
