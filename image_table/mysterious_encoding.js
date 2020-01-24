@@ -1,4 +1,4 @@
-const mysterious_encoding = [
+const mysterious_encoding = allElements()([
     "天",
     "人",
     "或",
@@ -511,4 +511,4 @@ const mysterious_encoding = [
     "救",
     "??",
     "??"
-];
+]);
