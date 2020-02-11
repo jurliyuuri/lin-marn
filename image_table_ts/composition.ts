@@ -88,7 +88,7 @@ const composition2: Composition = {
     D84: { "isDecomposable": true, "strokeCount": ["D20", "D29"], "hanzi": "輝", "composition": ["⿱日光"] },
     D85: { "isDecomposable": true, "strokeCount": ["D20", "D3"], "hanzi": "始", "composition": ["⿱日五"] },
     D86: { "isDecomposable": true, "strokeCount": ["D3", "D20"], "hanzi": "終", "composition": ["⿱五日"] },
-    D87: { "isDecomposable": true, "strokeCount": ["D9", "D3"], "hanzi": "出", "composition": ["⿱足五"] },
+    D87: { "isDecomposable": true, "strokeCount": ["D9", "D3"], "hanzi": "生", "composition": ["⿱足五"] },
     D88: { "isDecomposable": true, "strokeCount": ["D8", "D8"], "hanzi": "二", "composition": ["⿰一一", "＊〢"] },
     D89: { "isDecomposable": true, "strokeCount": ["D8", "D8", "D8"], "hanzi": "三", "composition": ["⿲一一一", "＊川", "＊〣"] },
     D90: { "isDecomposable": true, "strokeCount": ["D13", "D73"], "hanzi": "為", "composition": ["⿰少撃"] },
