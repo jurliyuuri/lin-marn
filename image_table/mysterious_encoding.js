@@ -466,7 +466,7 @@ const mysterious_encoding = allElements()([
     "弓",
     "短",
     "豆",
-    "??",
+    "産",
     "勿",
     "??",
     "此",

@@ -2916,7 +2916,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 446,
+        "form" : "産"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 138,
@@ -11958,6 +11964,25 @@
       "entry" : {
         "id" : 53,
         "form" : "冠"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 446,
+      "form" : "産"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「生」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 137,
+        "form" : "生"
       }
     } ]
   } ],
