@@ -4804,6 +4804,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28081,
+      "form" : "macwe"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}細密画,（中世写本の）彩飾画;緻密な細工物,ミニチュア,（燃料を加えて）火を燃やし続ける" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28145,
       "form" : "maiblo"
     },
@@ -5053,6 +5066,22 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "MASU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28673,
+      "form" : "masuni"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ぬる,塗る" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MASUNI"
     } ],
     "variations" : [ ],
     "relations" : [ ]
