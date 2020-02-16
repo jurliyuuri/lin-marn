@@ -11729,7 +11729,10 @@
       "id" : 432,
       "form" : "羅"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "lai1" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
@@ -11985,6 +11988,22 @@
         "form" : "生"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 447,
+      "form" : "呉"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kot2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "クレオス・ド・メアパトロネスト"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

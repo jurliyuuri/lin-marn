@@ -358,7 +358,7 @@ const mysterious_encoding = allElements()([
     "思",
     "貧",
     "??",
-    "??",
+    "呉",
     "川",
     "??",
     "??",
