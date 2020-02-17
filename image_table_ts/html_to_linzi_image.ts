@@ -25,7 +25,7 @@ Global.draw = function (prec) {
             .map(function (txt: string): string {
                 var ans: string = "";
                 for (var i = 0; i < txt.length; i++) {
-                    ans += getImage(txt[i], prec, 100);
+                    ans += getImage(txt[i], prec, 100, true);
                 }
                 return ans;
             })

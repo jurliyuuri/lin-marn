@@ -14,7 +14,7 @@ Global.draw = function (prec) {
             .map(function (txt) {
             var ans = "";
             for (var i = 0; i < txt.length; i++) {
-                ans += getImage(txt[i], prec, 100);
+                ans += getImage(txt[i], prec, 100, true);
             }
             return ans;
         })
