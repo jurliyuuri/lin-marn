@@ -5918,7 +5918,7 @@
       "title" : "",
       "forms" : [ "軍" ]
     } ],
-    "tags" : [ "真理設定", "リパライン語ソース" ],
+    "tags" : [ "真理設定", "リパライン語ソース", "ラネーメにも採用" ],
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "NUISU"
@@ -7404,6 +7404,19 @@
       "title" : "旧辞書表記",
       "text" : "SUKISU"
     } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 50005,
+      "form" : "sulou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}【植】ハッカ（属）（薄荷）,ミント" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
