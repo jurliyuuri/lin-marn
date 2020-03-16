@@ -1253,6 +1253,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 4931,
+      "form" : "cache"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］発掘する;試掘する" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 4972,
       "form" : "cah^iu"
     },
@@ -2120,6 +2133,19 @@
     "translations" : [ {
       "title" : "",
       "forms" : [ "{Ｂ}鎖,チェーン;《転》連鎖;【通】ネット局" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 10094,
+      "form" : "dili"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "さす (指す, 刺す, 差す) [2014:単語と同じ:ALCIS:::],ムール貝養殖場,【キ】（小教区を預かる）主任司祭,教区牧師" ]
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
@@ -6009,6 +6035,19 @@
       "forms" : [ "{Ｏ}繊維;【医】線維" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 35413,
+      "form" : "nyaunei"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}強い,力強い;強固な;激しい,【動】アシカ（科）,=otariedo" ]
+    } ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
