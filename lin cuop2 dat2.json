@@ -330,10 +330,13 @@
       "forms" : [ "*" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "matutu" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "MATUTU" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bátat" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -439,7 +442,7 @@
     },
     "translations" : [ {
       "title" : "標準パイグ語",
-      "forms" : [ "*" ]
+      "forms" : [ "kit1" ]
     }, {
       "title" : "早見表「古パイグ」",
       "forms" : [ "*" ]
@@ -448,15 +451,21 @@
       "forms" : [ "*" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "kita" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "KITA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 442,
+        "form" : "佰"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 47,
@@ -679,7 +688,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 445,
+        "form" : "帽"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 56,
@@ -1534,7 +1549,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 433,
+        "form" : "聚"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 88,
@@ -2777,7 +2798,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 434,
+        "form" : "叛"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 134,
@@ -2862,7 +2889,7 @@
   }, {
     "entry" : {
       "id" : 137,
-      "form" : "出"
+      "form" : "生"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -2872,7 +2899,7 @@
       "forms" : [ "iahn" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "王出前" ]
+      "forms" : [ "王生前" ]
     }, {
       "title" : "アイル語",
       "forms" : [ "jani" ]
@@ -2889,7 +2916,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 446,
+        "form" : "産"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 138,
@@ -4560,7 +4593,7 @@
     },
     "translations" : [ {
       "title" : "標準パイグ語",
-      "forms" : [ "muak1" ]
+      "forms" : [ "muak1", "nuak1" ]
     }, {
       "title" : "アイル語",
       "forms" : [ "~" ]
@@ -5383,7 +5416,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 443,
+        "form" : "顫"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 237,
@@ -6107,7 +6146,7 @@
   }, {
     "entry" : {
       "id" : 261,
-      "form" : "石"
+      "form" : "石(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -6287,7 +6326,7 @@
       "forms" : [ "tahn" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "終出素" ]
+      "forms" : [ "終生素" ]
     }, {
       "title" : "アイル語",
       "forms" : [ "tana" ]
@@ -7124,6 +7163,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "xauau" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "ṣahúḷ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -7864,7 +7906,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 428,
+        "form" : "刻"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 1,
@@ -8869,7 +8917,7 @@
       "forms" : [ "gháni", "ghánúḷ" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "火出素" ]
+      "forms" : [ "火生素" ]
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "KANI" ]
@@ -9275,7 +9323,7 @@
       "forms" : [ "báni" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "大出素" ]
+      "forms" : [ "大生素" ]
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "MANI" ]
@@ -9632,7 +9680,7 @@
       "title" : "異体字",
       "entry" : {
         "id" : 261,
-        "form" : "石"
+        "form" : "石(1)"
       }
     } ]
   }, {
@@ -11610,6 +11658,350 @@
     } ],
     "tags" : [ ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 428,
+      "form" : "刻"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「片」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 325,
+        "form" : "片"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 429,
+      "form" : "俐"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「硫俐」の構成要素"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 430,
+      "form" : "硫"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「硫俐」の構成要素"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 431,
+      "form" : "硫俐"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "khaicwi", "kasui" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "kúcujúl", "kujacú", "kúcú" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "khaicwi", "KASUI" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 432,
+      "form" : "羅"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "lai1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 433,
+      "form" : "聚"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「集」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 87,
+        "form" : "集"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 434,
+      "form" : "叛"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「反」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 133,
+        "form" : "反"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 435,
+      "form" : "科"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 439,
+      "form" : "吏"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "cica" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "cica" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 437,
+        "form" : "宦"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 437,
+      "form" : "宦"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「吏」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 439,
+        "form" : "吏"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 438,
+      "form" : "僚"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "joveo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "joveo" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 436,
+      "form" : "石(2)"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "hewe" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "hewe" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "eghi" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 440,
+      "form" : "健"
+    },
+    "translations" : [ {
+      "title" : "ラネーメ祖語",
+      "forms" : [ "iosl" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「君子」の意味。同根語はアイル語josu「傑作、大作」、アイル語josua「決定的な、最終的な」に残る。漢字転写は同形の字が東島通商語latapanka「健康である」（ラネーメ形態素でないのでここには収録しない）の表記に用いられることから。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 441,
+      "form" : "兄"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 442,
+      "form" : "佰"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「百」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 46,
+        "form" : "百"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 443,
+      "form" : "顫"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「震」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 236,
+        "form" : "震"
+      }
+    }, {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 444,
+        "form" : "振"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 444,
+      "form" : "振"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「顫」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 443,
+        "form" : "顫"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 445,
+      "form" : "帽"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「冠」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 53,
+        "form" : "冠"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 446,
+      "form" : "産"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「生」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 137,
+        "form" : "生"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 447,
+      "form" : "呉"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kot2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "クレオス・ド・メアパトロネスト"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   } ],

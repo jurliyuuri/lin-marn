@@ -5,9 +5,13 @@ function generate_table_html(preloading: false): string {
 	);
 }
 
-function gen_table(header_row: string, main_row: (linzi: string) => string): string {
+function gen_table(header_row: string, main_row: (linzi: string) => string, id?: string): string {
 	var ans: string = "";
-	ans += "<table>";
+	if (id) {
+		ans += `<table id=${id}>`;
+	} else {
+		ans += "<table>";
+	}
 
 	ans += "<tr>";
 	ans += "<td>字</td>"
@@ -71,7 +75,7 @@ function gen_table(header_row: string, main_row: (linzi: string) => string): str
 }
 
 
-function generate_table_narrow_html(): string {
+function generate_table_narrow_html(id?: string): string {
 	const iterateOverAuthor = (f: (a: FolderName[]) => string) => {
 		let a = "";
 		for (var k = 0; k < imageAuthors.length; k++) {
@@ -84,7 +88,8 @@ function generate_table_narrow_html(): string {
 
 	return gen_table(
 		iterateOverAuthor((a: FolderName[]) => a.join("<br>")),
-		linzi => iterateOverAuthor((a: FolderName[]) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join(""))
+		linzi => iterateOverAuthor((a: FolderName[]) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")),
+		id
 	);
 }
 
