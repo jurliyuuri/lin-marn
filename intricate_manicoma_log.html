@@ -25,8 +25,12 @@ interface Composition {
     };
 }
     </pre>
-    <p>として格納されている。このstrokeCountが数であるような字はその画数が、そうでない字は<code>id[]</code>の指しているID上の画数が総計されて<a href="linzi_composition.html">linzi_composition</a>に表示されるという仕組みになっているわけだ。一部抜粋すると、</p>
-<pre>
+    <p>
+        として格納されている。このstrokeCountが数であるような字はその画数が、そうでない字は<code>id[]</code>の指しているID上の画数が総計されて<a
+            href="linzi_composition.html">linzi_composition
+        </a>に表示されるという仕組みになっているわけだ。一部抜粋すると、
+    </p>
+    <pre>
 {
     D3: { "isDecomposable": false, "strokeCount": 1, "hanzi": "五", "composition": ["＊一"] },
     D4: { "isDecomposable": false, "strokeCount": 3, "hanzi": "人", "composition": ["＊大"] },
@@ -39,9 +43,17 @@ interface Composition {
     D167: { "isDecomposable": true, "strokeCount": ["D4", "D3"], "hanzi": "立", "composition": ["⿱人五"] }
 }   
 </pre>
-<p>であり、これを<a href="linzi_composition_with_duplicate.html.html">linzi_composition_with_duplicate</a>がこうやって↓</p>
-<img src="display.png" width="240"><p>表示してくれているというわけである。いわゆるJSON色付け係というやつである。</p>
-    <p>ということで、まずは<code>id[]</code>になっているような、つまり、画数を複数の字素から導出するような、字を数えて、Laplace's rule of succession で complex な字であるかどうかだけ判定してくれるようなコードを2019年8月29日に書いた<b>…と思ったら計算ミスってるね</b>。分母に足すべきは1ではなく2である。</p>
+    <p>
+        であり、これを<a href="linzi_composition_with_duplicate.html.html">linzi_composition_with_duplicate</a>がこうやって↓
+    </p>
+    <img src="display.png" width="240">
+    <p>
+        表示してくれているというわけである。いわゆるJSON色付け係というやつである。
+    </p>
+    <p>
+        ということで、まずは<code>id[]</code>になっているような、つまり、画数を複数の字素から導出するような、字を数えて、Laplace's rule of succession で complex
+        な字であるかどうかだけ判定してくれるようなコードを2019年8月29日に書いた<b>…と思ったら計算ミスってるね</b>。分母に足すべきは1ではなく2である。
+    </p>
 </body>
 
 </html>
