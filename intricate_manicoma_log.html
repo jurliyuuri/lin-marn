@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>「手の込んだマニソマ」</title>
+</head>
+
+<body>
+    <h1>「手の込んだマニソマ」</h1>
+    <h2>1. 「手の込んだマニソマ」</h2>
+    <p>2019年8月29日ぐらいにSYと「手の込んだマニソマ」という概念について話した気がする。これを書いているのが今2020年3月17日であり何も覚えていないというのがある。</p>
+    <p>どういうのかというと、まあ要するに今までの燐字のデータをもとに、ありそうな燐字を帰納し、造字造語に役立てるというものである。それをjekto.vatimelijuが提案したところ、「手の込んだマニソマじゃん」とSYに言われ、その名前が定着した。
+    </p>
+    <h2>2. はじめの一歩</h2>
+    <p>今のところのlinzi_compositionデータは、</p>
+    <pre>
+type id = string;
+interface Composition {
+    [key: string]: {
+        isDecomposable: boolean,
+        strokeCount: number | id[],
+        hanzi: string,
+        composition: string[]
+    };
+}
+    </pre>
+    <p>として格納されている。このstrokeCountが数であるような字はその画数が、そうでない字は<code>id[]</code>の指しているID上の画数が総計されて<a href="linzi_composition.html">linzi_composition</a>に表示されるという仕組みになっているわけだ。一部抜粋すると、</p>
+<pre>
+{
+    D3: { "isDecomposable": false, "strokeCount": 1, "hanzi": "五", "composition": ["＊一"] },
+    D4: { "isDecomposable": false, "strokeCount": 3, "hanzi": "人", "composition": ["＊大"] },
+    D12: { "isDecomposable": true, "strokeCount": ["D3", "D3"], "hanzi": "処", "composition": ["⿱五五", "＊二", "＊ニ"] },
+    D24: { "isDecomposable": true, "strokeCount": ["D4", "D4"], "hanzi": "等", "composition": ["⿰人人"] },
+    D80: { "isDecomposable": true, "strokeCount": ["D3", "D12"], "hanzi": "層", "composition": ["⿱五処"] },
+    D83: { "isDecomposable": true, "strokeCount": ["D24", "D3"], "hanzi": "集", "composition": ["⿱等五"] },
+    D137: { "isDecomposable": true, "strokeCount": ["D3", "D4"], "hanzi": "救", "composition": ["⿱五人", "＊天"] },
+    D156: { "isDecomposable": true, "strokeCount": ["D4", "D4"], "hanzi": "多", "composition": ["⿱人人"] },
+    D167: { "isDecomposable": true, "strokeCount": ["D4", "D3"], "hanzi": "立", "composition": ["⿱人五"] }
+}   
+</pre>
+<p>であり、これを<a href="linzi_composition_with_duplicate.html.html">linzi_composition_with_duplicate</a>がこうやって↓</p>
+<img src="display.png" width="240"><p>表示してくれているというわけである。いわゆるJSON色付け係というやつである。</p>
+    <p>ということで、まずは<code>id[]</code>になっているような、つまり、画数を複数の字素から導出するような、字を数えて、Laplace's rule of succession で complex な字であるかどうかだけ判定してくれるようなコードを2019年8月29日に書いた<b>…と思ったら計算ミスってるね</b>。分母に足すべきは1ではなく2である。</p>
+</body>
+
+</html>
