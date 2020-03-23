@@ -39,7 +39,7 @@ const linzi_list: ReadonlyArray<Linzi> = allElements<Linzi>()(["我", "汝", "�
 "帽",
 	"瑪", "産", "呉"]); // REQUIRES CONSTANT UPDATE
 
-const defined_but_no_image_prepared: ReadonlyArray<Linzi> = ["赤", "百", "佰", "失", "橋", "網", "顫", "振", "帽", "瑪", "産"];
+const defined_but_no_image_prepared: ReadonlyArray<Linzi> = ["赤", "百", "佰", "失", "橋", "網", "顫", "振", "帽", "瑪", "産", "須"];
 const folder_names: ReadonlyArray<FolderName> = allElements<FolderName>()(["燐字画像", "燐字画像2", "燐字画像3", "燐字画像4", "燐字画像5", "燐字画像6", "燐字画像7", "燐字画像8", "燐字画像9", "燐字画像10", "燐字画像11", "燐字画像12", "燐字画像13", "燐字画像14", "燐字画像15"]);
 const folder_type: FolderType = {
 	"燐字画像": "SY",
