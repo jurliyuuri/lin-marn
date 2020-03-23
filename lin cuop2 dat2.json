@@ -143,7 +143,7 @@
     },
     "translations" : [ {
       "title" : "標準パイグ語",
-      "forms" : [ "*" ]
+      "forms" : [ "li2" ]
     }, {
       "title" : "早見表「古パイグ」",
       "forms" : [ "*" ]
@@ -152,10 +152,10 @@
       "forms" : [ "*" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "libwa" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "libwa" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],

@@ -4671,6 +4671,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 27108,
+      "form" : "libwa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "【動】腹足綱,腹足類" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 27222,
       "form" : "lingei"
     },
