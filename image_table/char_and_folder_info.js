@@ -6,8 +6,8 @@ const linzi_list = allElements()(["我", "汝", "此", "其", "彼", "何", "或
     "振",
     "帽",
     "瑪", "産", "呉"]); // REQUIRES CONSTANT UPDATE
-const defined_but_no_image_prepared = ["赤", "百", "佰", "失", "橋", "網", "顫", "振", "帽", "瑪", "産", "須"];
-const folder_names = allElements()(["燐字画像", "燐字画像2", "燐字画像3", "燐字画像4", "燐字画像5", "燐字画像6", "燐字画像7", "燐字画像8", "燐字画像9", "燐字画像10", "燐字画像11", "燐字画像12", "燐字画像13", "燐字画像14", "燐字画像15"]);
+const defined_but_no_image_prepared = [];
+const folder_names = allElements()(["燐字画像", "燐字画像2", "燐字画像3", "燐字画像4", "燐字画像5", "燐字画像6", "燐字画像7", "燐字画像8", "燐字画像9", "燐字画像10", "燐字画像11", "燐字画像12", "燐字画像13", "燐字画像14", "燐字画像15", "燐字画像16"]);
 const folder_type = {
     "燐字画像": "SY",
     "燐字画像2": "border",
@@ -24,4 +24,5 @@ const folder_type = {
     "燐字画像13": "jv",
     "燐字画像14": "border",
     "燐字画像15": "noborder",
+    "燐字画像16": "jv",
 };
