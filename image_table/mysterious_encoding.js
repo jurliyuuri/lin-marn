@@ -181,7 +181,7 @@ const mysterious_encoding = allElements()([
     "㕮",
     "於",
     "累",
-    "??",
+    "刺",
     "??",
     "錘",
     "如",

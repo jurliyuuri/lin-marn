@@ -12004,6 +12004,25 @@
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 448,
+      "form" : "刺"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "naunilorúḷ" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "dili" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "dili" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
