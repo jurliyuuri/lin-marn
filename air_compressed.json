@@ -7634,6 +7634,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 51622,
+      "form" : "taide"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "にわとり 鶏 [2014:単語と同じ:ALCIS:::]" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 51738,
       "form" : "taik'eo"
     },
