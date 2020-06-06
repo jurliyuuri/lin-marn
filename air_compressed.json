@@ -5094,6 +5094,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 28669,
+      "form" : "masou"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］（汚いものを）吐き出す,【宗】冒涜的な言葉;罵詈雑言（ばりぞうごん）" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 28670,
       "form" : "masu"
     },
