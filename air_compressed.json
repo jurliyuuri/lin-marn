@@ -3716,6 +3716,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 20905,
+      "form" : "jokhi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "《転》盲目的に（差別的表現なので避けるべき）,=>senkritike,=>malprudente,行儀のよくない" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 20930,
       "form" : "jomo"
     },
