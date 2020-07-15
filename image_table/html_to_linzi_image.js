@@ -7,7 +7,7 @@ var Global = {
     border: () => { },
     sy_pua2man1: () => { }
 };
-Global.precedence = ["SY", "jv", "SY pua2 man1", "noborder", "border"];
+Global.precedence = ["SY", "jv", "jv touch panel", "SY pua2 man1", "noborder", "border"];
 Global.draw = function (prec) {
     document.getElementById("res").innerHTML =
         (document.getElementById('inputs')).value.split(" ")
@@ -21,15 +21,15 @@ Global.draw = function (prec) {
             .join("<br><br>");
 };
 Global.sy = function () {
-    Global.precedence = ["SY", "jv", "SY pua2 man1", "noborder", "border"];
+    Global.precedence = ["SY", "jv", "jv touch panel", "SY pua2 man1", "noborder", "border"];
     Global.draw(Global.precedence);
 };
 Global.jv = function () {
-    Global.precedence = ["jv", "SY", "SY pua2 man1", "noborder", "border"];
+    Global.precedence = ["jv", "jv touch panel", "SY", "SY pua2 man1", "noborder", "border"];
     Global.draw(Global.precedence);
 };
 Global.noborder = function () {
-    Global.precedence = ["noborder", "border", "SY", "SY pua2 man1", "jv"];
+    Global.precedence = ["noborder", "border", "SY", "SY pua2 man1", "jv", "jv touch panel"];
     Global.draw(Global.precedence);
 };
 Global.border = function () {
