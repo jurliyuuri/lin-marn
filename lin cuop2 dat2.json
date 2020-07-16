@@ -12043,6 +12043,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 451,
+      "form" : "待"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "tim1" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "TITIMU" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "titimu" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

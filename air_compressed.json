@@ -8086,6 +8086,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 54576,
+      "form" : "titimu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "まつ,待つ" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TITIMU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 54591,
       "form" : "titu"
     },
