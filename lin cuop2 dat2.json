@@ -305,10 +305,13 @@
       "forms" : [ "*" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "*" ]
+      "forms" : [ "pwoutwi" ]
     }, {
       "title" : "アイル語(辞書表記)",
-      "forms" : [ "*" ]
+      "forms" : [ "pwoutwi" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bhodi" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
