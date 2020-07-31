@@ -12065,6 +12065,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 452,
+      "form" : "試"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kop1" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "khobau" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "khobau" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

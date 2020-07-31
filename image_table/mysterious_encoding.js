@@ -127,7 +127,7 @@ const mysterious_encoding = allElements()([
     "貝",
     "六",
     "橋",
-    "??",
+    "試",
     "紙",
     "竺",
     "??",

@@ -4284,6 +4284,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 23876,
+      "form" : "khobau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］試す,試用する,使ってみる;試験する,検証する;試みる,やってみる" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 24156,
       "form" : "khuthe"
     },
