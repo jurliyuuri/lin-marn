@@ -12084,6 +12084,38 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 453,
+      "form" : "杯"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "niep1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "nivhp" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "静言前" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 454,
+      "form" : "叮"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "tei1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
