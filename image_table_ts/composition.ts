@@ -3,7 +3,7 @@ interface Composition {
     [key: string]: {
         isDecomposable: boolean,
         strokeCount: number | id[],
-        hanzi: string,
+        hanzi: Linzi | "??",
         composition: string[]
     };
 }

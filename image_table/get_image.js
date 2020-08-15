@@ -10,6 +10,36 @@ function getImage_(character, type_prec, size, display_path_as_title, path) {
         prec = prec.concat(folder_names.filter(a => folder_type[a] === type_prec[i]));
     }
     if (!isLinzi(character)) {
+        if (character === '　') {
+            return `<img src='${path}/img_punctuation/blank.png' width='${size}' height='${size}' ` +
+                (display_path_as_title ? `title='img_punctuation/blank.png'` : ``) +
+                ` />`;
+        }
+        else if (character === '！' || character === '!') {
+            return `<img src='${path}/img_punctuation/exclamation.png' width='${size}' height='${size}' ` +
+                (display_path_as_title ? `title='img_punctuation/exclamation.png'` : ``) +
+                ` />`;
+        }
+        else if (character === '.' || character === '。' || character === ',' || character === '、') {
+            return `<img src='${path}/img_punctuation/period.png' width='${size}' height='${size}' ` +
+                (display_path_as_title ? `title='img_punctuation/period.png'` : ``) +
+                ` />`;
+        }
+        else if (character === '?' || character === '？') {
+            return `<img src='${path}/img_punctuation/question.png' width='${size}' height='${size}' ` +
+                (display_path_as_title ? `title='img_punctuation/question.png'` : ``) +
+                ` />`;
+        }
+        else if (character === '「' || character === '」' || character === '"' || character === '”' || character === '“') {
+            return `<img src='${path}/img_punctuation/quotation.png' width='${size}' height='${size}' ` +
+                (display_path_as_title ? `title='img_punctuation/quotation.png'` : ``) +
+                ` />`;
+        }
+        else if (character === '〃' || character === '々' || character === 'ゝ' || character === 'ヽ') {
+            return `<img src='${path}/img_punctuation/repetition.png' width='${size}' height='${size}' ` +
+                (display_path_as_title ? `title='img_punctuation/repetition.png'` : ``) +
+                ` />`;
+        }
         return { errorDueTo: `（「${character}」未定義）` };
     }
     for (var j = 0; j < prec.length; j++) {
