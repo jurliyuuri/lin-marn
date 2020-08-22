@@ -6,7 +6,7 @@ const linzi_list = allElements()(["我", "汝", "此", "其", "彼", "何", "或
     "振",
     "帽",
     "瑪", "産", "呉", "刺", "育", "呻", "待", "試", "杯", "叮", "可", "檸"]); // REQUIRES CONSTANT UPDATE
-const defined_but_no_image_prepared = ["可"];
+const defined_but_no_image_prepared = ["可", "卵", "淮", "球"];
 const folder_names = allElements()(["燐字画像", "燐字画像2", "燐字画像3", "燐字画像4", "燐字画像5", "燐字画像6", "燐字画像7", "燐字画像8", "燐字画像9", "燐字画像10", "燐字画像11", "燐字画像12", "燐字画像13", "燐字画像14", "燐字画像15", "燐字画像16", "燐字画像17"]);
 const folder_type = {
     "燐字画像": "SY",
