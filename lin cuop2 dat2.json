@@ -11224,7 +11224,10 @@
       "id" : 401,
       "form" : "増"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "mok1 taun1" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
