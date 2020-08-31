@@ -5622,6 +5622,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 31307,
+      "form" : "nauke"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}箱,ケース,容器" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 31389,
       "form" : "navou"
     },
