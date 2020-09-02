@@ -17,7 +17,7 @@ var Global: ToLinziImageGlobal = {
     border: () => { },
     sy_pua2man1: () => { }
 };
-Global.precedence = ["SY", "jv", "jv touch panel", "SY pua2 man1", "noborder", "border"];
+Global.precedence = ["SY", "jv", "jv touch panel", "SY pua2 man1", "noborder", "border", "meloviliju"];
 
 Global.draw = function (prec) {
     document.getElementById("res")!.innerHTML =
@@ -33,17 +33,17 @@ Global.draw = function (prec) {
 }
 
 Global.sy = function () {
-    Global.precedence = ["SY", "jv", "jv touch panel", "SY pua2 man1", "noborder", "border"];
+    Global.precedence = ["SY", "jv", "jv touch panel", "SY pua2 man1", "noborder", "border", "meloviliju"];
     Global.draw(Global.precedence);
 }
 
 Global.jv = function () {
-    Global.precedence = ["jv", "jv touch panel", "SY", "SY pua2 man1", "noborder", "border"];
+    Global.precedence = ["jv", "jv touch panel", "SY", "SY pua2 man1", "noborder", "border", "meloviliju"];
     Global.draw(Global.precedence);
 }
 
 Global.noborder = function () {
-    Global.precedence = ["noborder", "border", "SY", "SY pua2 man1", "jv", "jv touch panel"];
+    Global.precedence = ["noborder", "border", "SY", "SY pua2 man1", "jv", "jv touch panel", "meloviliju"];
     Global.draw(Global.precedence);
 }
 
