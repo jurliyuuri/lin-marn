@@ -392,7 +392,7 @@ const mysterious_encoding = allElements()([
     "木",
     "寒",
     "??",
-    "??",
+    "顔",
     "吏",
     "頬",
     "糸",
