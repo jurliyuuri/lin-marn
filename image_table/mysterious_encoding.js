@@ -202,7 +202,7 @@ const mysterious_encoding = allElements()([
     "書",
     "新",
     "??",
-    "??",
+    "醇",
     "恒",
     "帯",
     "己",

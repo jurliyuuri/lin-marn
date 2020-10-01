@@ -12157,6 +12157,60 @@
         "form" : "能"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 457,
+      "form" : "蛋"
+    },
+    "translations" : [ {
+        "title" : "早見表「古パイグ」",
+        "forms" : [ "nivhp" ]
+    } ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「卵」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 345,
+        "form" : "卵"
+      }
+    } ]
+    }, {
+      "entry" : {
+        "id" : 458,
+        "form" : "顔"
+      },
+      "translations" : [ ],
+      "tags" : [ ],
+      "contents" : [ ],
+      "variations" : [ ],
+      "relations" : [ ]
+      }, {
+        "entry" : {
+          "id" : 459,
+          "form" : "醇"
+        },
+        "translations" : [ {
+          "title" : "標準パイグ語",
+          "forms" : [ "lai1" ]
+        } ],
+        "tags" : [ "異体字" ],
+        "contents" : [ {
+          "title" : "備考",
+          "text" : "「酒」の異体字"
+        } ],
+        "variations" : [ ],
+        "relations" : [ {
+          "title" : "異体字",
+          "entry" : {
+            "id" : 218,
+            "form" : "酒"
+          }
+        } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
