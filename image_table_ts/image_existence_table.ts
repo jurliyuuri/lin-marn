@@ -27,6 +27,8 @@ interface NewImageExistenceTable {
     "燐字画像20": string[],
     "燐字画像21": string[],
     "燐字画像22": string[],
+    "燐字画像23": string[],
+    "燐字画像24": string[],
 }
 
 const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
@@ -130,6 +132,8 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
         "属", "針", "翰", "寐", "享", "失", "軍", "隊", "思", "橋", "帝", "氏", "閥", "纂", "穐", "啌", "哇", "浬", "刻", "羅", 
         "聚", "叛", "科", "吏", "宦", "僚", "健", "兄", "佰", "顫", "振", "帽", "瑪", "産", "刺", "育", "呻", "杯", "可", "蛋",
         "顔"],
+    "燐字画像23":["子", "壁" ,"巻" ,"常" ,"槍" ,"鑓" ,"躍" ,"凹" ,"斧" ,"質" ,"毎" ,"形"],
+    "燐字画像24":["子", "壁" ,"巻" ,"常" ,"槍" ,"鑓" ,"躍" ,"凹" ,"斧" ,"質" ,"毎" ,"形"],
         };
 
 
@@ -161,6 +165,8 @@ function convert_new_to_old(newer: NewImageExistenceTable): ImageExistenceTable 
             "燐字画像20": false,
             "燐字画像21": false,
             "燐字画像22": false,
+            "燐字画像23": false,
+            "燐字画像24": false,
         };
         for (let filepath in newer) {
             let foldername = filepath as FolderName;
