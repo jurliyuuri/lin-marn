@@ -119,47 +119,50 @@ template = '''
 <br>
 '''
 
+
 def look_up(l, title):
-	for i in l:
-		if(i["title"] == title):
-			return ", ".join(i["forms"])
-	return None
+    for i in l:
+        if(i["title"] == title):
+            return ", ".join(i["forms"])
+    return None
+
 
 langlist = [
-	('air', 'アイル語'),
-	('proto', 'ラネーメ祖語'),
-	('pek', '標準パイグ語'),
-	('old_pek', 'パイグ語古音'),
-	('aikzo', 'アイツォ音'),
-	('takan_takan', 'タカン語皇音'),
-	('takan_pek_old', 'タカン語牌音古音'),
-	('takan_pek_new', 'タカン語牌音新音'),
-	('etz_etz', 'エッツィア語光音'),
-	('etz_takan', 'エッツィア語皇音'),
-	('etz_pek_old', 'エッツィア語牌音古音'),
-	('etz_pek_new', 'エッツィア語牌音新音'),
-	('bhat', 'バート語'),
-	('rhyme_pek', '早見表「古パイグ」伝統表記'),
-	]
+    ('air', 'アイル語'),
+    ('proto', 'ラネーメ祖語'),
+    ('pek', '標準パイグ語'),
+    ('old_pek', 'パイグ語古音'),
+    ('aikzo', 'アイツォ音'),
+    ('takan_takan', 'タカン語皇音'),
+    ('takan_pek_old', 'タカン語牌音古音'),
+    ('takan_pek_new', 'タカン語牌音新音'),
+    ('etz_etz', 'エッツィア語光音'),
+    ('etz_takan', 'エッツィア語皇音'),
+    ('etz_pek_old', 'エッツィア語牌音古音'),
+    ('etz_pek_new', 'エッツィア語牌音新音'),
+    ('bhat', 'バート語'),
+    ('rhyme_pek', '早見表「古パイグ」伝統表記'),
+    ]
+
 
 def main():
-	a = open("lin cuop2 dat2.json" , "r") 
-	b = json.load(a)
-	for i in b["words"]:
-		print(i["entry"]["form"])
-	print("Which linzi?")
-	l = input()
+    a = open("lin cuop2 dat2.json", "r", encoding="utf-8_sig")
+    b = json.load(a)
+    for i in b["words"]:
+        print(i["entry"]["form"])
+    print("Which linzi?")
+    l = input()
 
-	for i in b["words"]:
-		linzi = i["entry"]["form"]
-		if l != linzi: 
-			continue
-		f = lambda x: look_up(i["translations"],x)
+    for i in b["words"]:
+        linzi = i["entry"]["form"]
+        if l != linzi:
+            continue
+        f = lambda x: look_up(i["translations"], x)
 
-		q = open("燐字海/"+linzi+".html",'w')
-		info = {y:"" if f(x) == None else f(x) for (y,x) in langlist}
-		info["bhat"] = re.sub(r'úḷ', 'úl', info["bhat"])
-		q.write(template % info)
+        q = open("燐字海/"+linzi+".html", 'w')
+        info = {y: "" if f(x) is None else f(x) for (y, x) in langlist}
+        info["bhat"] = re.sub(r'úḷ', 'úl', info["bhat"])
+        q.write(template % info)
 
 
 if __name__ == '__main__':
