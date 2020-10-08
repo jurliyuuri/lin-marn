@@ -12162,10 +12162,7 @@
       "id" : 457,
       "form" : "蛋"
     },
-    "translations" : [ {
-        "title" : "早見表「古パイグ」",
-        "forms" : [ "nivhp" ]
-    } ],
+    "translations" : [ ],
     "tags" : [ "異体字" ],
     "contents" : [ {
       "title" : "備考",
@@ -12175,7 +12172,7 @@
     "relations" : [ {
       "title" : "異体字",
       "entry" : {
-        "id" : 345,
+        "id" : 388,
         "form" : "卵"
       }
     } ]
@@ -12194,10 +12191,7 @@
         "id" : 459,
         "form" : "醇"
     },
-    "translations" : [ {
-      "title" : "標準パイグ語",
-      "forms" : [ "lai1" ]
-    } ],
+    "translations" : [ ],
     "tags" : [ "異体字" ],
     "contents" : [ {
       "title" : "備考",
@@ -12225,6 +12219,54 @@
       "entry" : {
         "id" : 461,
         "form" : "牡"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    }, {
+      "entry" : {
+        "id" : 462,
+        "form" : "槍"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "ket" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 463,
+        "form" : "鑓"
+      }
+    } ]
+    }, {
+      "entry" : {
+        "id" : 463,
+        "form" : "鑓"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「槍」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 462,
+        "form" : "槍"
+      }
+    } ]
+    }, {
+      "entry" : {
+        "id" : 464,
+        "form" : "斧"
     },
     "translations" : [ ],
     "tags" : [ ],
