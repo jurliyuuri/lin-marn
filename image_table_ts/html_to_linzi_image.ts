@@ -5,7 +5,8 @@ type ToLinziImageGlobal = {
     jv: () => void;
     noborder: () => void;
     border: () => void;
-    sy_pua2man1: () => void
+    sy_pua2man1: () => void;
+    meloviliju: () => void
 }
 
 var Global: ToLinziImageGlobal = {
@@ -15,9 +16,10 @@ var Global: ToLinziImageGlobal = {
     jv: () => { },
     noborder: () => { },
     border: () => { },
-    sy_pua2man1: () => { }
+    sy_pua2man1: () => { },
+    meloviliju: () => { }
 };
-Global.precedence = ["SY", "jv", "jv touch panel", "SY pua2 man1", "noborder", "border", "meloviliju"];
+Global.precedence = ["SY", "jv", "meloviliju", "jv touch panel", "SY pua2 man1", "noborder", "border"];
 
 Global.draw = function (prec) {
     document.getElementById("res")!.innerHTML =
@@ -33,12 +35,12 @@ Global.draw = function (prec) {
 }
 
 Global.sy = function () {
-    Global.precedence = ["SY", "jv", "jv touch panel", "SY pua2 man1", "noborder", "border", "meloviliju"];
+    Global.precedence = ["SY", "jv", "meloviliju", "jv touch panel", "SY pua2 man1", "noborder", "border"];
     Global.draw(Global.precedence);
 }
 
 Global.jv = function () {
-    Global.precedence = ["jv", "jv touch panel", "SY", "SY pua2 man1", "noborder", "border", "meloviliju"];
+    Global.precedence = ["jv", "jv touch panel", "SY", "SY pua2 man1", "meloviliju", "noborder", "border"];
     Global.draw(Global.precedence);
 }
 
@@ -48,11 +50,16 @@ Global.noborder = function () {
 }
 
 Global.border = function () {
-    Global.precedence = ["border", "noborder", "SY", "SY pua2 man1", "jv"];
+    Global.precedence = ["border", "noborder", "SY", "SY pua2 man1", "jv", "meloviliju"];
     Global.draw(Global.precedence);
 }
 
 Global.sy_pua2man1 = function () {
-    Global.precedence = ["SY pua2 man1", "SY", "jv", "noborder", "border"];
+    Global.precedence = ["SY pua2 man1", "SY", "jv", "meloviliju", "noborder", "border"];
+    Global.draw(Global.precedence);
+}
+
+Global.meloviliju = function () {
+    Global.precedence = ["meloviliju", "SY", "jv", "SY pua2 man1", "noborder", "border"];
     Global.draw(Global.precedence);
 }
