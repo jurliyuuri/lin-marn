@@ -12273,6 +12273,29 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+      "entry" : {
+        "id" : 465,
+        "form" : "必"
+  },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「槍」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+      "entry" : {
+        "id" : 466,
+        "form" : "囁"
+  },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
