@@ -79,7 +79,7 @@ const mysterious_encoding = allElements()([
     "術",
     "硬",
     "??",
-    "??",
+    "叫",
     "山",
     "牌",
     "激",
