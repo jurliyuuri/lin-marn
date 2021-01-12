@@ -6079,6 +6079,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 35080,
+      "form" : "nuta"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "どの," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NUTA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 35095,
       "form" : "nutha"
     },
@@ -7480,6 +7496,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 49933,
+      "form" : "suka"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "いつ," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUKA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 49961,
       "form" : "suki"
     },
@@ -8303,6 +8335,38 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "TUKUMUKU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55534,
+      "form" : "tuma"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "誰,だれ," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TUMA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55536,
+      "form" : "tuma-na"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "誰か,だれか," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TUMA-NA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
