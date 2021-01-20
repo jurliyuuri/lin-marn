@@ -5829,6 +5829,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 34081,
+      "form" : "nilua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "準備の,むね 胸" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 34108,
       "form" : "nimutu"
     },
@@ -6844,6 +6857,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 44044,
+      "form" : "rizi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}温度;【医】体温,見もの" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 44060,
       "form" : "roblai"
     },
@@ -7795,6 +7821,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52181,
+      "form" : "tananu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "おどろく,驚く" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TANANU"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
