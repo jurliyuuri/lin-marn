@@ -5829,6 +5829,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 34081,
+      "form" : "nilua"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "準備の,むね 胸" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 34108,
       "form" : "nimutu"
     },
@@ -6075,6 +6088,22 @@
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 35080,
+      "form" : "nuta"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "どの," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "NUTA"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -6828,6 +6857,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 44044,
+      "form" : "rizi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}温度;【医】体温,見もの" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 44060,
       "form" : "roblai"
     },
@@ -7480,6 +7522,22 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 49933,
+      "form" : "suka"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "いつ," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "SUKA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 49961,
       "form" : "suki"
     },
@@ -7763,6 +7821,22 @@
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 52181,
+      "form" : "tananu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "おどろく,驚く" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TANANU"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -8303,6 +8377,38 @@
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "TUKUMUKU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55534,
+      "form" : "tuma"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "誰,だれ," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TUMA"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55536,
+      "form" : "tuma-na"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "誰か,だれか," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TUMA-NA"
     } ],
     "variations" : [ ],
     "relations" : [ ]
