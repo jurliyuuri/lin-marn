@@ -12296,10 +12296,20 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
-  }, {
+    }, {
       "entry" : {
         "id" : 467,
         "form" : "叫"
+  },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+    }, {
+      "entry" : {
+        "id" : 468,
+        "form" : "鶏"
   },
       "translations" : [ ],
       "tags" : [ ],
