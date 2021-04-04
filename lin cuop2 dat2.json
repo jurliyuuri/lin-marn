@@ -1097,6 +1097,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "baibia" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "bija" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "びや" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -3997,6 +4003,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "leaa" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "lija" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "りや" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -5829,7 +5841,7 @@
   }, {
     "entry" : {
       "id" : 250,
-      "form" : "古"
+      "form" : "古(1)"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -5846,6 +5858,9 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "cira" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "~" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6510,6 +6525,12 @@
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "TIUA" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "tija" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "ちや" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -6544,6 +6565,12 @@
     }, {
       "title" : "アイツォ音",
       "forms" : [ "tia2" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "tisa" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "ちさ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -12316,6 +12343,22 @@
       "contents" : [ ],
       "variations" : [ ],
       "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 469,
+      "form" : "古(2)"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "sokaga" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "そかが" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
