@@ -12203,7 +12203,7 @@
         "form" : "卵"
       }
     } ]
-    }, {
+  }, {
     "entry" : {
       "id" : 458,
       "form" : "顔"
@@ -12213,10 +12213,10 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
-    }, {
-      "entry" : {
-        "id" : 459,
-        "form" : "醇"
+  }, {
+    "entry" : {
+      "id" : 459,
+      "form" : "醇"
     },
     "translations" : [ ],
     "tags" : [ "異体字" ],
@@ -12232,30 +12232,30 @@
         "form" : "酒"
       }
     } ]
-    }, {
-      "entry" : {
-        "id" : 460,
-        "form" : "羚"
+  }, {
+    "entry" : {
+      "id" : 460,
+      "form" : "羚"
     },
     "translations" : [ ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
-    }, {
-      "entry" : {
-        "id" : 461,
-        "form" : "牡"
+  }, {
+    "entry" : {
+      "id" : 461,
+      "form" : "牡"
     },
     "translations" : [ ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
-    }, {
-      "entry" : {
-        "id" : 462,
-        "form" : "槍"
+  }, {
+    "entry" : {
+      "id" : 462,
+      "form" : "槍"
     },
     "translations" : [ {
       "title" : "標準パイグ語",
@@ -12271,10 +12271,10 @@
         "form" : "鑓"
       }
     } ]
-    }, {
-      "entry" : {
-        "id" : 463,
-        "form" : "鑓"
+  }, {
+    "entry" : {
+      "id" : 463,
+      "form" : "鑓"
     },
     "translations" : [ ],
     "tags" : [ "異体字" ],
@@ -12290,10 +12290,10 @@
         "form" : "槍"
       }
     } ]
-    }, {
-      "entry" : {
-        "id" : 464,
-        "form" : "斧"
+  }, {
+    "entry" : {
+      "id" : 464,
+      "form" : "斧"
     },
     "translations" : [ ],
     "tags" : [ ],
@@ -12301,10 +12301,10 @@
     "variations" : [ ],
     "relations" : [ ]
   }, {
-      "entry" : {
-        "id" : 465,
-        "form" : "必"
-  },
+    "entry" : {
+      "id" : 465,
+      "form" : "必"
+    },
     "translations" : [ ],
     "tags" : [ ],
     "contents" : [ {
@@ -12314,35 +12314,38 @@
     "variations" : [ ],
     "relations" : [ ]
   }, {
-      "entry" : {
-        "id" : 466,
-        "form" : "囁"
-  },
+    "entry" : {
+      "id" : 466,
+      "form" : "囁"
+    },
     "translations" : [ ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
-    }, {
-      "entry" : {
-        "id" : 467,
-        "form" : "叫"
-  },
+  }, {
+    "entry" : {
+      "id" : 467,
+      "form" : "叫"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "puak1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 468,
+      "form" : "鶏"
+    },
     "translations" : [ ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
-    }, {
-      "entry" : {
-        "id" : 468,
-        "form" : "鶏"
-  },
-      "translations" : [ ],
-      "tags" : [ ],
-      "contents" : [ ],
-      "variations" : [ ],
-      "relations" : [ ]
   }, {
     "entry" : {
       "id" : 469,
