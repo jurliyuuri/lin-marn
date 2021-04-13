@@ -87,7 +87,13 @@ function generate_table_narrow_html(id?: string): string {
 	}
 
 	return gen_table(
-		iterateOverAuthor((a: FolderName[]) => a.join("<br>")),
+		imageAuthors
+			.map(author =>
+				`<td style='text-align: center'>
+					<span style="font-size: 70%">"${author}"</span><br>
+					${folder_names.filter(fname => folder_type[fname] === author).join("<br>")}
+				 </td>`)
+			.join(""),
 		linzi => iterateOverAuthor((a: FolderName[]) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")),
 		id
 	);

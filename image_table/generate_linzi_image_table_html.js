@@ -71,7 +71,12 @@ function generate_table_narrow_html(id) {
         }
         return a;
     };
-    return gen_table(iterateOverAuthor((a) => a.join("<br>")), linzi => iterateOverAuthor((a) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")), id);
+    return gen_table(imageAuthors
+        .map(author => `<td style='text-align: center'>
+					<span style="font-size: 70%">"${author}"</span><br>
+					${folder_names.filter(fname => folder_type[fname] === author).join("<br>")}
+				 </td>`)
+        .join(""), linzi => iterateOverAuthor((a) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")), id);
 }
 function getImageFromLinziAndFolder(folder_name, linzi) {
     return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
