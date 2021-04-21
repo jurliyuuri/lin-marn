@@ -2444,7 +2444,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 474,
+        "form" : "決"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 121,
@@ -12429,6 +12435,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 474,
+      "form" : "決"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「定」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 120,
+        "form" : "定"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
