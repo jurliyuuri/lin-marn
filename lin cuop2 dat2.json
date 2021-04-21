@@ -12370,6 +12370,9 @@
     "translations" : [ {
       "title" : "アイツォ音",
       "forms" : [ "ce1" ]
+    }, {
+      "title" : "標準パイグ語",
+      "forms" : [ "~" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -12383,7 +12386,13 @@
       "id" : 471,
       "form" : "趙"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "*" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
@@ -12393,7 +12402,13 @@
       "id" : 472,
       "form" : "倶"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "~" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "*" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
@@ -12403,7 +12418,13 @@
       "id" : 473,
       "form" : "億"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "*" ]
+    }, {
+      "title" : "アイツォ音",
+      "forms" : [ "*" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
