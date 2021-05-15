@@ -12454,6 +12454,19 @@
         "form" : "定"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 475,
+      "form" : "引"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "mi2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

@@ -255,7 +255,7 @@ const mysterious_encoding = allElements()([
     "鶏",
     "周",
     "宦",
-    "??",
+    "引",
     "文",
     "械",
     "囲",
