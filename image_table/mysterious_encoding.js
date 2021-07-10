@@ -12,7 +12,7 @@ const mysterious_encoding = allElements()([
     "北",
     "散",
     "労",
-    "??",
+    "汪",
     "船",
     "十",
     "高",

@@ -12480,6 +12480,19 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 479,
+      "form" : "汪"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "ba2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
