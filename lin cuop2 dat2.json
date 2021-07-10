@@ -12467,6 +12467,19 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 478,
+      "form" : "訴"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "u1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

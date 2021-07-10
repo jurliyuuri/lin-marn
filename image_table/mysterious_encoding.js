@@ -114,7 +114,7 @@ const mysterious_encoding = allElements()([
     "付",
     "王",
     "開",
-    "??",
+    "訴",
     "雪",
     "位",
     "億",
