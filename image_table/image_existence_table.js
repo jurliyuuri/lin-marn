@@ -147,6 +147,12 @@ const NEW_IMAGE_EXISTENCE_TABLE = {
         "闇", "陸", "隊", "集", "雪", "震", "青", "静", "須", "頭", "顔", "類", "顫",
         "風", "馬", "骨", "高", "魚", "鳥", "麗", "黒", "鼓", "龍", "怖", "遊", "鶏",
         "胸"
+    ],
+    "燐字画像28": [
+        "決", "汪"
+    ],
+    "燐字画像29": [
+        "決", "汪"
     ]
 };
 function convert_new_to_old(newer) {
@@ -180,6 +186,8 @@ function convert_new_to_old(newer) {
             "燐字画像25": false,
             "燐字画像26": false,
             "燐字画像27": false,
+            "燐字画像28": false,
+            "燐字画像29": false,
         };
         for (let filepath in newer) {
             let foldername = filepath;
