@@ -60,7 +60,7 @@ const mysterious_encoding = allElements()([
     "再",
     "育",
     "南",
-    "??",
+    "哦",
     "父",
     "処",
     "縦",

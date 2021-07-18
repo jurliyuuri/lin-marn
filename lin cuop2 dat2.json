@@ -12493,6 +12493,19 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 480,
+      "form" : "哦"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "o" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
