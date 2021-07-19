@@ -79,7 +79,12 @@ function generate_table_narrow_html(id) {
         .join(""), linzi => iterateOverAuthor((a) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")), id);
 }
 function getImageFromLinziAndFolder(folder_name, linzi) {
-    return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
+    if (folder_name.includes("刀風官")) {
+        return `<img src='${folder_name}/${linzi}.png' width='${534 / 246 * 100}' height='100' />`;
+    }
+    else {
+        return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
+    }
 }
 function getImageFromLinziAndFolderIfExists(folder_name, linzi) {
     return NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)

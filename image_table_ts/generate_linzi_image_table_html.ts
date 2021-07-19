@@ -100,7 +100,12 @@ function generate_table_narrow_html(id?: string): string {
 }
 
 function getImageFromLinziAndFolder(folder_name: FolderName, linzi: string): string {
-	return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
+	if (folder_name.includes("刀風官")) {
+		return `<img src='${folder_name}/${linzi}.png' width='${534 / 246 * 100}' height='100' />`;
+	} else {
+		return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
+	}
+	
 }
 
 function getImageFromLinziAndFolderIfExists(folder_name: FolderName, linzi: string): string {
