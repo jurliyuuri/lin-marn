@@ -12506,6 +12506,19 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 481,
+      "form" : "嘗"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "aim2 hop1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
