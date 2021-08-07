@@ -29,7 +29,6 @@ function gen_table(header_row: string, main_row: (linzi: string) => string, id?:
 		for (var j: number = 0; j < folder_names.length; j++) {
 			if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi)) {
 				imageExists = true;
-				count_exists++;
 			}
 		}
 
@@ -40,6 +39,7 @@ function gen_table(header_row: string, main_row: (linzi: string) => string, id?:
 				if (defined_but_no_image_prepared.includes(linzi)) {
 					alert(`業務連絡: 「${linzi}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
 				}
+				count_exists++;
 				return `<td>${linzi}</td>`;
 			} else if (defined_but_no_image_prepared.includes(linzi)) {
 				count_percent++;
@@ -72,7 +72,7 @@ function gen_table(header_row: string, main_row: (linzi: string) => string, id?:
 				</tr>
 				<tr>
 					<td>漢字</td>
-					<td>燐字の字形が定まっているて、画像も用意できている（現状${count_exists}件）</td>
+					<td>燐字の字形が定まっていて、画像も用意できている（現状${count_exists}件）</td>
 				</tr>
 			</table>
 		</div>` + ans;
