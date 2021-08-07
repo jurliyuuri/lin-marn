@@ -20,6 +20,7 @@ function gen_table(header_row: string, main_row: (linzi: string) => string, id?:
 
 	let count_asterisk = 0;
 	let count_percent = 0;
+	let count_exists = 0;
 
 	linzi_list.map((linzi) => {
 		let imageExists: boolean = false;
@@ -28,6 +29,7 @@ function gen_table(header_row: string, main_row: (linzi: string) => string, id?:
 		for (var j: number = 0; j < folder_names.length; j++) {
 			if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi)) {
 				imageExists = true;
+				count_exists++;
 			}
 		}
 
@@ -67,6 +69,10 @@ function gen_table(header_row: string, main_row: (linzi: string) => string, id?:
 				<tr>
 					<td style='background-color: cyan'>%漢字</td>
 					<td>燐字の字形が定まっているが画像が用意できていない（現状${count_percent}件）</td>
+				</tr>
+				<tr>
+					<td>漢字</td>
+					<td>燐字の字形が定まっているて、画像も用意できている（現状${count_exists}件）</td>
 				</tr>
 			</table>
 		</div>` + ans;
