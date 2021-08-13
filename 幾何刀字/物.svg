@@ -4,8 +4,8 @@
     <path fill="#aff" d="m10 10 h116 v 100 h-116 z" />
     <g stroke="#000" stroke-width="10" fill="none">
         <g id="glyph">
-            <path d="M32 25l70 0-30 60"></path>
-            <path d="M38 68l64 32"></path>
+            <path d="m32 25l70 0-30 60"></path>
+            <path d="m38 68l64 32"></path>
         </g>
     </g>
 </svg>
