@@ -8,7 +8,7 @@ function allElements<V>(): <Arr extends V[]>(arr: Arr) =>
 	return arr => arr as any;
 }
 
-const imageAuthors: ImageAuthor[] = allElements<ImageAuthor>()(["SY", "border", "noborder", "jv", "SY pua2 man1", "jv touch panel", "meloviliju", "liina baani bhodi", "grau prua yr", "geometric"]);
+const imageAuthors: ImageAuthor[] = allElements<ImageAuthor>()(["SY", "border", "noborder", "jv", "SY pua2 man1", "jv touch panel", "meloviliju", "geometric", "liina baani bhodi", "grau prua yr"]);
 
 type FolderName = keyof FolderType;
 interface FolderType {
