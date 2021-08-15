@@ -515,6 +515,18 @@ const NEW_IMAGE_EXISTENCE_TABLE = {
         "壁",
         "背",
         "端",
+        "膠",
+        "類",
+        "為",
+        "形",
+        "从",
+        "大",
+        "恒",
+        "増",
+        "歌",
+        "后",
+        "之",
+        "静",
     ]
 };
 function convert_new_to_old(newer) {

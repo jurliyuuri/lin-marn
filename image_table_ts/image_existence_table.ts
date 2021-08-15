@@ -565,6 +565,18 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
         "壁",
         "背",
         "端",
+        "膠",
+        "類",
+        "為",
+        "形",
+        "从",
+        "大",
+        "恒",
+        "増",
+        "歌",
+        "后",
+        "之",
+        "静",
         ]
 };
 
