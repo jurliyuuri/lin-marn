@@ -10,8 +10,8 @@
 
             <path d="m80 22h44"></path>
             <path d="m70 42l16-32"></path>
-            <path d="m118 45 0 20a18 18 0 0 1-36 0l0 -20"></path>
-            <path d="m100 22v88"></path>
+            <path d="m118 43 0 20a18 18 0 0 1-36 0l0 -20"></path>
+            <path d="m100 22v43a20 40 0 0 1 -20 40"></path>
         </g>
     </g>
 </svg>
