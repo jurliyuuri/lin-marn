@@ -116,7 +116,8 @@ function getImageFromLinziAndFolder(folder_name: FolderName, linzi: string): str
 }
 
 function getImageFromLinziAndFolderIfExists(folder_name: FolderName, linzi: string): string {
-	return NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)
+	const list: string[] = NEW_IMAGE_EXISTENCE_TABLE[folder_name];
+	return list.includes(linzi)
 		? getImageFromLinziAndFolder(folder_name, linzi)
 		: "";
 }
