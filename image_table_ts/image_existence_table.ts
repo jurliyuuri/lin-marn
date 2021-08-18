@@ -38,6 +38,7 @@ interface NewImageExistenceTable {
     "刀風官": string[],
     "幾何刀字": string[],
     "燐字画像31": string[],
+    "燐字画像32": string[],
 }
 
 const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
@@ -617,6 +618,11 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
     ],
     "燐字画像31": [
         "氏"
+    ], 
+    "燐字画像32": [
+        "果", "与", "常", "形", "毎", "急", "遊", "怖", "質", "咍", "犬", "胸", "穏", "毛", "巻", "躍", "壁", "牛", "毛牛", "凹", 
+        "醇", "毛牡", "牡", "槍", "鑓", "斧", "必", "囁", "叫", "鶏", "決", "汪", "硫", "俐", "榎", "株", "織", "頬", "体", "村", 
+        "型", "羊", "羚"
     ]
 };
 
@@ -660,6 +666,7 @@ function convert_new_to_old(newer: NewImageExistenceTable): ImageExistenceTable 
             "刀風官": false,
             "幾何刀字": false,
             "燐字画像31": false,
+            "燐字画像32": false,
         };
         for (let filepath in newer) {
             let foldername = filepath as FolderName;
