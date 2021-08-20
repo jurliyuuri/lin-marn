@@ -96,7 +96,8 @@ function getImageFromLinziAndFolder(folder_name, linzi) {
     }
 }
 function getImageFromLinziAndFolderIfExists(folder_name, linzi) {
-    return NEW_IMAGE_EXISTENCE_TABLE[folder_name].includes(linzi)
+    const list = NEW_IMAGE_EXISTENCE_TABLE[folder_name];
+    return list.includes(linzi)
         ? getImageFromLinziAndFolder(folder_name, linzi)
         : "";
 }
