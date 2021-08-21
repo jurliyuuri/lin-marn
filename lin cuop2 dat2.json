@@ -6194,13 +6194,7 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 329,
-        "form" : "岩"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 262,
@@ -9698,25 +9692,6 @@
       "entry" : {
         "id" : 158,
         "form" : "機"
-      }
-    } ]
-  }, {
-    "entry" : {
-      "id" : 329,
-      "form" : "岩"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「石」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 261,
-        "form" : "石(1)"
       }
     } ]
   }, {

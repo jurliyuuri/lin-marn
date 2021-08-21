@@ -489,7 +489,7 @@ const mysterious_encoding = allElements()([
     "我",
     "??",
     "??",
-    "岩",
+    "??",
     "倒",
     "牛",
     "??",
