@@ -82,7 +82,7 @@ function generate_table_narrow_html(id) {
         .map((author, ind) => `<th style='font-weight: normal; text-align: center'>
 			<span style="font-size: 70%">"${author}"</span><br>
 			${folder_names.filter(fname => folder_type[fname] === author).join("<br>")}
-			<br><input type='radio' name='sort' ${ind == 0 ? "checked" : ""} onclick='sort_narrow_table_by(${ind})'></th>`)
+			<br><input type='radio' name='sort' ${ind == 0 ? "checked" : ""} onclick='sort_narrow_table_by(${ind + 1})'></th>`)
         .join("");
     ans += "</tr>";
     let count_no_glyph_defined = 0;
