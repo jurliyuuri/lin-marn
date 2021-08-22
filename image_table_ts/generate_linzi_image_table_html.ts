@@ -133,9 +133,9 @@ function generate_table_narrow_html(id?: string): string {
 
 			const count = count_at_least_one_img_exists - count_from_this_author;
 			if (count > 30) {
-				return `<td style='text-align: center; font-weight: bold; font-size: 110%;'>残り${count}個</td>`
+				return `<td style='text-align: center; font-weight: bold; font-size: 110%;'>残り${count}件</td>`
 			} else {
-				return `<td style='text-align: center;'>残り${count}個</td>`
+				return `<td style='text-align: center;'>残り${count}件</td>`
 			}
 			
 		})
