@@ -172,14 +172,15 @@ function generate_table_narrow_html(id) {
     return ans;
 }
 function getImageFromLinziAndFolder(folder_name, linzi) {
+    const height = 67;
     if (folder_name.includes("刀風官")) {
-        return `<img src='${folder_name}/${linzi}.png' width='${534 / 246 * 100}' height='100' />`;
+        return `<img src='${folder_name}/${linzi}.png' width='${534 / 246 * height}' height='${height}' />`;
     }
     else if (folder_name.includes("幾何刀字")) {
-        return `<img src='${folder_name}/${linzi}.svg' width='${136 / 120 * 100}' height='100' />`;
+        return `<img src='${folder_name}/${linzi}.svg' width='${136 / 120 * height}' height='${height}' />`;
     }
     else {
-        return `<img src='${folder_name}/${linzi}.png' width='100' height='100' />`;
+        return `<img src='${folder_name}/${linzi}.png' width='${height}' height='${height}' />`;
     }
 }
 function getImageFromLinziAndFolderIfExists(folder_name, linzi) {
