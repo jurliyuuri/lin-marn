@@ -6,7 +6,7 @@ function generate_table_html(preloading: false): string {
 }
 
 function gen_table(header_row: string, main_row: (linzi: string) => string, id?: string): string {
-	var ans: string = "";
+	let ans: string = "";
 	if (id) {
 		ans += `<table id=${id}>`;
 	} else {
@@ -82,27 +82,124 @@ function gen_table(header_row: string, main_row: (linzi: string) => string, id?:
 
 
 function generate_table_narrow_html(id?: string): string {
-	const iterateOverAuthor = (f: (a: FolderName[]) => string) => {
-		let a = "";
-		for (var k = 0; k < imageAuthors.length; k++) {
-			a += "<td style='text-align: center'>"
-				+ f(folder_names.filter(fname => folder_type[fname] === imageAuthors[k]));
-			+ "</td>";
-		}
-		return a;
+	let ans: string = "";
+	if (id) {
+		ans += `<table id=${id}>`;
+	} else {
+		ans += "<table>";
 	}
 
-	return gen_table(
-		imageAuthors
-			.map(author =>
-				`<td style='text-align: center'>
-					<span style="font-size: 70%">"${author}"</span><br>
-					${folder_names.filter(fname => folder_type[fname] === author).join("<br>")}
-				 </td>`)
-			.join(""),
-		linzi => iterateOverAuthor((a: FolderName[]) => a.map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")),
-		id
-	);
+	// first row
+	ans += "<tr>";
+	ans += "<th style='font-weight: normal'>字</th>"
+	ans += imageAuthors
+		.map((author, ind) =>
+			`<th style='font-weight: normal; text-align: center'>
+			<span style="font-size: 70%">"${author}"</span><br>
+			${folder_names.filter(fname => folder_type[fname] === author).join("<br>")}
+			<br><input type='radio' name='sort' ${ind == 0 ? "checked" : ""} onclick='sort_narrow_table_by(${ind})'></th>`)
+		.join("");
+	ans += "</tr>";
+
+	let count_no_glyph_defined = 0;
+	let count_defined_but_no_image_prepared = 0;
+	let count_at_least_one_img_exists = 0;
+	linzi_list.map((linzi) => {
+		let imageExists: boolean = false;
+		/* check if at least 1 image exists */
+		for (var j: number = 0; j < folder_names.length; j++) {
+			if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi)) {
+				imageExists = true;
+			}
+		}
+
+		if (imageExists) {
+			count_at_least_one_img_exists++;
+		} else if (defined_but_no_image_prepared.includes(linzi)) {
+			count_defined_but_no_image_prepared++;
+		} else {
+			count_no_glyph_defined++;
+		}
+	});
+
+	// second row
+	ans += "<tr><td></td>"
+	ans += imageAuthors
+		.map((author) => {
+			const count_from_this_author = linzi_list.filter((linzi) =>
+				folder_names.filter(fname => folder_type[fname] === author).filter(name =>
+					NEW_IMAGE_EXISTENCE_TABLE[name].includes(linzi)).length > 0
+			).length;
+
+			const count = count_at_least_one_img_exists - count_from_this_author;
+			if (count > 30) {
+				return `<td style='text-align: center; font-weight: bold; font-size: 110%;'>残り${count}個</td>`
+			} else {
+				return `<td style='text-align: center;'>残り${count}個</td>`
+			}
+			
+		})
+		.join("");
+	ans += "</tr>"
+
+
+
+	linzi_list.map((linzi) => {
+		let imageExists: boolean = false;
+
+		/* check if at least 1 image exists */
+		for (var j: number = 0; j < folder_names.length; j++) {
+			if (NEW_IMAGE_EXISTENCE_TABLE[folder_names[j]].includes(linzi)) {
+				imageExists = true;
+			}
+		}
+
+		ans += "<tr>";
+
+		const first_cell: string = (() => {
+			if (imageExists) {
+				if (defined_but_no_image_prepared.includes(linzi)) {
+					alert(`業務連絡: 「${linzi}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
+				}
+				return `<td>${linzi}</td>`;
+			} else if (defined_but_no_image_prepared.includes(linzi)) {
+				return `<td style="background-color: cyan">%${linzi}</td>`;
+			} else {
+				return `<td style="background-color: yellow">*${linzi}</td>`;
+			}
+		})();
+
+		ans += first_cell;
+		ans += imageAuthors.map((author) =>
+			"<td style='text-align: center'>"
+			+ folder_names.filter(fname => folder_type[fname] === author).map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")
+			+ "</td>"
+		).join("");
+
+		ans += "</tr>";
+	});
+	ans += "</table>";
+
+	ans = `
+			<div style="border: 1px solid blue; padding: 5px; margin: 5px">
+				凡例:
+				<table>
+					<tr>
+						<td style='background-color: yellow'>*漢字</td>
+						<td>燐字の字形が定まっていない（現状${count_no_glyph_defined}件）</td>
+					</tr>
+					<tr>
+						<td style='background-color: cyan'>%漢字</td>
+						<td>燐字の字形が定まっているが画像が用意できていない（現状${count_defined_but_no_image_prepared}件）</td>
+					</tr>
+					<tr>
+						<td>漢字</td>
+						<td>燐字の字形が定まっていて、画像も用意できている（現状${count_at_least_one_img_exists}件）</td>
+					</tr>
+				</table>
+			</div>` + ans;
+
+	return ans;
 }
 
 function getImageFromLinziAndFolder(folder_name: FolderName, linzi: string): string {

@@ -6,17 +6,12 @@
 <script src="image_table/generate_linzi_image_table_html.js"></script>
 <script>
 document.write(generate_table_narrow_html("table_narrow"));
-window.addEventListener('DOMContentLoaded', (event) => {
-    const cells = document.getElementById("table_narrow").children[0].children[0].cells;
-    Array.from(cells).map((cell, ind) => {
-        cell.innerHTML += `<br><input type='radio' name='sort' ${ind == 0 ? "checked" : ""} onclick='sort_narrow_table_by(${ind})'>`
-    })
-});
 
 function sort_narrow_table_by(ind) {
     const rows = Array.from(document.getElementById("table_narrow").children[0].children);
     const firstRow = rows[0];
-    const rest = rows.slice(1);
+    const secondRow = rows[1];
+    const rest = rows.slice(2);
     rest.sort((a,b) => {
         const len_a = Array.from(a.cells)[ind].children.length;
         const len_b = Array.from(b.cells)[ind].children.length;
@@ -29,6 +24,7 @@ function sort_narrow_table_by(ind) {
         }
     })
     document.getElementById("table_narrow").children[0].appendChild(firstRow);
+    document.getElementById("table_narrow").children[0].appendChild(secondRow);
     for (let i = 0; i < rest.length; i++) {
         document.getElementById("table_narrow").children[0].appendChild(rest[i]);
     }
