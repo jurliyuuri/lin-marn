@@ -1,4 +1,4 @@
-function toStrokeCount(a: number | string[]): number {
+function toStrokeCount(a: number | id[]): number {
     if (typeof a === "number") {
         return a;
     } else {
@@ -26,7 +26,8 @@ function sum(arr: number[]): number {
 
 function calculateContributionOf(id: id) {
     let ans = 0;
-    for (let key in composition2) {
+    for (let key_ in composition2) {
+        const key: id = key_ as id;
         ans += containsHowManyOf(key, id);
     }
 
@@ -84,8 +85,7 @@ function addRowFromId(id: id, POPULARNESS_THRESHOLD: number) {
 
     return `<tr>
         <td${composition2[id].isDecomposable ? ">TRUE" : " style='background-color: rgb(183, 225, 205)'>FALSE"}</td>
-        <td style='background-color: ${
-        getStrokeCountColorFromId(id, POPULARNESS_THRESHOLD)}'>${toStrokeCount(composition2[id].strokeCount)
+        <td style='background-color: ${getStrokeCountColorFromId(id, POPULARNESS_THRESHOLD)}'>${toStrokeCount(composition2[id].strokeCount)
         }</td>
         <td>${calculateContributionOf(id)}</td>
         <td>${composition2[id].hanzi}${typeof image === "string" ? image : ""}</td>
@@ -97,11 +97,11 @@ const sortByPopularity = (arr: id[]) => arr.sort((idA, idB) => {
     const diff = calculateContributionOf(idB) - calculateContributionOf(idA);
     if (diff !== 0)
         return diff;
-    
+
     // push non-linzi to the back
-    if (composition2[idA].hanzi !== "??" && composition2[idB].hanzi === "??" ) {
+    if (composition2[idA].hanzi !== "??" && composition2[idB].hanzi === "??") {
         return -1;
-    } else if (composition2[idA].hanzi === "??" && composition2[idB].hanzi !== "??" ) {
+    } else if (composition2[idA].hanzi === "??" && composition2[idB].hanzi !== "??") {
         return 1;
     } else {
         return 0;
@@ -115,7 +115,8 @@ function getIdList_Sorted(withDuplicate: boolean, POPULARNESS_THRESHOLD: number)
     let notSoPopularWhite: id[] = [];
     let lonelyWhite: id[] = [];
     let bluish: id[] = [];
-    for (let id in composition2) {
+    for (let id_ in composition2) {
+        const id: id = id_ as id;
         if (isPopular(id, POPULARNESS_THRESHOLD)) {
             topIdList.push(id);
         } else if (getStrokeCountColorFromId(id, POPULARNESS_THRESHOLD) === "rgb(252, 229, 205)") {

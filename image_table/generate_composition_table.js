@@ -23,7 +23,8 @@ function sum(arr) {
 }
 function calculateContributionOf(id) {
     let ans = 0;
-    for (let key in composition2) {
+    for (let key_ in composition2) {
+        const key = key_;
         ans += containsHowManyOf(key, id);
     }
     return ans;
@@ -98,7 +99,8 @@ function getIdList_Sorted(withDuplicate, POPULARNESS_THRESHOLD) {
     let notSoPopularWhite = [];
     let lonelyWhite = [];
     let bluish = [];
-    for (let id in composition2) {
+    for (let id_ in composition2) {
+        const id = id_;
         if (isPopular(id, POPULARNESS_THRESHOLD)) {
             topIdList.push(id);
         }
