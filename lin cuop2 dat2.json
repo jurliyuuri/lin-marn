@@ -2707,7 +2707,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 494,
+        "form" : "玄"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 130,
@@ -12620,6 +12626,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 494,
+      "form" : "玄"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「黒」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 129,
+        "form" : "黒"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
