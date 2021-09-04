@@ -221,6 +221,30 @@ const NEW_IMAGE_EXISTENCE_TABLE = {
     "燐字画像39": ["石"],
     "燐字画像40": ["石"],
     "燐字画像41": ["石"],
+    "燐字画像42": [
+        "体",
+        "頬",
+        "硫",
+        "俐",
+        "決",
+        "引",
+        "汪",
+        "榎",
+        "株",
+        "織",
+        "村",
+        "犛",
+        "牲",
+        "溜",
+        "泉",
+        "玉",
+        "叉",
+        "飛",
+        "鍋",
+        "蟲",
+        "矢",
+        "玄",
+    ]
 };
 function convert_new_to_old(newer) {
     let ans = {};
@@ -269,6 +293,7 @@ function convert_new_to_old(newer) {
             "燐字画像39": false,
             "燐字画像40": false,
             "燐字画像41": false,
+            "燐字画像42": false,
         };
         for (let filepath in newer) {
             let foldername = filepath;
