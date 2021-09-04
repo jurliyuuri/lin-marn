@@ -287,7 +287,7 @@ const mysterious_encoding = allElements()([
     "女",
     "??",
     "包",
-    "??",
+    "玄",
     "圧",
     "花",
     "僚",
