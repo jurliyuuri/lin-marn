@@ -18,7 +18,7 @@
 		<li>このgitリポジトリで、以下の変更を行いコミットする。
 			<ul>
 				<li>清声集(lin cuop dat2.json)を編集し、対象の字を登録する。諸ラネーメ言語での読みが決まっている場合はそれも同時に登録するとよいだろうが、それの詳細は後述する。</li>
-				<li>lin-marn.htmlに軽く説明を書く（必須ではないが推奨）</li>
+				<li>lin-marn.htmlに軽く説明を書く<s>（必須ではないが推奨）</s><b>もはや必須とします</b></li>
 				<li>image_table_ts/char_and_folder_info.tsのconst linzi_listを更新</li>
 				<li>字形が定まっており、しかし画像が用意できていない場合、image_table_ts/char_and_folder_info.tsのconst defined_but_no_image_preparedを更新</li>
 				<li>tscを実行するとmysterious_encodingでコンパイルが通らないはず。</li>
@@ -36,7 +36,7 @@
 	<h2>2. 諸ラネーメ言語での読みを定めた時</h2>
 	<ol>
 		<li>清声集(lin cuop dat2.json)に登録する。</li>
-		<li>lin-marn.htmlに軽く説明を書く（必須ではないが推奨）。</li>
+		<li>lin-marn.htmlに軽く説明を書く<s>（必須ではないが推奨）</s><b>もはや必須とします</b></li>
 		<li style="background-color: gray;">燐字の画像も用意できている場合、燐字海への登録作業を行う。
 			<ol>
 				<li><code>python3 to_linzihai.py</code>をすると清声集の記述を元にしてHTMLファイルが生まれる。</li>
