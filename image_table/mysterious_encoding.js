@@ -23,7 +23,7 @@ const mysterious_encoding = allElements()([
     "家",
     "硫",
     "琴",
-    "??",
+    "慥",
     "箱",
     "刻",
     "族",
