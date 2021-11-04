@@ -172,7 +172,7 @@ function generate_table_narrow_html(id?: string, hidden_columns?: string[]): str
 		ans += first_cell;
 		ans += imageAuthors.map((author, index) =>
 			"<td style='text-align: center'>"
-			+ (hidden_columns?.includes(author) || hidden_columns?.includes(`${index}`) ? "" :
+			+ (hidden_columns?.includes(author) || hidden_columns?.includes(`${index}`) ? `<span style="color: #222222">(hidden)</span>` :
 				folder_names.filter(fname => folder_type[fname] === author).map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")
 			) + "</td>"
 		).join("");
