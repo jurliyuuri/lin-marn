@@ -146,7 +146,7 @@ function generate_table_narrow_html(id, hidden_columns) {
         })();
         ans += first_cell;
         ans += imageAuthors.map((author, index) => "<td style='text-align: center'>"
-            + ((hidden_columns === null || hidden_columns === void 0 ? void 0 : hidden_columns.includes(author)) || (hidden_columns === null || hidden_columns === void 0 ? void 0 : hidden_columns.includes(`${index}`)) ? "(hidden)" :
+            + ((hidden_columns === null || hidden_columns === void 0 ? void 0 : hidden_columns.includes(author)) || (hidden_columns === null || hidden_columns === void 0 ? void 0 : hidden_columns.includes(`${index}`)) ? `<span style="color: #005242">(hidden)</span>` :
                 folder_names.filter(fname => folder_type[fname] === author).map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")) + "</td>").join("");
         ans += "</tr>";
     });

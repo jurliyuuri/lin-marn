@@ -4,6 +4,8 @@
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script src="image_table/generate_linzi_image_table_html.js"></script>
+
+<p>ロードが遅い場合、たとえば <a href="linzi_image_table_narrow.html?hide=1&hide=geometric&hide=5">linzi_image_table_narrow.html?hide=1&hide=geometric&hide=5</a> と指定することで特定の行の画像ロードを止めることができます。</p>
 <script>
 const hidden_columns = new URLSearchParams(new URL(location.href).search).getAll("hide");
 document.write(generate_table_narrow_html("table_narrow", hidden_columns));
