@@ -5,7 +5,8 @@
 <script src="image_table/image_existence_table.js"></script>
 <script src="image_table/generate_linzi_image_table_html.js"></script>
 <script>
-document.write(generate_table_narrow_html("table_narrow"));
+const hidden_columns = new URLSearchParams(new URL(location.href).search).getAll("hide");
+document.write(generate_table_narrow_html("table_narrow", hidden_columns));
 
 function sort_narrow_table_by(ind) {
     const rows = Array.from(document.getElementById("table_narrow").children[0].children);

@@ -67,7 +67,7 @@ function gen_table(header_row, main_row, id) {
 		</div>` + ans;
     return ans;
 }
-function generate_table_narrow_html(id) {
+function generate_table_narrow_html(id, hidden_columns) {
     let ans = "";
     if (id) {
         ans += `<table id=${id}>`;
@@ -145,9 +145,9 @@ function generate_table_narrow_html(id) {
             }
         })();
         ans += first_cell;
-        ans += imageAuthors.map((author) => "<td style='text-align: center'>"
-            + folder_names.filter(fname => folder_type[fname] === author).map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")
-            + "</td>").join("");
+        ans += imageAuthors.map((author, index) => "<td style='text-align: center'>"
+            + ((hidden_columns === null || hidden_columns === void 0 ? void 0 : hidden_columns.includes(author)) || (hidden_columns === null || hidden_columns === void 0 ? void 0 : hidden_columns.includes(`${index}`)) ? "" :
+                folder_names.filter(fname => folder_type[fname] === author).map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")) + "</td>").join("");
         ans += "</tr>";
     });
     ans += "</table>";

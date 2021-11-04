@@ -81,7 +81,7 @@ function gen_table(header_row: string, main_row: (linzi: string) => string, id?:
 }
 
 
-function generate_table_narrow_html(id?: string): string {
+function generate_table_narrow_html(id?: string, hidden_columns?: string[]): string {
 	let ans: string = "";
 	if (id) {
 		ans += `<table id=${id}>`;
@@ -137,7 +137,7 @@ function generate_table_narrow_html(id?: string): string {
 			} else {
 				return `<td style='text-align: center;'>残り${count}件</td>`
 			}
-			
+
 		})
 		.join("");
 	ans += "</tr>"
@@ -170,10 +170,11 @@ function generate_table_narrow_html(id?: string): string {
 		})();
 
 		ans += first_cell;
-		ans += imageAuthors.map((author) =>
+		ans += imageAuthors.map((author, index) =>
 			"<td style='text-align: center'>"
-			+ folder_names.filter(fname => folder_type[fname] === author).map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")
-			+ "</td>"
+			+ (hidden_columns?.includes(author) || hidden_columns?.includes(`${index}`) ? "" :
+				folder_names.filter(fname => folder_type[fname] === author).map(name => getImageFromLinziAndFolderIfExists(name, linzi)).join("")
+			) + "</td>"
 		).join("");
 
 		ans += "</tr>";
