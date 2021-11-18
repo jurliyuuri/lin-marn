@@ -6802,6 +6802,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 43641,
+      "form" : "requa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "どろ 泥" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 43700,
       "form" : "reto"
     },
