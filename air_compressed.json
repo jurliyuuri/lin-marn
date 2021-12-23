@@ -8321,6 +8321,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 54715,
+      "form" : "toca"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "尊敬すべき,敬意を表すべき" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 54980,
       "form" : "topo"
     },
