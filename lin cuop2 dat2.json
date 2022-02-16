@@ -10752,7 +10752,10 @@
       "id" : 377,
       "form" : "巻"
     },
-    "translations" : [ {
+    "translations" : [  {
+      "title" : "標準パイグ語",
+      "forms" : [ "ze2" ]
+    }, {
       "title" : "バート語",
       "forms" : [ "zeúḷ", "zekáta" ]
     }, {
@@ -11353,7 +11356,10 @@
       "id" : 408,
       "form" : "針"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "tip1" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
@@ -12648,6 +12654,19 @@
       "form" : "慥"
     },
     "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+  "entry" : {
+      "id" : 496,
+      "form" : "釘"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kyp1" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],

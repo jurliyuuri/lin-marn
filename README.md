@@ -6,3 +6,7 @@
 - [漢字転写→燐字画像](http://jurliyuuri.com/lin-marn/to_linzi_image.html)
 
 - [漢字転写と燐字の対応表](http://jurliyuuri.com/lin-marn/linzi_image_table_narrow.html)
+
+- [燐字を構成字素から探せる表](http://jurliyuuri.com/lin-marn/linzi_composition.html)
+
+- [ラネーメで比較言語学をする](http://jurliyuuri.com/lin-marn/comparative.html)
