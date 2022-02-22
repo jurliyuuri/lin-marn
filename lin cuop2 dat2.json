@@ -10752,7 +10752,7 @@
       "id" : 377,
       "form" : "巻"
     },
-    "translations" : [  {
+    "translations" : [ {
       "title" : "標準パイグ語",
       "forms" : [ "ze2" ]
     }, {
@@ -11359,6 +11359,9 @@
     "translations" : [ {
       "title" : "標準パイグ語",
       "forms" : [ "tip1" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "dhímat" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -12659,7 +12662,7 @@
     "variations" : [ ],
     "relations" : [ ]
   }, {
-  "entry" : {
+    "entry" : {
       "id" : 496,
       "form" : "釘"
     },
