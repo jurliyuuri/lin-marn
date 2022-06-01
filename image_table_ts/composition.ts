@@ -39,7 +39,7 @@ type id = "D3" | "D4" | "D5" | "D6" | "D7" | "D8" | "D9" | "D10" | "D11" | "D12"
     "D437" | "D438" | "D439" | "D440" | "D441" | "D442" | "D443" | "D444" | "D445" | "D446" | 
     "D447" | "D448" | "D449" | "D450" | "D451" | "D452" | "D453" | "D454" | "D455" | "D456" | 
     "D457" | "D458" | "D459" | "D460" | "D461" | "D462" | "D463" | "D464" | "D465" | "D466" |
-    "D467" | "D468" | "D469" | "D470";
+    "D467" | "D468" | "D469" | "D470" | "D471";
 
 type Composition = {
     [key in id]: {
@@ -467,4 +467,5 @@ const composition2: Composition = {
     D468: { "isDecomposable": true, "hanzi": "慥", "composition": ["⿱石大"], "strokeCount": ["D175", "D27"]}, 
     D469: { "isDecomposable": true, "hanzi": "釘", "composition": ["⿱⿰少五針"], "strokeCount": ["D13", "D3", "D364"] },
     D470: { "isDecomposable": true, "hanzi": "槌", "composition": ["⿱⿰少五錘"], "strokeCount": ["D13", "D3", "D296"]},
+    D471: { "isDecomposable": true, "hanzi": "檸", "composition": ["⿰木術"], "strokeCount": ["D272", "D55"]}
 }
