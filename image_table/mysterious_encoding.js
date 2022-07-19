@@ -71,7 +71,7 @@ const mysterious_encoding = allElements()([
     "怖",
     "待",
     "層",
-    "??",
+    "妙",
     "手",
     "棉",
     "男",
