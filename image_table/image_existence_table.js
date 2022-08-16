@@ -246,7 +246,9 @@ const NEW_IMAGE_EXISTENCE_TABLE = {
         "玄",
     ], "燐字画像43": ["体", "俐", "叉", "引", "村", "株", "榎", "汪", "決", "泉", "溜", "牲", "犛", "玄", "玉", "矢", "硫", "織", "蟲", "鍋", "頬", "飛",],
     "燐字画像44": ["玄", "慥", "釘", "槌"],
-    "燐字画像45": ["玄", "慥", "釘", "槌"]
+    "燐字画像45": ["玄", "慥", "釘", "槌"],
+    "燐字画像46": ["妙", "檸"],
+    "燐字画像47": ["妙", "檸"]
 };
 function convert_new_to_old(newer) {
     let ans = {};
@@ -299,6 +301,8 @@ function convert_new_to_old(newer) {
             "燐字画像43": false,
             "燐字画像44": false,
             "燐字画像45": false,
+            "燐字画像46": false,
+            "燐字画像47": false,
         };
         for (let filepath in newer) {
             let foldername = filepath;
