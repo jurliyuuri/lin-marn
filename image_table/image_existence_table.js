@@ -250,7 +250,7 @@ const NEW_IMAGE_EXISTENCE_TABLE = {
     "燐字画像45": ["玄", "慥", "釘", "槌"],
     "燐字画像46": ["妙", "檸"],
     "燐字画像47": ["妙", "檸"],
-    "燐字画像48": ["須"]
+    "燐字画像48": ["須", "硫", "俐"]
 };
 function convert_new_to_old(newer) {
     let ans = {};
