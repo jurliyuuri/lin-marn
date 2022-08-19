@@ -12700,6 +12700,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 499,
+      "form" : "癒"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "sep2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "zrvp" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "来地素" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

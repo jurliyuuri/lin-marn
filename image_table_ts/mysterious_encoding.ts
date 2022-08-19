@@ -459,7 +459,7 @@ const mysterious_encoding: ReadonlyArray<Linzi | "??"> = allElements<Linzi | "??
   "??",
   "蜜",
   "声",
-  "??",
+  "癒",
   "??",
   "隊",
   "力",
