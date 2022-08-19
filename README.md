@@ -10,3 +10,11 @@
 - [燐字を構成字素から探せる表](http://jurliyuuri.com/lin-marn/linzi_composition.html)
 
 - [ラネーメで比較言語学をする](http://jurliyuuri.com/lin-marn/comparative.html)
+
+## 関連する別リポジトリ
+
+- [パイグ語](https://github.com/jurliyuuri/praige-zerp)
+
+- [幾何刀字フォント](https://github.com/sozysozbot/geometric_linzklar)
+
+- [ビットマップフォントをコンパイル](https://github.com/sozysozbot/lin-marn-bitmap-font)
