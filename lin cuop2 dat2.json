@@ -12674,6 +12674,51 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 497,
+      "form" : "妙"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "mun1 huai2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 498,
+      "form" : "妙妙"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "ṣonáronáúḷ" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 499,
+      "form" : "癒"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "sep2" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "zrvp" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "来地素" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

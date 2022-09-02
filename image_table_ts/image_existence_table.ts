@@ -52,6 +52,9 @@ interface NewImageExistenceTable {
     "燐字画像43": Linzi[],
     "燐字画像44": Linzi[],
     "燐字画像45": Linzi[],
+    "燐字画像46": Linzi[],
+    "燐字画像47": Linzi[],
+    "燐字画像48": Linzi[],
 }
 
 const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
@@ -259,7 +262,8 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
         "四", "刻", "後", "謝", "其", "救", "真", "貧", "外", "止", "反", "哇", "硫", 
         "俐", "能", "激", "極", "新", "榎", "函", "村", "質", "認", "名", "縦", "株", 
         "体", "素", "頬", "中", "生", "故", "織", "鎖", "同", "噫", "引", "犛", "牲", 
-        "溜", "泉", "玉", "叉", "飛", "鍋", "矢", "蟲", "玄", "慥", "釘", "槌", "檸"
+        "溜", "泉", "玉", "叉", "飛", "鍋", "矢", "蟲", "玄", "慥", "釘", "槌", "檸",
+        "妙", "哦"
     ],
     "燐字画像31": [
         "氏"
@@ -312,6 +316,9 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
     ], "燐字画像43": ["体", "俐", "叉", "引", "村", "株", "榎", "汪", "決", "泉", "溜", "牲", "犛", "玄", "玉", "矢", "硫", "織", "蟲", "鍋", "頬", "飛", ]
     , "燐字画像44": [ "玄", "慥", "釘", "槌" ]
     , "燐字画像45": [ "玄", "慥", "釘", "槌" ]
+    , "燐字画像46": [ "妙", "檸" ]
+    , "燐字画像47": [ "妙", "檸" ]
+    , "燐字画像48": [ "須", "硫", "俐" ]
 };
 
 
@@ -368,6 +375,9 @@ function convert_new_to_old(newer: NewImageExistenceTable): ImageExistenceTable 
             "燐字画像43": false,
             "燐字画像44": false,
             "燐字画像45": false,
+            "燐字画像46": false,
+            "燐字画像47": false,
+            "燐字画像48": false,
         };
         for (let filepath in newer) {
             let foldername = filepath as FolderName;

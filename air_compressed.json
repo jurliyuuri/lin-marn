@@ -9122,6 +9122,19 @@
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 63983,
+      "form" : "yoma"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "ひろう（拾う）" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 64293,
       "form" : "yubui"
     },
