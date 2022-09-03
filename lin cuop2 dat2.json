@@ -663,6 +663,12 @@
         "id" : 382,
         "form" : "吁"
       }
+    }, {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 503,
+        "form" : "嗚"
+      }
     } ]
   }, {
     "entry" : {
@@ -12715,6 +12721,95 @@
       "title" : "早見表「古パイグ」伝統表記",
       "forms" : [ "来地素" ]
     } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 500,
+      "form" : "涙"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 501,
+      "form" : "悖"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 502,
+      "form" : "順"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 503,
+      "form" : "嗚"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「噫」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 52,
+        "form" : "噫"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 504,
+      "form" : "黍"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 505,
+      "form" : "土"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 506,
+      "form" : "乾"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 507,
+      "form" : "湿"
+    },
+    "translations" : [ ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
