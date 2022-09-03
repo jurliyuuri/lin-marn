@@ -12829,6 +12829,41 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 508,
+      "form" : "搾"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 509,
+        "form" : "窄"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 509,
+      "form" : "窄"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「搾」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 508,
+        "form" : "搾"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
