@@ -5601,7 +5601,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 502,
+        "form" : "順"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 242,
@@ -12751,10 +12757,19 @@
       "form" : "順"
     },
     "translations" : [ ],
-    "tags" : [ ],
-    "contents" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「位」の異体字"
+    } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 241,
+        "form" : "位"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 503,
