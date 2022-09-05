@@ -47,6 +47,7 @@ function for_printing() {
     tbody.childNodes.forEach(row => {
         row.removeChild(row.lastChild); 
         row.removeChild(row.lastChild); 
+        row.firstChild.innerHTML = row.firstChild.innerHTML.replace(/[%*]/g, "");
         row.firstChild.style.fontSize = "300%";
     });
 }
