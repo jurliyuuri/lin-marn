@@ -4,7 +4,7 @@
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script src="image_table/generate_linzi_image_table_html.js"></script>
-
+<button onclick="for_printing()">印刷用モードへと変更</button>
 <p>ロードが遅い場合、たとえば <a href="linzi_image_table_narrow.html?hide=1&hide=geometric&hide=5">linzi_image_table_narrow.html?hide=1&hide=geometric&hide=5</a> と指定することで特定の行の画像ロードを止めることができます。</p>
 <script>
 const hidden_columns = new URLSearchParams(new URL(location.href).search).getAll("hide");
@@ -31,6 +31,24 @@ function sort_narrow_table_by(ind) {
     for (let i = 0; i < rest.length; i++) {
         document.getElementById("table_narrow").children[0].appendChild(rest[i]);
     }
+}
+
+function for_printing() {
+    Array.from(document.getElementsByTagName("div")).forEach(node => node.remove());
+    Array.from(document.getElementsByTagName("p")).forEach(node => node.remove());
+    Array.from(document.getElementsByTagName("button")).forEach(node => node.remove());
+    
+    const tbody = document.getElementById("table_narrow").childNodes[0];
+    // remove the first two rows
+    tbody.removeChild(tbody.firstChild);
+    tbody.removeChild(tbody.firstChild);
+    
+    // remove the last two columns
+    tbody.childNodes.forEach(row => {
+        row.removeChild(row.lastChild); 
+        row.removeChild(row.lastChild); 
+        row.firstChild.style.fontSize = "300%";
+    });
 }
 </script>
 </html>
