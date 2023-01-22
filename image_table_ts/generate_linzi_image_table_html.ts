@@ -209,6 +209,8 @@ function getImageFromLinziAndFolder(folder_name: FolderName, linzi: string): str
 		return `<img src='${folder_name}/${linzi}.png' width='${534 / 246 * height}' height='${height}' />`;
 	} else if (folder_name.includes("幾何刀字")) {
 		return `<img src='${folder_name}/${linzi}.svg' width='${136 / 120 * height}' height='${height}' />`;
+	} else if (folder_name.includes("たもと明朝")) {
+		return `<img src='${folder_name}/${linzi}.svg' width='${height}' height='${height}' />`;
 	} else {
 		return `<img src='${folder_name}/${linzi}.png' width='${height}' height='${height}' />`;
 	}
