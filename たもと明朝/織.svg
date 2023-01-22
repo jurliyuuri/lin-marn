@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+	
+      <path sodipodi:nodetypes="ccccscc" d="m 1749.2143,262.93213 -123,146.34 -832.5402,-0.05 13.0801,49.012 h 1100.0227 c 16.86,0 27.2305,-11.082 27.2305,-16.262 z" id="path3610"></path>
+      <path sodipodi:nodetypes="cssscccssccc" d="M 1423.2299,433.75001 V 1619 c 0,140 43,285 206,285 H 1865 c 106,0 133,-150 79.6772,-200 l 22.6191,-245 -20,-4 c -28.3809,109 -73,237 -130,237 h -95.4473 c -60,0 -84.997,-43.2294 -85,-98 l -0.051,-1154 z" id="path3612"></path>
+      <path d="M 1033,439.832 V 711 c 0,555.204 -108,969 -371,1234 l 20,9 c 327,-127 568.5857,-520.0003 569,-1201 l 0.214,-311.766 z" id="path3615" sodipodi:nodetypes="csccscc"></path>
+      <path id="path3620" d="M 9.74,1496.26 99,1784.16 c 20.77,-3.536 38.89841,-29.8988 39,-58.16 l 828.74,-310.74 6,-28 z" sodipodi:nodetypes="cccccc"></path>
+      <path sodipodi:nodetypes="ccscccc" d="m 50.59,568.95 13.08,49.01 h 837.2 c 16.86,0 27.23,-11.08 27.23,-16.26 L 737,428.9 618,569 Z" id="path3622"></path>
+      <path sodipodi:nodetypes="cccccc" id="path3624" d="M 501.2,1484.7 C 609.4,1349.8 754.5,1039.5 833,766 c 25.46,14.72 59.7,-19.92 64.78,-38.99 l -326.5,-70.76 c -6.59,150.4 -45.77,522.9 -102,826.1 z"></path>
+      <path sodipodi:nodetypes="ccccc" id="path3626" d="m 119.9,694.2 c 39.05,108.6 95.34,370.5 123.6,685.5 92.54,78.91 235.3,15.14 207.2,-173.7 C 416.57,976.4 276.4,770.9 132.6,679.7 Z"></path>
+    
+</svg>

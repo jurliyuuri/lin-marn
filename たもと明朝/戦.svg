@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+	
+      <path sodipodi:nodetypes="cccccc" d="M 79,1001 C 266,842 354,611 416,410 c 21,2 60,-20 67,-49 L 185,318 C 167,532 127,786 54,1007 Z" id="path1435"></path>
+      <path sodipodi:nodetypes="ccscccc" id="path1417" d="m 212,643 13,47 h 733 c 17,0 27,-11 27,-16 L 797,507 690,643 Z"></path>
+      <path id="path1419" d="M 485,175 V 396 C 485,1039 371,1524 9,1919 l 20,9 C 443,1725 707,1231 707,457 V 262 c 42,0 70,-34 70,-52 z" sodipodi:nodetypes="csccsccc"></path>
+      <path sodipodi:nodetypes="ccscc" d="m 549,952 c 97,151 196,358 247,583 75,72 256,33 206,-187 C 963,1178 743,991 560,943 Z" id="path1409"></path>
+      <path id="path1430" d="m 926,1001 c 198,-159 287,-390 353,-591 22,2 68,-18 75,-47 l -306,-45 c -21,214 -64,468 -151,689 z" sodipodi:nodetypes="cccccc"></path>
+      <path sodipodi:nodetypes="csccccc" d="m 1108,690 h 809 c 17,0 28,-11 28,-16 L 1749,498 1635,643 h -545 z" id="path1415"></path>
+      <path sodipodi:nodetypes="csccsccc" d="m 1326,173 1,237 c 1,635 -122,1159 -478,1503 l 17,17 c 454,-226 682,-762 682,-1495 V 257 c 42,0 70,-33 70,-51 z" id="path1413"></path>
+      <path sodipodi:nodetypes="cccccc" d="M 1990,1731 C 1736,1523 1542,1076 1548,435 l -69,246 c 5,704 162,1121 300,1266 39,-95 130,-172 207,-192 z" id="path1432"></path>
+    
+</svg>
