@@ -3490,6 +3490,26 @@ sozysozbot commented Jan 6, 2023
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">最近は <a href="https://twitter.com/S_Y15?ref_src=twsrc%5Etfw">@S_Y15</a> の手により「84字で らくらく燐字入門」も完成したし、ゲムマ2023春に向けての準備を着々と進めていくことができている<a href="https://t.co/18PMyOnQan">https://t.co/18PMyOnQan</a> <a href="https://t.co/31Dmo0mCVh">pic.twitter.com/31Dmo0mCVh</a></p>&mdash; hsjoihs (はすじょい) @ 言語が好き (@sosoBOTpi) <a href="https://twitter.com/sosoBOTpi/status/1645840509691387905?ref_src=twsrc%5Etfw">April 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+<h2>254. 【美門倉官字】フォントファイル生成</h2>
+
+<p><a href="https://github.com/yasusho/linmarn_font_project/tree/master/fonts/herm_giaru">成果物一覧</a></p>
+
+<p>フォントを生成しようと思ったら上手く行かない。</p>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あっ分かった！「non-zero winding になってほしいのに even-odd になってる」のではなくて、そもそも元データのパスの winding が統一されてないから打ち消し合って zero-winding になってる場所があるのか。逆向きになってるストロークがあまりにも多いから白抜きだらけになってるだけってことね <a href="https://t.co/xoLzyI4YjW">pic.twitter.com/xoLzyI4YjW</a></p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654668921738506243?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Inkscape で適宜「向きを逆に」直したらちゃんと直った。さてこれを手動で全部にやるのやりたくないが、さりとて軽く探した範囲だと適切なライブラリを見つけられなかったんだよな。有識者募集</p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654691871795580929?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">グリフを <a href="https://twitter.com/S_Y15?ref_src=twsrc%5Etfw">@S_Y15</a> が作成する時にベースにした縦画用平行四辺形と横画用のとで winding が逆で、結果として縦と横の画が重なるあらゆる場所に要らない白抜きが出ちゃってたんだな</p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654695677111455744?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">↓ も考えたけど 80 グリフぐらいなので結局手動でやっちゃったな。プログラマの三大美徳の一つである「全体の労力を減らすために手間を惜しまない気質」が圧倒的に欠如してしまっている<a href="https://t.co/LXJsvRD1Zu">https://t.co/LXJsvRD1Zu</a></p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654717463412764673?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">う～んかなり要らん苦労をした<a href="https://t.co/xrvhuIJRc0">https://t.co/xrvhuIJRc0</a></p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654731100747595777?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はい最終成果物<a href="https://t.co/fP7EPgfR04">https://t.co/fP7EPgfR04</a></p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654732258023186432?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>ということで、フォントができた。このリポジトリのグリフファイルも winding を統一したやつにした。</p>
+
 <div id="menu">読み込み中…</div>
 <div id="menuButton" onclick="openClose()">≡</div>
 <script src="./header.js" async></script>
