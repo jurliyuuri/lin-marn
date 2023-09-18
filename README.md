@@ -13,8 +13,12 @@
 
 ## 関連する別リポジトリ
 
+- [入門教材「84字でらくらく燐字入門」](https://github.com/yasusho/linmarn_table_pdf)
+
 - [パイグ語](https://github.com/jurliyuuri/praige-zerp)
 
 - [幾何刀字フォント](https://github.com/sozysozbot/geometric_linzklar)
 
 - [ビットマップフォントをコンパイル](https://github.com/sozysozbot/lin-marn-bitmap-font)
+
+- [燐字フォントまわり](https://github.com/yasusho/linmarn_font_project)

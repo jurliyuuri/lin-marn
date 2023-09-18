@@ -12,3 +12,7 @@
 .cool {
 	width:70%; margin: 0 auto;
 }
+
+pre {
+	white-space: pre-wrap;
+}

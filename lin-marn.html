@@ -1444,7 +1444,7 @@ SY: だな
 <p>橋ということはまあ横長の字形でありそうなので、「車」「冠」の上のは橋判定できるが「積」は橋判定できなそうとみなし、「積」を分解不能に認定。</p>
 
 <h2>158. 燐字フォントpart2</h2>
-<p>16x16燐字フォント作成part2 by j.v & SY が完了した。</p>
+<p>16x16燐字フォント作成part2 by j.v &amp; SY が完了した。</p>
 <p>今回もkpht氏に頼みたかったのだが、最近あまり見かけないので、来るのを待ってもということでまずj.vが草案を作成。</p>
 <img src="second_bitmap_jv_linzi_dot.png" />
 <p>それをSYの手により改良したものがこちら。</p>
@@ -3216,8 +3216,39 @@ SY「転写決めないと」
 	<li><a href="https://github.com/sozysozbot/linzklar-mincho">リポジトリ</a></li>
 	<li><a href="https://github.com/AIL-MO-LETI-CEP/issues/issues/117">経緯と過去ログ</a></li>
 </ul>
-<p><strong style="color: blue">（経緯を書け。少なくとも転載しろ）</strong></p>
+<p>詳細な経緯は上の「経緯と過去ログ」に譲るとして、あらましだけ書くと</p>
+<ul>
+	<li>2022年4月26日に「ところで とりあえず402文字分のグリフが揃いました」として、j.vがgeometric_linzklarを書いたのと同じ順で402字の燐字を明朝体で書いた画像をたもとさんが「りんちゃんの会」Discordサーバーに投下</li>
+	<li>2023年1月8日にこの画像のことが思い起こされ、
+		<pre>
+hsjoihs — 2023/01/08 07:57
+たもとさんのこれもすごいんだよな　ただし明朝なので「あっ！異文化だ！」ってなる
+普通に、デーヴァナーガリー風ラテン文字を見ているような気持ちになる
+
+たもと — 2023/01/08 08:02
+これフォント化したいな～ と去年の春からぼんやり思っています　思ってはいるんですけども
+
+hsjoihs — 2023/01/08 08:03
+SVG で持ってるなら変換スクリプト書けますよ
+
+たもと — 2023/01/08 08:19
+なんと全グリフをひとつのSVGファイルに突っ込んでいるため、まずは1文字ずつに分解する作業が必要で、しかしそれを自動化するだけのパソコンカタカタパワーがなく…… という感じで停滞しています
+
+hsjoihs — 2023/01/08 08:20
+あっ、それはできますできます
+この linzklar-typesetting のときに全く同じことをやったので
+
+たもと — 2023/01/11 01:22
+@hsjoihs そういえば肝心な事を言い忘れていたんですが、各燐字グリフの id に gXXXX_[諸々] みたいな形式で対応する漢字のコードポイントを仕込んであります
+
+hsjoihs — 2023/01/11 01:24
+うれしい～～
+		</pre>
+	</li>
+	<li>これに基づき、2023年1月13日にj.vが分割を完了させ、2023年1月23日に細かなミスを直し終わり、完成。</li>
+</ul>
 <p>ということで、<a href="./linzi_image_table_narrow.html">linzi_image_table_narrow.html</a> に新たな列が生えた。</p>
+<p>ところで、これの副産物として、それぞれの燐字に<a href="https://github.com/sozysozbot/linzklar-mincho/blob/9f8b8839636fb42d50dedc78c7c962875794ce0f/english_names.json">英語名</a>がつくこととなった。明らかに不適なものがあるのを直せば、なんか使い道があるんじゃなかろうか。</p>
 
 <h3>247-2. SY 丸ゴシック</h3>
 <ul>
@@ -3260,6 +3291,247 @@ SY「kot.pk, kotu.ar, koṭ.bt なので草の祖形koC。ここでCはtやs, tr
 
 <h2>251. 【星星周周】</h2>
 <p>250.に関連して、MITによって「（数百年とかの）長い時間が経ち」の意味のフレーズとして提案され、一定の賛成を得た。</p>
+
+<h2>252. フォントの燐名</h2>
+<p>2023 年 2 月 27 日に「フォントの燐名が欲しい」という流れになり、<a href="https://github.com/AIL-MO-LETI-CEP/issues/issues/128">AIL-MO-LETI-CEP/issues/issues/128</a> として issue が立った。</p>
+
+<h3>252-1. 丸ゴ / rounded →【骨軸倉字】；角ゴ →【硬骨軸倉字】</h3>
+<div class="box">
+<pre>
+筆墨風(krua hruo prua) — 2023/03/06 14:54
+丸ゴシックのフォント名【骨軸倉字】とかはありかも
+角ゴシックは【硬骨軸倉字】？
+
+春豊席 — 2023/03/06 19:57
+なるほどね
+
+翰刀時 — 2023/03/06 20:53
+むしろ角ゴシの方が無標で丸ゴシが軟ではという気がせんでもない
+
+筆墨風(krua hruo prua) — 2023/03/07 00:37
+角ペンならゴシックとかが無標っぽいけど筆なら丸ゴシックが無標っぽいかなあと
+</pre>
+</div>
+
+<h3>252-2. たもと明朝 →【天混倉字】</h3>
+<p>たもとさんは何度も燐字を明朝体でレタリングしてくださってきた。</p>
+<div class="box">
+<pre>
+春豊席 — 2022/03/28 19:35
+燐字、今まで明朝体では書かれてこなかったので、見ていてかなり面白い
+
+筆墨風(krua hruo prua) — 2022/03/28 20:32
+まいさんの名刺に実はしれっとある 
+
+春豊席 — 2022/03/28 20:32
+あー
+
+筆墨風(krua hruo prua) — 2022/03/28 20:32
+とはいえめっちゃ稀なんよな、なんでだ
+
+筆橋樽 — 2022/03/29 20:59
+明朝体燐字、不安になるので不思議
+
+星天混 — 2022/04/26 00:39
+これ左はらいを貫通させたほうがいいんでしょうか
+<img src="毕.png" height="50">
+
+筆墨風(krua hruo prua) — 2022/04/26 00:40
+【鳥】のそれは字体に関わらない気が
+
+翰刀時 — 2022/04/26 00:41
+なくていいんじゃないかなー
+
+春豊席 — 2022/04/26 00:41
+明朝だな～（明朝なので）（向こうの世界の書体だとやっぱり左の【鳥】はこうしない気がする） 
+
+翰刀時 — 2022/04/26 00:42
+カックンしなさそうよね(現世フォントなので全く問題ないですが)
+
+筆墨風(krua hruo prua) — 2022/04/26 00:43
+まあしても問題なさそう、デザインの範疇っぽそう
+
+春豊席 — 2022/04/26 00:45
+そもそも燐字が一般にあんまり右向きに跳ねないわな。【反】とか【魚】とかあるけど。
+SY「漢字は左の構成部品だとこれやるよね。『改』とか。」
+SY「楷書だとあの曲がりは集中力の要るところにしか置かない」
+hsjoihs「燐字、わりと平均画数の少なさも相まって、漢字よりも筆画対立が厳密な可能性はある」
+</pre>
+</div>
+	
+<p>とまあ、このように、「明朝体の燐字というのは、燐字を無理矢理現世文化に落とし込もうとあがいたもの」というコンセンサスが得られていた。その中で、</p>
+
+<div class="box">
+<pre>
+春豊席 — 2023/03/07 17:17
+たもと明朝、せっかくたもとさんが @星天混 なんだし【天混倉字】でいいのでは？天が混じって現世文化が向こうに漏れ出てしまった結果生まれたフォントなので
+
+筆墨風(krua hruo prua) — 2023/03/07 17:18
+確かに
+
+翰刀時 — 2023/03/07 17:22
+楽しそう
+
+春豊席 — 2023/03/07 17:22
+じゃあ採用で
+</pre>
+</div>
+
+<p>となり、【天混倉字】で最終確定した。</p>
+
+<h3>252-3. ビットマップフォント → 【網墨倉字】</h3>
+<div class="box">
+<pre>
+筆橋樽 — 2023/03/09 09:28
+ビットマップフォント、【貧墨倉字】ってイメージがある。墨かどうかはわからんけど。
+
+翰刀時 — 2023/03/09 09:28
+貧というより少かも
+
+筆橋樽 — 2023/03/09 09:28
+思った
+
+翰刀時 — 2023/03/09 09:29
+でも現世でも「リッチな～」とかいうしどうなんだろ
+
+筆橋樽 — 2023/03/09 09:31
+まあ基礎義的には「少ない種類の墨」だよなあ
+なんでパイグ語で【少値之】/【少類之】に塗りつぶされてないんだ
+
+筆墨風(krua hruo prua) — 2023/03/12 02:02
+【網墨倉字】とかどうっすか
+
+春豊席 — 2023/03/13 02:31
+これめっちゃ気に入った
+
+筆橋樽 — 2023/03/13 02:34
+よさそう
+</pre>
+</div>
+
+<h3>252-4. 「84 字 PDF」をもとにした新しい燐字フォント →【美門倉官字】</h3>
+<p>なかなか名前が決まらずに来たが、2023 年 4 月 11 日に進展があった。</p>
+<div class="box">
+<pre>hsjoihs「名前どうします？たまには固有名詞かな」
+meloviliju「乱択して人名作るか」
+SY「【○○倉官字】とかかな」
+meloviliju「【倉官字】？それとも【官倉字】？」
+SY「『コンピューター用楷書』で【倉官字】でしょ」
+みっとん「固有名詞部分は 2 字？3 字？」
+SY・meloviliju「2 字」
+
+2023/04/11 0:29
+
+hsjoihs「（シャッフルして）【美門】とかどうよ」
+SY「ありそ～～」
+SY「あれかもね、会社名っぽさあるかもね」
+hsjoihs「とりあえず採用しておきますか」
+
+2023/04/11 0:55
+</pre>
+</div>
+
+<p>ということで、<a href="https://github.com/AIL-MO-LETI-CEP/issues/issues/133">AIL-MO-LETI-CEP/issues/issues/133</a> がクローズされ、<a href="https://github.com/yasusho/linmarn_font_project/">yasusho/linmarn_font_project</a> に収録して、この lin-marn リポジトリにも収録した。</p>
+
+<h2>253. 「84字PDF」改め「84字でらくらく燐字入門」</h2>
+<p>成果物: <a href="https://github.com/yasusho/linmarn_table_pdf/blob/master/84%E5%AD%97%E3%81%A7%E3%82%89%E3%81%8F%E3%82%89%E3%81%8F%E7%87%90%E5%AD%97%E5%85%A5%E9%96%80.pdf">84字でらくらく燐字入門.pdf</a></p>
+<p>issue 管理: <a href="https://github.com/AIL-MO-LETI-CEP/issues/issues/102">AIL-MO-LETI-CEP/issues/issues/102</a>, <a href="https://github.com/AIL-MO-LETI-CEP/issues/issues/107">AIL-MO-LETI-CEP/issues/issues/107</a></p>
+
+<p>小学校一年生配当の教育漢字が 80 字であることを基に、80 字を選定することが決まり、【人我汝此其彼心善悪何無在言於学為之処乎極噫筆国力須口行来上下左右時手足銭即而与受日月星火水風母父全等加別同一二三四五六七八九十百始終生入冠皇神大小多少色赤青白黒】が選定された。</p>
+
+<p>デザインの都合上、1 ページに 12 字を載せたページ 7 枚から構成されることとなった。</p>
+
+<div class="box">
+<pre>
+hsjoihs — 2022/11/18 20:35
+現状の 80 字に【貧】【故】【地】【片】の 4 字を足すと、既存文献の
+
+【人手之心行貧於地心無之地。地心無即人心行貧。何故人心加地心無同乎？全心皇片噫！】
+（人の持つ心は、文化のない場所では貧しくなる。文化がなければ、人の心は貧しくなる。どうして人の心と文化（＝【地心】）が同じでないなどというのか？全ての心は皇の一部分じゃないか！）
+
+が書けるな 
+SY — 2022/11/18 23:04
+おっ
+meloviliju — 2022/11/18 23:10
+あー、【故】はあった方がよかったな
+</pre>
+</div>
+
+<p>2022 年 11 月 20 日には 4 ページ目と 5 ページ目が組み上がった。</p>
+
+<div class="box">
+<pre>
+sozysozbot commented Dec 24, 2022
+
+燐字 pdf の page 7 をものすごく雑に組んだ。【地片貧故】の 4 字を追加で載せて 84 字とすることにより、【人心加地心】の
+
+    【人手之心行貧於地心無之地。地心無即人心行貧。何故人心加地心無同乎？全心皇片噫！】
+    人の持つ心は、文化のない場所では貧しくなる。文化がなければ、人の心は貧しくなる。どうして人の心と文化（＝【地心】）が同じでないなどというのか？全ての心は皇の一部分じゃないか！
+
+が書けるようになったので、最後にこれを紹介する小冊子として完成とする、というのがよさそう？
+<a href="https://docs.google.com/document/d/1MG9-w5sUyw7L2aMjRauMOk8ty8svCM9a3SrNdicJMOk/edit">https://docs.google.com/document/d/1MG9-w5sUyw7L2aMjRauMOk8ty8svCM9a3SrNdicJMOk/edit</a>
+
+
+@sozysozbot changed the title 燐字PDFを太らせる 「84 字PDF」を完成させる Dec 28, 2022
+
+sozysozbot commented Jan 6, 2023
+@yasusho の手により 7 ページ目の清書完成 <a href="https://github.com/yasusho/linmarn_table_pdf/commit/0d3ef2aeb13ea69e6722c897ba3f44e7520d3ddf">yasusho/linmarn_table_pdf@0d3ef2a</a>
+</pre>
+</div>
+
+<p>2023 年 1 月 6 日には 84 字分のグリフが<a href="https://github.com/yasusho/linmarn_table_pdf/commit/0d3ef2aeb13ea69e6722c897ba3f44e7520d3ddf">完成した</a>。</p>
+
+<p>【人心加地心】をどのように紹介するかを考えていたら先送りになっていたが、2023 年 4 月 11 日に SY が「とりあえず目的は『燐字の実用例を見せること』なので、それがメインだなあ」と発言し、「すごくノンネイティブが書いた感のある『はじめに』」や【人心加地心】解説が書かれ、完成となった。</p>
+
+<img width="500" src="84_ji.png">
+<img width="500" src="84_ji2.png">
+<img width="500" src="84_ji3.png">
+<img width="500" src="84_ji4.png">
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">最近は <a href="https://twitter.com/S_Y15?ref_src=twsrc%5Etfw">@S_Y15</a> の手により「84字で らくらく燐字入門」も完成したし、ゲムマ2023春に向けての準備を着々と進めていくことができている<a href="https://t.co/18PMyOnQan">https://t.co/18PMyOnQan</a> <a href="https://t.co/31Dmo0mCVh">pic.twitter.com/31Dmo0mCVh</a></p>&mdash; hsjoihs (はすじょい) @ 言語が好き (@sosoBOTpi) <a href="https://twitter.com/sosoBOTpi/status/1645840509691387905?ref_src=twsrc%5Etfw">April 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<h2>254. 【美門倉官字】フォントファイル生成</h2>
+
+<p><a href="https://github.com/yasusho/linmarn_font_project/tree/master/fonts/herm_giaru">成果物一覧</a></p>
+
+<p>フォントを生成しようと思ったら上手く行かない。</p>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あっ分かった！「non-zero winding になってほしいのに even-odd になってる」のではなくて、そもそも元データのパスの winding が統一されてないから打ち消し合って zero-winding になってる場所があるのか。逆向きになってるストロークがあまりにも多いから白抜きだらけになってるだけってことね <a href="https://t.co/xoLzyI4YjW">pic.twitter.com/xoLzyI4YjW</a></p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654668921738506243?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Inkscape で適宜「向きを逆に」直したらちゃんと直った。さてこれを手動で全部にやるのやりたくないが、さりとて軽く探した範囲だと適切なライブラリを見つけられなかったんだよな。有識者募集</p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654691871795580929?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">グリフを <a href="https://twitter.com/S_Y15?ref_src=twsrc%5Etfw">@S_Y15</a> が作成する時にベースにした縦画用平行四辺形と横画用のとで winding が逆で、結果として縦と横の画が重なるあらゆる場所に要らない白抜きが出ちゃってたんだな</p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654695677111455744?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">↓ も考えたけど 80 グリフぐらいなので結局手動でやっちゃったな。プログラマの三大美徳の一つである「全体の労力を減らすために手間を惜しまない気質」が圧倒的に欠如してしまっている<a href="https://t.co/LXJsvRD1Zu">https://t.co/LXJsvRD1Zu</a></p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654717463412764673?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">う～んかなり要らん苦労をした<a href="https://t.co/xrvhuIJRc0">https://t.co/xrvhuIJRc0</a></p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654731100747595777?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はい最終成果物<a href="https://t.co/fP7EPgfR04">https://t.co/fP7EPgfR04</a></p>&mdash; hsjoihs (はすじょい) @ ゲムマ2023春-キ07両日(5/13,14) (@hsjoihs) <a href="https://twitter.com/hsjoihs/status/1654732258023186432?ref_src=twsrc%5Etfw">May 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>ということで、フォントができた。このリポジトリのグリフファイルも winding を統一したやつにした。</p>
+
+<h2>255. to_linzi_image は geometric_linzklar に対応すべき</h2>
+<p>2023 年 9 月 18 日、Spoonfed Pekzep を再びメンテし始めた jekto.vatimeliju は、Spoonfed Pekzep 内で使っているが現状グリフを欠いている【塩試訴待謎万叮哦檸】について、「未造字なのどれだっけな」と調べようとした。</p>
+
+<p>しかし、<a href="to_linzi_image.html">to_linzi_image.html</a>に訊いたところ、「【檸】以外は全て未造字」と言われた。そんなはずはない。</p>
+
+<p>これの原因は、</p>
+<ul>
+	<li>『最近は jekto.vatimeliju にとって作りやすい geometric_linzklar の形でばかりグリフ画像が供給されており、それ以外の供給が薄い』</li>
+	<li>to_linzi_image.html は geometric_linzklar にしか対応していない</li>
+</ul>
+
+<p>という 2 点にあったと言えるだろう。</p>
+
+<p>ということで、改修をするぞ。</p>
+
+<p>`getImage_` 関数で拡張子が png 決め打ちになっているのを svg にも対応するようにし、対応完了。【待】【万】【哦】【檸】に対応できていることが分かりやすくなった。</p>
+
+<img src="to_linzi_imageがgeometricに対応.png" width="600">
+
+<p>あと linzi_image_table_narrow にリンク集を生やした。本拠地が別のリポジトリに置いてある燐字フォントが分かりやすくなった。</p>
+
+<p>ところで、これをやり始めると【骨軸倉字】も linzi_image_table_narrow に置きたくなるんだが、【骨軸倉字】は SY が気の向いたタイミングでそれなりに頻繁にリポジトリを更新してくれているので、追従を手動で行いたくはない。なのでこれは別タスクだな。</p>
 
 <div id="menu">読み込み中…</div>
 <div id="menuButton" onclick="openClose()">≡</div>
