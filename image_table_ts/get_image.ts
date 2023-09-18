@@ -42,8 +42,9 @@ function getImage_(character: string, type_prec: ImageAuthor[], size: number, di
 	}
 	for (var j: number = 0; j < prec.length; j++) {
 		if (NEW_IMAGE_EXISTENCE_TABLE[prec[j]].includes(character)) {
-			return `<img src='${path}/${prec[j]}/${character}.png' width='${size}' height='${size}' ` + 
-				(display_path_as_title ? `title='${prec[j]}/${character}.png'` : ``) +
+			const extension = (prec[j] === "幾何刀字" || prec[j] === "たもと明朝") ? "svg" : "png";
+			return `<img src='${path}/${prec[j]}/${character}.${extension}' width='${size}' height='${size}' ` + 
+				(display_path_as_title ? `title='${prec[j]}/${character}.${extension}'` : ``) +
 			` />`
 		}
 	}

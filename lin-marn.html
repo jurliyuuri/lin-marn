@@ -3510,6 +3510,25 @@ sozysozbot commented Jan 6, 2023
 
 <p>ということで、フォントができた。このリポジトリのグリフファイルも winding を統一したやつにした。</p>
 
+<h2>255. to_linzi_image は geometric_linzklar に対応すべき</h2>
+<p>2023 年 9 月 18 日、Spoonfed Pekzep を再びメンテし始めた jekto.vatimeliju は、Spoonfed Pekzep 内で使っているが現状グリフを欠いている【塩試訴待謎万叮哦檸】について、「未造字なのどれだっけな」と調べようとした。</p>
+
+<p>しかし、<a href="to_linzi_image.html">to_linzi_image.html</a>に訊いたところ、「【檸】以外は全て未造字」と言われた。そんなはずはない。</p>
+
+<p>これの原因は、</p>
+<ul>
+	<li>『最近は jekto.vatimeliju にとって作りやすい geometric_linzklar の形でばかりグリフ画像が供給されており、それ以外の供給が薄い』</li>
+	<li>to_linzi_image.html は geometric_linzklar にしか対応していない</li>
+</ul>
+
+<p>という 2 点にあったと言えるだろう。</p>
+
+<p>ということで、改修をするぞ。</p>
+
+<p>`getImage_` 関数で拡張子が png 決め打ちになっているのを svg にも対応するようにし、対応完了。【待】【万】【哦】【檸】に対応できていることが分かりやすくなった。</p>
+
+<img src="to_linzi_imageがgeometricに対応.png" width="600">
+
 <div id="menu">読み込み中…</div>
 <div id="menuButton" onclick="openClose()">≡</div>
 <script src="./header.js" async></script>
