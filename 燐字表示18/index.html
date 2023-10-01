@@ -1,0 +1,57 @@
+<head>
+<script>
+var t1 =	[[ 3.67500000e+02,  1.18263158e+02, -5.00000000e-01],
+	[ 4.04250000e+02,  2.36842105e-01,  1.68750000e+02]];
+
+onload = function() {
+	for(var i=0; i<20; i++){
+		for(var j=0;j<3; j++){
+		draw(t1, linzi1,'c1',i,j, 0.6, i*90, j*90, true);	
+		}
+	}
+	/*var flag = false;
+	draw(flag?t1:t2,flag?linzi1:linzi2,'c2',Math.random()*8|0,Math.random()*15|0,0.4,0,0,false);*/
+	
+};
+
+
+</script>
+<script src="main.js"></script>
+</head>
+<body>
+<div style="background-color: yellow">
+<canvas id="c1" width="2000" height="440" ></canvas>
+<hr>
+<canvas id="c2" width="240" height="240" style="border:1px solid black"></canvas>
+</div>
+<hr>
+<h1>「第18回燐字書き取り」分割</h1>
+<p>なんか知らんけど第18回だそうな。</p>
+<h2>1. さて</h2>
+<p>原稿用紙の表の4頂点に位置する4字の（マスの左上の）座標を Win11 のペイントで取ると、</p>
+<pre>
+      y1,   y2       s1 s2
+左上:  367,  404 ---&gt;  0, 0
+右上: 2615,  409 ---&gt; 19, 0
+左下:  367,  742 ---&gt;  0, 2
+右下: 2613,  746 ---&gt; 19, 2
+</pre>
+<p>である。うまいパラメータt<sub>10</sub>, t<sub>11</sub>, t<sub>12</sub>, t<sub>20</sub>, t<sub>21</sub>, t<sub>22</sub>を持ってきて、</p>
+<img src="matrix.png" width="780"/>
+<p>となるようにしてやれば良い。ただしs<sub>0</sub>たちは全部1である。</p>
+<p>Y ≒ TSで最小二乗法をやるのでYS<sup>T</sup>=TSS<sup>T</sup>を解けばよく、T=YS<sup>T</sup>(SS<sup>T</sup>)<sup>-1</sup>なのでTは</p>
+<pre>
+	[[ 3.67500000e+02  1.18263158e+02 -5.00000000e-01]
+	[ 4.04250000e+02  2.36842105e-01  1.68750000e+02]]
+</pre>
+<p>なるほど。</p>
+<p>今回は120px。</p>
+<p>実際にやってみると上手くいったのでやったぜ。</p>
+
+
+<h2>3. 分割して保存</h2>
+<p>それぞれの画像に分割して保存していかねば。</p>
+<p>今回もPythonを使う。</p>
+
+
+</body>
