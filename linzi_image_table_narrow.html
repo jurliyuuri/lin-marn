@@ -4,8 +4,19 @@
 <script src="image_table/char_and_folder_info.js"></script>
 <script src="image_table/image_existence_table.js"></script>
 <script src="image_table/generate_linzi_image_table_html.js"></script>
-<button onclick="for_printing()">印刷用モードへと変更</button>
-<p>ロードが遅い場合、たとえば <a href="linzi_image_table_narrow.html?hide=1&hide=geometric&hide=5">linzi_image_table_narrow.html?hide=1&hide=geometric&hide=5</a> と指定することで特定の行の画像ロードを止めることができます。</p>
+<button onclick="for_printing()" style="font-size: 200%;">印刷用モードへと変更</button>
+<p>
+    ロードが遅い場合、たとえば <a
+        href="linzi_image_table_narrow.html?hide=1&hide=geometric&hide=5">linzi_image_table_narrow.html?hide=1&hide=geometric&hide=5</a>
+    と指定することで特定の行の画像ロードを止めることができます。<br>
+</p>
+<p>本拠地が別リポジトリにあるやつの一覧（先に本拠地リポジトリをいじってからこっちに反映させてください）：
+<ul>
+    <li><a href="https://github.com/sozysozbot/linzklar-mincho">linzklar-mincho</a>: たもと明朝の本拠地</li>
+    <li><a href="https://github.com/yasusho/linmarn_font_project">linmarn_font_project</a>: 【美門倉官字】と【骨軸倉字】の本拠地。</li>
+    <li><a href="https://github.com/sozysozbot/geometric_linzklar">geometric_linzklar</a>: 幾何刀字の本拠地。</li>
+</ul>
+</p>
 <script>
 const hidden_columns = new URLSearchParams(new URL(location.href).search).getAll("hide");
 document.write(generate_table_narrow_html("table_narrow", hidden_columns));
@@ -15,7 +26,7 @@ function sort_narrow_table_by(ind) {
     const firstRow = rows[0];
     const secondRow = rows[1];
     const rest = rows.slice(2);
-    rest.sort((a,b) => {
+    rest.sort((a, b) => {
         const len_a = Array.from(a.cells)[ind].children.length;
         const len_b = Array.from(b.cells)[ind].children.length;
         if (len_a === len_b) {
@@ -36,20 +47,22 @@ function sort_narrow_table_by(ind) {
 function for_printing() {
     Array.from(document.getElementsByTagName("div")).forEach(node => node.remove());
     Array.from(document.getElementsByTagName("p")).forEach(node => node.remove());
+    Array.from(document.getElementsByTagName("ul")).forEach(node => node.remove());
     Array.from(document.getElementsByTagName("button")).forEach(node => node.remove());
-    
+
     const tbody = document.getElementById("table_narrow").childNodes[0];
     // remove the first two rows
     tbody.removeChild(tbody.firstChild);
     tbody.removeChild(tbody.firstChild);
-    
+
     // remove the last two columns
     tbody.childNodes.forEach(row => {
-        row.removeChild(row.lastChild); 
-        row.removeChild(row.lastChild); 
+        row.removeChild(row.lastChild);
+        row.removeChild(row.lastChild);
         row.firstChild.innerHTML = row.firstChild.innerHTML.replace(/[%*]/g, "");
         row.firstChild.style.fontSize = "300%";
     });
 }
 </script>
+
 </html>
