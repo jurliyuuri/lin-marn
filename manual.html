@@ -18,7 +18,7 @@
 		<li>このgitリポジトリで、以下の変更を行いコミットする。
 			<ul>
 				<li>清声集(lin cuop dat2.json)を編集し、対象の字を登録する。諸ラネーメ言語での読みが決まっている場合はそれも同時に登録するとよいだろうが、それの詳細は後述する。</li>
-				<li>lin-marn.htmlに軽く説明を書く<s>（必須ではないが推奨）</s><b>もはや必須とします</b></li>
+				<li>lin-marn<b>2</b>.htmlに軽く説明を書く<s>（必須ではないが推奨）</s><b>もはや必須とします</b></li>
 				<li>image_table_ts/char_and_folder_info.tsのconst linzi_listを更新</li>
 				<li>字形が定まっており、しかし画像が用意できていない場合、image_table_ts/char_and_folder_info.tsのconst defined_but_no_image_preparedを更新</li>
 				<li>image_table_ts/mysterious_encoding.tsに字を足す。tscを実行。<ul>
@@ -35,7 +35,7 @@
 	<h2>2. 諸ラネーメ言語での読みを定めた時</h2>
 	<ol>
 		<li>清声集(lin cuop dat2.json)に登録する。</li>
-		<li>lin-marn.htmlに軽く説明を書く<s>（必須ではないが推奨）</s><b>もはや必須とします</b></li>
+		<li>lin-marn<b>2</b>.htmlに軽く説明を書く<s>（必須ではないが推奨）</s><b>もはや必須とします</b></li>
 		<li style="background-color: gray;">燐字の画像も用意できている場合、燐字海への登録作業を行う。
 			<ol>
 				<li><code>python3 to_linzihai.py</code>をすると清声集の記述を元にしてHTMLファイルが生まれる。</li>
@@ -48,7 +48,7 @@
 				<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」の「メインの表」にパイグ語や古パイグでの読みを記載する。</li>
 				<li>古パイグを載せた場合、「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」の「韻図情報」にも載せる。</li>
 				<li>パイグ語リポジトリのprai ge zerp.jsonを編集する。</li>
-				<li>パイグ語リポジトリのsiar_prek.htmlに説明を書く（推奨）</li>
+				<li>パイグ語リポジトリの <s>siar_prek.html</s> <b>praige-zerp.html</b>に説明を書く<s>（推奨）</s><b>もはや必須とします</b></li>
 				<li>パイグ語リポジトリの燐字入力のファイルも適切に編集する（←これサボりがち）（<code>version:</code>の後の日付も更新）（ファイルは2つあるぞい）。</li>
 				<li>「<a href="https://docs.google.com/spreadsheets/d/1l61DlFablkrthZUovjMCCAtz6v047WzKXJH8c9K6F6E/edit#gid=0">現代標準パイグ語辞書順?配列</a>」「<a href="https://docs.google.com/spreadsheets/d/1BObsHDWqWHSY-LZMB1uANUQYNzWm-GZgMBW5UD0zDX0/edit#gid=228316309">古牌データ</a>」を適宜更新（←これもサボりがち）</li>
 				<li>Spoonfed Pekzepの字音.tsvを更新（←これさらにサボりがち）</li>

@@ -12219,7 +12219,10 @@
       "id" : 458,
       "form" : "顔"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "san1" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
