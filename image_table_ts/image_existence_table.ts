@@ -58,6 +58,8 @@ interface NewImageExistenceTable {
     "燐字画像49": Linzi[],
     "燐字画像50": Linzi[],
     "燐字画像51": Linzi[],
+    "燐字画像52": Linzi[],
+    "燐字画像53": Linzi[],
     "たもと明朝": Linzi[],
     "美門倉官字": Linzi[],
 }
@@ -364,6 +366,8 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
         "為", "無", "父", "片", "生", "白", "百", "皇", "神", "筆", "等", "終", 
         "而", "色", "行", "言", "貧", "赤", "足", "銭", "青", "須", "風", "黒", 
     ],
+    "燐字画像52": [ "哦", "嗚", "悖" ],
+    "燐字画像53": [ "哦", "嗚", "悖" ],
 };
 
 
@@ -426,6 +430,8 @@ function convert_new_to_old(newer: NewImageExistenceTable): ImageExistenceTable 
             "燐字画像49": false,
             "燐字画像50": false,
             "燐字画像51": false,
+            "燐字画像52": false,
+            "燐字画像53": false,
             "たもと明朝": false,
             "美門倉官字": false,
         };
