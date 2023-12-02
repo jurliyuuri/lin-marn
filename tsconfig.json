@@ -5,7 +5,8 @@
         "strictNullChecks": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
-        "target": "es2016"
+        "target": "ES2021",
+        "moduleResolution": "node"
     },
     "include": [
         "./image_table_ts/**/*"
