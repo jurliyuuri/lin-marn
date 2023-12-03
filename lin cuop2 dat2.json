@@ -12867,6 +12867,19 @@
         "form" : "搾"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 510,
+      "form" : "斥"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "cuat" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

@@ -296,7 +296,7 @@ const mysterious_encoding = allElements()([
     "獣",
     "叉",
     "搾",
-    "??",
+    "斥",
     "字",
     "即",
     "箏",
