@@ -12880,6 +12880,324 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 511,
+      "form" : "逆"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "cuat" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 512,
+      "form" : "鹽"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kuo1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 342,
+        "form" : "塩"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 513,
+      "form" : "鹵"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 514,
+      "form" : "苦"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 515,
+      "form" : "渋"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 516,
+      "form" : "辣"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 517,
+      "form" : "節"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 518,
+      "form" : "田"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 519,
+      "form" : "旱"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 520,
+      "form" : "氾"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 521,
+      "form" : "腰"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 522,
+      "form" : "像"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 523,
+      "form" : "踵"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 524,
+      "form" : "匁"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 525,
+      "form" : "飢"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 526,
+      "form" : "支"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 527,
+      "form" : "奉"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 528,
+      "form" : "捧"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 529,
+      "form" : "贄"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 530,
+      "form" : "鍬"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 531,
+      "form" : "謗"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 532,
+      "form" : "佞"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 533,
+      "form" : "麺"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 534,
+      "form" : "餅"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

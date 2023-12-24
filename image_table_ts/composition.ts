@@ -41,7 +41,9 @@ type id = "D3" | "D4" | "D5" | "D6" | "D7" | "D8" | "D9" | "D10" | "D11" | "D12"
     "D457" | "D458" | "D459" | "D460" | "D461" | "D462" | "D463" | "D464" | "D465" | "D466" |
     "D467" | "D468" | "D469" | "D470" | "D471" | "D472" | "D473" | "D474" | "D475" | "D476" |
     "D477" | "D478" | "D479" | "D480" | "D481" | "D482" | "D483" | "D484" | "D485" | "D486" |
-    "D487" | "D488";
+    "D487" | "D488" | "D489" | "D490" | "D491" | "D492" | "D493" | "D494" | "D495" | "D496" |
+    "D497" | "D498" | "D499" | "D500" | "D501" | "D502" | "D503" | "D504" | "D505" | "D506" |
+    "D507" | "D508" | "D509" | "D510" | "D511" | "D512" | "D513" | "D514";
 
 type Composition = {
     [key in id]: {
@@ -487,4 +489,30 @@ const composition2: Composition = {
     D486: { "isDecomposable": true, "hanzi": "叮", "composition": ["⿰車力"], "strokeCount": ["D227", "D36"]},
     D487: { "isDecomposable": true, "hanzi": "斥", "composition": ["⿵門口"], "strokeCount": ["D305", "D16"]},
     D488: { "isDecomposable": true, "hanzi": "半", "composition": ["⿰刀刀"], "strokeCount": ["D333", "D333"]},
+    D489: { "isDecomposable": true, "hanzi": "逆", "composition": ["⿱再下"], "strokeCount": ["D13", "D3", "D364"] },
+    D490: { "isDecomposable": true, "hanzi": "鹽", "composition": ["⿰石海"], "strokeCount": ["D13", "D3", "D296"]},
+    D491: { "isDecomposable": true, "hanzi": "塩", "composition": ["⿰海火"], "strokeCount": ["D272", "D55"]},
+    D492: { "isDecomposable": true, "hanzi": "苦", "composition": ["⿱草味"], "strokeCount": ["D344", "D311", "D11"] },
+    D493: { "isDecomposable": true, "hanzi": "渋", "composition": ["⿱種味"], "strokeCount": ["D19", "D238"] },
+    D494: { "isDecomposable": true, "hanzi": "辣", "composition": ["⿰味火"], "strokeCount": ["D299", "D15"]},
+    D495: { "isDecomposable": true, "hanzi": "節", "composition": ["⿰＊く＊く"], "strokeCount": ["D14", "D339"]},
+    D496: { "isDecomposable": true, "hanzi": "田", "composition": ["⿴口米"], "strokeCount": ["D338", "D3"]},
+    D497: { "isDecomposable": true, "hanzi": "土", "composition": ["⿱米五"], "strokeCount": ["D19", "D14"]},
+    D498: { "isDecomposable": true, "hanzi": "旱", "composition": ["⿰日⿱日日"], "strokeCount": ["D3", "D332"]},
+    D499: { "isDecomposable": true, "hanzi": "氾", "composition": ["⿱水圧"], "strokeCount": ["D258", "D15"]},
+    D500: { "isDecomposable": true, "hanzi": "腰", "composition": ["⿴口己"], "strokeCount": ["D27", "D15"]},
+    D501: { "isDecomposable": true, "hanzi": "像", "composition": ["⿵門値"], "strokeCount": ["D4", "D12"]},
+    D502: { "isDecomposable": true, "hanzi": "踵", "composition": ["⿱背足"], "strokeCount": ["D213", "D255"]},
+    D503: { "isDecomposable": true, "hanzi": "匁", "composition": ["⿰正錘"], "strokeCount": ["D213", "D254"]},
+    D504: { "isDecomposable": true, "hanzi": "飢", "composition": ["⿰少黍"], "strokeCount": ["D27", "D27"]},
+    D505: { "isDecomposable": true, "hanzi": "遅", "composition": ["⿰足牛"], "strokeCount": ["D132", "D7"]},
+    D506: { "isDecomposable": true, "hanzi": "支", "composition": ["⿱口机"], "strokeCount": ["D227", "D36"]},
+    D507: { "isDecomposable": true, "hanzi": "奉", "composition": ["⿱口＊廾"], "strokeCount": ["D305", "D16"]},
+    D508: { "isDecomposable": true, "hanzi": "捧", "composition": ["⿱口術"], "strokeCount": ["D333", "D333"]},
+    D509: { "isDecomposable": true, "hanzi": "贄", "composition": ["⿵天与"], "strokeCount": ["D333", "D333"]},
+    D510: { "isDecomposable": true, "hanzi": "鍬", "composition": ["⿻函六"], "strokeCount": ["D333", "D333"]},
+    D511: { "isDecomposable": true, "hanzi": "謗", "composition": ["⿸傾言"], "strokeCount": ["D333", "D333"]},
+    D512: { "isDecomposable": true, "hanzi": "佞", "composition": ["⿸傾人"], "strokeCount": ["D333", "D333"]},
+    D513: { "isDecomposable": true, "hanzi": "麺", "composition": ["⿰米糸"], "strokeCount": ["D333", "D333"]},
+    D514: { "isDecomposable": true, "hanzi": "餅", "composition": ["⿰米板"], "strokeCount": ["D333", "D333"]},
 }
