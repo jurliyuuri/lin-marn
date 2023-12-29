@@ -81,7 +81,7 @@ function getStrokeCountColorFromId(id: id, POPULARNESS_THRESHOLD: number): Strok
 }
 
 function addRowFromId(id: id, POPULARNESS_THRESHOLD: number) {
-    const image = getImage_(composition2[id].hanzi, ["SY", "jv", "jv touch panel", "meloviliju"], 20);
+    const image = getImage_(composition2[id].hanzi, ["SY", "jv", "jv touch panel", "meloviliju", "noborder"], 20);
 
     return `<tr>
         <td${composition2[id].isDecomposable ? ">TRUE" : " style='background-color: rgb(183, 225, 205)'>FALSE"}</td>
