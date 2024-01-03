@@ -13198,6 +13198,77 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 535,
+      "form" : "招"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "mit2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「引」の分化字である。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 536,
+      "form" : "賢"
+    },
+    "translations" : [ {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "keteimik-u" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "けていみく" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 537,
+      "form" : "緑"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 538,
+      "form" : "虹"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 539,
+      "form" : "雷"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

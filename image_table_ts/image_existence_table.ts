@@ -64,6 +64,8 @@ interface NewImageExistenceTable {
     "美門倉官字": Linzi[],
     "燐字画像54": Linzi[],
     "燐字画像55": Linzi[],
+    "燐字画像56": Linzi[],
+    "燐字画像57": Linzi[],
 }
 
 const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
@@ -372,6 +374,8 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
     "燐字画像53": [ "哦", "嗚", "悖", "叮", "斥", "半" ],
     "燐字画像54": [ "逆", "遅", "塩", "鹽", "鹵", "苦", "渋", "辣", "節", "土", "田", "旱", "氾", "腰", "像", "踵", "匁", "飢", "支", "奉", "捧", "贄", "鍬", "謗", "佞", "麺", "餅", "癒" ],
     "燐字画像55": [ "逆", "遅", "塩", "鹽", "鹵", "苦", "渋", "辣", "節", "土", "田", "旱", "氾", "腰", "像", "踵", "匁", "飢", "支", "奉", "捧", "贄", "鍬", "謗", "佞", "麺", "餅", "癒" ],
+    "燐字画像56": [ "賢", "招", "緑", "虹", "雷" ],
+    "燐字画像57": [ "賢", "招", "緑", "虹", "雷" ],
 };
 
 
@@ -440,6 +444,8 @@ function convert_new_to_old(newer: NewImageExistenceTable): ImageExistenceTable 
             "美門倉官字": false,
             "燐字画像54": false,
             "燐字画像55": false,
+            "燐字画像56": false,
+            "燐字画像57": false,
         };
         for (let filepath in newer) {
             let foldername = filepath as FolderName;

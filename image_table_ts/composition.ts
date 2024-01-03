@@ -43,7 +43,8 @@ type id = "D3" | "D4" | "D5" | "D6" | "D7" | "D8" | "D9" | "D10" | "D11" | "D12"
     "D477" | "D478" | "D479" | "D480" | "D481" | "D482" | "D483" | "D484" | "D485" | "D486" |
     "D487" | "D488" | "D489" | "D490" | "D491" | "D492" | "D493" | "D494" | "D495" | "D496" |
     "D497" | "D498" | "D499" | "D500" | "D501" | "D502" | "D503" | "D504" | "D505" | "D506" |
-    "D507" | "D508" | "D509" | "D510" | "D511" | "D512" | "D513" | "D514";
+    "D507" | "D508" | "D509" | "D510" | "D511" | "D512" | "D513" | "D514" | "D515" | "D516" |
+    "D517" | "D518" | "D519";
 
 type Composition = {
     [key in id]: {
@@ -515,4 +516,9 @@ const composition2: Composition = {
     D512: { "isDecomposable": true, "hanzi": "佞", "composition": ["⿸傾人"], "strokeCount": ["D359", "D4"]},
     D513: { "isDecomposable": true, "hanzi": "麺", "composition": ["⿰米糸"], "strokeCount": ["D332", "D17"]},
     D514: { "isDecomposable": true, "hanzi": "餅", "composition": ["⿰米平"], "strokeCount": ["D332", "D238"]},
+    D515: { "isDecomposable": true, "hanzi": "招", "composition": ["⿰人引"], "strokeCount": ["D34", "D456"]},
+    D516: { "isDecomposable": true, "hanzi": "賢", "composition": ["⿱上思"], "strokeCount": ["D6", "D411"]},
+    D517: { "isDecomposable": true, "hanzi": "緑", "composition": ["⿱色草"], "strokeCount": ["D276", "D254"]},
+    D518: { "isDecomposable": true, "hanzi": "虹", "composition": ["⿱天橋"], "strokeCount": ["D34", "D226"]},
+    D519: { "isDecomposable": true, "hanzi": "雷", "composition": ["⿵天神"], "strokeCount": ["D34", "D336"]},
 }

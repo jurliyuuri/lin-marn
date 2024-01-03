@@ -459,4 +459,9 @@ const composition2 = {
     D512: { "isDecomposable": true, "hanzi": "佞", "composition": ["⿸傾人"], "strokeCount": ["D359", "D4"] },
     D513: { "isDecomposable": true, "hanzi": "麺", "composition": ["⿰米糸"], "strokeCount": ["D332", "D17"] },
     D514: { "isDecomposable": true, "hanzi": "餅", "composition": ["⿰米平"], "strokeCount": ["D332", "D238"] },
+    D515: { "isDecomposable": true, "hanzi": "招", "composition": ["⿰人引"], "strokeCount": ["D34", "D456"] },
+    D516: { "isDecomposable": true, "hanzi": "賢", "composition": ["⿱上思"], "strokeCount": ["D6", "D411"] },
+    D517: { "isDecomposable": true, "hanzi": "緑", "composition": ["⿱色草"], "strokeCount": ["D276", "D254"] },
+    D518: { "isDecomposable": true, "hanzi": "虹", "composition": ["⿱天橋"], "strokeCount": ["D34", "D226"] },
+    D519: { "isDecomposable": true, "hanzi": "雷", "composition": ["⿵天神"], "strokeCount": ["D34", "D336"] },
 };
