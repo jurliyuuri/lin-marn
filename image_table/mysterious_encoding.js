@@ -476,7 +476,7 @@ const mysterious_encoding = allElements()([
     "平",
     "輪",
     "??",
-    "后",
+    "??",
     "同",
     "龍",
     "奉",
