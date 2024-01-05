@@ -7634,13 +7634,7 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 395,
-        "form" : "后"
-      }
-    } ]
+    "relations" : [ ]
   }, {
     "entry" : {
       "id" : 314,
@@ -11133,25 +11127,6 @@
     } ]
   }, {
     "entry" : {
-      "id" : 395,
-      "form" : "后"
-    },
-    "translations" : [ ],
-    "tags" : [ "異体字" ],
-    "contents" : [ {
-      "title" : "備考",
-      "text" : "「後」の異体字"
-    } ],
-    "variations" : [ ],
-    "relations" : [ {
-      "title" : "異体字",
-      "entry" : {
-        "id" : 313,
-        "form" : "後"
-      }
-    } ]
-  }, {
-    "entry" : {
       "id" : 396,
       "form" : "穴"
     },
@@ -13052,7 +13027,10 @@
       "forms" : [ "" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "まれに「後」の異体字として振舞うこともある。"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
