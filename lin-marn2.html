@@ -861,6 +861,49 @@ mel&SY「うーん、わからん、どうなんだろう」
 mel「オーロラ見えるのかな」
 </pre>
 
+<h2>271. 転写『后』の削除</h2>
+
+<p>字の削除は大変である。既存の言及を全部差し替えてまわらないといけないからである。</p>
+
+<h3>271-1. lin-marn で完結しているやつの処理</h3>
+
+<p>まず、この lin-marn リポジトリ内で『后』の転写が当たっている文字画像を全て『踵』にリネーム。それに伴い、【后】導入時のログなども、ログ本文は『后』を残しつつも参照する画像名は『踵』となるように修正。</p>
+
+<p>composition などの『字形としての情報』のみが必要なものについては、そのまま『后』を引き継げばよい。一方で、清声集などは意味論が変わる分をきちんと反映しなくてはいけない。</p>
+
+<h3>271-2. このリポジトリ外に転写『后』の削除が与える影響</h3>
+
+<p>マニュアルを見たりして、影響範囲を測り、修正していこう。</p>
+
+<h4>Google Spreadsheets</h4>
+
+<ul>
+	<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」⇀ ✅修正</li>
+	<li>「<a href="https://docs.google.com/spreadsheets/d/1OAmxQYl8h4REyKcK6pffINI83la3tKGeS1pDBfYrKAc/edit#gid=0">燐字数の成長記録</a>」⇀ ✅修正</li>
+	<li>「<a href="https://docs.google.com/spreadsheets/d/1l61DlFablkrthZUovjMCCAtz6v047WzKXJH8c9K6F6E/edit#gid=0">現代標準パイグ語辞書順?配列</a>」⇀ ✅修正</li>
+	<li>「<a href="https://docs.google.com/spreadsheets/d/1BObsHDWqWHSY-LZMB1uANUQYNzWm-GZgMBW5UD0zDX0/edit#gid=228316309">古牌データ</a>」⇀ ✅影響なし</li>
+	<li>「<a href="https://docs.google.com/spreadsheets/d/1OEgROcJ9MYRRY5OKKiaIZO6H8cDyH5TP2lLtwQMew0k">じげん</a>」⇀ ✅修正</li>
+</ul>
+
+<h4>リポジトリ</h4>
+<ul>
+	<li><a href="https://github.com/jurliyuuri/spoonfed_pekzep">jurliyuuri/spoonfed_pekzep</a>
+		<ul><li>✅<a href="https://github.com/jurliyuuri/spoonfed_pekzep/commit/ea91c697f36fab1e9540bc227271d210dca0556f">コミット ID ea91c69</a>で対処</li></ul>
+	</li>
+	<li><a href="https://github.com/jurliyuuri/praige-zerp/">jurliyuuri/praige-zerp</a></li>
+	<li><a href="https://github.com/yasusho/linmarn_font_project">yasusho/linmarn_font_project</a></li>
+	<li><a href="https://github.com/sozysozbot/geometric_linzklar">sozysozbot/geometric_linzklar</a>
+		<ul><li>✅<a href="https://github.com/sozysozbot/geometric_linzklar/commit/bb243a0c1cd97212d3cf6e71533e5b238f938821">コミット ID bb243a0</a> で対処</li></ul>
+	</li>
+	<li><a href="https://github.com/sozysozbot/linzklar-mincho">sozysozbot/linzklar-mincho</a>
+		<ul><li>✅<a href="https://github.com/sozysozbot/linzklar-mincho/commit/2b36161f3b4a92490d82b9a0b25b8040fd03cdfa">コミット ID 2b36161</a>で対処</li></ul>
+	</li>
+	<li><a href="https://github.com/jurliyuuri/2bhai_liina_baani_bhodi">jurliyuuri/2bhai_liina_baani_bhodi</a></li>
+	<li><a href="https://github.com/jurliyuuri/linzklar-recognition">jurliyuuri/linzklar-recognition</a></li>
+</ul>
+
+<p>こんなところか。</p>
+
 <hr>
 <p style="color: magenta; font-weight: bold; font-size: 250%;">以下、未着手の作業であるため、作業が終わるたびに順不同でこのマゼンタより上に配置して「完了」を示すべし</p>
 <hr>
