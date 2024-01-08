@@ -30,7 +30,7 @@ function calculateContributionOf(id) {
     return ans;
 }
 function isPopular(id, POPULARNESS_THRESHOLD) {
-    return (composition2[id].hanzi !== "??" /* counted to be never popular */
+    return (!non_linzi_id_list.includes(composition2[id].hanzi) /* counted to be never popular */
         && calculateContributionOf(id) >= POPULARNESS_THRESHOLD);
 }
 function recursivelyDecompose(a) {
@@ -82,17 +82,17 @@ const sortByPopularity = (arr) => arr.sort((idA, idB) => {
     if (diff !== 0)
         return diff;
     // push non-linzi to the back
-    if (composition2[idA].hanzi !== "??" && composition2[idB].hanzi === "??") {
+    if (!non_linzi_id_list.includes(composition2[idA].hanzi) && non_linzi_id_list.includes(composition2[idB].hanzi)) {
         return -1;
     }
-    else if (composition2[idA].hanzi === "??" && composition2[idB].hanzi !== "??") {
+    else if (non_linzi_id_list.includes(composition2[idA].hanzi) && !non_linzi_id_list.includes(composition2[idB].hanzi)) {
         return 1;
     }
     else {
         return 0;
     }
 });
-const sortById = (arr) => arr.sort((idA, idB) => parseInt(idA.slice(1)) - parseInt(idB.slice(1)));
+const sortById = (arr) => arr.sort((idA, idB) => composition2[idA].index - composition2[idB].index);
 function getIdList_Sorted(withDuplicate, POPULARNESS_THRESHOLD) {
     let topIdList = [];
     let orangeList = [];
@@ -162,7 +162,7 @@ function generate_comp_table_html(q) {
     ans += "</table>";
     for (let i = 0; i < notSoPopularWhite.length; i++) {
         ans += "<br><br>";
-        if (composition2[notSoPopularWhite[i]].hanzi === "??") {
+        if (non_linzi_id_list.includes(composition2[notSoPopularWhite[i]].hanzi)) {
             ans += "<h3>↓これって果たして字なんですかね</h3>";
         }
         if (i !== 0
