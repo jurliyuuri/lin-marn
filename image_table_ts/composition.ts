@@ -44,7 +44,7 @@ type id = "D3" | "D4" | "D5" | "D6" | "D7" | "D8" | "D9" | "D10" | "D11" | "D12"
     "D487" | "D488" | "D489" | "D490" | "D491" | "D492" | "D493" | "D494" | "D495" | "D496" |
     "D497" | "D498" | "D499" | "D500" | "D501" | "D502" | "D503" | "D504" | "D505" | "D506" |
     "D507" | "D508" | "D509" | "D510" | "D511" | "D512" | "D513" | "D514" | "D515" | "D516" |
-    "D517" | "D518" | "D519";
+    "D517" | "D518" | "D519" | "D520";
 
 type Composition = {
     [key in id]: {
@@ -522,4 +522,5 @@ const composition2: Composition = {
     D517: { "isDecomposable": true, "hanzi": "緑", "composition": ["⿱色草"], "strokeCount": ["D276", "D254"]},
     D518: { "isDecomposable": true, "hanzi": "虹", "composition": ["⿱天橋"], "strokeCount": ["D34", "D226"]},
     D519: { "isDecomposable": true, "hanzi": "雷", "composition": ["⿵天神"], "strokeCount": ["D34", "D336"]},
+    D520: { "isDecomposable": true, "hanzi": "呉", "composition": ["⿴口草"], "strokeCount": ["D16", "D254"]}
 }
