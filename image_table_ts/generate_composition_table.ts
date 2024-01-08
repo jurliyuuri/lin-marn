@@ -107,7 +107,7 @@ const sortByPopularity = (arr: id[]) => arr.sort((idA, idB) => {
         return 0;
     }
 });
-const sortById = (arr: id[]) => arr.sort((idA, idB) => parseInt(idA.slice(1)) - parseInt(idB.slice(1)));
+const sortById = (arr: id[]) => arr.sort((idA, idB) => composition2[idA].index - composition2[idB].index);
 
 function getIdList_Sorted(withDuplicate: boolean, POPULARNESS_THRESHOLD: number) {
     let topIdList: id[] = [];
