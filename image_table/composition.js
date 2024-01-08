@@ -1,4 +1,4 @@
-const non_linzi_id_list = allElements()(["??"]);
+const non_linzi_id_list = allElements()(["＊ㄉ"]);
 const composition2 = {
     "五": { "index": 3, "isDecomposable": false, "strokeCount": 1, "hanzi": "五", "composition": ["＊一"] },
     "人": { "index": 4, "isDecomposable": false, "strokeCount": 3, "hanzi": "人", "composition": ["＊大"] },
@@ -34,7 +34,7 @@ const composition2 = {
     "天": { "index": 34, "isDecomposable": false, "strokeCount": 2, "hanzi": "天", "composition": ["＊𠘨"] },
     "包": { "index": 35, "isDecomposable": false, "strokeCount": 2, "hanzi": "包", "composition": ["＊凵"] },
     "力": { "index": 36, "isDecomposable": false, "strokeCount": 3, "hanzi": "力", "composition": ["⿱五⿰少十"] },
-    "連": { "index": 37, "isDecomposable": false, "strokeCount": 2, "hanzi": "連", "composition": ["⿹＊フ神"] },
+    "連": { "index": 37, "isDecomposable": false, "strokeCount": ["＊フ", "神"], "hanzi": "連", "composition": ["⿹＊フ神"] },
     "筒": { "index": 38, "isDecomposable": false, "strokeCount": 4, "hanzi": "筒", "composition": ["＊ㅒ"] },
     "直": { "index": 39, "isDecomposable": false, "strokeCount": 4, "hanzi": "直", "composition": ["＊丰"] },
     "闇": { "index": 40, "isDecomposable": true, "strokeCount": ["閉", "光"], "hanzi": "闇", "composition": ["⿱閉光"] },
@@ -210,10 +210,10 @@ const composition2 = {
     "冠": { "index": 228, "isDecomposable": true, "strokeCount": ["橋", "大", "軸"], "hanzi": "冠", "composition": ["⿱橋⿰大軸"] },
     "積": { "index": 229, "isDecomposable": false, "strokeCount": 5, "hanzi": "積", "composition": ["⿱橋圧"] },
     "族": { "index": 230, "isDecomposable": true, "strokeCount": ["人", "積"], "hanzi": "族", "composition": ["⿰人積"] },
-    "??": { "index": 232, "isDecomposable": false, "strokeCount": 2, "hanzi": "??", "composition": ["⿹神少", "＊ㄉ"] },
-    "亦": { "index": 233, "isDecomposable": true, "strokeCount": ["??", "五"], "hanzi": "亦", "composition": ["⿱％右風", "⿺⿹神少五"] },
+    "＊ㄉ": { "index": 232, "isDecomposable": false, "strokeCount": 2, "hanzi": "＊ㄉ", "composition": ["⿹神少", "＊ㄉ"] },
+    "亦": { "index": 233, "isDecomposable": true, "strokeCount": ["＊ㄉ", "五"], "hanzi": "亦", "composition": ["⿱％右風", "⿺⿹神少五"] },
     "乎": { "index": 234, "isDecomposable": true, "strokeCount": ["亦", "無"], "hanzi": "乎", "composition": ["⿻亦無"] },
-    "地": { "index": 235, "isDecomposable": true, "strokeCount": ["??", "五"], "hanzi": "地", "composition": ["⿱⿹神少五"] },
+    "地": { "index": 235, "isDecomposable": true, "strokeCount": ["＊ㄉ", "五"], "hanzi": "地", "composition": ["⿱⿹神少五"] },
     "平": { "index": 238, "isDecomposable": false, "strokeCount": 4, "hanzi": "平", "composition": ["⿴口一"] },
     "守": { "index": 239, "isDecomposable": true, "strokeCount": ["平", "人"], "hanzi": "守", "composition": ["⿰平人"] },
     "美": { "index": 240, "isDecomposable": true, "strokeCount": ["平", "上"], "hanzi": "美", "composition": ["⿱平上"] },
@@ -307,7 +307,7 @@ const composition2 = {
     "傾": { "index": 359, "isDecomposable": false, "strokeCount": 2, "hanzi": "傾", "composition": ["＊厂"] },
     "震": { "index": 360, "isDecomposable": false, "strokeCount": 6, "hanzi": "震", "composition": ["⿲無＊中少"] },
     "端": { "index": 361, "isDecomposable": false, "strokeCount": 4, "hanzi": "端", "composition": ["⿻再六"] },
-    "歪": { "index": 362, "isDecomposable": false, "strokeCount": 2, "hanzi": "歪", "composition": ["⿱＊フ十"] },
+    "歪": { "index": 362, "isDecomposable": false, "strokeCount": ["＊フ", "十"], "hanzi": "歪", "composition": ["⿱＊フ十"] },
     "片": { "index": 363, "isDecomposable": false, "strokeCount": 4, "hanzi": "片", "composition": ["⿱五＊山"] },
     "針": { "index": 364, "isDecomposable": false, "strokeCount": 1, "hanzi": "針", "composition": ["＊亅"] },
     "氏": { "index": 365, "isDecomposable": true, "hanzi": "氏", "composition": ["⿱人圧"], "strokeCount": ["人", "圧"] },
@@ -365,7 +365,7 @@ const composition2 = {
     "醇": { "index": 417, "isDecomposable": true, "hanzi": "醇", "composition": ["⿰⿱火心水"], "strokeCount": ["火", "心", "水"] },
     "毛": { "index": 418, "isDecomposable": false, "strokeCount": 3, "hanzi": "毛", "composition": ["＊ツ"] },
     "牛": { "index": 419, "isDecomposable": true, "hanzi": "牛", "composition": ["⿰少谷", "＊匁"], "strokeCount": ["少", "谷"] },
-    "牡": { "index": 420, "isDecomposable": true, "hanzi": "牡", "composition": ["⿰五牛", "⿰＊フ谷"], "strokeCount": ["五", "谷"] },
+    "牡": { "index": 420, "isDecomposable": true, "hanzi": "牡", "composition": ["⿰五牛", "⿰＊フ谷"], "strokeCount": ["＊フ", "谷"] },
     "羊": { "index": 421, "isDecomposable": true, "hanzi": "羊", "composition": ["⿱毛獣"], "strokeCount": ["毛", "獣"] },
     "羚": { "index": 422, "isDecomposable": true, "hanzi": "羚", "composition": ["⿱毛虎"], "strokeCount": ["毛", "虎"] },
     "犬": { "index": 423, "isDecomposable": false, "hanzi": "犬", "composition": ["⿱⿰少五八"], "strokeCount": ["少", "五", "八"] },
@@ -465,5 +465,6 @@ const composition2 = {
     "緑": { "index": 517, "isDecomposable": true, "hanzi": "緑", "composition": ["⿱色草"], "strokeCount": ["色", "草"] },
     "虹": { "index": 518, "isDecomposable": true, "hanzi": "虹", "composition": ["⿱天橋"], "strokeCount": ["天", "橋"] },
     "雷": { "index": 519, "isDecomposable": true, "hanzi": "雷", "composition": ["⿵天神"], "strokeCount": ["天", "神"] },
-    "呉": { "index": 520, "isDecomposable": true, "hanzi": "呉", "composition": ["⿴口草"], "strokeCount": ["口", "草"] }
+    "呉": { "index": 520, "isDecomposable": true, "hanzi": "呉", "composition": ["⿴口草"], "strokeCount": ["口", "草"] },
+    "＊フ": { "index": 521, "isDecomposable": false, "strokeCount": 1, "hanzi": "＊フ", "composition": ["＊フ"] },
 };
