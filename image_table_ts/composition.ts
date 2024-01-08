@@ -46,9 +46,9 @@ type id = "五" | "人" | "之" | "上" | "手" | "一" | "足" | "閉" | "無" 
     "奉" | "捧" | "贄" | "鍬" | "謗" | "佞" | "麺" | "餅" | "招" | "賢" |
     "緑" | "虹" | "雷" | "呉" | "＊フ";
 
-type NonLinziId = "＊ㄉ"
+type NonLinziId = "＊ㄉ" | "＊フ"
 
-const non_linzi_id_list = allElements<NonLinziId>()(["＊ㄉ"]);
+const non_linzi_id_list = allElements<NonLinziId>()(["＊ㄉ", "＊フ"]);
 
 type Composition = {
     [key in id]: {

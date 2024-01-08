@@ -1,4 +1,4 @@
-const non_linzi_id_list = allElements()(["＊ㄉ"]);
+const non_linzi_id_list = allElements()(["＊ㄉ", "＊フ"]);
 const composition2 = {
     "五": { "index": 3, "isDecomposable": false, "strokeCount": 1, "hanzi": "五", "composition": ["＊一"] },
     "人": { "index": 4, "isDecomposable": false, "strokeCount": 3, "hanzi": "人", "composition": ["＊大"] },
