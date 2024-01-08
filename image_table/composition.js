@@ -446,6 +446,7 @@ const composition2 = {
     D499: { "isDecomposable": true, "hanzi": "氾", "composition": ["⿱水圧"], "strokeCount": ["D15", "D213"] },
     D500: { "isDecomposable": true, "hanzi": "腰", "composition": ["⿴口己"], "strokeCount": ["D16", "D30"] },
     D501: { "isDecomposable": true, "hanzi": "像", "composition": ["⿵門値"], "strokeCount": ["D305", "D103"] },
+    D502: { "isDecomposable": true, "hanzi": "鹵", "composition": ["⿰石味"], "strokeCount": ["D175", "D143"] },
     /* D502: { "isDecomposable": true, "hanzi": "踵", "composition": ["⿱背足"], "strokeCount": ["D107", "D9"]}, */
     D503: { "isDecomposable": true, "hanzi": "匁", "composition": ["⿰直錘"], "strokeCount": ["D161", "D296"] },
     D504: { "isDecomposable": true, "hanzi": "飢", "composition": ["⿰少黍"], "strokeCount": ["D13", "D478"] },
