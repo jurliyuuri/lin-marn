@@ -161,7 +161,7 @@ function generate_table_narrow_html(id?: string, hidden_columns?: string[]): str
 				if (defined_but_no_image_prepared.includes(linzi)) {
 					alert(`業務連絡: 「${linzi}」の画像は足したのでdefined_but_no_image_preparedから取り除くこと`);
 				}
-				return `<td>${linzi}</td>`;
+				return `<td><a href="http://jurliyuuri.com/spoonfed_pekzep/char/${linzi}.html">${linzi}</a></td>`;
 			} else if (defined_but_no_image_prepared.includes(linzi)) {
 				return `<td style="background-color: cyan">%${linzi}</td>`;
 			} else {
