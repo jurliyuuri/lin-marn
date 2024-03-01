@@ -9,7 +9,7 @@ function allElements<V>(): <Arr extends V[]>(arr: Arr) =>
 }
 
 // ここでの順序が表にしたときの列順も定める
-const imageAuthors: ImageAuthor[] = allElements<ImageAuthor>()(["SY", "border", "noborder", "jv", "SY pua2 man1", "jv touch panel", "meloviliju", "geometric", "tamoto mincho", "herm giaru", "liina baani bhodi", "grau prua yr", "rounded"]);
+const imageAuthors: ImageAuthor[] = allElements<ImageAuthor>()(["SY", "border", "noborder", "jv", "SY pua2 man1", "jv touch panel", "meloviliju", "geometric", "tamoto mincho", "rounded", "herm giaru", "liina baani bhodi", "grau prua yr"]);
 
 type FolderName = keyof FolderType;
 interface FolderType {
