@@ -1,1 +1,49 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" id="svg5" sodipodi:docname="橋.svg" inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><path d="M113.051 146.711 C 103.271 151.877,99.157 159.052,99.219 170.833 C 99.288 183.951,200.313 654.874,204.652 662.303 C 217.508 684.316,255.038 674.649,254.986 649.337 C 254.978 645.577,233.715 543.125,207.735 421.667 C 181.755 300.208,160.806 200.271,161.181 199.583 C 161.556 198.896,314.444 198.333,500.932 198.333 C 813.262 198.333,840.000 198.548,840.000 201.051 C 840.000 206.528,817.712 282.060,803.424 325.000 C 738.672 519.610,664.021 649.535,533.658 794.505 C 524.423 804.775,515.986 814.825,514.908 816.838 C 512.161 821.972,512.468 835.159,515.470 840.965 C 522.665 854.878,539.078 859.872,553.350 852.491 C 560.433 848.829,614.468 786.584,647.968 743.497 C 761.355 597.664,837.371 432.455,897.458 201.274 C 904.163 175.476,904.919 170.890,903.398 165.241 C 901.031 156.450,895.764 150.188,887.631 146.494 C 881.077 143.517,867.205 143.408,500.000 143.444 C 126.453 143.480,119.050 143.542,113.051 146.711 " stroke="none" fill-rule="evenodd" fill="black"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="橋.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview192"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.472"
+     inkscape:cx="729.87288"
+     inkscape:cy="632.41525"
+     inkscape:window-width="1920"
+     inkscape:window-height="1191"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+       d="M 33.370347,45.356578 60.290485,171.418"
+       id="path1314" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+       d="M 33.370348,45.356578 H 231.97843 C 209.91116,133.46447 182.49828,175.86531 142.875,219.22675"
+       id="path1941"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>

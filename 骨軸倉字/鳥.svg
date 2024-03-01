@@ -1,1 +1,54 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" id="svg5" sodipodi:docname="鳥.svg" inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><path d="M195.833 115.603 C 188.885 118.833,181.908 126.680,179.967 133.448 C 178.946 137.009,178.333 205.489,178.333 316.110 L 178.333 493.075 172.917 494.827 C 169.938 495.791,151.555 500.695,132.066 505.725 C 112.577 510.755,94.815 516.212,92.595 517.852 C 77.803 528.778,78.116 552.776,93.177 562.496 C 103.602 569.225,106.861 569.062,141.965 560.054 C 159.941 555.441,175.102 551.667,175.657 551.667 C 176.213 551.667,176.669 583.729,176.672 622.917 C 176.675 662.104,177.468 702.792,178.434 713.333 C 186.767 804.325,226.309 866.257,286.667 882.854 C 296.879 885.663,314.221 885.833,589.296 885.833 L 881.093 885.833 887.215 881.164 C 895.170 875.096,898.333 868.726,898.333 858.771 C 898.333 851.305,894.631 844.072,848.174 760.772 C 820.586 711.306,797.199 669.841,796.202 668.628 C 792.864 664.566,781.863 660.000,775.483 660.027 C 761.523 660.088,748.418 673.432,748.361 687.644 C 748.337 693.440,753.918 704.488,785.823 761.810 C 806.443 798.856,823.318 829.741,823.323 830.442 C 823.329 831.144,706.146 831.519,562.917 831.275 L 302.500 830.833 293.333 827.093 C 271.688 818.263,253.600 794.345,243.223 760.833 C 233.357 728.972,231.440 700.471,232.827 606.241 L 233.875 534.983 240.688 533.155 C 259.083 528.221,316.126 510.657,345.833 500.780 C 519.037 443.197,661.434 375.331,795.833 286.310 C 810.878 276.345,814.859 272.821,818.024 266.667 C 825.337 252.449,819.255 236.503,803.935 229.726 C 792.476 224.657,787.692 226.458,752.500 249.088 C 692.991 287.355,654.534 309.214,590.000 341.456 C 489.092 391.871,398.304 427.533,271.667 466.500 L 234.167 478.039 233.333 304.436 C 232.683 168.869,232.039 130.027,230.394 127.151 C 224.167 116.261,206.860 110.478,195.833 115.603 " stroke="none" fill-rule="evenodd" fill="black"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="鳥.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6447"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.472"
+     inkscape:cx="179.02542"
+     inkscape:cy="649.36441"
+     inkscape:window-width="1920"
+     inkscape:window-height="1191"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5">
+    <sodipodi:guide
+       position="243.40962,47.14017"
+       orientation="0,-1"
+       id="guide6569"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+     d="M 54.597863,37.298523 54.143835,179.72218 c -0.08441,26.48216 10.320817,47.56262 29.440037,47.56262 h 117.938678 29.06427 l -25.31159,-45.36614"
+     id="path3106"
+     sodipodi:nodetypes="cssscc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-opacity:0.501961;paint-order:stroke markers fill"
+     d="M 210.03102,67.409442 C 151.24504,107.46284 88.997194,127.90905 28.70531,142.92356"
+     id="path6625"
+     sodipodi:nodetypes="cc" />
+</svg>

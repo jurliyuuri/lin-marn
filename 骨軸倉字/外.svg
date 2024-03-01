@@ -1,1 +1,38 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><path d="M115.155 133.660 C 106.722 135.102,101.240 139.049,96.779 146.894 L 93.333 152.954 93.361 516.060 L 93.388 879.167 97.145 885.799 C 101.572 893.616,111.755 899.934,119.990 899.973 C 128.933 900.015,456.389 798.848,462.682 794.099 C 473.348 786.050,476.274 771.122,469.522 759.201 C 465.219 751.603,454.967 745.068,447.288 745.027 C 444.421 745.012,376.266 765.250,295.833 790.000 C 215.400 814.750,149.308 835.000,148.962 835.000 C 148.616 835.000,148.333 766.000,148.333 681.667 L 148.333 528.333 287.083 528.324 C 377.385 528.318,427.998 527.714,432.032 526.593 C 444.557 523.115,453.333 512.159,453.333 500.000 C 453.333 487.841,444.557 476.885,432.032 473.407 C 427.998 472.286,377.385 471.682,287.083 471.676 L 148.333 471.667 148.333 330.000 L 148.333 188.333 289.647 188.333 L 430.960 188.333 438.390 184.583 C 455.754 175.819,458.448 152.140,443.511 139.572 C 440.609 137.130,435.820 134.710,432.868 134.193 C 424.946 132.807,123.111 132.301,115.155 133.660 M562.500 135.673 C 541.977 144.848,541.439 174.403,561.610 184.583 L 569.040 188.333 710.353 188.333 L 851.667 188.333 851.667 330.000 L 851.667 471.667 712.917 471.676 C 622.615 471.682,572.002 472.286,567.968 473.407 C 555.443 476.885,546.667 487.841,546.667 500.000 C 546.667 512.159,555.443 523.115,567.968 526.593 C 572.002 527.714,622.615 528.318,712.917 528.324 L 851.667 528.333 851.667 656.667 L 851.667 785.000 710.417 785.037 C 576.271 785.071,568.823 785.229,562.335 788.176 C 553.530 792.174,548.003 800.014,547.058 809.844 C 546.082 820.002,549.650 828.292,557.610 834.364 L 563.906 839.167 707.658 839.610 L 851.409 840.054 851.955 862.247 C 852.483 883.750,852.649 884.635,857.303 890.730 C 869.585 906.815,894.181 904.606,903.371 886.593 C 906.624 880.216,906.667 875.460,906.667 517.500 C 906.667 159.540,906.624 154.784,903.371 148.407 C 901.558 144.854,897.621 140.197,894.621 138.057 L 889.167 134.167 728.333 133.802 C 596.828 133.504,566.588 133.845,562.500 135.673 " stroke="none" fill-rule="evenodd" fill="black"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="m 151.85933,42.499463 h 80.74036 V 231.36088"
+     id="path2443" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 232.59969,215.00998 H 151.85933"
+     id="path2445" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 232.59969,132.29166 H 151.85933"
+     id="path3180" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 112.72399,42.499463 H 31.983642"
+     id="path3182" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 31.983642,132.29166 H 112.72399"
+     id="path3186" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 31.983642,42.499463 V 230.88498 l 86.032018,-26.45833"
+     id="path3863" />
+</svg>

@@ -1,1 +1,59 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" id="svg5" sodipodi:docname="積.svg" inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><path d="M250.833 128.612 C 249.000 129.626,245.741 132.040,243.592 133.978 C 234.409 142.254,234.836 133.587,234.959 309.234 L 235.073 471.667 198.478 471.667 C 176.730 471.667,159.980 472.384,157.192 473.436 C 150.214 476.066,141.855 484.891,139.993 491.593 C 138.969 495.280,138.348 557.747,138.343 657.820 L 138.333 818.139 105.117 818.653 C 74.618 819.125,71.524 819.448,67.303 822.603 C 59.413 828.501,56.159 834.307,55.490 843.681 C 54.665 855.242,59.560 864.032,69.845 869.458 L 77.191 873.333 500.000 873.333 L 922.809 873.333 930.155 869.458 C 940.440 864.032,945.335 855.242,944.510 843.681 C 943.841 834.307,940.587 828.501,932.697 822.603 C 928.476 819.448,925.382 819.125,894.923 818.653 L 861.746 818.140 861.290 656.153 C 860.852 500.673,860.706 493.910,857.656 487.768 C 855.909 484.249,851.466 479.374,847.782 476.935 C 841.096 472.507,841.027 472.499,803.043 471.947 L 765.000 471.394 764.973 309.447 L 764.945 147.500 761.223 140.958 C 758.902 136.880,754.734 132.957,750.155 130.542 L 742.809 126.667 498.488 126.717 C 323.182 126.754,253.225 127.289,250.833 128.612 M710.000 326.667 L 710.000 471.667 500.000 471.667 L 290.000 471.667 290.000 326.667 L 290.000 181.667 500.000 181.667 L 710.000 181.667 710.000 326.667 M805.000 673.333 L 805.000 818.333 500.000 818.333 L 195.000 818.333 195.000 673.333 L 195.000 528.333 500.000 528.333 L 805.000 528.333 805.000 673.333 " stroke="none" fill-rule="evenodd" fill="#000000"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="積.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview830"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.236"
+     inkscape:cx="-125"
+     inkscape:cy="502.11864"
+     inkscape:window-width="1920"
+     inkscape:window-height="1191"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 69.38859,40.853776 V 132.29017"
+     id="path2437" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 69.388589,40.853776 H 195.19473 v 91.436394"
+     id="path2443"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="m 44.145225,132.29017 v 91.43936"
+     id="path2437-4" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 44.145225,132.29017 H 220.43809 v 91.43936"
+     id="path2443-5"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 242.80824,223.72955 H 21.775032"
+     id="path2445" />
+</svg>

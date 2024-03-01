@@ -5,7 +5,7 @@ REM git clone https://github.com/yasusho/linmarn_font_project
 
 git pull origin master
 
-xcopy linmarn_font_project\rounded\fixed\ all_glyphs\ /s /e /y
+xcopy linmarn_font_project\rounded\ all_glyphs\ /s /e /y
 
 node filter_files.js
 

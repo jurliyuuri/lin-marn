@@ -1,1 +1,25 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><path d="M194.950 185.417 C 175.382 195.302,174.464 220.249,193.203 232.877 L 198.826 236.667 500.000 236.667 L 801.174 236.667 806.797 232.877 C 815.742 226.849,820.000 219.203,820.000 209.167 C 820.000 198.161,815.208 190.548,805.050 185.417 L 797.627 181.667 500.000 181.667 L 202.373 181.667 194.950 185.417 M63.895 767.524 C 49.579 776.105,46.239 794.323,56.664 806.970 C 66.927 819.421,24.495 818.333,500.000 818.333 C 975.505 818.333,933.073 819.421,943.336 806.970 C 953.825 794.245,950.400 775.949,935.943 767.476 L 928.874 763.333 499.854 763.349 L 70.833 763.365 63.895 767.524 " stroke="none" fill-rule="evenodd" fill="#000000"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+       d="M 20.651389,209.14819 H 243.93195"
+       id="path414" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+       d="M 54.729804,55.435175 H 209.85354"
+       id="path1305" />
+  </g>
+</svg>

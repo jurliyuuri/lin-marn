@@ -1,1 +1,25 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><path d="M383.566 52.867 C 377.735 53.973,365.734 66.747,364.438 73.226 C 362.994 80.446,362.994 919.554,364.438 926.774 C 366.160 935.386,377.935 946.153,387.140 947.533 C 396.779 948.979,407.889 944.309,413.487 936.460 L 417.500 930.833 418.333 692.083 C 418.792 560.770,419.777 453.250,420.523 453.150 C 421.268 453.049,499.375 497.703,594.093 552.381 C 688.812 607.060,768.826 652.527,771.904 653.421 C 787.968 658.083,805.000 644.306,805.000 626.650 C 805.000 618.643,802.115 612.488,795.565 606.525 C 792.963 604.155,709.083 555.105,609.167 497.525 C 509.250 439.944,425.449 391.403,422.941 389.654 L 418.383 386.475 417.941 227.821 L 417.500 69.167 413.498 63.556 C 407.088 54.568,395.816 50.543,383.566 52.867 " stroke="none" fill-rule="evenodd" fill="#000000"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:0.5;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+       d="M 103.55158,21.064585 V 243.51875"
+       id="path13865" />
+    <path
+       style="fill:#000000;fill-opacity:0.5;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+       d="m 103.55158,106.78511 102.28647,59.05512"
+       id="path15010" />
+  </g>
+</svg>

@@ -1,1 +1,26 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><path d="M69.473 474.075 C 59.029 477.810,54.075 483.558,51.471 494.961 C 48.477 508.073,57.733 522.915,71.159 526.530 C 76.025 527.840,198.665 528.237,503.559 527.929 C 925.777 527.503,929.212 527.473,934.826 524.167 C 953.720 513.038,953.720 486.962,934.826 475.833 C 929.211 472.526,925.850 472.497,502.500 472.150 C 145.550 471.857,74.794 472.171,69.473 474.075 " stroke="none" fill-rule="evenodd" fill="#000000"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <g
+       id="un1"
+       transform="matrix(0.86958944,0,0,0.8789063,308.99225,13.22917)"
+       style="stroke-width:1.14386">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:17.1578;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+         d="M -331.55997,135.46667 H -74.840047"
+         id="path1303" />
+    </g>
+  </g>
+</svg>

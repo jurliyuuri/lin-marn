@@ -1,1 +1,47 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" id="svg5" sodipodi:docname="包.svg" inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><path d="M150.833 137.260 C 144.660 140.118,139.124 145.999,136.778 152.192 C 134.276 158.796,134.276 841.204,136.778 847.808 C 139.204 854.211,144.773 859.978,151.161 862.700 C 155.598 864.591,214.172 864.978,501.748 865.016 L 847.007 865.061 852.586 861.613 C 855.655 859.717,859.717 855.655,861.613 852.586 L 865.061 847.007 865.016 501.748 C 864.966 124.566,865.662 150.060,855.178 141.238 C 841.685 129.886,820.449 134.653,813.176 150.668 C 810.184 157.255,810.072 169.191,810.037 483.750 L 810.000 810.000 500.000 810.000 L 190.000 810.000 190.000 483.860 L 190.000 157.719 186.524 150.538 C 184.612 146.588,180.743 141.716,177.926 139.710 C 171.615 135.216,157.923 133.978,150.833 137.260 " stroke="none" fill-rule="evenodd" fill="black"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="包.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.236"
+     inkscape:cx="-125"
+     inkscape:cy="502.11864"
+     inkscape:window-width="1920"
+     inkscape:window-height="1191"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 221.65721,221.65721 V 42.926129"
+     id="path3677"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 221.65721,221.65721 H 42.926129 V 42.926129"
+     id="path3681"
+     sodipodi:nodetypes="ccc" />
+</svg>

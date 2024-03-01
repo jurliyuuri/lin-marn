@@ -17,15 +17,19 @@ const linzi_list = ["我", "汝", "此", "其", "彼", "何", "或", "全", "無
     "招", "賢", "緑", "虹", "雷", "靴"
 ]; // REQUIRES CONSTANT UPDATE
 
-const dummy_file = fs.readFileSync("all_glyphs/dummy.svg", { encoding: "utf-8" });
-
 fs.readdir("all_glyphs", (err, files) => {
     files.forEach(file => {
         // linzi_list に入っているやつをコピー
         if (linzi_list.map(c => `${c}.svg`).includes(file)) {
 
-            fs.copyFileSync(`all_glyphs/${file}`, `../骨軸倉字/${file}`);
-            console.log(file);
+            const content = fs.readFileSync(`all_glyphs/${file}`, { encoding: "utf-8" });
+            if (content.includes("251.40343,94.633744 14.428583,171.12929")) {
+                console.log(`${file} はダミーなのでコピーしません`);
+            } else {
+                fs.copyFileSync(`all_glyphs/${file}`, `../骨軸倉字/${file}`);
+                console.log(`${file} を「骨軸倉字」フォルダにコピーしています`);
+            }
+
         }
     });
 });
