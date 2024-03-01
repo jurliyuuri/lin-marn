@@ -456,6 +456,7 @@ function convert_new_to_old(newer: NewImageExistenceTable): ImageExistenceTable 
             "燐字画像56": false,
             "燐字画像57": false,
             "燐字画像58": false,
+            "骨軸倉字": false,
         };
         for (let filepath in newer) {
             let foldername = filepath as FolderName;
