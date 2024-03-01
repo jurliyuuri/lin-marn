@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 41.39879,118.0991 H 221.67083"
+     id="path1309" />
+  <g
+     id="g2"
+     transform="translate(-4e-6,4.5568061)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+       d="M 50.304048,56.061724 H 212.76558"
+       id="path37386" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+       d="m 108.349,18.866667 33.86084,36.565492"
+       id="path38116" />
+  </g>
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="m 131.53483,60.618532 v 58.653118 c 0,58.63304 -62.712819,124.01617 -110.877732,124.01617"
+     id="path1518" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 71.276105,137.17482 243.92625,243.9108"
+     id="path1632" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:18.0097;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.501961;paint-order:stroke markers fill"
+     d="m 176.96158,132.29166 c -4.32675,15.38475 -10.60362,30.21993 -18.63285,44.03813 -8.53969,14.6967 -19.06164,28.23989 -31.19129,40.14748"
+     id="path1"
+     transform="matrix(0.91535142,0,0,0.7578474,18.493224,58.092194)" />
+</svg>

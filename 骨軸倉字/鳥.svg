@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="鳥.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6447"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.472"
+     inkscape:cx="179.02542"
+     inkscape:cy="649.36441"
+     inkscape:window-width="1920"
+     inkscape:window-height="1191"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5">
+    <sodipodi:guide
+       position="243.40962,47.14017"
+       orientation="0,-1"
+       id="guide6569"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+     d="M 54.597863,37.298523 54.143835,179.72218 c -0.08441,26.48216 10.320817,47.56262 29.440037,47.56262 h 117.938678 29.06427 l -25.31159,-45.36614"
+     id="path3106"
+     sodipodi:nodetypes="cssscc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-opacity:0.501961;paint-order:stroke markers fill"
+     d="M 210.03102,67.409442 C 151.24504,107.46284 88.997194,127.90905 28.70531,142.92356"
+     id="path6625"
+     sodipodi:nodetypes="cc" />
+</svg>
