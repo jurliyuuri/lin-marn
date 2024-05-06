@@ -44,7 +44,7 @@ type id = "五" | "人" | "之" | "上" | "手" | "一" | "足" | "閉" | "無" 
     "斥" | "半" | "逆" | "鹽" | "塩" | "苦" | "渋" | "辣" | "節" | "田" |
     "土" | "旱" | "氾" | "腰" | "像" | "鹵" | "匁" | "飢" | "遅" | "支" |
     "奉" | "捧" | "贄" | "鍬" | "謗" | "佞" | "麺" | "餅" | "招" | "賢" |
-    "緑" | "虹" | "雷" | "呉" | "＊フ";
+    "緑" | "虹" | "雷" | "呉" | "＊フ" | "麦";
 
 type NonLinziId = "＊ㄉ" | "＊フ"
 
@@ -528,5 +528,5 @@ const composition2: Composition = {
     "雷": { "index": 519, "isDecomposable": true, "hanzi": "雷", "composition": ["⿵天神"], "strokeCount": ["天", "神"]},
     "呉": { "index": 520, "isDecomposable": true, "hanzi": "呉", "composition": ["⿴口草"], "strokeCount": ["口", "草"]},
     "＊フ": { "index": 521, "isDecomposable": false, "strokeCount": 1, "hanzi": "＊フ", "composition": ["＊フ"] },
-
+    "麦": { "index": 522, "isDecomposable": true, "hanzi": "麦", "composition": ["⿻端五"], "strokeCount": ["端", "五"]},
 }

@@ -12792,7 +12792,13 @@
       "id" : 506,
       "form" : "乾"
     },
-    "translations" : [ ],
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "aipwau" ]
+    }, {
+      "title" : "標準パイグ語",
+      "forms" : [ "puau1" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
@@ -13255,6 +13261,19 @@
     "translations" : [ {
       "title" : "標準パイグ語",
       "forms" : [ "" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 541,
+      "form" : "麦"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "huangi" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
