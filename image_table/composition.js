@@ -467,4 +467,5 @@ const composition2 = {
     "雷": { "index": 519, "isDecomposable": true, "hanzi": "雷", "composition": ["⿵天神"], "strokeCount": ["天", "神"] },
     "呉": { "index": 520, "isDecomposable": true, "hanzi": "呉", "composition": ["⿴口草"], "strokeCount": ["口", "草"] },
     "＊フ": { "index": 521, "isDecomposable": false, "strokeCount": 1, "hanzi": "＊フ", "composition": ["＊フ"] },
+    "麦": { "index": 522, "isDecomposable": true, "hanzi": "麦", "composition": ["⿻端五"], "strokeCount": ["端", "五"] },
 };
