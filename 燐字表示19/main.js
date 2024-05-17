@@ -10,8 +10,8 @@ function draw(t,  linzi, id, s1, s2, proportion, offsetx, offsety, bordered) {
   var ctx = canvas.getContext('2d');
 
 
-  var w = 120;
-  var h = w;
+  var w = 96;
+  var h = 97;
 
   ctx.drawImage(linzi, 
     t[0][0] + t[0][1]*s1 + t[0][2]*s2 + (bordered ? 0 : 5),

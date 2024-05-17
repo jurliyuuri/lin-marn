@@ -1,0 +1,53 @@
+<head>
+<script>
+var t1 =	[[1.26750000e+02, 1.38833333e+02, 4.47368421e-01],
+ [8.40000000e+01, 3.89688282e-14, 9.58947368e+01]];
+
+onload = function() {
+      for(var i=0; i<4; i++){
+            for(var j=0;j<20; j++){
+            draw(t1, linzi1,'c1',i,j, 0.6, i*90, j*90, true);	
+            }
+      }
+      /*var flag = false;
+      draw(flag?t1:t2,flag?linzi1:linzi2,'c2',Math.random()*8|0,Math.random()*15|0,0.4,0,0,false);*/
+      
+};
+
+
+</script>
+<script src="main.js"></script>
+</head>
+<body>
+<body>
+<h1>「第19回燐字書き取り」分割</h1>
+<p>実に3年ぶりの書き取りである。今回はボツが多い。</p>
+<h2>1. leastsquare.py</h2>
+<p>原稿の四隅(1枚目)に位置する4字の（マスの<strong>左上</strong>の）座標をWin11のペイントで取ると、</p>
+<pre>
+      y1,   y2       s1 s2
+左上:  127,   84 --->  0, 0
+右上:  543,   84 --->  3, 0
+左下:  135, 1906 --->  0,19
+右下:  552, 1906 --->  3,19
+</pre>
+<p>だったので、これをleastsquare.pyのsとyに突っ込んでやると下の理論が動いて必要な行列がでるらしい。3年ぶりだけどいまだにわかっていない。</p>
+<p>うまいパラメータt<sub>10</sub>, t<sub>11</sub>, t<sub>12</sub>, t<sub>20</sub>, t<sub>21</sub>, t<sub>22</sub>を持ってきて、</p>
+<img src="../燐字表示14/matrix.png" width="780"/>
+<p>となるようにしてやれば良い。ただしs<sub>0</sub>たちは全部1。</p>
+<p>Y ≒ T<sub>1</sub>Sで最小二乗法をやるのでYS<sup>T</sup>=T<sub>1</sub>SS<sup>T</sup>を解けばよく、T<sub>1</sub>=YS<sup>T</sup>(SS<sup>T</sup>)<sup>-1</sup>なのでT<sub>1</sub>は</p>
+<pre>
+[[1.26750000e+02 1.38833333e+02 4.47368421e-01]
+[8.40000000e+01 3.89688282e-14 9.58947368e+01]]
+</pre>
+<p>ほーん。</p>
+<br>
+<h2>2. split.py</h2>
+<p>linziListに燐字の表を打ち込み、split.pyを走らせる。</p>
+
+<div style="background-color: yellow">
+      <canvas id="c1" width="440" height="2000" ></canvas>
+      <hr>
+      <canvas id="c2" width="240" height="240" style="border:1px solid black"></canvas>
+      </div>
+</body>
