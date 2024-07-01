@@ -469,4 +469,5 @@ const composition2 = {
     "＊フ": { "index": 521, "isDecomposable": false, "strokeCount": 1, "hanzi": "＊フ", "composition": ["＊フ"] },
     "麦": { "index": 522, "isDecomposable": true, "hanzi": "麦", "composition": ["⿻端五"], "strokeCount": ["端", "五"] },
     "棆": { "index": 523, "isDecomposable": true, "hanzi": "棆", "composition": ["⿰木輪"], "strokeCount": ["木", "輪"] },
+    "眉": { "index": 524, "isDecomposable": true, "hanzi": "眉", "composition": ["⿱五目"], "strokeCount": ["五", "目"] },
 };
