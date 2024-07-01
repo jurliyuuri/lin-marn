@@ -15,7 +15,7 @@
 	<ol>
 		<li>「<a href="https://docs.google.com/spreadsheets/d/1yCXetRNZQrS4gyoFrdUGpBktiy5TWRHv_bqP_AujVlQ/edit#gid=0">パイグ語漢字転写早見表</a>」に一行追加し、列「漢字転写」に漢字を入れ、「燐字」に1を入れる。</li>
 		<li>「<a href="https://docs.google.com/spreadsheets/d/1OAmxQYl8h4REyKcK6pffINI83la3tKGeS1pDBfYrKAc/edit#gid=0">燐字数の成長記録(パイグ語漢字転写早見表より)</a>」を編集し、燐字数の変遷を記録する。</li>
-		<li>「<a href="https://docs.google.com/spreadsheets/d/1q2WaOk4nysRCcKm5W5wbsRDfx0ww4TcCC2cyY3EIDt0/edit#gid=0">燐字の各言語の字音一覧</a>」を編集し、列「漢字転写」に感じを入れる。</li>
+		<li>「<a href="https://docs.google.com/spreadsheets/d/1q2WaOk4nysRCcKm5W5wbsRDfx0ww4TcCC2cyY3EIDt0/edit#gid=0">燐字の各言語の字音一覧</a>」を編集し、列「漢字転写」に漢字を入れる。</li>
 		<li>このgitリポジトリで、以下の変更を行いコミットする。
 			<ul>
 				<li>清声集(lin cuop dat2.json)を編集し、対象の字を登録する。諸ラネーメ言語での読みが決まっている場合はそれも同時に登録するとよいだろうが、それの詳細は後述する。</li>
@@ -98,10 +98,13 @@
 	<p>ちなみに、読むべきが正方形の png ではない場合は、generate_linzi_image_table_html.ts の getImageFromLinziAndFolder() の実装にも手を加える必要がある。</p>
 	<h2>5. アイル語の単語を真理設定としたりしたとき</h2>
 	<ol>
-		<li>air.jsonを保存する</li>
-		<li>このディレクトリで<code>python3 air_compress.py</code>を実行し、air_compressed.jsonを生成する</li>
-		<li>air_compressed.jsonをZpDICで開き、保存する（インデントなどを自動挿入するため）</li>
-		<li><s>このgitリポジトリでコミットする</s>アイル語はjurliyuuri/ailに分離されたのでそっちでやってね</li>
+		<b>アイル語はjurliyuuri/ailに分離されたのでそっちでやってね</b>
+		<s>
+			<li>air.jsonを保存する</li>
+			<li>このディレクトリで<code>python3 air_compress.py</code>を実行し、air_compressed.jsonを生成する</li>
+			<li>air_compressed.jsonをZpDICで開き、保存する（インデントなどを自動挿入するため）</li>
+			<li>このgitリポジトリでコミットする</li>
+		</s>
 	</ol>
 	<h2>6. 丸ゴシックのフォント【骨軸倉字】を https://github.com/yasusho/linmarn_font_project でアップデートした時</h2>
 	<ol>

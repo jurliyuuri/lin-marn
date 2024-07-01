@@ -13279,6 +13279,45 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 542,
+      "form" : "棆"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 543,
+      "form" : "眉"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 544,
+      "form" : "残"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
