@@ -44,7 +44,7 @@ type id = "五" | "人" | "之" | "上" | "手" | "一" | "足" | "閉" | "無" 
     "斥" | "半" | "逆" | "鹽" | "塩" | "苦" | "渋" | "辣" | "節" | "田" |
     "土" | "旱" | "氾" | "腰" | "像" | "鹵" | "匁" | "飢" | "遅" | "支" |
     "奉" | "捧" | "贄" | "鍬" | "謗" | "佞" | "麺" | "餅" | "招" | "賢" |
-    "緑" | "虹" | "雷" | "呉" | "＊フ" | "麦" | "棆" | "眉" | "残";
+    "緑" | "虹" | "雷" | "呉" | "＊フ" | "麦" | "棆" | "眉" | "残" | "豚" | "豕";
 
 type NonLinziId = "＊ㄉ" | "＊フ"
 
@@ -532,4 +532,6 @@ const composition2: Composition = {
     "棆": { "index": 523, "isDecomposable": true, "hanzi": "棆", "composition": ["⿰木輪"], "strokeCount": ["木", "輪"]},
     "眉": { "index": 524, "isDecomposable": true, "hanzi": "眉", "composition": ["⿱五目"], "strokeCount": ["五", "目"]},
     "残": { "index": 525, "isDecomposable": true, "hanzi": "残", "composition": ["⿱人十"], "strokeCount": ["人", "十"]},
+    "豚": { "index": 526, "isDecomposable": true, "hanzi": "豚", "composition": ["⿱獣水"], "strokeCount": ["獣", "水"]},
+    "豕": { "index": 527, "isDecomposable": true, "hanzi": "豕", "composition": ["⿲之之之"], "strokeCount": ["之", "之", "之"]},
 }

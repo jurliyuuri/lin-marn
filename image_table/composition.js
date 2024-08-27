@@ -471,4 +471,6 @@ const composition2 = {
     "棆": { "index": 523, "isDecomposable": true, "hanzi": "棆", "composition": ["⿰木輪"], "strokeCount": ["木", "輪"] },
     "眉": { "index": 524, "isDecomposable": true, "hanzi": "眉", "composition": ["⿱五目"], "strokeCount": ["五", "目"] },
     "残": { "index": 525, "isDecomposable": true, "hanzi": "残", "composition": ["⿱人十"], "strokeCount": ["人", "十"] },
+    "豚": { "index": 526, "isDecomposable": true, "hanzi": "豚", "composition": ["⿱獣水"], "strokeCount": ["獣", "水"] },
+    "豕": { "index": 527, "isDecomposable": true, "hanzi": "豕", "composition": ["⿲之之之"], "strokeCount": ["之", "之", "之"] },
 };
