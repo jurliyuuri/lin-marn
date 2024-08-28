@@ -322,7 +322,7 @@ const mysterious_encoding = allElements()([
     "鼓",
     "季",
     "積",
-    "??",
+    "泪",
     "纂",
     "埴",
     "内",
