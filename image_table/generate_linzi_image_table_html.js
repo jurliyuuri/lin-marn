@@ -112,11 +112,17 @@ function generate_table_narrow_html(id, hidden_columns) {
         .map((author) => {
         const count_from_this_author = linzi_list.filter((linzi) => folder_names.filter(fname => folder_type[fname] === author).filter(name => NEW_IMAGE_EXISTENCE_TABLE[name].includes(linzi)).length > 0).length;
         const count = count_at_least_one_img_exists + count_defined_but_no_image_prepared - count_from_this_author;
-        if (count > 30) {
+        if (count > 320) {
+            return `<td style='text-align: center; font-weight: bold; font-size: 110%; color: red'>残り${count}件</td>`;
+        }
+        else if (count > 80) {
             return `<td style='text-align: center; font-weight: bold; font-size: 110%;'>残り${count}件</td>`;
         }
+        else if (count > 20) {
+            return `<td style='text-align: center; font-size: 110%;'>残り${count}件</td>`;
+        }
         else {
-            return `<td style='text-align: center;'>残り${count}件</td>`;
+            return `<td style='text-align: center; color: #444; font-size: 110%'>残り${count}件</td>`;
         }
     })
         .join("");
