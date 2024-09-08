@@ -209,6 +209,9 @@ function getImageFromLinziAndFolder(folder_name: FolderName, linzi: string): str
 		return `<img src='${folder_name}/${linzi}.png' width='${534 / 246 * height}' height='${height}' />`;
 	} else if (folder_name.includes("幾何刀字")) {
 		return `<img src='${folder_name}/${linzi}.svg' width='${136 / 120 * height}' height='${height}' />`;
+	} else if (folder_name.includes("風行雪笛")) {
+		return `<span style="font-family: '風行雪笛'; font-size: 400%; 
+        border: 1px solid rgb(249, 213, 213)">${linzi}</span>`;
 	} else if (["たもと明朝", "美門倉官字", "骨軸倉字"].some(k => folder_name.includes(k))) {
 		return `<img src='${folder_name}/${linzi}.svg' width='${height}' height='${height}' />`;
 	} else {
