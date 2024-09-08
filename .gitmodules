@@ -1,0 +1,3 @@
+[submodule "linmarn_font_project"]
+    path = linmarn_font_project
+    url = git://github.com/yasusho/linmarn_font_project.git
