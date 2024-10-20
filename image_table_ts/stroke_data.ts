@@ -23,6 +23,20 @@ type Stroke =
     | "㇉" | "乙" // two corners
     | "𠄎" // three corners
 
+const TO_ALPHABET: { [key in Stroke]: string } = {
+    "一": "a",
+    "丨": "b",
+    "丿": "c",
+    "丶": "d",
+    "𠄌": "e",
+    "𠃍": "f",
+    "𠂆": "g",
+    "亅": "h",
+    "㇉": "i",
+    "乙": "j",
+    "𠄎": "k",
+};
+
 type StrokeData = {
     [key in LinziGlyphDefined]: () => Stroke[];
 }
@@ -190,7 +204,7 @@ const strokes_: StrokeData = {
     "集": () => [...strokes2("等"), ...strokes2("五")],
     "亦": () => ["㇉", "一", "丿"],
     "値": () => [...strokes2("四"), ...strokes2("四")],
-    "積": () => [...strokes2("冠"), ...strokes2("圧")],
+    "積": () => [...strokes2("橋"), ...strokes2("圧")],
     "国": () => surrounded_by_口("王"),
     "同": () => [...strokes2("口"), ...strokes2("口"), ...strokes2("一")],
     "閉": () => ["丿", "丶"],

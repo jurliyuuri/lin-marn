@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
 </head>
@@ -14,6 +15,7 @@
 <script src="image_table/image_existence_table.js"></script>
 <h1>11 種の筆画による分類</h1>
 
+
 <h2>筆画の分類</h2>
 SY — 2023/02/01 08:18<br>
 角の数に注目した筆画分類<br>
@@ -21,13 +23,53 @@ SY — 2023/02/01 08:18<br>
 
 
 <h2>字の一覧</h2>
+<b style="font-size: 120%; background: /* rainbow  */ linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet); color: white; padding: 3px;"><u>書き順は目安です</u></b>
+
+
+<form onchange="render()">
+    <input type="radio" name="ordering" id="usual_order" checked> <label for="usual_order">いつもの順番で表示</label><br>
+    <input type="radio" name="ordering" id="stroke_order_1"> <label for="stroke_order_1">筆画の順序を優先 (ab → abc → abd →
+        ac)</label><br>
+    <input type="radio" name="ordering" id="stroke_order_2"> <label for="stroke_order_2">画数優先 (ab → ac → abc →
+        abd)</label><br>
+</form>
+
+<br>
+
+<div id="content"></div>
+
 <script>
-for ({linzi, strokes} of STROKE_DATA) {
-    if (NEW_IMAGE_EXISTENCE_TABLE.風行雪笛.includes(linzi)) {
-    document.write(`${linzi} <span style="font-family: '風行雪笛'; font-size: 400%; 
-        border: 1px solid rgb(249, 213, 213)">${linzi}</span> ${strokes.join("")}<br>`);
-    } else {
-        document.write(`${linzi} <img src="幾何刀字/${linzi}.svg" width="75.93333333333334" height="67">${strokes.join("")}<br>`);
+
+
+    function render() {
+        const ordering = document.querySelector('input[name="ordering"]:checked').id;
+        let dom = "";
+
+        ((data) => {
+            for (const { linzi, strokes } of data) {
+                if (NEW_IMAGE_EXISTENCE_TABLE.風行雪笛.includes(linzi)) {
+                    dom += (`${linzi} <span style="font-family: '風行雪笛'; font-size: 400%; 
+                border: 1px solid rgb(249, 213, 213)">${linzi}</span> ${strokes.join("")}<br>`);
+                } else {
+                    dom += (`${linzi} <img src="幾何刀字/${linzi}.svg" width="75.93333333333334" height="67">${strokes.join("")}<br>`);
+                }
+            }
+        })(
+            ordering === "usual_order" ? STROKE_DATA :
+                ordering === "stroke_order_1" ? STROKE_DATA.toSorted((a, b) =>
+                    // アルファベットに変換して、普通の辞書順比較
+                    a.strokes.map(s => TO_ALPHABET[s]).join("").localeCompare(b.strokes.map(s => TO_ALPHABET[s]).join(""))
+                )
+                    :
+                    STROKE_DATA.toSorted((a, b) => { 
+                        // 長さでの比較を優先し、一致した時にアルファベット順にする
+                        if (a.strokes.length === b.strokes.length) {
+                            return a.strokes.map(s => TO_ALPHABET[s]).join("").localeCompare(b.strokes.map(s => TO_ALPHABET[s]).join(""))
+                        }
+                        return a.strokes.length - b.strokes.length;
+                     })
+        );
+        document.getElementById("content").innerHTML = dom;
     }
-}
+    render();
 </script>

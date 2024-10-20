@@ -12,6 +12,19 @@ const linzi_list_with_glyphs_defined = allElements()(["我", "汝", "此", "其"
     "逆", "鹽", "鹵", "苦", "渋", "辣", "節", "田", "旱", "氾", "腰", "像", "踵", "匁", "飢", "支", "奉", "捧", "贄", "鍬", "謗", "佞", "麺", "餅",
     "招", "賢", "緑", "虹", "雷", "麦", "棆", "眉", "残", "豚", "豕", "泪"
 ]); // REQUIRES CONSTANT UPDATE
+const TO_ALPHABET = {
+    "一": "a",
+    "丨": "b",
+    "丿": "c",
+    "丶": "d",
+    "𠄌": "e",
+    "𠃍": "f",
+    "𠂆": "g",
+    "亅": "h",
+    "㇉": "i",
+    "乙": "j",
+    "𠄎": "k",
+};
 const strokes2 = (key) => { return strokes_[key](); };
 const surrounded_by_口 = (key) => ["丨", "𠃍", ...strokes2(key), "一"];
 const strokes_ = {
@@ -173,7 +186,7 @@ const strokes_ = {
     "集": () => [...strokes2("等"), ...strokes2("五")],
     "亦": () => ["㇉", "一", "丿"],
     "値": () => [...strokes2("四"), ...strokes2("四")],
-    "積": () => [...strokes2("冠"), ...strokes2("圧")],
+    "積": () => [...strokes2("橋"), ...strokes2("圧")],
     "国": () => surrounded_by_口("王"),
     "同": () => [...strokes2("口"), ...strokes2("口"), ...strokes2("一")],
     "閉": () => ["丿", "丶"],
