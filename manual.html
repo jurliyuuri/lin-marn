@@ -75,7 +75,7 @@
 	<ol>
 		<li>1枚1枚を整ったサイズに分割。前例（<a href="./燐字表示/index.html">1</a>, <a href="./燐字表示2/index.html">2</a>, <a href="./燐字表示3/index.html">3</a>, <a href="./燐字表示4/index.html">4</a>）に従って頑張ろう。</li>
 		<li>分割した画像はフォルダに入れる。フォルダ名は「燐字画像6」とかの前例に従う。</li>
-		<li>image_table_ts/char_and_folder_info.ts の const folder_names, folder_type, FolderTypeにフォルダ名を足す。</li>
+		<li>image_table_ts/char_and_folder_info.ts の const folder_names と folder_type にフォルダ名を足す。</li>
 		<li>image_table_ts/char_and_folder_info.ts の const defined_but_no_image_preparedの中から収録できた字を削除</li>
 		<li>image_table_ts/image_existence_table.ts の
 		NewImageExistenceTable にフォルダ名を足し、NEW_IMAGE_EXISTENCE_TABLE に字を足す。すると convert_new_to_old 内部の ans[linzi_list[i]] にも新フォルダ名を足すべきことが型エラーの赤波線で分かるので、足す。</li>
