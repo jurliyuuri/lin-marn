@@ -1,3 +1,6 @@
+function allElements() {
+    return arr => arr;
+}
 const mysterious_encoding = allElements()([
     "天",
     "人",

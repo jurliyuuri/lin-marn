@@ -36,7 +36,7 @@ function calculateContributionOf(id: id) {
 
 function isPopular(id: id, POPULARNESS_THRESHOLD: number) {
     return (
-        !(non_linzi_id_list as string[]).includes(composition2[id].hanzi)  /* counted to be never popular */
+        !(non_linzi_id_list as readonly string[]).includes(composition2[id].hanzi)  /* counted to be never popular */
         && calculateContributionOf(id) >= POPULARNESS_THRESHOLD
     );
 }
@@ -99,9 +99,9 @@ const sortByPopularity = (arr: id[]) => arr.sort((idA, idB) => {
         return diff;
 
     // push non-linzi to the back
-    if (!(non_linzi_id_list as string[]).includes(composition2[idA].hanzi) && (non_linzi_id_list as string[]).includes(composition2[idB].hanzi)) {
+    if (!(non_linzi_id_list as readonly string[]).includes(composition2[idA].hanzi) && (non_linzi_id_list as readonly string[]).includes(composition2[idB].hanzi)) {
         return -1;
-    } else if ((non_linzi_id_list as string[]).includes(composition2[idA].hanzi) && !(non_linzi_id_list as string[]).includes(composition2[idB].hanzi)) {
+    } else if ((non_linzi_id_list as readonly string[]).includes(composition2[idA].hanzi) && !(non_linzi_id_list as readonly string[]).includes(composition2[idB].hanzi)) {
         return 1;
     } else {
         return 0;
@@ -191,7 +191,7 @@ function generate_comp_table_html(q: { withDuplicate: boolean, POPULARNESS_THRES
     for (let i = 0; i < notSoPopularWhite.length; i++) {
         ans += "<br><br>"
 
-        if ((non_linzi_id_list as string[]).includes(composition2[notSoPopularWhite[i]].hanzi)) {
+        if ((non_linzi_id_list as readonly string[]).includes(composition2[notSoPopularWhite[i]].hanzi)) {
             ans += "<h3>↓これって果たして字なんですかね</h3>";
         }
         if (i !== 0
