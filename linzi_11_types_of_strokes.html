@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<style>
+    @font-face {
+        font-family: '風行雪笛';
+        src: url('https://raw.githubusercontent.com/FengNegi/SY-Linzi/master/LinZi-1.woff') format('woff');
+    }
+</style>
+
+<script src="image_table/char_and_folder_info.js"></script>
+<script src="image_table/stroke_data.js"></script>
+<script src="image_table/image_existence_table.js"></script>
+<h1>11 種の筆画による分類</h1>
+
+<h2>筆画の分類</h2>
+SY — 2023/02/01 08:18<br>
+角の数に注目した筆画分類<br>
+<img src="11_types_of_stroke.png" alt="11種の筆画" width="200"><br>
+
+
+<h2>字の一覧</h2>
+<script>
+for ({linzi, strokes} of STROKE_DATA) {
+    if (NEW_IMAGE_EXISTENCE_TABLE.風行雪笛.includes(linzi)) {
+    document.write(`${linzi} <span style="font-family: '風行雪笛'; font-size: 400%; 
+        border: 1px solid rgb(249, 213, 213)">${linzi}</span> ${strokes.join("")}<br>`);
+    } else {
+        document.write(`${linzi} <img src="幾何刀字/${linzi}.svg" width="75.93333333333334" height="67">${strokes.join("")}<br>`);
+    }
+}
+</script>
