@@ -180,7 +180,7 @@ const mysterious_encoding = allElements()([
     "柔",
     "閉",
     "佞",
-    "??",
+    "橘",
     "㕮",
     "於",
     "累",

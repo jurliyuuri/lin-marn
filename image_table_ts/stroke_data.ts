@@ -507,6 +507,7 @@ const strokes_: StrokeData = {
     豚: () => [...strokes2("獣"), ...strokes2("水")],
     豕: () => [...strokes2("之"), ...strokes2("之"), ...strokes2("之")],
     泪: () => [...strokes2("平"), ...strokes2("水")],
+    橘: () => [...strokes2("木"), ...strokes2("挽")],
 };
 
 const STROKE_DATA = linzi_list_with_glyphs_defined.map((linzi) => {
