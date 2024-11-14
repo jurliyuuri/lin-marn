@@ -31,7 +31,7 @@ type Linzi = typeof linzi_list[number];
 
 const defined_but_no_image_prepared: ReadonlyArray<Linzi> = [];
 
-const linzi_glyph_not_defined = ["磨", "帯", "謎", "辿", "千", "旦", "強", "孰", "那", "茲", "詞", "埴", "試", "洛", "趙", "倶", "億", "訴", "嘗", "靴"] as const; // REQUIRES CONSTANT UPDATE
+const linzi_glyph_not_defined = ["帯", "謎", "辿", "千", "旦", "強", "孰", "那", "茲", "詞", "埴", "試", "洛", "趙", "倶", "億", "訴", "嘗", "靴"] as const; // REQUIRES CONSTANT UPDATE
 
 type LinziGlyphNotDefined = typeof linzi_glyph_not_defined[number];
 
