@@ -293,6 +293,7 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
         "虹", "鍬", "土", "節",
         "豕", "豚",
         "泪",
+        "橘",
     ],
     "燐字画像31": [
         "氏"
