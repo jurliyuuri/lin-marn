@@ -5,7 +5,8 @@
         "strictNullChecks": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
-        "target": "ES2021",
+        "target": "ES2023",
+        "lib": ["ESNext", "DOM"],
         "moduleResolution": "node"
     },
     "include": [
