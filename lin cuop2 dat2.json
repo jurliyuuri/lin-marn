@@ -7715,7 +7715,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 545,
+        "form" : "怯"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 317,
@@ -13298,8 +13304,14 @@
       "form" : "眉"
     },
     "translations" : [ {
-      "title" : "",
-      "forms" : [ ]
+      "title" : "標準パイグ語",
+      "forms" : [ "guak1" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "guaqa" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "guaqa1" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -13318,6 +13330,25 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 545,
+      "form" : "怯"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「怖」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 316,
+        "form" : "怖"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
