@@ -477,4 +477,5 @@ const composition2 = {
     "磨": { "index": 529, "isDecomposable": true, "hanzi": "磨", "composition": ["⿰金布"], "strokeCount": ["金", "布"] },
     "冶": { "index": 530, "isDecomposable": true, "hanzi": "冶", "composition": ["⿱⿰少五金"], "strokeCount": ["少", "五", "金"] },
     "猿": { "index": 531, "isDecomposable": true, "hanzi": "猿", "composition": ["⿻橋人"], "strokeCount": ["橋", "人"] },
+    "怯": { "index": 532, "isDecomposable": true, "hanzi": "怯", "composition": ["⿰心囁"], "strokeCount": ["心", "囁"] },
 };

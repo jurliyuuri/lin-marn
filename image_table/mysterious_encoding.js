@@ -330,7 +330,7 @@ const mysterious_encoding = allElements()([
     "埴",
     "内",
     "肉",
-    "??",
+    "怯",
     "織",
     "穏",
     "牡",
