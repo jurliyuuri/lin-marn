@@ -492,6 +492,7 @@ const strokes_ = {
     冶: () => [...strokes2("少"), ...strokes2("五"), ...strokes2("金")],
     猿: () => [...strokes2("橋"), ...strokes2("人")],
     怯: () => [...strokes2("心"), ...strokes2("囁")],
+    侽: () => [...strokes2("腹"), ...strokes2("少")],
 };
 const STROKE_DATA = linzi_list_with_glyphs_defined.map((linzi) => {
     return {

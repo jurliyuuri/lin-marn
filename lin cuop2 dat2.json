@@ -3412,7 +3412,13 @@
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 546,
+        "form" : "侽"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 156,
@@ -13347,6 +13353,25 @@
       "entry" : {
         "id" : 316,
         "form" : "怖"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 546,
+      "form" : "侽"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「男」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 155,
+        "form" : "男"
       }
     } ]
   } ],

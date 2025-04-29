@@ -45,7 +45,7 @@ type id = "五" | "人" | "之" | "上" | "手" | "一" | "足" | "閉" | "無" 
     "土" | "旱" | "氾" | "腰" | "像" | "鹵" | "匁" | "飢" | "遅" | "支" |
     "奉" | "捧" | "贄" | "鍬" | "謗" | "佞" | "麺" | "餅" | "招" | "賢" |
     "緑" | "虹" | "雷" | "呉" | "＊フ" | "麦" | "棆" | "眉" | "残" | "豚" |
-    "豕" | "橘" | "磨" | "冶" | "猿" | "怯";
+    "豕" | "橘" | "磨" | "冶" | "猿" | "怯" | "侽";
 
 
 const non_linzi_id_list = ["＊ㄉ", "＊フ"] as const;
@@ -540,4 +540,5 @@ const composition2: Composition = {
     "冶": { "index": 530, "isDecomposable": true, "hanzi": "冶", "composition": ["⿱⿰少五金"], "strokeCount": ["少", "五", "金"] },
     "猿": { "index": 531, "isDecomposable": true, "hanzi": "猿", "composition": ["⿻橋人"], "strokeCount": ["橋", "人"] },
     "怯": { "index": 532, "isDecomposable": true, "hanzi": "怯", "composition": ["⿰心囁"], "strokeCount": ["心", "囁"] },
+    "侽": { "index": 533, "isDecomposable": true, "hanzi": "侽", "composition": ["⿻腹少"], "strokeCount": ["腹", "少"] },
 }
