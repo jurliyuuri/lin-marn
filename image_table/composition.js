@@ -479,4 +479,5 @@ const composition2 = {
     "猿": { "index": 531, "isDecomposable": true, "hanzi": "猿", "composition": ["⿻橋人"], "strokeCount": ["橋", "人"] },
     "怯": { "index": 532, "isDecomposable": true, "hanzi": "怯", "composition": ["⿰心囁"], "strokeCount": ["心", "囁"] },
     "侽": { "index": 533, "isDecomposable": true, "hanzi": "侽", "composition": ["⿻腹少"], "strokeCount": ["腹", "少"] },
+    "皿": { "index": 534, "isDecomposable": true, "hanzi": "皿", "composition": ["⿱毛平"], "strokeCount": ["毛", "平"] }
 };
