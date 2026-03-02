@@ -20,7 +20,7 @@ const linzi_list = ["我", "汝", "此", "其", "彼", "何", "或", "全", "無
     "侽",
     "芋", "壺", "皿"
 ]; // REQUIRES CONSTANT UPDATE
-const defined_but_no_image_prepared = ["芋", "壺", "皿"];
+const defined_but_no_image_prepared = ["壺", "皿"];
 const linzi_glyph_not_defined = ["帯", "謎", "辿", "千", "旦", "強", "孰", "那", "茲", "詞", "埴", "試", "洛", "趙", "倶", "億", "訴", "嘗", "靴"]; // REQUIRES CONSTANT UPDATE
 const folder_type = {
     "燐字画像": "SY",
