@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="壷.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview574"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.3337544"
+     inkscape:cx="840.43836"
+     inkscape:cy="133.33158"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.5"
+     d="M 240.23978,231.3529 H 24.34355"
+     id="path1" />
+  <g
+     id="layer1"
+     transform="matrix(0.94042063,0,0,0.89126618,7.5256203,14.166635)"
+     style="stroke-width:1.09229">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16.3842;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+       d="m 102.13999,21.16667 -1e-5,222.51616 -17.842913,-32.55302"
+       id="path6397" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16.3842;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+       d="M 109.82561,77.419204 C 86.792082,152.95771 56.180803,179.72076 31.602429,198.23598"
+       id="path6401" />
+    <path
+       style="fill:#000000;fill-opacity:0.5;stroke:#000000;stroke-width:16.3842;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+       d="M 163.31686,21.16667 V 243.62083"
+       id="path13865" />
+    <path
+       style="fill:#000000;fill-opacity:0.5;stroke:#000000;stroke-width:16.3842;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5"
+       d="m 163.31686,106.8872 80.53731,59.05511"
+       id="path15010" />
+  </g>
+</svg>
