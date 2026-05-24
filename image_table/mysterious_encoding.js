@@ -373,7 +373,7 @@ const mysterious_encoding = allElements()([
     "風",
     "煙",
     "母",
-    "??",
+    "尻",
     "日",
     "茶",
     "皇",

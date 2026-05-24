@@ -13419,6 +13419,34 @@
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 550,
+      "form" : "尻"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "puot" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "puaut" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "力尻後" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "pwauda" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "pwauda" ]
+    }, {
+      "title" : "バート語",
+      "forms" : [ "bhauda" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
