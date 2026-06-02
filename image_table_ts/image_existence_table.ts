@@ -295,7 +295,8 @@ const NEW_IMAGE_EXISTENCE_TABLE: NewImageExistenceTable = {
         "泪",
         "橘",
         "磨", "侽", "冶", "猿", "怯",
-        "芋", "壺", "皿"
+        "芋", "壺", "皿",
+        "尻"
     ],
     "燐字画像31": [
         "氏"
