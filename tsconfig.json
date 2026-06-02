@@ -1,13 +1,15 @@
 {
     "compilerOptions": {
         "outDir": "./image_table",
+        "rootDir": "./image_table_ts",
         "noImplicitThis": true,
         "strictNullChecks": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "target": "ES2023",
         "lib": ["ESNext", "DOM"],
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "ignoreDeprecations": "6.0"
     },
     "include": [
         "./image_table_ts/**/*"

@@ -1,3 +1,4 @@
+"use strict";
 function isLinzi(character) {
     const linzi_list2 = [...linzi_list];
     return linzi_list2.includes(character);

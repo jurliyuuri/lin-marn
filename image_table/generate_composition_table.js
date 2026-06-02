@@ -1,3 +1,4 @@
+"use strict";
 function toStrokeCount(a) {
     if (typeof a === "number") {
         return a;

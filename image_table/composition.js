@@ -1,3 +1,4 @@
+"use strict";
 const non_linzi_id_list = ["＊ㄉ", "＊フ"];
 const composition2 = {
     "五": { "index": 3, "isDecomposable": false, "strokeCount": 1, "hanzi": "五", "composition": ["＊一"] },

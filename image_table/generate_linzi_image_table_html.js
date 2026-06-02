@@ -1,3 +1,4 @@
+"use strict";
 function generate_table_html(preloading) {
     return gen_table(folder_names.map(n => "<td>" + n + "</td>").join(""), linzi => folder_names.map(name => "<td>" + getImageFromLinziAndFolderIfExists(name, linzi) + "</td>").join(""));
 }

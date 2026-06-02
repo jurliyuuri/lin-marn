@@ -1,3 +1,4 @@
+"use strict";
 const linzi_list_with_glyphs_defined = linzi_list.filter((linzi) => !linzi_glyph_not_defined.includes(linzi));
 const TO_ALPHABET = {
     "一": "a",

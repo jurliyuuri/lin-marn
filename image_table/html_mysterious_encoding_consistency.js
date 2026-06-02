@@ -1,3 +1,4 @@
+"use strict";
 function check_constistency() {
     var encoded_linzi = mysterious_encoding.filter(a => a !== "??").sort();
     var sorted_linzi_list = [...linzi_list].sort();

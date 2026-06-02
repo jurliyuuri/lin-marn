@@ -1,3 +1,4 @@
+"use strict";
 const all_linzi = new Set(linzi_list);
 const o = (() => {
     // Criteria 1: The character's glyph should be already defined
