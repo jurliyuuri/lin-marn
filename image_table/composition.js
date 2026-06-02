@@ -482,4 +482,5 @@ const composition2 = {
     "皿": { "index": 534, "isDecomposable": true, "hanzi": "皿", "composition": ["⿱毛平"], "strokeCount": ["毛", "平"] },
     "壺": { "index": 535, "isDecomposable": true, "hanzi": "壺", "composition": ["⿱横五"], "strokeCount": ["横", "五"] },
     "芋": { "index": 536, "isDecomposable": true, "hanzi": "芋", "composition": ["⿱五同"], "strokeCount": ["五", "同"] },
+    "尻": { "index": 537, "isDecomposable": true, "hanzi": "尻", "composition": ["⿱平開"], "strokeCount": ["平", "開"] },
 };
